@@ -20,7 +20,7 @@ Repos with no labeled beginner-friendly issues fall back to showing their most r
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-15 19:03 UTC_
+_Last updated: 2026-07-15 19:29 UTC_
 
 _Tracking **11** upstream repos, **343** relevant open issues._
 
@@ -151,3 +151,9 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 
 
 <!-- TRACKER:END -->
+
+<!-- METRICS:START -->
+
+_Last run: 2026-07-15 19:29 UTC, took **49.1s**, **81** GitHub API calls, **4560/5000** rate limit remaining._
+
+<!-- METRICS:END -->
