@@ -32,3 +32,9 @@ jobs:
         with:
           commit_message: "Weekly issue tracker refresh"
           file_pattern: README.md assets/*.png
+
+      - name: Notify Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GH_REPO: ${{ github.repository }}
+        run: python scripts/notify_slack.py
