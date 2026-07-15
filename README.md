@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-15 19:38 UTC_
+_Last updated: 2026-07-15 22:12 UTC_
 
-_Tracking **11** upstream repos, **343** relevant open issues._
+_Tracking **16** upstream repos, **375** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -99,6 +99,26 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 | ★★☆☆☆ | [#379](https://github.com/GoogleCloudPlatform/bigquery-utils/issues/379) Missing Datasource for Hourly Utilization Heatmap section | bug | 1 | 2024-10-03 |
 | ★★☆☆☆ | [#422](https://github.com/GoogleCloudPlatform/bigquery-utils/issues/422) Add a queries_grouped_by_session.sql script to the optimization/ scripts | enhancement | 1 | 2024-09-18 |
 | ★☆☆☆☆ | [#544](https://github.com/GoogleCloudPlatform/bigquery-utils/issues/544) theta_sketch_* UDFs hang until query timeout on estimation-mode sketches (started ~mid-June 2026, europe-west1) | — | 2 | 2026-06-25 |
+
+### [GoogleCloudPlatform/opentelemetry-operations-go](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-07-15 |
+| ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
+| ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
+| ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
+| ★☆☆☆☆ | [#1176](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1176) Add GKE host type detection to the GCP detector | — | 4 | 2026-07-07 |
+| ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
+| ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
+
+### [GoogleCloudPlatform/opentelemetry-operations-python](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★★★★ | [#357](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python/issues/357) Unsupported metric data type ExponentialHistogram in opentelemetry-exporter-gcp-monitoring | enhancement, good first issue, priority: p2, enhancement accepted | 2 | 2025-06-23 |
+| ★★★★★ | [#265](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python/issues/265) Verify non-GKE resources map to `k8s_*` monitored resources | enhancement, good first issue, priority: p2, enhancement accepted | 1 | 2024-08-28 |
 
 ### [ansible-collections/community.general](https://github.com/ansible-collections/community.general)
 
@@ -117,14 +137,27 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#51862](https://github.com/ansible/ansible/issues/51862) Ensure ansible-vault decrypt to stdout inserts newline before printing success message | easyfix, bug, has_pr, P3, affects_2.13 | 3 | 2026-07-15 |
 | ★★☆☆☆ | [#87251](https://github.com/ansible/ansible/issues/87251) get_url fails with SSL [ASN1: NOT_ENOUGH_DATA] on current UBI9 | module, needs_triage, bug, affects_2.20 | 3 | 2026-07-15 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 5 | 2026-07-14 |
 | ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, verified, affects_2.18 | 5 | 2026-07-14 |
-| ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | needs_triage, bug, affects_2.21 | 1 | 2026-07-10 |
 | ★☆☆☆☆ | [#87252](https://github.com/ansible/ansible/issues/87252) configuration file for ansible-galaxy | needs_triage, feature | 4 | 2026-07-15 |
 | ★☆☆☆☆ | [#87197](https://github.com/ansible/ansible/issues/87197) dnf module should expose clean_requirements_on_remove independently from autoremove | module, has_pr, feature | 1 | 2026-07-14 |
 | ★☆☆☆☆ | [#87161](https://github.com/ansible/ansible/issues/87161) `ansible.builtin.meta: refresh_inventory` What does exactly get refreshed? | module, has_pr, docs, affects_2.21 | 2 | 2026-07-14 |
 | ★☆☆☆☆ | [#87236](https://github.com/ansible/ansible/issues/87236) Support mTLS client certificates per Galaxy server | needs_triage, has_pr, feature | 1 | 2026-07-13 |
+
+### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | — | 0 | 2026-06-15 |
+| ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | — | 4 | 2026-07-14 |
+| ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs, stale | 37 | 2026-07-12 |
+| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 4 | 2026-07-12 |
+| ★☆☆☆☆ | [#3177](https://github.com/aws-observability/aws-otel-collector/issues/3177) Request to release OTEL latest version v.0.48.0 on AWS ECR | stale | 1 | 2026-07-12 |
+| ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | — | 2 | 2026-07-09 |
+| ★☆☆☆☆ | [#3168](https://github.com/aws-observability/aws-otel-collector/issues/3168) Addition of Interval Processor that enables us to reduce the number of datapoints exported to the backend. | stale | 3 | 2026-06-14 |
+| ★☆☆☆☆ | [#3165](https://github.com/aws-observability/aws-otel-collector/issues/3165) Vulnerability in amazon/aws-otel-collector:latest image blocking CI/CD pipelines - when will a patched image be published | — | 3 | 2026-05-29 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
 
@@ -163,6 +196,12 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 | ★★★☆☆ | [#139328](https://github.com/kubernetes/kubernetes/issues/139328) Investigate nftables startup performance at scale | sig/network, area/kube-proxy, help wanted, triage/accepted | 6 | 2026-06-04 |
 | ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 6 | 2026-05-29 |
 | ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 49 | 2026-05-26 |
+
+### [langfuse/langfuse](https://github.com/langfuse/langfuse)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★★★☆ | [#12786](https://github.com/langfuse/langfuse/issues/12786) bug: PostHog integration export overwhelms target instance with unbounded burst (18k events/sec observed) | good first issue, performance, improvement, feat-exports, integration-posthog | 4 | 2026-07-08 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -210,6 +249,19 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 | ★★★☆☆ | [#10953](https://github.com/prometheus/prometheus/issues/10953) Configuring PromQL query statistics | help wanted, kind/enhancement, priority/P3, component/api | 8 | 2026-07-07 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 8 | 2026-06-28 |
 
+### [traceloop/openllmetry](https://github.com/traceloop/openllmetry)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★★★☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 9 | 2026-07-02 |
+| ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 5 | 2026-06-08 |
+| ★★★★☆ | [#2303](https://github.com/traceloop/openllmetry/issues/2303) 🚀 Feature: Support for Azure AI Search | enhancement, good first issue, help wanted | 16 | 2026-05-18 |
+| ★★★★☆ | [#2283](https://github.com/traceloop/openllmetry/issues/2283) 🚀 Feature: Add instruments support for httpx | enhancement, good first issue | 11 | 2025-11-06 |
+| ★★★★☆ | [#137](https://github.com/traceloop/openllmetry/issues/137) 🚀 Feature: allow disabling prompt sending as an argument to Traceloop.init() | enhancement, good first issue | 15 | 2025-11-02 |
+| ★★★☆☆ | [#3492](https://github.com/traceloop/openllmetry/issues/3492) 🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1` | good first issue, help wanted | 12 | 2026-07-09 |
+| ★★★☆☆ | [#2803](https://github.com/traceloop/openllmetry/issues/2803) 🚀 Feature: Install less packages | good first issue, help wanted | 19 | 2026-06-08 |
+| ★★★☆☆ | [#1618](https://github.com/traceloop/openllmetry/issues/1618) 🚀 Feature: Support new Pinecone APIs | good first issue, help wanted | 12 | 2026-05-18 |
+
 
 <!-- TRACKER:END -->
 
@@ -217,7 +269,7 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-15 19:37 UTC, took **53.1s**, **81** GitHub API calls, **4457/5000** rate limit remaining._
+_Last run: 2026-07-15 22:11 UTC, took **64.5s**, **103** GitHub API calls, **4897/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
