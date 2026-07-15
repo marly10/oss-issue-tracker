@@ -1,0 +1,12 @@
+# One fork full_name per line (e.g. marly10/some-repo). Lines starting with
+# # are comments. These forks are skipped entirely by the tracker.
+#
+# Pre-filled with forks that look like course assignments / toy repos rather
+# than real open-source contribution targets. Edit freely — nothing here is
+# permanent, it's just a starting guess.
+
+marly10/LuhnCheckSumValidation
+marly10/mal
+marly10/test_project_1
+marly10/onepress-demo-importer
+marly10/swamibot
