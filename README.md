@@ -1,12 +1,53 @@
 # oss-issue-tracker
 
-Dynamic contribution radar: scans every repo I've forked, resolves each one's upstream, pulls its open issues, and scores them by how approachable they are — so I can decide what to work on next without manually digging through issue trackers.
+[![CI](https://github.com/marly10/oss-issue-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/marly10/oss-issue-tracker/actions/workflows/ci.yml)
+[![Weekly Issue Scrape](https://github.com/marly10/oss-issue-tracker/actions/workflows/weekly-scrape.yml/badge.svg)](https://github.com/marly10/oss-issue-tracker/actions/workflows/weekly-scrape.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
 
-Refreshed automatically every Monday by [`.github/workflows/weekly-scrape.yml`](.github/workflows/weekly-scrape.yml). Trigger it manually anytime from the Actions tab.
+Dynamic contribution radar: scans every repo I've forked, resolves each one's real upstream, pulls its open issues, and scores them by how approachable they are — so I can decide what to work on next without manually digging through issue trackers. Refreshed every Monday by GitHub Actions, with a Slack summary and a chart, not just a wall of markdown.
+
+## Why I built this
+
+I wanted to start contributing to open source in the projects I actually use at work (OpenTelemetry/Bindplane, Grafana's BigQuery datasource, the GCP Terraform provider), but the actual bottleneck wasn't motivation — it was that "go look for a good issue" is a task I'd always defer indefinitely because it required opening ten tabs and skimming label lists. This tool turns that into a five-minute Monday-morning read: one Slack message, one chart, done.
+
+It's also, deliberately, not just a personal script. Anyone can fork this repo, change one line in `config.toml`, and get the same weekly radar pointed at their own GitHub account.
+
+## How it works
+
+```
+your forks (GitHub API)
+      │
+      ▼
+resolve each fork's real upstream repo
+      │
+      ▼
+pull open issues from the upstream (retries + rate-limit tracking)
+      │
+      ▼
+score each issue 1-5★ (scoring.py — pure function, unit tested)
+      │
+      ├──► chart.py    → assets/issues_by_repo.png (stacked bar, by score)
+      ├──► metrics.py  → metrics/history.jsonl (structured run telemetry)
+      ├──► readme.py   → README.md (atomic write — never a half-written file)
+      └──► slack.py    → weekly summary + top picks
+```
+
+Every box above is a separate, independently tested module under `src/oss_issue_tracker/` — see [`cli.py`](src/oss_issue_tracker/cli.py) for the orchestration.
+
+## Using this for your own account
+
+1. Fork this repo.
+2. Edit `config.toml` — change `username` under `[github]` to yours.
+3. Edit `excluded_repos.txt` to skip any forks that aren't real contribution targets (course projects, toy repos, etc).
+4. Add a `SLACK_WEBHOOK_URL` repo secret if you want Slack notifications (Settings → Secrets and variables → Actions). Skip this and it just won't notify — everything else still works.
+5. The weekly workflow runs automatically. Trigger it manually anytime from the Actions tab if you don't want to wait for Monday.
+
+No code changes needed for a basic fork — that's the point.
 
 ## How scoring works
 
-Each issue gets a 1-5 star approachability score, computed in [`scripts/update_tracker.py`](scripts/update_tracker.py):
+Each issue gets a 1-5★ approachability score, computed in [`scoring.py`](src/oss_issue_tracker/scoring.py) (formula is documented in the function's own docstring, and every branch of it is covered by [`tests/test_scoring.py`](tests/test_scoring.py)):
 
 - `good first issue` / `beginner-friendly` label → +3
 - `help wanted` / `up-for-grabs` label → +2
@@ -14,13 +55,33 @@ Each issue gets a 1-5 star approachability score, computed in [`scripts/update_t
 - Zero comments (nobody's claimed or debated it) → +1
 - More than 10 comments (likely contested or stale) → -1
 
-Repos with no labeled beginner-friendly issues fall back to showing their most recently updated open issues, so quiet repos don't just disappear from the table.
+Repos with no labeled beginner-friendly issues fall back to showing their most recently updated open issues, so quiet repos don't just disappear from the table. Label sets are configurable per-fork in `config.toml`, not hardcoded.
+
+## Engineering notes
+
+A few decisions worth explaining rather than leaving implicit:
+
+- **`tomllib` over a YAML/config dependency.** Config parsing needed exactly one feature (typed key-value config), and Python 3.11+ ships that in the standard library. Pulling in PyYAML for this would be a dependency for a problem already solved.
+- **Atomic README writes.** `readme.py` writes to a temp file and `os.replace()`s it into place. If the process dies mid-write (OOM-killed runner, network blip during a later step), the committed README is never left truncated — worst case, the update simply didn't happen this week.
+- **Retries live in the HTTP adapter, not sprinkled through business logic.** `github_client.py` configures `urllib3`'s `Retry` once, at the session level, so `chart.py`/`readme.py`/`scoring.py` never need to know the network is unreliable. GitHub's primary rate limit (a 403 with `X-RateLimit-Remaining: 0`) is handled as a distinct case from generic 5xx/429s, since it needs a different response than "retry with backoff" — the run should stop and report it, not hammer an exhausted quota.
+- **Structured metrics, human-readable logs — deliberately not the same thing.** Console output during a run is plain text, because its only consumer is a person reading the Actions log. `metrics/history.jsonl` is one structured JSON object per run instead, specifically so it could be ingested by a real metrics pipeline later without a format change. Conflating "what a human wants to read right now" with "what a machine should be able to query later" is a common source of bad logging; this repo keeps them separate on purpose.
+- **`excluded_repos.txt` instead of auto-filtering "real" OSS repos.** I could try to heuristically guess which forks are course assignments vs. real contribution targets, but that's a judgment call that belongs to whoever's running the tool, not a heuristic. A plain-text opt-out file keeps that decision explicit and easy to audit.
+
+## Development
+
+```bash
+pip install -e ".[dev]"
+ruff check .
+pytest -v
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — including, fittingly, guidance on what makes a good PR to a tool about making good PRs.
 
 ## Tracked issues
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-15 19:32 UTC_
+_Last updated: 2026-07-15 19:38 UTC_
 
 _Tracking **11** upstream repos, **343** relevant open issues._
 
@@ -152,8 +213,16 @@ _Tracking **11** upstream repos, **343** relevant open issues._
 
 <!-- TRACKER:END -->
 
+## Run metrics
+
 <!-- METRICS:START -->
 
-_Last run: 2026-07-15 19:31 UTC, took **57.1s**, **81** GitHub API calls, **4677/5000** rate limit remaining._
+_Last run: 2026-07-15 19:37 UTC, took **53.1s**, **81** GitHub API calls, **4457/5000** rate limit remaining._
+
+![Scrape metrics trend](assets/metrics_trend.png)
 
 <!-- METRICS:END -->
+
+## License
+
+[MIT](LICENSE)
