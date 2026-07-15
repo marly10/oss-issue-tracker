@@ -10,6 +10,10 @@ import re
 import sys
 from datetime import datetime, timezone
 
+import matplotlib
+
+matplotlib.use("Agg")  # no display available on Actions runners
+import matplotlib.pyplot as plt
 import requests
 
 GITHUB_API = "https://api.github.com"
@@ -127,10 +131,13 @@ def stars(score):
     return "★" * score + "☆" * (5 - score)
 
 
-def build_table(repo_issues):
+def build_table(repo_issues, chart_generated):
     lines = []
     total_issues = sum(len(v) for v in repo_issues.values())
     lines.append(f"_Tracking **{len(repo_issues)}** upstream repos, **{total_issues}** relevant open issues._\n")
+
+    if chart_generated:
+        lines.append("![Open issues by repo and score](assets/issues_by_repo.png)\n")
 
     for upstream, issues in sorted(repo_issues.items()):
         if not issues:
@@ -149,6 +156,66 @@ def build_table(repo_issues):
             lines.append(f"| {stars(score)} | {link} {title} | {labels} | {comments} | {updated} |")
         lines.append("")
     return "\n".join(lines)
+
+
+SCORE_COLORS = {
+    1: "#d73a49",  # red   - low approachability
+    2: "#e8862c",  # orange
+    3: "#dbab09",  # yellow
+    4: "#8fc93a",  # light green
+    5: "#28a745",  # green - most approachable
+}
+
+
+def build_chart(repo_issues, path="assets/issues_by_repo.png"):
+    """
+    Horizontal stacked bar chart: one bar per tracked repo, segments colored
+    by approachability score (red=hard/unclear -> green=easiest entry point).
+    Uses the FULL relevant/fallback issue set per repo (not the 8-row cap
+    applied to the table), so the chart reflects true volume of opportunity.
+    """
+    repos = [r for r, issues in repo_issues.items() if issues]
+    if not repos:
+        return False
+
+    # Sort repos by total tracked issue count, descending, so the busiest
+    # opportunity shows at the top of the chart.
+    repos.sort(key=lambda r: len(repo_issues[r]), reverse=True)
+
+    counts_by_score = {s: [] for s in range(1, 6)}
+    for repo in repos:
+        scores = [score_issue(i) for i in repo_issues[repo]]
+        for s in range(1, 6):
+            counts_by_score[s].append(scores.count(s))
+
+    fig_height = max(3, 0.45 * len(repos) + 1.5)
+    fig, ax = plt.subplots(figsize=(10, fig_height))
+
+    left = [0] * len(repos)
+    for s in range(1, 6):
+        ax.barh(
+            repos,
+            counts_by_score[s],
+            left=left,
+            color=SCORE_COLORS[s],
+            label=f"{stars(s)} ({s})",
+            edgecolor="white",
+            linewidth=0.5,
+        )
+        left = [l + c for l, c in zip(left, counts_by_score[s])]
+
+    ax.set_xlabel("Open issues tracked")
+    ax.set_title("Open-source issues to work on, by repo and approachability score")
+    ax.invert_yaxis()  # highest-volume repo at top
+    ax.legend(title="Score", bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    fig.tight_layout()
+
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    return True
 
 
 def update_readme(table_md, path="README.md"):
@@ -197,7 +264,10 @@ def main():
         # still show up instead of disappearing from the table.
         repo_issues[parent] = relevant if relevant else issues[:MAX_ISSUES_PER_REPO]
 
-    table_md = build_table(repo_issues)
+    chart_generated = build_chart(repo_issues)
+    print(f"Chart generated: {chart_generated}")
+
+    table_md = build_table(repo_issues, chart_generated)
     update_readme(table_md)
     print("README.md updated.")
 
