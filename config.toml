@@ -1,0 +1,21 @@
+# oss-issue-tracker configuration.
+# Fork this repo, edit this file to point at your own GitHub account, and
+# the weekly workflow tracks your forks instead of mine.
+
+[github]
+username = "marly10"
+
+[scoring]
+# Labels that immediately mark an issue as beginner-friendly (+3 to score).
+good_first_issue_labels = [
+    "good first issue", "good-first-issue", "beginner-friendly", "easy",
+]
+# Labels that mark an issue as openly available (+2 to score).
+help_wanted_labels = [
+    "help wanted", "help-wanted", "up-for-grabs", "contributions welcome",
+]
+# Labels indicating well-scoped work (+1 to score).
+well_scoped_labels = ["bug", "enhancement"]
+
+[display]
+max_issues_per_repo_table = 8
