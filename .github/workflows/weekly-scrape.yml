@@ -19,22 +19,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r requirements.txt
+      - name: Install package
+        run: pip install -e .
 
-      - name: Update tracker
+      - name: Run tracker
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: marly10
-        run: python scripts/update_tracker.py
+          GH_REPO: ${{ github.repository }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: oss-tracker
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Weekly issue tracker refresh"
-          file_pattern: README.md assets/*.png
-
-      - name: Notify Slack
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          GH_REPO: ${{ github.repository }}
-        run: python scripts/notify_slack.py
+          file_pattern: README.md assets/*.png metrics/history.jsonl
