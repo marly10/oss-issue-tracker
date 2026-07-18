@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-15 22:12 UTC_
+_Last updated: 2026-07-18 22:33 UTC_
 
-_Tracking **16** upstream repos, **375** relevant open issues._
+_Tracking **16** upstream repos, **377** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -105,7 +105,7 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-07-15 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-07-18 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -137,14 +137,14 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87260](https://github.com/ansible/ansible/issues/87260) ansible-galaxy install fails when no permission to /etc/ansible | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-18 |
+| ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, has_pr, affects_2.21 | 1 | 2026-07-18 |
+| ★★☆☆☆ | [#81522](https://github.com/ansible/ansible/issues/81522) pip virtualenv creates chdir twice when using a relative path | easyfix, module, bug, has_pr, P3, verified, affects_2.15 | 9 | 2026-07-17 |
+| ★★☆☆☆ | [#87259](https://github.com/ansible/ansible/issues/87259) password_hash filter with libcrypt does not work as expected using sha512 | needs_triage, bug, affects_2.21 | 1 | 2026-07-17 |
 | ★★☆☆☆ | [#51862](https://github.com/ansible/ansible/issues/51862) Ensure ansible-vault decrypt to stdout inserts newline before printing success message | easyfix, bug, has_pr, P3, affects_2.13 | 3 | 2026-07-15 |
-| ★★☆☆☆ | [#87251](https://github.com/ansible/ansible/issues/87251) get_url fails with SSL [ASN1: NOT_ENOUGH_DATA] on current UBI9 | module, needs_triage, bug, affects_2.20 | 3 | 2026-07-15 |
-| ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 5 | 2026-07-14 |
-| ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, verified, affects_2.18 | 5 | 2026-07-14 |
-| ★☆☆☆☆ | [#87252](https://github.com/ansible/ansible/issues/87252) configuration file for ansible-galaxy | needs_triage, feature | 4 | 2026-07-15 |
-| ★☆☆☆☆ | [#87197](https://github.com/ansible/ansible/issues/87197) dnf module should expose clean_requirements_on_remove independently from autoremove | module, has_pr, feature | 1 | 2026-07-14 |
-| ★☆☆☆☆ | [#87161](https://github.com/ansible/ansible/issues/87161) `ansible.builtin.meta: refresh_inventory` What does exactly get refreshed? | module, has_pr, docs, affects_2.21 | 2 | 2026-07-14 |
-| ★☆☆☆☆ | [#87236](https://github.com/ansible/ansible/issues/87236) Support mTLS client certificates per Galaxy server | needs_triage, has_pr, feature | 1 | 2026-07-13 |
+| ★☆☆☆☆ | [#87197](https://github.com/ansible/ansible/issues/87197) dnf module should expose clean_requirements_on_remove independently from autoremove | module, has_pr, feature | 3 | 2026-07-17 |
+| ★☆☆☆☆ | [#87236](https://github.com/ansible/ansible/issues/87236) Support mTLS client certificates per Galaxy server | has_pr, feature | 1 | 2026-07-16 |
+| ★☆☆☆☆ | [#81687](https://github.com/ansible/ansible/issues/81687) Galaxy Version syntax breaking installation from local copies | bug, has_pr, verified, affects_2.15 | 14 | 2026-07-16 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -176,7 +176,7 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#110](https://github.com/grafana/google-bigquery-datasource/issues/110) Documentation: Add more verbose documentation for macros support | documentation, type/feature-request, help wanted | 0 | 2022-04-21 |
+| ★★★☆☆ | [#110](https://github.com/grafana/google-bigquery-datasource/issues/110) Documentation: Add more verbose documentation for macros support | documentation, type/feature-request, help wanted, stale | 1 | 2026-07-16 |
 
 ### [grafana/grafana-ansible-collection](https://github.com/grafana/grafana-ansible-collection)
 
@@ -188,14 +188,14 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#140493](https://github.com/kubernetes/kubernetes/issues/140493) Reinstate or drop `[Feature:PerformanceDNS]` tests | priority/backlog, sig/network, help wanted, triage/accepted | 6 | 2026-07-17 |
+| ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
+| ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 3 | 2026-07-16 |
+| ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
 | ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-07-15 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 71 | 2026-07-14 |
-| ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 38 | 2026-06-30 |
 | ★★★☆☆ | [#135058](https://github.com/kubernetes/kubernetes/issues/135058) DRA: measure and track performance of "experimental" allocator | kind/feature, help wanted, good first issue, needs-triage, wg/device-management | 20 | 2026-06-17 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 39 | 2026-06-16 |
-| ★★★☆☆ | [#139328](https://github.com/kubernetes/kubernetes/issues/139328) Investigate nftables startup performance at scale | sig/network, area/kube-proxy, help wanted, triage/accepted | 6 | 2026-06-04 |
-| ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 6 | 2026-05-29 |
-| ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 49 | 2026-05-26 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -231,10 +231,10 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 | ★★★★★ | [#38092](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38092) [CI/CD\| run no race tests in CIs too | enhancement, good first issue, ci-cd, never stale | 9 | 2026-05-21 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 3 | 2026-05-19 |
 | ★★★★★ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, Stale, processor/resourcedetection, never stale | 9 | 2026-01-20 |
+| ★★★★☆ | [#31387](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31387) [pkg/ottl] Improve OTTL Docs | enhancement, help wanted, good first issue, priority:p2, processor/filter, processor/transform, pkg/ottl, never stale | 12 | 2026-07-17 |
 | ★★★★☆ | [#43918](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/43918) [aws/k8s] TestGetShutdown is failing on Windows after upgrading k8s library to 1.34 | bug, help wanted, good first issue, internal/aws | 12 | 2026-07-15 |
 | ★★★★☆ | [#48186](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48186) Deprecate and remove kafkatopicsobserver | good first issue, extension/observer/kafkatopicsobserver | 10 | 2026-07-09 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 24 | 2026-07-04 |
-| ★★★★☆ | [#19172](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/19172) Add Warning header to all necessary components | documentation, help wanted, good first issue, priority:p3, never stale, Contribfest | 10 | 2026-07-02 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -242,25 +242,25 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#18391](https://github.com/prometheus/prometheus/issues/18391) Consolidate (and update) go-yaml versions | help wanted, kind/cleanup, not-as-easy-as-it-looks | 6 | 2026-07-18 |
 | ★★★☆☆ | [#14763](https://github.com/prometheus/prometheus/issues/14763) Start Timestamp: Opt-in ST auto-generation globally/per scrape job. | help wanted, kind/feature | 3 | 2026-07-14 |
 | ★★★☆☆ | [#14057](https://github.com/prometheus/prometheus/issues/14057) Add relabeling action that drops sample if any label matches pattern | help wanted, component/config, priority/P3, kind/feature | 4 | 2026-07-08 |
 | ★★★☆☆ | [#16176](https://github.com/prometheus/prometheus/issues/16176) TestDBReadOnly_Querier_NoAlteration is flaky on Windows | help wanted, component/tests | 5 | 2026-07-08 |
 | ★★★☆☆ | [#16513](https://github.com/prometheus/prometheus/issues/16513) Idea: store scrape cache as a trie instead of a map. | help wanted, kind/enhancement, component/scraping | 10 | 2026-07-08 |
 | ★★★☆☆ | [#10953](https://github.com/prometheus/prometheus/issues/10953) Configuring PromQL query statistics | help wanted, kind/enhancement, priority/P3, component/api | 8 | 2026-07-07 |
-| ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 8 | 2026-06-28 |
 
 ### [traceloop/openllmetry](https://github.com/traceloop/openllmetry)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#137](https://github.com/traceloop/openllmetry/issues/137) 🚀 Feature: allow disabling prompt sending as an argument to Traceloop.init() | enhancement, good first issue | 16 | 2026-07-17 |
 | ★★★★☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 9 | 2026-07-02 |
 | ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 5 | 2026-06-08 |
 | ★★★★☆ | [#2303](https://github.com/traceloop/openllmetry/issues/2303) 🚀 Feature: Support for Azure AI Search | enhancement, good first issue, help wanted | 16 | 2026-05-18 |
 | ★★★★☆ | [#2283](https://github.com/traceloop/openllmetry/issues/2283) 🚀 Feature: Add instruments support for httpx | enhancement, good first issue | 11 | 2025-11-06 |
-| ★★★★☆ | [#137](https://github.com/traceloop/openllmetry/issues/137) 🚀 Feature: allow disabling prompt sending as an argument to Traceloop.init() | enhancement, good first issue | 15 | 2025-11-02 |
+| ★★★☆☆ | [#785](https://github.com/traceloop/openllmetry/issues/785) 🚀 Feature: Support runpod.ai | help wanted, new instrumentation | 4 | 2026-07-17 |
 | ★★★☆☆ | [#3492](https://github.com/traceloop/openllmetry/issues/3492) 🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1` | good first issue, help wanted | 12 | 2026-07-09 |
 | ★★★☆☆ | [#2803](https://github.com/traceloop/openllmetry/issues/2803) 🚀 Feature: Install less packages | good first issue, help wanted | 19 | 2026-06-08 |
-| ★★★☆☆ | [#1618](https://github.com/traceloop/openllmetry/issues/1618) 🚀 Feature: Support new Pinecone APIs | good first issue, help wanted | 12 | 2026-05-18 |
 
 
 <!-- TRACKER:END -->
@@ -269,7 +269,7 @@ _Tracking **16** upstream repos, **375** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-15 22:11 UTC, took **64.5s**, **103** GitHub API calls, **4897/5000** rate limit remaining._
+_Last run: 2026-07-18 22:32 UTC, took **56.3s**, **103** GitHub API calls, **4898/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
