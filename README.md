@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-18 22:33 UTC_
+_Last updated: 2026-07-20 13:40 UTC_
 
 _Tracking **16** upstream repos, **377** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-07-18 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-07-20 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -124,12 +124,12 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
 | ★★☆☆☆ | [#12388](https://github.com/ansible-collections/community.general/issues/12388) consul_kv: deprecate and remove get_value | bug, module, plugins | 2 | 2026-07-12 |
 | ★★☆☆☆ | [#8980](https://github.com/ansible-collections/community.general/issues/8980) incus conn plugin: Intermittent Issues with Temporary Directory Creation and Connection Drops | bug | 8 | 2026-07-11 |
 | ★★☆☆☆ | [#11246](https://github.com/ansible-collections/community.general/issues/11246) Cobbler Dynamic Inventory Source incorrectly upgrades connection to SSL | bug, inventory, plugins | 3 | 2026-07-10 |
 | ★★☆☆☆ | [#12374](https://github.com/ansible-collections/community.general/issues/12374) community.general.office_365_connector_card - Connector cards are deprecated, and errors on `202 Accepted` from PowerAutomate | bug, module, plugins | 3 | 2026-07-04 |
-| ★★☆☆☆ | [#12375](https://github.com/ansible-collections/community.general/issues/12375) snap: module fails with `list index out of range` exception if cannot find snap | bug, module, traceback, plugins | 2 | 2026-07-03 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
 
@@ -137,27 +137,27 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87269](https://github.com/ansible/ansible/issues/87269) Template does not allow a string with a single trailing backslash | needs_triage, bug, affects_2.20 | 5 | 2026-07-20 |
+| ★★☆☆☆ | [#87270](https://github.com/ansible/ansible/issues/87270) Timeout Error Messages do not spell which of all Timeout Options should be Increased | needs_triage, bug, affects_2.21 | 1 | 2026-07-20 |
+| ★★☆☆☆ | [#87100](https://github.com/ansible/ansible/issues/87100) Role search path implicitly includes working directory of ansible-playbook command | bug, has_pr, needs_verified, affects_2.20 | 4 | 2026-07-20 |
+| ★★☆☆☆ | [#44869](https://github.com/ansible/ansible/issues/44869) setup module: gathering facts fails on FreeBSD if tunnel is present | easyfix, module, bug, has_pr, affects_2.6, P3 | 7 | 2026-07-19 |
 | ★★☆☆☆ | [#87260](https://github.com/ansible/ansible/issues/87260) ansible-galaxy install fails when no permission to /etc/ansible | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-18 |
 | ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, has_pr, affects_2.21 | 1 | 2026-07-18 |
-| ★★☆☆☆ | [#81522](https://github.com/ansible/ansible/issues/81522) pip virtualenv creates chdir twice when using a relative path | easyfix, module, bug, has_pr, P3, verified, affects_2.15 | 9 | 2026-07-17 |
-| ★★☆☆☆ | [#87259](https://github.com/ansible/ansible/issues/87259) password_hash filter with libcrypt does not work as expected using sha512 | needs_triage, bug, affects_2.21 | 1 | 2026-07-17 |
-| ★★☆☆☆ | [#51862](https://github.com/ansible/ansible/issues/51862) Ensure ansible-vault decrypt to stdout inserts newline before printing success message | easyfix, bug, has_pr, P3, affects_2.13 | 3 | 2026-07-15 |
+| ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, has_pr, P3, verified, affects_2.18 | 22 | 2026-07-19 |
 | ★☆☆☆☆ | [#87197](https://github.com/ansible/ansible/issues/87197) dnf module should expose clean_requirements_on_remove independently from autoremove | module, has_pr, feature | 3 | 2026-07-17 |
-| ★☆☆☆☆ | [#87236](https://github.com/ansible/ansible/issues/87236) Support mTLS client certificates per Galaxy server | has_pr, feature | 1 | 2026-07-16 |
-| ★☆☆☆☆ | [#81687](https://github.com/ansible/ansible/issues/81687) Galaxy Version syntax breaking installation from local copies | bug, has_pr, verified, affects_2.15 | 14 | 2026-07-16 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | — | 0 | 2026-06-15 |
+| ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs, stale | 38 | 2026-07-20 |
+| ★☆☆☆☆ | [#3084](https://github.com/aws-observability/aws-otel-collector/issues/3084) Clarification on maintenance status of awscloudwatchlogsexporter in ADOT Collector | stale | 9 | 2026-07-19 |
+| ★☆☆☆☆ | [#3194](https://github.com/aws-observability/aws-otel-collector/issues/3194) aws-otel-collector-ctl fails with "unknown init system" on systemd hosts with multiple -.mount units | stale | 1 | 2026-07-19 |
+| ★☆☆☆☆ | [#3199](https://github.com/aws-observability/aws-otel-collector/issues/3199) awsxray exporter logs Go pointer addresses instead of UnprocessedTraceSegments error messages | stale | 1 | 2026-07-19 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | — | 4 | 2026-07-14 |
-| ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs, stale | 37 | 2026-07-12 |
 | ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 4 | 2026-07-12 |
 | ★☆☆☆☆ | [#3177](https://github.com/aws-observability/aws-otel-collector/issues/3177) Request to release OTEL latest version v.0.48.0 on AWS ECR | stale | 1 | 2026-07-12 |
 | ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | — | 2 | 2026-07-09 |
-| ★☆☆☆☆ | [#3168](https://github.com/aws-observability/aws-otel-collector/issues/3168) Addition of Interval Processor that enables us to reduce the number of datapoints exported to the backend. | stale | 3 | 2026-06-14 |
-| ★☆☆☆☆ | [#3165](https://github.com/aws-observability/aws-otel-collector/issues/3165) Vulnerability in amazon/aws-otel-collector:latest image blocking CI/CD pipelines - when will a patched image be published | — | 3 | 2026-05-29 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
 
@@ -188,20 +188,20 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#140493](https://github.com/kubernetes/kubernetes/issues/140493) Reinstate or drop `[Feature:PerformanceDNS]` tests | priority/backlog, sig/network, help wanted, triage/accepted | 6 | 2026-07-17 |
+| ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 7 | 2026-07-20 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
-| ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 3 | 2026-07-16 |
 | ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
 | ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-07-15 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 71 | 2026-07-14 |
 | ★★★☆☆ | [#135058](https://github.com/kubernetes/kubernetes/issues/135058) DRA: measure and track performance of "experimental" allocator | kind/feature, help wanted, good first issue, needs-triage, wg/device-management | 20 | 2026-06-17 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 39 | 2026-06-16 |
+| ★★★☆☆ | [#139328](https://github.com/kubernetes/kubernetes/issues/139328) Investigate nftables startup performance at scale | sig/network, area/kube-proxy, help wanted, triage/accepted | 6 | 2026-06-04 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#12786](https://github.com/langfuse/langfuse/issues/12786) bug: PostHog integration export overwhelms target instance with unbounded burst (18k events/sec observed) | good first issue, performance, improvement, feat-exports, integration-posthog | 4 | 2026-07-08 |
+| ★★★★☆ | [#12786](https://github.com/langfuse/langfuse/issues/12786) bug: PostHog integration export overwhelms target instance with unbounded burst (18k events/sec observed) | good first issue, performance, improvement, feat-exports, integration-posthog | 5 | 2026-07-19 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -227,14 +227,14 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, Stale, processor/tailsampling | 4 | 2026-07-20 |
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 5 | 2026-05-30 |
 | ★★★★★ | [#38092](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38092) [CI/CD\| run no race tests in CIs too | enhancement, good first issue, ci-cd, never stale | 9 | 2026-05-21 |
-| ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 3 | 2026-05-19 |
 | ★★★★★ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, Stale, processor/resourcedetection, never stale | 9 | 2026-01-20 |
+| ★★★★☆ | [#49747](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/49747) [statsdreceiver] explicit_buckets under statsd_type: timing only outputs infinite bucket... | bug, help wanted, receiver/statsd, needs triage | 4 | 2026-07-20 |
 | ★★★★☆ | [#31387](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31387) [pkg/ottl] Improve OTTL Docs | enhancement, help wanted, good first issue, priority:p2, processor/filter, processor/transform, pkg/ottl, never stale | 12 | 2026-07-17 |
 | ★★★★☆ | [#43918](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/43918) [aws/k8s] TestGetShutdown is failing on Windows after upgrading k8s library to 1.34 | bug, help wanted, good first issue, internal/aws | 12 | 2026-07-15 |
 | ★★★★☆ | [#48186](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48186) Deprecate and remove kafkatopicsobserver | good first issue, extension/observer/kafkatopicsobserver | 10 | 2026-07-09 |
-| ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 24 | 2026-07-04 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -269,7 +269,7 @@ _Tracking **16** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-18 22:32 UTC, took **56.3s**, **103** GitHub API calls, **4898/5000** rate limit remaining._
+_Last run: 2026-07-20 13:39 UTC, took **58.2s**, **104** GitHub API calls, **4897/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
