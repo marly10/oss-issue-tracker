@@ -3,7 +3,7 @@ name: Weekly Issue Scrape
 on:
   schedule:
     # Every Monday at 13:00 UTC
-    - cron: "0 13 * * 1"
+    - cron: "* * * * *"
   workflow_dispatch: {}
 
 permissions:
