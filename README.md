@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-22 13:16 UTC_
+_Last updated: 2026-07-22 14:01 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -188,8 +188,8 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 9 | 2026-07-22 |
 | ★★★☆☆ | [#115939](https://github.com/kubernetes/kubernetes/issues/115939) Reuse the http request object for http probes | area/kubelet, sig/node, help wanted, good first issue, needs-triage | 46 | 2026-07-22 |
-| ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 8 | 2026-07-21 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
 | ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
 | ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-07-15 |
@@ -287,7 +287,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-22 13:15 UTC, took **59.7s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-22 14:00 UTC, took **61.1s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
