@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-23 06:43 UTC_
+_Last updated: 2026-07-23 07:41 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, affects_2.20 | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87272](https://github.com/ansible/ansible/issues/87272) connection/ssh.py: fragile test in _bare_run() breaks sftp/scp | bug, has_pr, affects_2.21 | 3 | 2026-07-21 |
 | ★★☆☆☆ | [#87271](https://github.com/ansible/ansible/issues/87271) ansible-galaxy gives misleading error message when collection does not exist | bug, has_pr, affects_2.21 | 2 | 2026-07-21 |
 | ★★☆☆☆ | [#87100](https://github.com/ansible/ansible/issues/87100) Role search path implicitly includes working directory of ansible-playbook command | bug, has_pr, needs_verified, affects_2.20 | 4 | 2026-07-20 |
 | ★★☆☆☆ | [#44869](https://github.com/ansible/ansible/issues/44869) setup module: gathering facts fails on FreeBSD if tunnel is present | easyfix, module, bug, has_pr, affects_2.6, P3 | 7 | 2026-07-19 |
-| ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, has_pr, affects_2.21 | 1 | 2026-07-18 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, feature, P3, affects_2.11, security | 7 | 2026-07-22 |
 | ★☆☆☆☆ | [#84451](https://github.com/ansible/ansible/issues/84451) Register `faulthandler` for all python processes | feature | 3 | 2026-07-21 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, has_pr, P3, verified, affects_2.18 | 22 | 2026-07-19 |
@@ -287,7 +287,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-23 06:42 UTC, took **59.2s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-23 07:40 UTC, took **61.1s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
