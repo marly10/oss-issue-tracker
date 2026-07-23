@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-23 07:41 UTC_
+_Last updated: 2026-07-23 08:37 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -124,11 +124,11 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 5 | 2026-07-22 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
 | ★★☆☆☆ | [#12388](https://github.com/ansible-collections/community.general/issues/12388) consul_kv: deprecate and remove get_value | bug, module, plugins | 2 | 2026-07-12 |
-| ★★☆☆☆ | [#8980](https://github.com/ansible-collections/community.general/issues/8980) incus conn plugin: Intermittent Issues with Temporary Directory Creation and Connection Drops | bug | 8 | 2026-07-11 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
@@ -287,7 +287,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-23 07:40 UTC, took **61.1s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-23 08:36 UTC, took **54.1s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
