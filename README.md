@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-23 18:45 UTC_
+_Last updated: 2026-07-23 19:15 UTC_
 
 _Tracking **18** upstream repos, **390** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **390** relevant open issues._
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 5 | 2026-07-22 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
-| ★☆☆☆☆ | [#12478](https://github.com/ansible-collections/community.general/issues/12478) keycloak_realm: Control whether undefined realm attributes are pruned | feature, module, plugins | 2 | 2026-07-23 |
+| ★★☆☆☆ | [#12388](https://github.com/ansible-collections/community.general/issues/12388) consul_kv: deprecate and remove get_value | bug, module, plugins | 2 | 2026-07-12 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **390** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-23 18:44 UTC, took **56.4s**, **107** GitHub API calls, **4935/5000** rate limit remaining._
+_Last run: 2026-07-23 19:14 UTC, took **53.4s**, **107** GitHub API calls, **4829/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
