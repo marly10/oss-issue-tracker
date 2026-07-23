@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-23 10:23 UTC_
+_Last updated: 2026-07-23 11:12 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 5 | 2026-07-22 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
-| ★★☆☆☆ | [#12388](https://github.com/ansible-collections/community.general/issues/12388) consul_kv: deprecate and remove get_value | bug, module, plugins | 2 | 2026-07-12 |
+| ★☆☆☆☆ | [#12478](https://github.com/ansible-collections/community.general/issues/12478) keycloak_realm: Control whether undefined realm attributes are pruned | feature, module, plugins | 2 | 2026-07-23 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, affects_2.20 | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87272](https://github.com/ansible/ansible/issues/87272) connection/ssh.py: fragile test in _bare_run() breaks sftp/scp | bug, has_pr, affects_2.21 | 3 | 2026-07-21 |
 | ★★☆☆☆ | [#87271](https://github.com/ansible/ansible/issues/87271) ansible-galaxy gives misleading error message when collection does not exist | bug, has_pr, affects_2.21 | 2 | 2026-07-21 |
 | ★★☆☆☆ | [#87100](https://github.com/ansible/ansible/issues/87100) Role search path implicitly includes working directory of ansible-playbook command | bug, has_pr, needs_verified, affects_2.20 | 4 | 2026-07-20 |
-| ★★☆☆☆ | [#44869](https://github.com/ansible/ansible/issues/44869) setup module: gathering facts fails on FreeBSD if tunnel is present | easyfix, module, bug, has_pr, affects_2.6, P3 | 7 | 2026-07-19 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, feature, P3, affects_2.11, security | 7 | 2026-07-22 |
 | ★☆☆☆☆ | [#84451](https://github.com/ansible/ansible/issues/84451) Register `faulthandler` for all python processes | feature | 3 | 2026-07-21 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, has_pr, P3, verified, affects_2.18 | 22 | 2026-07-19 |
@@ -287,7 +287,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-23 10:22 UTC, took **63.6s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-23 11:11 UTC, took **55.1s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
