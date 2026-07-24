@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-24 09:13 UTC_
+_Last updated: 2026-07-24 10:02 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,6 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 2 | 2026-07-24 |
 | ★★☆☆☆ | [#15394](https://github.com/langfuse/langfuse/issues/15394) bug: NO_PROXY is not supported, so all outbound requests will go through the proxy if set, which can cause issues with internal APIs | bug, 🐞❔ unconfirmed bug, self-hosting | 1 | 2026-07-24 |
 | ★★☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | bug, 🐞❔ unconfirmed bug, self-hosting, infra | 5 | 2026-07-24 |
 | ★★☆☆☆ | [#15373](https://github.com/langfuse/langfuse/issues/15373) bug: Javascript file not loading | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
@@ -208,7 +209,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#15152](https://github.com/langfuse/langfuse/issues/15152) The evaluator cannot set up LLM | bug, 🐞❔ unconfirmed bug, feat-scores, self-hosting, feat-llm-connections, langfuse/langfuse | 2 | 2026-07-23 |
 | ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feature | 11 | 2026-07-24 |
 | ★☆☆☆☆ | [#15339](https://github.com/langfuse/langfuse/issues/15339) perf: span_processor.on_end evaluates span_formatter(span) eagerly via f-string regardless of log level | — | 1 | 2026-07-23 |
-| ★☆☆☆☆ | [#15343](https://github.com/langfuse/langfuse/issues/15343) bug: observation panel drops the reasoning block when completion is an empty string | — | 2 | 2026-07-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-24 09:12 UTC, took **61.8s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-24 10:01 UTC, took **72.3s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
