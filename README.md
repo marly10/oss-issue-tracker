@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-24 19:12 UTC_
+_Last updated: 2026-07-24 19:48 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,11 +201,11 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 2 | 2026-07-24 |
 | ★★☆☆☆ | [#15394](https://github.com/langfuse/langfuse/issues/15394) bug: NO_PROXY is not supported, so all outbound requests will go through the proxy if set, which can cause issues with internal APIs | bug, 🐞❔ unconfirmed bug, self-hosting | 1 | 2026-07-24 |
 | ★★☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | bug, 🐞❔ unconfirmed bug, self-hosting, infra | 5 | 2026-07-24 |
 | ★★☆☆☆ | [#15373](https://github.com/langfuse/langfuse/issues/15373) bug: Javascript file not loading | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
-| ★★☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
 | ★☆☆☆☆ | [#15434](https://github.com/langfuse/langfuse/issues/15434) feat(seeder): add `pnpm run seed -- env` subcommand to list environments + trace counts | feat-cli | 1 | 2026-07-24 |
 | ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feature | 11 | 2026-07-24 |
 | ★☆☆☆☆ | [#15339](https://github.com/langfuse/langfuse/issues/15339) perf: span_processor.on_end evaluates span_formatter(span) eagerly via f-string regardless of log level | — | 1 | 2026-07-23 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-24 19:11 UTC, took **54.1s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-24 19:47 UTC, took **54.8s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
