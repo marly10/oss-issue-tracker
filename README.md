@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-24 15:46 UTC_
+_Last updated: 2026-07-24 16:57 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -206,7 +206,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | bug, 🐞❔ unconfirmed bug, self-hosting, infra | 5 | 2026-07-24 |
 | ★★☆☆☆ | [#15373](https://github.com/langfuse/langfuse/issues/15373) bug: Javascript file not loading | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
 | ★★☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
-| ★★☆☆☆ | [#15152](https://github.com/langfuse/langfuse/issues/15152) The evaluator cannot set up LLM | bug, 🐞❔ unconfirmed bug, feat-scores, self-hosting, feat-llm-connections, langfuse/langfuse | 2 | 2026-07-23 |
+| ★☆☆☆☆ | [#15434](https://github.com/langfuse/langfuse/issues/15434) feat(seeder): add `pnpm run seed -- env` subcommand to list environments + trace counts | feat-cli | 1 | 2026-07-24 |
 | ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feature | 11 | 2026-07-24 |
 | ★☆☆☆☆ | [#15339](https://github.com/langfuse/langfuse/issues/15339) perf: span_processor.on_end evaluates span_formatter(span) eagerly via f-string regardless of log level | — | 1 | 2026-07-23 |
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-24 15:45 UTC, took **61.3s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-24 16:56 UTC, took **55.6s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
