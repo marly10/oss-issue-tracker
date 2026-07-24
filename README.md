@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-24 07:28 UTC_
+_Last updated: 2026-07-24 08:21 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,6 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15394](https://github.com/langfuse/langfuse/issues/15394) bug: NO_PROXY is not supported, so all outbound requests will go through the proxy if set, which can cause issues with internal APIs | bug, 🐞❔ unconfirmed bug, self-hosting | 1 | 2026-07-24 |
 | ★★☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | bug, 🐞❔ unconfirmed bug, self-hosting, infra | 5 | 2026-07-24 |
 | ★★☆☆☆ | [#15373](https://github.com/langfuse/langfuse/issues/15373) bug: Javascript file not loading | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
 | ★★☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 0 | 2026-07-23 |
@@ -208,7 +209,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feature | 11 | 2026-07-24 |
 | ★☆☆☆☆ | [#15339](https://github.com/langfuse/langfuse/issues/15339) perf: span_processor.on_end evaluates span_formatter(span) eagerly via f-string regardless of log level | — | 1 | 2026-07-23 |
 | ★☆☆☆☆ | [#15343](https://github.com/langfuse/langfuse/issues/15343) bug: observation panel drops the reasoning block when completion is an empty string | — | 2 | 2026-07-23 |
-| ★☆☆☆☆ | [#15342](https://github.com/langfuse/langfuse/issues/15342) bug: Langfuse.get_dataset() causes digital strings beign casted to int | 🐞❔ unconfirmed bug | 1 | 2026-07-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -238,7 +238,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 5 | 2026-05-30 |
 | ★★★★★ | [#38092](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38092) [CI/CD\| run no race tests in CIs too | enhancement, good first issue, ci-cd, never stale | 9 | 2026-05-21 |
 | ★★★★★ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, Stale, processor/resourcedetection, never stale | 9 | 2026-01-20 |
-| ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 7 | 2026-07-23 |
+| ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 8 | 2026-07-24 |
 | ★★★★☆ | [#31387](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31387) [pkg/ottl] Improve OTTL Docs | enhancement, help wanted, good first issue, priority:p2, processor/filter, processor/transform, pkg/ottl, never stale | 13 | 2026-07-21 |
 | ★★★★☆ | [#39053](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39053) [receiver_creator] Started components not reporting status | enhancement, help wanted, never stale, receiver/receivercreator | 4 | 2026-07-21 |
 | ★★★★☆ | [#43918](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/43918) [aws/k8s] TestGetShutdown is failing on Windows after upgrading k8s library to 1.34 | bug, help wanted, good first issue, internal/aws | 12 | 2026-07-15 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-24 07:27 UTC, took **55.4s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-24 08:19 UTC, took **84.8s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
