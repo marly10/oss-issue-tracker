@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-25 16:09 UTC_
+_Last updated: 2026-07-25 16:30 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -278,9 +278,9 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 6 | 2026-07-25 |
 | ★★★★☆ | [#137](https://github.com/traceloop/openllmetry/issues/137) 🚀 Feature: allow disabling prompt sending as an argument to Traceloop.init() | enhancement, good first issue | 17 | 2026-07-22 |
 | ★★★★☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 9 | 2026-07-02 |
-| ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 5 | 2026-06-08 |
 | ★★★★☆ | [#2303](https://github.com/traceloop/openllmetry/issues/2303) 🚀 Feature: Support for Azure AI Search | enhancement, good first issue, help wanted | 16 | 2026-05-18 |
 | ★★★★☆ | [#2283](https://github.com/traceloop/openllmetry/issues/2283) 🚀 Feature: Add instruments support for httpx | enhancement, good first issue | 11 | 2025-11-06 |
 | ★★★☆☆ | [#785](https://github.com/traceloop/openllmetry/issues/785) 🚀 Feature: Support runpod.ai | help wanted, new instrumentation | 4 | 2026-07-17 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-25 16:08 UTC, took **65.2s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-25 16:29 UTC, took **53.5s**, **107** GitHub API calls, **4682/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
