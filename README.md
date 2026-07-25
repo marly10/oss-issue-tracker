@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-25 04:50 UTC_
+_Last updated: 2026-07-25 05:49 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, affects_2.21 | 1 | 2026-07-25 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, affects_2.20 | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87272](https://github.com/ansible/ansible/issues/87272) connection/ssh.py: fragile test in _bare_run() breaks sftp/scp | bug, has_pr, affects_2.21 | 3 | 2026-07-21 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#87100](https://github.com/ansible/ansible/issues/87100) Role search path implicitly includes working directory of ansible-playbook command | bug, has_pr, needs_verified, affects_2.20 | 4 | 2026-07-20 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, feature, P3, affects_2.11, security | 7 | 2026-07-22 |
 | ★☆☆☆☆ | [#84451](https://github.com/ansible/ansible/issues/84451) Register `faulthandler` for all python processes | feature | 3 | 2026-07-21 |
-| ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, has_pr, P3, verified, affects_2.18 | 22 | 2026-07-19 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-25 04:49 UTC, took **66.4s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-25 05:49 UTC, took **51.7s**, **107** GitHub API calls, **4967/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
