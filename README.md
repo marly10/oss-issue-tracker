@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-25 05:49 UTC_
+_Last updated: 2026-07-25 06:37 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
+| ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
 | ★★☆☆☆ | [#15436](https://github.com/langfuse/langfuse/issues/15436) Dataset suggestion: REFUTE (scientific critique + calibration, judge-free axes) | Datasets, feat-datasets, feat-evals | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 2 | 2026-07-24 |
 | ★★☆☆☆ | [#15394](https://github.com/langfuse/langfuse/issues/15394) bug: NO_PROXY is not supported, so all outbound requests will go through the proxy if set, which can cause issues with internal APIs | bug, 🐞❔ unconfirmed bug, self-hosting | 1 | 2026-07-24 |
-| ★★☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | bug, 🐞❔ unconfirmed bug, self-hosting, infra | 5 | 2026-07-24 |
 | ★☆☆☆☆ | [#14238](https://github.com/langfuse/langfuse/issues/14238) Feature request: import/export portable Playground draft snapshots | feat-prompt-management, feat-playground, feat-prompt-experiments, improvement, feat-exports, stale | 2 | 2026-07-25 |
 | ★☆☆☆☆ | [#15434](https://github.com/langfuse/langfuse/issues/15434) feat(seeder): add `pnpm run seed -- env` subcommand to list environments + trace counts | feat-cli | 1 | 2026-07-24 |
-| ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feature | 11 | 2026-07-24 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-25 05:49 UTC, took **51.7s**, **107** GitHub API calls, **4967/5000** rate limit remaining._
+_Last run: 2026-07-25 06:36 UTC, took **54.5s**, **107** GitHub API calls, **4861/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
