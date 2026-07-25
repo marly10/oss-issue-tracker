@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-25 07:28 UTC_
+_Last updated: 2026-07-25 08:18 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, affects_2.20 | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87272](https://github.com/ansible/ansible/issues/87272) connection/ssh.py: fragile test in _bare_run() breaks sftp/scp | bug, has_pr, affects_2.21 | 3 | 2026-07-21 |
 | ★★☆☆☆ | [#87271](https://github.com/ansible/ansible/issues/87271) ansible-galaxy gives misleading error message when collection does not exist | bug, has_pr, affects_2.21 | 2 | 2026-07-21 |
-| ★★☆☆☆ | [#87100](https://github.com/ansible/ansible/issues/87100) Role search path implicitly includes working directory of ansible-playbook command | bug, has_pr, needs_verified, affects_2.20 | 4 | 2026-07-20 |
+| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 35 | 2026-07-25 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, feature, P3, affects_2.11, security | 7 | 2026-07-22 |
 | ★☆☆☆☆ | [#84451](https://github.com/ansible/ansible/issues/84451) Register `faulthandler` for all python processes | feature | 3 | 2026-07-21 |
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-25 07:27 UTC, took **53.9s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-25 08:17 UTC, took **57.7s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
