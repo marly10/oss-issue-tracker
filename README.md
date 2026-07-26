@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-26 05:04 UTC_
+_Last updated: 2026-07-26 06:12 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,6 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 0 | 2026-07-26 |
 | ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
 | ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
 | ★★☆☆☆ | [#15436](https://github.com/langfuse/langfuse/issues/15436) Dataset suggestion: REFUTE (scientific critique + calibration, judge-free axes) | Datasets, feat-datasets, feat-evals | 0 | 2026-07-24 |
@@ -208,7 +209,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 1 | 2026-07-25 |
 | ★☆☆☆☆ | [#15280](https://github.com/langfuse/langfuse/issues/15280) bug(sdk-python): empty-string credentials silently bypass auth-disable guard; malformed media reference string crashes with raw unpack error | — | 2 | 2026-07-25 |
 | ★☆☆☆☆ | [#14238](https://github.com/langfuse/langfuse/issues/14238) Feature request: import/export portable Playground draft snapshots | feat-prompt-management, feat-playground, feat-prompt-experiments, improvement, feat-exports, stale | 2 | 2026-07-25 |
-| ★☆☆☆☆ | [#15434](https://github.com/langfuse/langfuse/issues/15434) feat(seeder): add `pnpm run seed -- env` subcommand to list environments + trace counts | feat-cli | 1 | 2026-07-24 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-26 05:04 UTC, took **53.6s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-26 06:11 UTC, took **50.9s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
