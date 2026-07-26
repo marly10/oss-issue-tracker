@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-26 07:59 UTC_
+_Last updated: 2026-07-26 08:55 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,9 +201,9 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 0 | 2026-07-26 |
 | ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
 | ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
-| ★★☆☆☆ | [#15436](https://github.com/langfuse/langfuse/issues/15436) Dataset suggestion: REFUTE (scientific critique + calibration, judge-free axes) | Datasets, feat-datasets, feat-evals | 0 | 2026-07-24 |
 | ★☆☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 1 | 2026-07-26 |
 | ★☆☆☆☆ | [#12337](https://github.com/langfuse/langfuse/issues/12337) Support OTEL Span Links | sdk-python, sdk-js, feat-otel | 3 | 2026-07-26 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 1 | 2026-07-25 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-26 07:58 UTC, took **61.0s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-26 08:54 UTC, took **54.4s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
