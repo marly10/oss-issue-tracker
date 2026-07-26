@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-26 06:12 UTC_
+_Last updated: 2026-07-26 07:11 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -137,9 +137,9 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, has_pr, affects_2.20 | 1 | 2026-07-26 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 2 | 2026-07-26 |
 | ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, affects_2.21 | 1 | 2026-07-25 |
-| ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, affects_2.20 | 1 | 2026-07-23 |
 | ★★☆☆☆ | [#87272](https://github.com/ansible/ansible/issues/87272) connection/ssh.py: fragile test in _bare_run() breaks sftp/scp | bug, has_pr, affects_2.21 | 3 | 2026-07-21 |
 | ★★☆☆☆ | [#87271](https://github.com/ansible/ansible/issues/87271) ansible-galaxy gives misleading error message when collection does not exist | bug, has_pr, affects_2.21 | 2 | 2026-07-21 |
 | ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 4 | 2026-07-25 |
@@ -201,10 +201,10 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 0 | 2026-07-26 |
 | ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
 | ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
 | ★★☆☆☆ | [#15436](https://github.com/langfuse/langfuse/issues/15436) Dataset suggestion: REFUTE (scientific critique + calibration, judge-free axes) | Datasets, feat-datasets, feat-evals | 0 | 2026-07-24 |
+| ★☆☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 1 | 2026-07-26 |
 | ★☆☆☆☆ | [#12337](https://github.com/langfuse/langfuse/issues/12337) Support OTEL Span Links | sdk-python, sdk-js, feat-otel | 3 | 2026-07-26 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 1 | 2026-07-25 |
 | ★☆☆☆☆ | [#15280](https://github.com/langfuse/langfuse/issues/15280) bug(sdk-python): empty-string credentials silently bypass auth-disable guard; malformed media reference string crashes with raw unpack error | — | 2 | 2026-07-25 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-26 06:11 UTC, took **50.9s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-26 07:10 UTC, took **53.1s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
