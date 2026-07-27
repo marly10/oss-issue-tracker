@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 14:41 UTC_
+_Last updated: 2026-07-27 15:39 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87303](https://github.com/ansible/ansible/issues/87303) `ansible.builtin.rpm_key` fails on openSUSE Tumbleweed with `Unable to parse PGP key armor`. | module, needs_triage, bug, affects_2.21 | 5 | 2026-07-27 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, has_pr, affects_2.20 | 1 | 2026-07-26 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
 | ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 4 | 2026-07-25 |
-| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 35 | 2026-07-25 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 14:40 UTC, took **57.3s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-27 15:38 UTC, took **55.5s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
