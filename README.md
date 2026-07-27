@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 15:39 UTC_
+_Last updated: 2026-07-27 16:32 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87303](https://github.com/ansible/ansible/issues/87303) `ansible.builtin.rpm_key` fails on openSUSE Tumbleweed with `Unable to parse PGP key armor`. | module, needs_triage, bug, affects_2.21 | 5 | 2026-07-27 |
+| ★★☆☆☆ | [#87303](https://github.com/ansible/ansible/issues/87303) `ansible.builtin.rpm_key` fails on openSUSE Tumbleweed with `Unable to parse PGP key armor`. | module, needs_triage, bug, has_pr, affects_2.21 | 6 | 2026-07-27 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#87228](https://github.com/ansible/ansible/issues/87228) powershell exec_wrapper fails when multiple powershell.exe entries are found in PATH | bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
@@ -202,13 +202,13 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15455](https://github.com/langfuse/langfuse/issues/15455) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-27 |
+| ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
 | ★★☆☆☆ | [#13880](https://github.com/langfuse/langfuse/issues/13880) bug: Redis Sentinel connections permanently broken after data node failover (missing sentinelRetryStrategy) | bug, self-hosting, infra | 7 | 2026-07-27 |
-| ★☆☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | 🐞❔ unconfirmed bug, self-hosting, infra | 6 | 2026-07-27 |
+| ★☆☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | 🐞❔ unconfirmed bug, self-hosting, infra | 7 | 2026-07-27 |
 | ★☆☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 1 | 2026-07-27 |
 | ★☆☆☆☆ | [#9429](https://github.com/langfuse/langfuse/issues/9429) The each agent input is not tracing properly in langfuse dashboard. | improvement, stale | 7 | 2026-07-27 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-26 |
 | ★☆☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 1 | 2026-07-26 |
-| ★☆☆☆☆ | [#12337](https://github.com/langfuse/langfuse/issues/12337) Support OTEL Span Links | sdk-python, sdk-js, feat-otel | 3 | 2026-07-26 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 15:38 UTC, took **55.5s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-27 16:31 UTC, took **72.8s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
