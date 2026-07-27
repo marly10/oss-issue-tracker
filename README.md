@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 21:40 UTC_
+_Last updated: 2026-07-27 22:08 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -207,8 +207,8 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
 | ★★☆☆☆ | [#13880](https://github.com/langfuse/langfuse/issues/13880) bug: Redis Sentinel connections permanently broken after data node failover (missing sentinelRetryStrategy) | bug, self-hosting, infra | 7 | 2026-07-27 |
+| ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-27 |
 | ★☆☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | 🐞❔ unconfirmed bug, self-hosting, infra | 8 | 2026-07-27 |
-| ★☆☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 1 | 2026-07-27 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 21:39 UTC, took **53.4s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-27 22:07 UTC, took **55.1s**, **107** GitHub API calls, **4682/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
