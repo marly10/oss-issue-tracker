@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 06:28 UTC_
+_Last updated: 2026-07-27 07:46 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,8 +201,8 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#15455](https://github.com/langfuse/langfuse/issues/15455) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-27 |
 | ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
-| ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
 | ★☆☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 1 | 2026-07-27 |
 | ★☆☆☆☆ | [#9429](https://github.com/langfuse/langfuse/issues/9429) The each agent input is not tracing properly in langfuse dashboard. | improvement, stale | 7 | 2026-07-27 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-26 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 06:27 UTC, took **72.9s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-27 07:45 UTC, took **59.6s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
