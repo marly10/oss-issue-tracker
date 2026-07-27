@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 21:13 UTC_
+_Last updated: 2026-07-27 21:40 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -202,13 +202,13 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15455](https://github.com/langfuse/langfuse/issues/15455) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-27 |
+| ★★☆☆☆ | [#15509](https://github.com/langfuse/langfuse/issues/15509) bug(worker): worker silently stops consuming all queues after Redis lock loss (FLUSHALL / eviction) — stays 'healthy', needs manual restart | bug, self-hosting, infra | 1 | 2026-07-27 |
 | ★★☆☆☆ | [#15506](https://github.com/langfuse/langfuse/issues/15506) bug: code evaluator docs show `data_type`/`dataType` as equivalent, but a plain dict return requires camelCase in both languages | bug, 🐞❔ unconfirmed bug | 1 | 2026-07-27 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
 | ★★☆☆☆ | [#13880](https://github.com/langfuse/langfuse/issues/13880) bug: Redis Sentinel connections permanently broken after data node failover (missing sentinelRetryStrategy) | bug, self-hosting, infra | 7 | 2026-07-27 |
 | ★☆☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | 🐞❔ unconfirmed bug, self-hosting, infra | 8 | 2026-07-27 |
 | ★☆☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 1 | 2026-07-27 |
-| ★☆☆☆☆ | [#9429](https://github.com/langfuse/langfuse/issues/9429) The each agent input is not tracing properly in langfuse dashboard. | improvement, stale | 7 | 2026-07-27 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 21:12 UTC, took **60.2s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-27 21:39 UTC, took **53.4s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
