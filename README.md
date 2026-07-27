@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-27 01:36 UTC_
+_Last updated: 2026-07-27 02:33 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -204,11 +204,11 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#15445](https://github.com/langfuse/langfuse/issues/15445) feat(admin-api): List all organizations belonging to a user by email | feat-api, feat-rbac, feat-org-api | 0 | 2026-07-26 |
 | ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-25 |
 | ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-25 |
+| ★☆☆☆☆ | [#9429](https://github.com/langfuse/langfuse/issues/9429) The each agent input is not tracing properly in langfuse dashboard. | improvement, stale | 7 | 2026-07-27 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-26 |
 | ★☆☆☆☆ | [#15443](https://github.com/langfuse/langfuse/issues/15443) feat(public-api): add DELETE /api/public/comments/{commentId} endpoint | feat-api, feat-comments | 1 | 2026-07-26 |
 | ★☆☆☆☆ | [#12337](https://github.com/langfuse/langfuse/issues/12337) Support OTEL Span Links | sdk-python, sdk-js, feat-otel | 3 | 2026-07-26 |
 | ★☆☆☆☆ | [#15280](https://github.com/langfuse/langfuse/issues/15280) bug(sdk-python): empty-string credentials silently bypass auth-disable guard; malformed media reference string crashes with raw unpack error | — | 2 | 2026-07-25 |
-| ★☆☆☆☆ | [#14238](https://github.com/langfuse/langfuse/issues/14238) Feature request: import/export portable Playground draft snapshots | feat-prompt-management, feat-playground, feat-prompt-experiments, improvement, feat-exports, stale | 2 | 2026-07-25 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-27 01:36 UTC, took **58.1s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-27 02:32 UTC, took **55.0s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
