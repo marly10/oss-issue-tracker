@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 11:06 UTC_
+_Last updated: 2026-07-28 11:49 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
-| ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, plugins, files | 4 | 2026-07-28 |
+| ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
@@ -249,12 +249,12 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#12244](https://github.com/prometheus/prometheus/issues/12244) Swarm Task SD container labels missing | help wanted, kind/bug, component/service discovery | 3 | 2026-07-28 |
 | ★★★☆☆ | [#14824](https://github.com/prometheus/prometheus/issues/14824) PromQL: Need richer label matcher logic (or apply matchers to expressions?) | help wanted, priority/Pmaybe, component/promql, not-as-easy-as-it-looks, kind/feature | 8 | 2026-07-27 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 7 | 2026-07-22 |
 | ★★★☆☆ | [#14763](https://github.com/prometheus/prometheus/issues/14763) Start Timestamp: Opt-in ST auto-generation globally/per scrape job. | help wanted, kind/feature | 3 | 2026-07-14 |
 | ★★★☆☆ | [#14057](https://github.com/prometheus/prometheus/issues/14057) Add relabeling action that drops sample if any label matches pattern | help wanted, component/config, priority/P3, kind/feature | 4 | 2026-07-08 |
 | ★★★☆☆ | [#16176](https://github.com/prometheus/prometheus/issues/16176) TestDBReadOnly_Querier_NoAlteration is flaky on Windows | help wanted, component/tests | 5 | 2026-07-08 |
-| ★★★☆☆ | [#16513](https://github.com/prometheus/prometheus/issues/16513) Idea: store scrape cache as a trie instead of a map. | help wanted, kind/enhancement, component/scraping | 10 | 2026-07-08 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 11:05 UTC, took **59.7s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-07-28 11:48 UTC, took **77.2s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
