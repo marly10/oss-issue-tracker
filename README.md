@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 13:47 UTC_
+_Last updated: 2026-07-28 14:41 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,6 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15534](https://github.com/langfuse/langfuse/issues/15534) Consider `X-Forwarded-Host` header for MCP Server | integration-mcp-server, feature | 0 | 2026-07-28 |
 | ★★☆☆☆ | [#12069](https://github.com/langfuse/langfuse/issues/12069) bug: python SDK run_dataset lets item metadata overwrite run metadata | bug | 3 | 2026-07-28 |
 | ★★☆☆☆ | [#14710](https://github.com/langfuse/langfuse/issues/14710) bug: No option in UI to run on live traces when setting up LLM as a judge evaluators | bug, docs, feat-evals, langfuse/langfuse | 2 | 2026-07-28 |
 | ★★☆☆☆ | [#14454](https://github.com/langfuse/langfuse/issues/14454) bug: experiments tab missing some score table columns | bug, tables, feat-experiments | 1 | 2026-07-28 |
@@ -208,7 +209,6 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#13592](https://github.com/langfuse/langfuse/issues/13592) bug: silent data loss in IngestionService.processDatasetRunItemEventList when run/item lookup returns null | bug, feat-datasets, feat-ingestion | 5 | 2026-07-28 |
 | ★★☆☆☆ | [#15529](https://github.com/langfuse/langfuse/issues/15529) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 1 | 2026-07-28 |
 | ★☆☆☆☆ | [#12938](https://github.com/langfuse/langfuse/issues/12938) feat: Prevent same traces to be added to the same Human annotation queue multiple times | feature | 4 | 2026-07-28 |
-| ★☆☆☆☆ | [#12785](https://github.com/langfuse/langfuse/issues/12785) feat: expose dataset item input in experiment evaluator variable mapping | docs, feat-datasets, feat-evals, feature | 11 | 2026-07-28 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 13:46 UTC, took **69.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-07-28 14:39 UTC, took **105.4s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
