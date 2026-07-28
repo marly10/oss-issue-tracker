@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 07:32 UTC_
+_Last updated: 2026-07-28 08:26 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15506](https://github.com/langfuse/langfuse/issues/15506) bug: code evaluator docs show `data_type`/`dataType` as equivalent, but a plain dict return requires camelCase in both languages | bug, 🐞❔ unconfirmed bug | 1 | 2026-07-28 |
 | ★★☆☆☆ | [#15509](https://github.com/langfuse/langfuse/issues/15509) bug(worker): worker silently stops consuming all queues after Redis lock loss (FLUSHALL / eviction) — stays 'healthy', needs manual restart | bug, self-hosting, infra | 2 | 2026-07-28 |
 | ★★☆☆☆ | [#9379](https://github.com/langfuse/langfuse/issues/9379) bug: typescript build for node: error TS2708: Cannot use namespace 'ScoreV1' as a value. | bug, sdk-js | 9 | 2026-07-28 |
-| ★★☆☆☆ | [#15506](https://github.com/langfuse/langfuse/issues/15506) bug: code evaluator docs show `data_type`/`dataType` as equivalent, but a plain dict return requires camelCase in both languages | bug, 🐞❔ unconfirmed bug | 1 | 2026-07-27 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
-| ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | stale | 6 | 2026-07-28 |
+| ★★☆☆☆ | [#13880](https://github.com/langfuse/langfuse/issues/13880) bug: Redis Sentinel connections permanently broken after data node failover (missing sentinelRetryStrategy) | bug, self-hosting, infra | 7 | 2026-07-27 |
+| ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | sdk-python, integration-otel, stale | 6 | 2026-07-28 |
 | ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-27 |
-| ★☆☆☆☆ | [#15223](https://github.com/langfuse/langfuse/issues/15223) bug: web and worker don't connect to Redis-Sentinel | 🐞❔ unconfirmed bug, self-hosting, infra | 8 | 2026-07-27 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 07:31 UTC, took **66.3s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
+_Last run: 2026-07-28 08:25 UTC, took **61.0s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
