@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 18:38 UTC_
+_Last updated: 2026-07-28 19:06 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 6 | 2026-07-25 |
 | ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
-| ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, plugins | 2 | 2026-07-28 |
+| ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 | ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 18:37 UTC, took **61.1s**, **107** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-28 19:05 UTC, took **65.8s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
