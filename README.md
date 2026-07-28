@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 06:35 UTC_
+_Last updated: 2026-07-28 07:32 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
 | ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★★☆☆☆ | [#11331](https://github.com/ansible-collections/community.general/issues/11331) btrfs mountpoint scan does not account for symlinks | bug, module, has_pr, plugins | 6 | 2026-07-12 |
-| ★★☆☆☆ | [#12388](https://github.com/ansible-collections/community.general/issues/12388) consul_kv: deprecate and remove get_value | bug, module, plugins | 2 | 2026-07-12 |
+| ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, plugins, files | 4 | 2026-07-28 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 12 | 2026-07-13 |
 | ★☆☆☆☆ | [#12029](https://github.com/ansible-collections/community.general/issues/12029) Deprecate xml module's `print_match`, `count`, and `content` options | feature, module, has_pr, plugins | 3 | 2026-07-13 |
@@ -201,8 +201,8 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15509](https://github.com/langfuse/langfuse/issues/15509) bug(worker): worker silently stops consuming all queues after Redis lock loss (FLUSHALL / eviction) — stays 'healthy', needs manual restart | bug, self-hosting, infra | 2 | 2026-07-28 |
 | ★★☆☆☆ | [#9379](https://github.com/langfuse/langfuse/issues/9379) bug: typescript build for node: error TS2708: Cannot use namespace 'ScoreV1' as a value. | bug, sdk-js | 9 | 2026-07-28 |
-| ★★☆☆☆ | [#15509](https://github.com/langfuse/langfuse/issues/15509) bug(worker): worker silently stops consuming all queues after Redis lock loss (FLUSHALL / eviction) — stays 'healthy', needs manual restart | bug, self-hosting, infra | 1 | 2026-07-27 |
 | ★★☆☆☆ | [#15506](https://github.com/langfuse/langfuse/issues/15506) bug: code evaluator docs show `data_type`/`dataType` as equivalent, but a plain dict return requires camelCase in both languages | bug, 🐞❔ unconfirmed bug | 1 | 2026-07-27 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 06:34 UTC, took **54.7s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-07-28 07:31 UTC, took **66.3s**, **107** GitHub API calls, **4788/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
