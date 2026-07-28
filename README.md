@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-28 11:49 UTC_
+_Last updated: 2026-07-28 12:27 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15455](https://github.com/langfuse/langfuse/issues/15455) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-27 |
-| ★★☆☆☆ | [#15509](https://github.com/langfuse/langfuse/issues/15509) bug(worker): worker silently stops consuming all queues after Redis lock loss (FLUSHALL / eviction) — stays 'healthy', needs manual restart | bug, self-hosting, infra | 2 | 2026-07-28 |
-| ★★☆☆☆ | [#9379](https://github.com/langfuse/langfuse/issues/9379) bug: typescript build for node: error TS2708: Cannot use namespace 'ScoreV1' as a value. | bug, sdk-js | 9 | 2026-07-28 |
-| ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 3 | 2026-07-27 |
-| ★★☆☆☆ | [#14418](https://github.com/langfuse/langfuse/issues/14418) Observation-level LLM-as-a-judge evaluators fail (or not triggering) | bug, feat-evals, self-hosting, langfuse/langfuse | 6 | 2026-07-27 |
-| ★★☆☆☆ | [#13880](https://github.com/langfuse/langfuse/issues/13880) bug: Redis Sentinel connections permanently broken after data node failover (missing sentinelRetryStrategy) | bug, self-hosting, infra | 7 | 2026-07-27 |
+| ★★☆☆☆ | [#13592](https://github.com/langfuse/langfuse/issues/13592) bug: silent data loss in IngestionService.processDatasetRunItemEventList when run/item lookup returns null | bug, feat-datasets, feat-ingestion | 5 | 2026-07-28 |
+| ★★☆☆☆ | [#15529](https://github.com/langfuse/langfuse/issues/15529) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 1 | 2026-07-28 |
+| ★★☆☆☆ | [#13651](https://github.com/langfuse/langfuse/issues/13651) Use `langchain_core.__version__` instead of requiring the langchain umbrella package as a version sentinel in CallbackHandler | bug, sdk-python, integrations, integration-langchain | 2 | 2026-07-28 |
+| ★★☆☆☆ | [#1050](https://github.com/langfuse/langfuse/issues/1050) bug: Writing the same trace_id to different projects will result in an error. | bug, prio-high, stale | 6 | 2026-07-28 |
+| ★★☆☆☆ | [#518](https://github.com/langfuse/langfuse/issues/518) bug: Langflow received 404 error from langfuse when sending traces | bug, prio-medium, sdk-python, integrations, self-hosting, integration-langflow, feat-tracing | 1 | 2026-07-28 |
+| ★★☆☆☆ | [#13893](https://github.com/langfuse/langfuse/issues/13893) bug: Username/Password fields still render on Invitation page when AUTH_DISABLE_USERNAME_PASSWORD=true | bug, feat-auth, self-hosting | 9 | 2026-07-28 |
+| ★☆☆☆☆ | [#12785](https://github.com/langfuse/langfuse/issues/12785) feat: expose dataset item input in experiment evaluator variable mapping | docs, feat-datasets, feat-evals, feature | 11 | 2026-07-28 |
 | ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | sdk-python, integration-otel, stale | 6 | 2026-07-28 |
-| ★☆☆☆☆ | [#15372](https://github.com/langfuse/langfuse/issues/15372) bug(sdk-js): mask is silently skipped for third-party OTel instrumentation spans - PII can reach the API unmasked | 🐞❔ unconfirmed bug | 2 | 2026-07-27 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-28 11:48 UTC, took **77.2s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-07-28 12:26 UTC, took **78.3s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
