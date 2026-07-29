@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 12:00 UTC_
+_Last updated: 2026-07-29 12:52 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87323](https://github.com/ansible/ansible/issues/87323) Inventory toml output fail with TypeError: Object of type 'NoneType' is not TOML serializable | needs_triage, bug | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, has_pr, affects_2.20 | 1 | 2026-07-26 |
+| ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 1 | 2026-07-29 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
-| ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 4 | 2026-07-25 |
-| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 35 | 2026-07-25 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -201,13 +201,13 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#15529](https://github.com/langfuse/langfuse/issues/15529) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 2 | 2026-07-29 |
+| ★★★☆☆ | [#15553](https://github.com/langfuse/langfuse/issues/15553) bug: traces table score filters aggregate every score name in the project, exhausting ClickHouse memory | bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 0 | 2026-07-29 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 4 | 2026-07-29 |
-| ★★☆☆☆ | [#12069](https://github.com/langfuse/langfuse/issues/12069) bug: python SDK run_dataset lets item metadata overwrite run metadata | bug | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#14525](https://github.com/langfuse/langfuse/issues/14525) bug: Dataset run shows "Failed to start dataset run" error on first click despite backend creating the run successfully, causing duplicate run on retry | bug, feat-datasets | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
+| ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations, stale | 9 | 2026-07-29 |
 | ★☆☆☆☆ | [#15534](https://github.com/langfuse/langfuse/issues/15534) Consider `X-Forwarded-Host` header for MCP Server | integration-mcp-server, feature | 1 | 2026-07-29 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 11:59 UTC, took **64.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-29 12:50 UTC, took **73.5s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
