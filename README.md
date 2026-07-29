@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 19:44 UTC_
+_Last updated: 2026-07-29 20:13 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
-| ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, has_pr, affects_2.20 | 1 | 2026-07-26 |
+| ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
 | ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
 
@@ -201,7 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15553](https://github.com/langfuse/langfuse/issues/15553) bug: traces table score filters aggregate every score name in the project, exhausting ClickHouse memory | bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 0 | 2026-07-29 |
+| ★★☆☆☆ | [#15602](https://github.com/langfuse/langfuse/issues/15602) bug: widget failing to load after updating to v3.224.2 | bug, 🐞❔ unconfirmed bug, feat-scores, self-hosting, langfuse/langfuse, infra, [Core] ClickHouse database | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 5 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#15549](https://github.com/langfuse/langfuse/issues/15549) Dashboard widget API hard-codes minVersion=2 → API-created widgets always 500 without v4 write mode | bug, feat-api, feat-dashboard, feat-mcp | 1 | 2026-07-29 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 19:43 UTC, took **58.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-29 20:12 UTC, took **61.0s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
