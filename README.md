@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 20:13 UTC_
+_Last updated: 2026-07-29 20:35 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,7 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#15602](https://github.com/langfuse/langfuse/issues/15602) bug: widget failing to load after updating to v3.224.2 | bug, 🐞❔ unconfirmed bug, feat-scores, self-hosting, langfuse/langfuse, infra, [Core] ClickHouse database | 1 | 2026-07-29 |
+| ★★☆☆☆ | [#15602](https://github.com/langfuse/langfuse/issues/15602) bug: widget failing to load after updating to v3.224.2 | bug, 🐞❔ unconfirmed bug, feat-scores, self-hosting, langfuse/langfuse, infra, [Core] ClickHouse database | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 5 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#15549](https://github.com/langfuse/langfuse/issues/15549) Dashboard widget API hard-codes minVersion=2 → API-created widgets always 500 without v4 write mode | bug, feat-api, feat-dashboard, feat-mcp | 1 | 2026-07-29 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 20:12 UTC, took **61.0s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-29 20:34 UTC, took **54.6s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
