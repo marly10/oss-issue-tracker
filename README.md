@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 22:34 UTC_
+_Last updated: 2026-07-29 22:58 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
-| ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
+| ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 27 | 2026-07-29 |
 | ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
 | ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 22:33 UTC, took **68.0s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-29 22:58 UTC, took **52.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
