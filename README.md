@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 11:15 UTC_
+_Last updated: 2026-07-29 12:00 UTC_
 
-_Tracking **18** upstream repos, **388** relevant open issues._
+_Tracking **18** upstream repos, **389** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -201,7 +201,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15553](https://github.com/langfuse/langfuse/issues/15553) bug: traces table score filters aggregate every score name in the project, exhausting ClickHouse memory | bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 0 | 2026-07-29 |
+| ★★☆☆☆ | [#15529](https://github.com/langfuse/langfuse/issues/15529) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 4 | 2026-07-29 |
@@ -267,6 +267,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
+| ★★☆☆☆ | [#826](https://github.com/splunk/splunk-sdk-python/issues/826) splunklib.ai broken by mcp 2.0.0 — 'ai' extra needs an mcp<2 cap (Server.list_tools removed) | — | 0 | 2026-07-29 |
 | ★★☆☆☆ | [#785](https://github.com/splunk/splunk-sdk-python/issues/785) Splunk core -> python3.13 | — | 0 | 2026-05-13 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-04-08 |
 | ★★☆☆☆ | [#687](https://github.com/splunk/splunk-sdk-python/issues/687) Custom command have high CPU load / RAM usage | bug, Custom Search Commands | 1 | 2026-03-20 |
@@ -294,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 11:14 UTC, took **57.8s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-29 11:59 UTC, took **64.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
