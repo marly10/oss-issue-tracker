@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 10:24 UTC_
+_Last updated: 2026-07-29 11:15 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -202,13 +202,13 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15553](https://github.com/langfuse/langfuse/issues/15553) bug: traces table score filters aggregate every score name in the project, exhausting ClickHouse memory | bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 0 | 2026-07-29 |
+| ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 4 | 2026-07-29 |
 | ★★☆☆☆ | [#12069](https://github.com/langfuse/langfuse/issues/12069) bug: python SDK run_dataset lets item metadata overwrite run metadata | bug | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#14525](https://github.com/langfuse/langfuse/issues/14525) bug: Dataset run shows "Failed to start dataset run" error on first click despite backend creating the run successfully, causing duplicate run on retry | bug, feat-datasets | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
 | ★☆☆☆☆ | [#15534](https://github.com/langfuse/langfuse/issues/15534) Consider `X-Forwarded-Host` header for MCP Server | integration-mcp-server, feature | 1 | 2026-07-29 |
-| ★☆☆☆☆ | [#13218](https://github.com/langfuse/langfuse/issues/13218) feat: better comparison for experiment item actual vs expected output  | feat-datasets, tables, feature | 3 | 2026-07-29 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 10:23 UTC, took **66.7s**, **108** GitHub API calls, **4787/5000** rate limit remaining._
+_Last run: 2026-07-29 11:14 UTC, took **57.8s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
