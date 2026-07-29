@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 13:28 UTC_
+_Last updated: 2026-07-29 14:19 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -109,9 +109,9 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
-| ★☆☆☆☆ | [#1176](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1176) Add GKE host type detection to the GCP detector | — | 6 | 2026-07-28 |
 | ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
 | ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
+| ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
 
 ### [GoogleCloudPlatform/opentelemetry-operations-python](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python)
 
@@ -124,11 +124,11 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, plugins | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 10 | 2026-07-28 |
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 6 | 2026-07-25 |
 | ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
-| ★★☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | bug, module, plugins | 2 | 2026-07-20 |
 | ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 | ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: Option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-07-22 |
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-26 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, needs_triage, bug, has_pr, affects_2.20 | 1 | 2026-07-26 |
-| ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 1 | 2026-07-29 |
+| ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -207,8 +207,8 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 4 | 2026-07-29 |
 | ★★☆☆☆ | [#14525](https://github.com/langfuse/langfuse/issues/14525) bug: Dataset run shows "Failed to start dataset run" error on first click despite backend creating the run successfully, causing duplicate run on retry | bug, feat-datasets | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
-| ★☆☆☆☆ | [#15534](https://github.com/langfuse/langfuse/issues/15534) Consider `X-Forwarded-Host` header for MCP Server | integration-mcp-server, feature | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations, stale | 9 | 2026-07-29 |
+| ★☆☆☆☆ | [#13218](https://github.com/langfuse/langfuse/issues/13218) feat: better comparison for experiment item actual vs expected output  | feat-datasets, tables, feature | 3 | 2026-07-29 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 13:27 UTC, took **62.8s**, **107** GitHub API calls, **4787/5000** rate limit remaining._
+_Last run: 2026-07-29 14:18 UTC, took **60.8s**, **107** GitHub API calls, **4894/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
