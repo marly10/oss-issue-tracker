@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-29 06:36 UTC_
+_Last updated: 2026-07-29 07:35 UTC_
 
-_Tracking **18** upstream repos, **389** relevant open issues._
+_Tracking **18** upstream repos, **388** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -201,12 +201,12 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#15549](https://github.com/langfuse/langfuse/issues/15549) Dashboard widget API hard-codes minVersion=2 → API-created widgets always 500 without v4 write mode | bug, feat-api, feat-dashboard, feat-mcp | 0 | 2026-07-29 |
 | ★★☆☆☆ | [#14427](https://github.com/langfuse/langfuse/issues/14427) OTEL ingestion replay fails when LANGFUSE_S3_EVENT_UPLOAD_PREFIX is set — observations cannot be recovered from S3 | bug, self-hosting, integration-otel, feat-otel, stale, integration-s3, infra, feat-ingestion | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#15546](https://github.com/langfuse/langfuse/issues/15546) Question: Best practices for organizing AI prompts? | question | 0 | 2026-07-28 |
 | ★★☆☆☆ | [#15534](https://github.com/langfuse/langfuse/issues/15534) Consider `X-Forwarded-Host` header for MCP Server | integration-mcp-server, feature | 0 | 2026-07-28 |
 | ★★☆☆☆ | [#12069](https://github.com/langfuse/langfuse/issues/12069) bug: python SDK run_dataset lets item metadata overwrite run metadata | bug | 3 | 2026-07-28 |
 | ★★☆☆☆ | [#14710](https://github.com/langfuse/langfuse/issues/14710) bug: No option in UI to run on live traces when setting up LLM as a judge evaluators | bug, docs, feat-evals, langfuse/langfuse | 2 | 2026-07-28 |
-| ★★☆☆☆ | [#14454](https://github.com/langfuse/langfuse/issues/14454) bug: experiments tab missing some score table columns | bug, tables, feat-experiments | 1 | 2026-07-28 |
 | ★☆☆☆☆ | [#14615](https://github.com/langfuse/langfuse/issues/14615) bug(sdk-python): create_score silently swallows ValidationError when name or value is None | stale | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#12938](https://github.com/langfuse/langfuse/issues/12938) feat: Prevent same traces to be added to the same Human annotation queue multiple times | feature | 4 | 2026-07-28 |
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-29 06:35 UTC, took **62.6s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-29 07:33 UTC, took **72.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
