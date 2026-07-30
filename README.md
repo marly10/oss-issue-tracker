@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 13:26 UTC_
+_Last updated: 2026-07-30 14:16 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -141,10 +141,10 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
+| ★☆☆☆☆ | [#87327](https://github.com/ansible/ansible/issues/87327) Gracefully terminate remote process trees when an ansible execution is interrupted | module, needs_triage, feature | 1 | 2026-07-30 |
 | ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 28 | 2026-07-30 |
 | ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
 | ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 2 | 2026-07-29 |
-| ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, P3, verified, affects_2.18 | 22 | 2026-07-26 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra, Migrated | 0 | 2026-07-30 |
+| ★★★☆☆ | [#15632](https://github.com/langfuse/langfuse/issues/15632) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-30 |
 | ★★★☆☆ | [#15631](https://github.com/langfuse/langfuse/issues/15631) UI Bug: Missing scrollbar in dataset view for long text cells | bug, 🐞❔ unconfirmed bug, feat-datasets, tables | 0 | 2026-07-30 |
 | ★★★☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 0 | 2026-07-30 |
+| ★★☆☆☆ | [#15636](https://github.com/langfuse/langfuse/issues/15636) bug: GET /api/public/v2/observations silently ignores the sessionId query parameter | bug, feat-api, integration-otel, langfuse/langfuse, Public | 1 | 2026-07-30 |
+| ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 4 | 2026-07-30 |
 | ★★☆☆☆ | [#15617](https://github.com/langfuse/langfuse/issues/15617) bug: Blob Storage export: object keys truncated to whole seconds cause silent overwrite / data loss | bug, 🐞❔ unconfirmed bug, feat-exports, integration-s3, feat-blob-storage-export | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#12888](https://github.com/langfuse/langfuse/issues/12888) bug: Run experiment modal does not display error to the user | bug | 4 | 2026-07-30 |
-| ★★☆☆☆ | [#11550](https://github.com/langfuse/langfuse/issues/11550) bug: OTLP endpoint violates spec by returning application/json response when request uses application/x-protobuf | bug, self-hosting, integration-otel, stale | 6 | 2026-07-30 |
-| ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
-| ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, infra | 2 | 2026-07-30 |
-| ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations | 9 | 2026-07-30 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 13:25 UTC, took **75.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-07-30 14:15 UTC, took **68.7s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
