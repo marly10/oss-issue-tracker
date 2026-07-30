@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 12:11 UTC_
+_Last updated: 2026-07-30 12:51 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
 | ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 6 | 2026-07-25 |
 | ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol hangs when snapshot already exists | bug, module, plugins | 2 | 2026-07-23 |
-| ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 11 | 2026-07-29 |
+| ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
 | ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 | ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 12:10 UTC, took **60.2s**, **107** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-30 12:50 UTC, took **58.9s**, **107** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
