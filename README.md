@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 18:00 UTC_
+_Last updated: 2026-07-30 18:39 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -137,10 +137,10 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 3 | 2026-07-30 |
 | ★★☆☆☆ | [#87323](https://github.com/ansible/ansible/issues/87323) Inventory toml output fail with TypeError: Object of type 'NoneType' is not TOML serializable | needs_triage, bug | 4 | 2026-07-29 |
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#85773](https://github.com/ansible/ansible/issues/85773) Breaking behavior when using `default()` after a deepcopy | bug, P3, data_tagging, affects_2.19 | 2 | 2026-07-27 |
-| ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | needs_triage, bug | 3 | 2026-07-27 |
 | ★☆☆☆☆ | [#87327](https://github.com/ansible/ansible/issues/87327) Forcefully terminate remote process trees when an ansible execution is interrupted | module, needs_triage, feature | 1 | 2026-07-30 |
 | ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 28 | 2026-07-30 |
 | ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
@@ -201,11 +201,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15632](https://github.com/langfuse/langfuse/issues/15632) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-30 |
-| ★★★☆☆ | [#15631](https://github.com/langfuse/langfuse/issues/15631) UI Bug: Missing scrollbar in dataset view for long text cells | bug, 🐞❔ unconfirmed bug, feat-datasets, tables | 0 | 2026-07-30 |
-| ★★☆☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra, Migrated | 5 | 2026-07-30 |
+| ★★☆☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra | 7 | 2026-07-30 |
+| ★★☆☆☆ | [#12974](https://github.com/langfuse/langfuse/issues/12974) Langfuse parent span lost in flushing to server; resulting in broken traces and spans | bug | 2 | 2026-07-30 |
+| ★★☆☆☆ | [#13792](https://github.com/langfuse/langfuse/issues/13792) bug: Langfuse cost tracking for gemini-2.5-flash does not match Google Cloud billing | bug, feat-llm-cost-tracking, feat-otel, billing | 2 | 2026-07-30 |
+| ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-30 |
 | ★★☆☆☆ | [#15636](https://github.com/langfuse/langfuse/issues/15636) bug: GET /api/public/v2/observations silently ignores the sessionId query parameter | bug, feat-api, integration-otel, langfuse/langfuse, Public | 1 | 2026-07-30 |
-| ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 4 | 2026-07-30 |
 | ★☆☆☆☆ | [#15647](https://github.com/langfuse/langfuse/issues/15647) [aw] Weekly CI runtime analyst failed | CI, agentic-workflows | 1 | 2026-07-30 |
 | ★☆☆☆☆ | [#15640](https://github.com/langfuse/langfuse/issues/15640) [aw] Weekly CI runtime analyst is missing required tool | CI, agentic-workflows | 3 | 2026-07-30 |
 | ★☆☆☆☆ | [#15642](https://github.com/langfuse/langfuse/issues/15642) feat(public-api): add DELETE /api/public/score-configs/{configId} | feat-api, feat-scores, feat-deletion, Public | 1 | 2026-07-30 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 17:59 UTC, took **63.7s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-07-30 18:38 UTC, took **59.3s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
