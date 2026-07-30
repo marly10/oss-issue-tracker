@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 21:13 UTC_
+_Last updated: 2026-07-30 21:42 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -201,11 +201,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#15657](https://github.com/langfuse/langfuse/issues/15657) bug: LLM-as-a-judge (EVAL) scores never appear in the Sessions table Scores column — eval worker writes scores with session_id NULL | bug, feat-evals, feat-scores, feat-sessions, Public | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra | 7 | 2026-07-30 |
 | ★★☆☆☆ | [#12974](https://github.com/langfuse/langfuse/issues/12974) Langfuse parent span lost in flushing to server; resulting in broken traces and spans | bug | 2 | 2026-07-30 |
 | ★★☆☆☆ | [#13792](https://github.com/langfuse/langfuse/issues/13792) bug: Langfuse cost tracking for gemini-2.5-flash does not match Google Cloud billing | bug, feat-llm-cost-tracking, feat-otel, billing | 2 | 2026-07-30 |
 | ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-30 |
+| ★★☆☆☆ | [#15636](https://github.com/langfuse/langfuse/issues/15636) bug: GET /api/public/v2/observations silently ignores the sessionId query parameter | bug, feat-api, integration-otel, langfuse/langfuse, Public | 1 | 2026-07-30 |
 | ★☆☆☆☆ | [#15647](https://github.com/langfuse/langfuse/issues/15647) [aw] Weekly CI runtime analyst failed | CI, agentic-workflows | 1 | 2026-07-30 |
 | ★☆☆☆☆ | [#15640](https://github.com/langfuse/langfuse/issues/15640) [aw] Weekly CI runtime analyst is missing required tool | CI, agentic-workflows | 3 | 2026-07-30 |
 | ★☆☆☆☆ | [#15642](https://github.com/langfuse/langfuse/issues/15642) feat(public-api): add DELETE /api/public/score-configs/{configId} | feat-api, feat-scores, feat-deletion, Public | 1 | 2026-07-30 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 21:12 UTC, took **57.3s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-07-30 21:41 UTC, took **62.2s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
