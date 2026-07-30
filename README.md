@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 15:03 UTC_
+_Last updated: 2026-07-30 15:44 UTC_
 
-_Tracking **18** upstream repos, **387** relevant open issues._
+_Tracking **18** upstream repos, **388** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -203,12 +203,12 @@ _Tracking **18** upstream repos, **387** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#15632](https://github.com/langfuse/langfuse/issues/15632) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-30 |
 | ★★★☆☆ | [#15631](https://github.com/langfuse/langfuse/issues/15631) UI Bug: Missing scrollbar in dataset view for long text cells | bug, 🐞❔ unconfirmed bug, feat-datasets, tables | 0 | 2026-07-30 |
-| ★★☆☆☆ | [#15642](https://github.com/langfuse/langfuse/issues/15642) feat(public-api): add DELETE /api/public/score-configs/{configId} | feat-api, feat-scores, feat-deletion, Public | 0 | 2026-07-30 |
-| ★★☆☆☆ | [#15640](https://github.com/langfuse/langfuse/issues/15640) [aw] Weekly CI runtime analyst is missing required tool | CI, agentic-workflows | 0 | 2026-07-30 |
+| ★★☆☆☆ | [#15647](https://github.com/langfuse/langfuse/issues/15647) [aw] Weekly CI runtime analyst failed | CI, agentic-workflows | 0 | 2026-07-30 |
 | ★★☆☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra, Migrated | 5 | 2026-07-30 |
 | ★★☆☆☆ | [#15636](https://github.com/langfuse/langfuse/issues/15636) bug: GET /api/public/v2/observations silently ignores the sessionId query parameter | bug, feat-api, integration-otel, langfuse/langfuse, Public | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#14868](https://github.com/langfuse/langfuse/issues/14868) bug: app-root observations are not exposed as roots in the Observations v2 API (non-null parentObservationId, no isRoot filter) | bug, sdk-python, 🐞❔ unconfirmed bug, integration-otel | 4 | 2026-07-30 |
-| ★★☆☆☆ | [#15617](https://github.com/langfuse/langfuse/issues/15617) bug: Blob Storage export: object keys truncated to whole seconds cause silent overwrite / data loss | bug, 🐞❔ unconfirmed bug, feat-exports, integration-s3, feat-blob-storage-export | 1 | 2026-07-30 |
+| ★☆☆☆☆ | [#15640](https://github.com/langfuse/langfuse/issues/15640) [aw] Weekly CI runtime analyst is missing required tool | CI, agentic-workflows | 2 | 2026-07-30 |
+| ★☆☆☆☆ | [#15642](https://github.com/langfuse/langfuse/issues/15642) feat(public-api): add DELETE /api/public/score-configs/{configId} | feat-api, feat-scores, feat-deletion, Public | 1 | 2026-07-30 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **387** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 15:02 UTC, took **70.7s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-07-30 15:43 UTC, took **61.2s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
