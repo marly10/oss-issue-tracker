@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 02:14 UTC_
+_Last updated: 2026-07-30 03:23 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15553](https://github.com/langfuse/langfuse/issues/15553) bug: traces table score filters aggregate every score name in the project, exhausting ClickHouse memory | bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 0 | 2026-07-29 |
 | ★★☆☆☆ | [#13586](https://github.com/langfuse/langfuse/issues/13586) bug: Faulty JSON parsing in LLM-as-a-judge | bug, feat-evals, self-hosting, langfuse/langfuse | 5 | 2026-07-29 |
 | ★★☆☆☆ | [#14258](https://github.com/langfuse/langfuse/issues/14258) bug: "Eval [?(expr)] prevented" error blocks JSONPath filters in LLM-as-a-judge variable mappings | bug, feat-evals, self-hosting, langfuse/langfuse | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#15549](https://github.com/langfuse/langfuse/issues/15549) Dashboard widget API hard-codes minVersion=2 → API-created widgets always 500 without v4 write mode | bug, feat-api, feat-dashboard, feat-mcp | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 1 | 2026-07-29 |
 | ★★☆☆☆ | [#14525](https://github.com/langfuse/langfuse/issues/14525) bug: Dataset run shows "Failed to start dataset run" error on first click despite backend creating the run successfully, causing duplicate run on retry | bug, feat-datasets | 1 | 2026-07-29 |
-| ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations, stale | 9 | 2026-07-29 |
+| ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations | 9 | 2026-07-30 |
+| ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, stale, infra | 2 | 2026-07-30 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 02:13 UTC, took **56.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-30 03:22 UTC, took **61.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
