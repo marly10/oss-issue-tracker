@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-30 12:51 UTC_
+_Last updated: 2026-07-30 13:26 UTC_
 
-_Tracking **18** upstream repos, **389** relevant open issues._
+_Tracking **18** upstream repos, **388** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -191,22 +191,22 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 8 | 2026-07-28 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 73 | 2026-07-25 |
 | ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 9 | 2026-07-22 |
-| ★★★☆☆ | [#115939](https://github.com/kubernetes/kubernetes/issues/115939) Reuse the http request object for http probes | area/kubelet, sig/node, help wanted, good first issue, needs-triage | 46 | 2026-07-22 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
 | ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
 | ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-07-15 |
 | ★★★☆☆ | [#135058](https://github.com/kubernetes/kubernetes/issues/135058) DRA: measure and track performance of "experimental" allocator | kind/feature, help wanted, good first issue, needs-triage, wg/device-management | 20 | 2026-06-17 |
+| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 39 | 2026-06-16 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#15631](https://github.com/langfuse/langfuse/issues/15631) UI Bug: Missing scrollbar in dataset view for long text cells | bug, 🐞❔ unconfirmed bug, feat-datasets, tables | 0 | 2026-07-30 |
 | ★★★☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 0 | 2026-07-30 |
 | ★★☆☆☆ | [#15617](https://github.com/langfuse/langfuse/issues/15617) bug: Blob Storage export: object keys truncated to whole seconds cause silent overwrite / data loss | bug, 🐞❔ unconfirmed bug, feat-exports, integration-s3, feat-blob-storage-export | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#12888](https://github.com/langfuse/langfuse/issues/12888) bug: Run experiment modal does not display error to the user | bug | 4 | 2026-07-30 |
 | ★★☆☆☆ | [#11550](https://github.com/langfuse/langfuse/issues/11550) bug: OTLP endpoint violates spec by returning application/json response when request uses application/x-protobuf | bug, self-hosting, integration-otel, stale | 6 | 2026-07-30 |
 | ★★☆☆☆ | [#15179](https://github.com/langfuse/langfuse/issues/15179) bug(sdk-python): Failed OTEL media uploads with openinference | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 3 | 2026-07-29 |
-| ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 1 | 2026-07-29 |
 | ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, infra | 2 | 2026-07-30 |
 | ★☆☆☆☆ | [#11573](https://github.com/langfuse/langfuse/issues/11573) Langfuse+Pipecat STT and TSS I/O and cost is not traced | integrations | 9 | 2026-07-30 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-30 12:50 UTC, took **58.9s**, **107** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-30 13:25 UTC, took **75.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
