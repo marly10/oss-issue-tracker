@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 02:40 UTC_
+_Last updated: 2026-07-31 03:56 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -201,14 +201,14 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 3 | 2026-07-31 |
+| ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 2 | 2026-07-31 |
+| ★★☆☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 1 | 2026-07-31 |
+| ★★☆☆☆ | [#15105](https://github.com/langfuse/langfuse/issues/15105) Add OrcaRouter to the OpenAI-compatible provider examples | integration-openai, documentation, enhancement | 2 | 2026-07-31 |
+| ★★☆☆☆ | [#15000](https://github.com/langfuse/langfuse/issues/15000) bug: Classic observations table renders blank I/O for GenAI `{ role, parts }` messages (input/output preview rendered as null) | bug, 🐞❔ unconfirmed bug, tables, self-hosting, integration-vercel-ai-sdk, feat-tracing, integration-otel, feat-otel | 3 | 2026-07-31 |
 | ★★☆☆☆ | [#11550](https://github.com/langfuse/langfuse/issues/11550) bug: OTLP endpoint violates spec by returning application/json response when request uses application/x-protobuf | bug, self-hosting, integration-otel | 6 | 2026-07-31 |
 | ★★☆☆☆ | [#14651](https://github.com/langfuse/langfuse/issues/14651) bug: trace environment set by first-ingested span, not root span | bug, feat-otel, stale | 2 | 2026-07-31 |
-| ★★☆☆☆ | [#15637](https://github.com/langfuse/langfuse/issues/15637) bug: web container logs continuous 'All sentinels are unreachable' with Redis Sentinel + TLS, while worker on identical config is unaffected | bug, self-hosting, infra | 7 | 2026-07-30 |
-| ★★☆☆☆ | [#12974](https://github.com/langfuse/langfuse/issues/12974) Langfuse parent span lost in flushing to server; resulting in broken traces and spans | bug | 2 | 2026-07-30 |
-| ★★☆☆☆ | [#13792](https://github.com/langfuse/langfuse/issues/13792) bug: Langfuse cost tracking for gemini-2.5-flash does not match Google Cloud billing | bug, feat-llm-cost-tracking, feat-otel, billing | 2 | 2026-07-30 |
-| ★★☆☆☆ | [#12996](https://github.com/langfuse/langfuse/issues/12996) bug: claude-sonnet-4-6 and claude-opus-4-6 model definitions include stale "Large Context" pricing tier - long-context premium was removed | bug | 5 | 2026-07-30 |
 | ★☆☆☆☆ | [#14145](https://github.com/langfuse/langfuse/issues/14145) Feature: invite-only signup mode (allow signup only for invited users) | feat-auth, self-hosting, stale, feature | 4 | 2026-07-31 |
-| ★☆☆☆☆ | [#15647](https://github.com/langfuse/langfuse/issues/15647) [aw] Weekly CI runtime analyst failed | CI, agentic-workflows | 1 | 2026-07-30 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 02:39 UTC, took **69.8s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-31 03:55 UTC, took **55.3s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
