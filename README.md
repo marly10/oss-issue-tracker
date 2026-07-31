@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 10:20 UTC_
+_Last updated: 2026-07-31 11:13 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -203,12 +203,12 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#15673](https://github.com/langfuse/langfuse/issues/15673) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-31 |
 | ★★★☆☆ | [#15663](https://github.com/langfuse/langfuse/issues/15663) [aw] Weekly CI runtime analyst produced no safe outputs | bug, CI, agentic-workflows | 0 | 2026-07-31 |
+| ★★☆☆☆ | [#15674](https://github.com/langfuse/langfuse/issues/15674) bug(sdk-js): LangGraph control-flow exceptions are reported as errors | bug, sdk-js, integration-langchain, Migrated | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15660](https://github.com/langfuse/langfuse/issues/15660) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15662](https://github.com/langfuse/langfuse/issues/15662) Kiro integration docs target the pre-1.x hook schema; plus three Kiro 1.x findings (usage timing, credits-not-tokens, cost inference double-count) | docs, integrations | 0 | 2026-07-31 |
 | ★★☆☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 2 | 2026-07-31 |
 | ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 3 | 2026-07-31 |
-| ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 2 | 2026-07-31 |
-| ★★☆☆☆ | [#15105](https://github.com/langfuse/langfuse/issues/15105) Add OrcaRouter to the OpenAI-compatible provider examples | integration-openai, documentation, enhancement | 2 | 2026-07-31 |
+| ★☆☆☆☆ | [#14145](https://github.com/langfuse/langfuse/issues/14145) Feature: invite-only signup mode (allow signup only for invited users) | feat-auth, self-hosting, feature | 5 | 2026-07-31 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 10:19 UTC, took **71.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-31 11:12 UTC, took **55.9s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
