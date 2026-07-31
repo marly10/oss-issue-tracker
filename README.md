@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 14:05 UTC_
+_Last updated: 2026-07-31 15:00 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -203,10 +203,10 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#15673](https://github.com/langfuse/langfuse/issues/15673) [aw] Weekly CI runtime analyst exceeded max AI credits | bug, billing, CI, agentic-workflows | 0 | 2026-07-31 |
 | ★★★☆☆ | [#15663](https://github.com/langfuse/langfuse/issues/15663) [aw] Weekly CI runtime analyst produced no safe outputs | bug, CI, agentic-workflows | 0 | 2026-07-31 |
+| ★★☆☆☆ | [#15681](https://github.com/langfuse/langfuse/issues/15681) LLM-as-a-Judge evaluator (Observations scope) never triggers despite correct config and matching live data | bug, 🐞❔ unconfirmed bug, feat-evals, langfuse/langfuse, eval-not-running | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15680](https://github.com/langfuse/langfuse/issues/15680) feat(public-api): add DELETE /api/public/annotation-queues/{queueId} | feat-api, feat-annotation | 0 | 2026-07-31 |
 | ★★☆☆☆ | [#15674](https://github.com/langfuse/langfuse/issues/15674) bug(sdk-js): LangGraph control-flow exceptions are reported as errors | bug, sdk-js, integration-langchain, Migrated | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15660](https://github.com/langfuse/langfuse/issues/15660) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 1 | 2026-07-31 |
-| ★★☆☆☆ | [#15662](https://github.com/langfuse/langfuse/issues/15662) Kiro integration docs target the pre-1.x hook schema; plus three Kiro 1.x findings (usage timing, credits-not-tokens, cost inference double-count) | docs, integrations | 0 | 2026-07-31 |
 | ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, stale, infra | 2 | 2026-07-31 |
 | ★☆☆☆☆ | [#14145](https://github.com/langfuse/langfuse/issues/14145) Feature: invite-only signup mode (allow signup only for invited users) | feat-auth, self-hosting, feature | 5 | 2026-07-31 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 14:04 UTC, took **59.6s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-31 14:59 UTC, took **74.2s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
