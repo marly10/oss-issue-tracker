@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 15:00 UTC_
+_Last updated: 2026-07-31 15:48 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -143,8 +143,8 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | bug, has_pr, affects_2.21 | 2 | 2026-07-30 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 3 | 2026-07-30 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, bug, has_pr, needs_verified, affects_2.20 | 1 | 2026-07-30 |
-| ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 3 | 2026-07-31 |
 | ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 28 | 2026-07-30 |
+| ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 14:59 UTC, took **74.2s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-07-31 15:47 UTC, took **61.8s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
