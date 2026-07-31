@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 11:13 UTC_
+_Last updated: 2026-07-31 11:58 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 4 | 2026-07-31 |
 | ★★☆☆☆ | [#87323](https://github.com/ansible/ansible/issues/87323) Inventory toml output fail with TypeError: Object of type 'NoneType' is not TOML serializable | bug | 4 | 2026-07-30 |
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | bug, has_pr, affects_2.21 | 2 | 2026-07-30 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | bug, has_pr, affects_2.21 | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 3 | 2026-07-30 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, bug, has_pr, needs_verified, affects_2.20 | 1 | 2026-07-30 |
-| ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 3 | 2026-07-30 |
 | ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 3 | 2026-07-31 |
 | ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 28 | 2026-07-30 |
 
@@ -207,7 +207,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#15660](https://github.com/langfuse/langfuse/issues/15660) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15662](https://github.com/langfuse/langfuse/issues/15662) Kiro integration docs target the pre-1.x hook schema; plus three Kiro 1.x findings (usage timing, credits-not-tokens, cost inference double-count) | docs, integrations | 0 | 2026-07-31 |
 | ★★☆☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 2 | 2026-07-31 |
-| ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 3 | 2026-07-31 |
+| ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, stale, infra | 2 | 2026-07-31 |
 | ★☆☆☆☆ | [#14145](https://github.com/langfuse/langfuse/issues/14145) Feature: invite-only signup mode (allow signup only for invited users) | feat-auth, self-hosting, feature | 5 | 2026-07-31 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 11:12 UTC, took **55.9s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-31 11:57 UTC, took **62.2s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
