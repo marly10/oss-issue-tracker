@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-07-31 05:11 UTC_
+_Last updated: 2026-07-31 06:21 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -143,8 +143,8 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 3 | 2026-07-30 |
 | ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, bug, has_pr, needs_verified, affects_2.20 | 1 | 2026-07-30 |
 | ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 3 | 2026-07-30 |
+| ★☆☆☆☆ | [#87324](https://github.com/ansible/ansible/issues/87324) Item DOCUMENTATION is missing for multiple filters and tests | needs_triage, docs, affects_2.21 | 3 | 2026-07-31 |
 | ★☆☆☆☆ | [#49207](https://github.com/ansible/ansible/issues/49207) Ansible carries out work after forks and sometimes has threads running.   | bug, affects_2.8, P3 | 28 | 2026-07-30 |
-| ★☆☆☆☆ | [#86116](https://github.com/ansible/ansible/issues/86116) Add ansible-galaxy role download command | waiting_on_contributor, has_pr, feature | 1 | 2026-07-29 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -201,9 +201,9 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 2 | 2026-07-31 |
 | ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 3 | 2026-07-31 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 2 | 2026-07-31 |
-| ★★☆☆☆ | [#15615](https://github.com/langfuse/langfuse/issues/15615) bug(sdk-js): LangGraph streamEvents v3 does not record TTFT | bug, sdk-js, integration-langchain | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15105](https://github.com/langfuse/langfuse/issues/15105) Add OrcaRouter to the OpenAI-compatible provider examples | integration-openai, documentation, enhancement | 2 | 2026-07-31 |
 | ★★☆☆☆ | [#15000](https://github.com/langfuse/langfuse/issues/15000) bug: Classic observations table renders blank I/O for GenAI `{ role, parts }` messages (input/output preview rendered as null) | bug, 🐞❔ unconfirmed bug, tables, self-hosting, integration-vercel-ai-sdk, feat-tracing, integration-otel, feat-otel | 3 | 2026-07-31 |
 | ★★☆☆☆ | [#11550](https://github.com/langfuse/langfuse/issues/11550) bug: OTLP endpoint violates spec by returning application/json response when request uses application/x-protobuf | bug, self-hosting, integration-otel | 6 | 2026-07-31 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-07-31 05:10 UTC, took **68.2s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-07-31 06:20 UTC, took **69.3s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
