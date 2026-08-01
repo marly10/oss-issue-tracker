@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-01 07:02 UTC_
+_Last updated: 2026-08-01 07:51 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -201,11 +201,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15688](https://github.com/langfuse/langfuse/issues/15688) feat(public-api): add PATCH /api/public/comments/{commentId} | feat-api, feat-comments, Public | 0 | 2026-08-01 |
 | ★★☆☆☆ | [#9251](https://github.com/langfuse/langfuse/issues/9251) bug: Dashboard widgets are not saved for the last changes | bug, feat-dashboard, stale | 5 | 2026-08-01 |
 | ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 4 | 2026-07-31 |
 | ★★☆☆☆ | [#15681](https://github.com/langfuse/langfuse/issues/15681) LLM-as-a-Judge evaluator (Observations scope) never triggers despite correct config and matching live data | bug, 🐞❔ unconfirmed bug, feat-evals, langfuse/langfuse, eval-not-running | 1 | 2026-07-31 |
 | ★★☆☆☆ | [#15680](https://github.com/langfuse/langfuse/issues/15680) feat(public-api): add DELETE /api/public/annotation-queues/{queueId} | feat-api, feat-annotation | 0 | 2026-07-31 |
-| ★★☆☆☆ | [#15674](https://github.com/langfuse/langfuse/issues/15674) bug(sdk-js): LangGraph control-flow exceptions are reported as errors | bug, sdk-js, integration-langchain, Migrated | 1 | 2026-07-31 |
 | ★☆☆☆☆ | [#9256](https://github.com/langfuse/langfuse/issues/9256) Langfuse platform should adhere to NO_PROXY env var | self-hosting, stale | 4 | 2026-08-01 |
 | ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | sdk-python, integration-otel | 6 | 2026-08-01 |
 | ★☆☆☆☆ | [#14611](https://github.com/langfuse/langfuse/issues/14611) bug: worker fails in Node FIPS mode because BullMQ repeatable jobs default to MD5 hashing | self-hosting, stale, infra | 2 | 2026-07-31 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-01 07:01 UTC, took **53.4s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-08-01 07:50 UTC, took **69.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
