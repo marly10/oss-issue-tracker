@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-02 08:42 UTC_
+_Last updated: 2026-08-02 09:29 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -201,11 +201,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 2 | 2026-08-01 |
 | ★★☆☆☆ | [#15688](https://github.com/langfuse/langfuse/issues/15688) feat(public-api): add PATCH /api/public/comments/{commentId} | feat-api, feat-comments, Public | 0 | 2026-08-01 |
 | ★★☆☆☆ | [#9251](https://github.com/langfuse/langfuse/issues/9251) bug: Dashboard widgets are not saved for the last changes | bug, feat-dashboard, stale | 5 | 2026-08-01 |
-| ★★☆☆☆ | [#15208](https://github.com/langfuse/langfuse/issues/15208) bug: silent wrong results in two score-analytics aggregations (histogram binning & pivot-table averages) | bug, feat-dashboard, internal-analytics | 4 | 2026-07-31 |
 | ★☆☆☆☆ | [#9129](https://github.com/langfuse/langfuse/issues/9129) When I use the conditional edges of langgraph, there is <unknown> in the langfuse trace | stale | 8 | 2026-08-02 |
 | ★☆☆☆☆ | [#9256](https://github.com/langfuse/langfuse/issues/9256) Langfuse platform should adhere to NO_PROXY env var | self-hosting, stale | 4 | 2026-08-01 |
 | ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | sdk-python, integration-otel | 6 | 2026-08-01 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-02 08:42 UTC, took **53.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-08-02 09:27 UTC, took **68.5s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
