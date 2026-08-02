@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-02 07:04 UTC_
+_Last updated: 2026-08-02 07:53 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -201,7 +201,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | — | 0 | 2026-08-02 |
+| ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 2 | 2026-08-01 |
 | ★★☆☆☆ | [#15688](https://github.com/langfuse/langfuse/issues/15688) feat(public-api): add PATCH /api/public/comments/{commentId} | feat-api, feat-comments, Public | 0 | 2026-08-01 |
 | ★★☆☆☆ | [#9251](https://github.com/langfuse/langfuse/issues/9251) bug: Dashboard widgets are not saved for the last changes | bug, feat-dashboard, stale | 5 | 2026-08-01 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-02 07:03 UTC, took **54.6s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-08-02 07:52 UTC, took **59.0s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
