@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-02 19:31 UTC_
+_Last updated: 2026-08-02 19:59 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -188,6 +188,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 51 | 2026-08-02 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 41 | 2026-08-02 |
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 8 | 2026-07-28 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 73 | 2026-07-25 |
@@ -195,12 +196,12 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
 | ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
 | ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-07-15 |
-| ★★★☆☆ | [#135058](https://github.com/kubernetes/kubernetes/issues/135058) DRA: measure and track performance of "experimental" allocator | kind/feature, help wanted, good first issue, needs-triage, wg/device-management | 20 | 2026-06-17 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#15696](https://github.com/langfuse/langfuse/issues/15696) Ingested cost_details without a pricing-table model match never populate effective cost - counted in aggregates but rendered as $0.00 in tables | bug, feat-otel, langfuse/langfuse, feat-ingestion, billing, feat-metrics | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 2 | 2026-08-01 |
@@ -208,7 +209,6 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#9251](https://github.com/langfuse/langfuse/issues/9251) bug: Dashboard widgets are not saved for the last changes | bug, feat-dashboard, stale | 5 | 2026-08-01 |
 | ★☆☆☆☆ | [#9129](https://github.com/langfuse/langfuse/issues/9129) When I use the conditional edges of langgraph, there is <unknown> in the langfuse trace | stale | 8 | 2026-08-02 |
 | ★☆☆☆☆ | [#9256](https://github.com/langfuse/langfuse/issues/9256) Langfuse platform should adhere to NO_PROXY env var | self-hosting, stale | 4 | 2026-08-01 |
-| ★☆☆☆☆ | [#9404](https://github.com/langfuse/langfuse/issues/9404) Allow passing `start_time` to start_observation | sdk-python, integration-otel | 6 | 2026-08-01 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-02 19:30 UTC, took **66.2s**, **108** GitHub API calls, **4679/5000** rate limit remaining._
+_Last run: 2026-08-02 19:58 UTC, took **50.9s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
