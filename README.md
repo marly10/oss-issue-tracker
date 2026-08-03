@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 16:23 UTC_
+_Last updated: 2026-08-03 17:12 UTC_
 
 _Tracking **18** upstream repos, **389** relevant open issues._
 
@@ -249,8 +249,8 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
-| ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 8 | 2026-07-29 |
 | ★★★☆☆ | [#9923](https://github.com/prometheus/prometheus/issues/9923) Crash loop in NewActiveQueryTracker on disk full | help wanted | 6 | 2026-07-29 |
 | ★★★☆☆ | [#12244](https://github.com/prometheus/prometheus/issues/12244) Swarm Task SD container labels missing | help wanted, kind/bug, component/service discovery | 3 | 2026-07-28 |
 | ★★★☆☆ | [#14824](https://github.com/prometheus/prometheus/issues/14824) PromQL: Need richer label matcher logic (or apply matchers to expressions?) | help wanted, priority/Pmaybe, component/promql, not-as-easy-as-it-looks, kind/feature | 8 | 2026-07-27 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 16:22 UTC, took **70.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-03 17:10 UTC, took **76.0s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
