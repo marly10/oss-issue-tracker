@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 12:37 UTC_
+_Last updated: 2026-08-03 13:34 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, plugins | 3 | 2026-07-29 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
-| ★★☆☆☆ | [#11365](https://github.com/ansible-collections/community.general/issues/11365) Pickle inventory cache always result in cache misses | bug, has_pr, cache, plugins | 6 | 2026-07-25 |
+| ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 1 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
 | ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 | ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
@@ -144,7 +144,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 4 | 2026-07-31 |
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | bug, has_pr, affects_2.21 | 2 | 2026-07-30 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 3 | 2026-07-30 |
-| ★★☆☆☆ | [#87285](https://github.com/ansible/ansible/issues/87285) copy and template modules create files with wrong SELinux context when multiple fcontext rules exist | module, bug, has_pr, needs_verified, affects_2.20 | 1 | 2026-07-30 |
+| ★☆☆☆☆ | [#64016](https://github.com/ansible/ansible/issues/64016) ansible 2.8.6 get_url repeatedly downloads file with force==no | easyfix, module, bug, has_pr, affects_2.8, P3 | 35 | 2026-08-03 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -202,12 +202,12 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15703](https://github.com/langfuse/langfuse/issues/15703) [aw] Weekly CI runtime analyst reported incomplete result | bug, CI, agentic-workflows | 0 | 2026-08-03 |
+| ★★☆☆☆ | [#13792](https://github.com/langfuse/langfuse/issues/13792) bug: Langfuse cost tracking for gemini-2.5-flash does not match Google Cloud billing | bug, feat-llm-cost-tracking, feat-otel, billing | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#15718](https://github.com/langfuse/langfuse/issues/15718) bug: outdated pricing information for gpt-5.6-terra and gpt-5.6-luna | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, feat-billing, billing | 1 | 2026-08-03 |
 | ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-03 |
-| ★★☆☆☆ | [#15139](https://github.com/langfuse/langfuse/issues/15139) bug: GPT-5.6 Sol totalCost ignores cached input, reasoning, and cache-write premium | bug, integration-openai, feat-llm-cost-tracking, langfuse/langfuse, feat-billing, billing | 1 | 2026-08-03 |
 | ★★☆☆☆ | [#12958](https://github.com/langfuse/langfuse/issues/12958) bug: easy to cause "trace overflow" with LLM as judge | bug | 4 | 2026-08-03 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 3 | 2026-08-03 |
-| ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 3 | 2026-08-03 |
+| ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★☆☆☆☆ | [#8786](https://github.com/langfuse/langfuse/issues/8786) feat(api): allow annotation queue assignments via email in addition to userId | feat-api-auth, feat-annotation, stale | 5 | 2026-08-03 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 12:36 UTC, took **60.9s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-03 13:33 UTC, took **80.8s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
