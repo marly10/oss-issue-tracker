@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 17:54 UTC_
+_Last updated: 2026-08-03 18:30 UTC_
 
-_Tracking **18** upstream repos, **389** relevant open issues._
+_Tracking **18** upstream repos, **382** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -201,14 +201,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#15703](https://github.com/langfuse/langfuse/issues/15703) [aw] Weekly CI runtime analyst reported incomplete result | bug, CI, agentic-workflows | 0 | 2026-08-03 |
-| ★★☆☆☆ | [#13792](https://github.com/langfuse/langfuse/issues/13792) bug: Langfuse cost tracking for gemini-2.5-flash does not match Google Cloud billing | bug, feat-llm-cost-tracking, feat-otel, billing | 3 | 2026-08-03 |
-| ★★☆☆☆ | [#15718](https://github.com/langfuse/langfuse/issues/15718) bug: outdated pricing information for gpt-5.6-terra and gpt-5.6-luna | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, feat-billing, billing | 1 | 2026-08-03 |
-| ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-03 |
-| ★★☆☆☆ | [#12958](https://github.com/langfuse/langfuse/issues/12958) bug: easy to cause "trace overflow" with LLM as judge | bug | 4 | 2026-08-03 |
-| ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 3 | 2026-08-03 |
-| ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
-| ★☆☆☆☆ | [#8786](https://github.com/langfuse/langfuse/issues/8786) feat(api): allow annotation queue assignments via email in addition to userId | feat-api-auth, feat-annotation, stale | 5 | 2026-08-03 |
+| ★★★★★ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 0 | 2026-08-03 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +288,7 @@ _Tracking **18** upstream repos, **389** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 17:53 UTC, took **72.9s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-03 18:29 UTC, took **67.7s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
