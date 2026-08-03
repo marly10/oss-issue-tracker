@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 08:53 UTC_
+_Last updated: 2026-08-03 10:12 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -203,11 +203,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#15703](https://github.com/langfuse/langfuse/issues/15703) [aw] Weekly CI runtime analyst reported incomplete result | bug, CI, agentic-workflows | 0 | 2026-08-03 |
 | ★★★☆☆ | [#15696](https://github.com/langfuse/langfuse/issues/15696) Ingested cost_details without a pricing-table model match never populate effective cost - counted in aggregates but rendered as $0.00 in tables | bug, feat-otel, langfuse/langfuse, feat-ingestion, billing, feat-metrics | 0 | 2026-08-02 |
+| ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-03 |
+| ★★☆☆☆ | [#15139](https://github.com/langfuse/langfuse/issues/15139) bug: GPT-5.6 Sol totalCost ignores cached input, reasoning, and cache-write premium | bug, integration-openai, feat-llm-cost-tracking, langfuse/langfuse, feat-billing, billing | 1 | 2026-08-03 |
 | ★★☆☆☆ | [#12958](https://github.com/langfuse/langfuse/issues/12958) bug: easy to cause "trace overflow" with LLM as judge | bug | 4 | 2026-08-03 |
 | ★★☆☆☆ | [#15566](https://github.com/langfuse/langfuse/issues/15566) bug: Large row height does not display full Input/Output text in Tracing table | bug, 🐞❔ unconfirmed bug, tables, feat-tracing | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 3 | 2026-08-03 |
-| ★★☆☆☆ | [#8262](https://github.com/langfuse/langfuse/issues/8262) bug: inconsistent behaviour updating the session ID of a trace twice | bug, sdk-python, feat-tracing, stale | 7 | 2026-08-03 |
-| ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★☆☆☆☆ | [#8786](https://github.com/langfuse/langfuse/issues/8786) feat(api): allow annotation queue assignments via email in addition to userId | feat-api-auth, feat-annotation, stale | 5 | 2026-08-03 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -249,12 +249,12 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 8 | 2026-07-29 |
 | ★★★☆☆ | [#9923](https://github.com/prometheus/prometheus/issues/9923) Crash loop in NewActiveQueryTracker on disk full | help wanted | 6 | 2026-07-29 |
 | ★★★☆☆ | [#12244](https://github.com/prometheus/prometheus/issues/12244) Swarm Task SD container labels missing | help wanted, kind/bug, component/service discovery | 3 | 2026-07-28 |
 | ★★★☆☆ | [#14824](https://github.com/prometheus/prometheus/issues/14824) PromQL: Need richer label matcher logic (or apply matchers to expressions?) | help wanted, priority/Pmaybe, component/promql, not-as-easy-as-it-looks, kind/feature | 8 | 2026-07-27 |
 | ★★★☆☆ | [#14763](https://github.com/prometheus/prometheus/issues/14763) Start Timestamp: Opt-in ST auto-generation globally/per scrape job. | help wanted, kind/feature | 3 | 2026-07-14 |
-| ★★★☆☆ | [#14057](https://github.com/prometheus/prometheus/issues/14057) Add relabeling action that drops sample if any label matches pattern | help wanted, component/config, priority/P3, kind/feature | 4 | 2026-07-08 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 08:51 UTC, took **62.8s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-08-03 10:11 UTC, took **70.5s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
