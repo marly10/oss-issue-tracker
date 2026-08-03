@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 03:58 UTC_
+_Last updated: 2026-08-03 05:20 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-02 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-03 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -202,11 +202,11 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15696](https://github.com/langfuse/langfuse/issues/15696) Ingested cost_details without a pricing-table model match never populate effective cost - counted in aggregates but rendered as $0.00 in tables | bug, feat-otel, langfuse/langfuse, feat-ingestion, billing, feat-metrics | 0 | 2026-08-02 |
+| ★★☆☆☆ | [#15660](https://github.com/langfuse/langfuse/issues/15660) bug: Intermittent traces.filterOptions Request Timed Out on self-hosted Langfuse v3.200.0 | bug, 🐞❔ unconfirmed bug, performance, self-hosting, langfuse/langfuse, back-end-performance, [Core] ClickHouse database | 2 | 2026-08-03 |
+| ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8262](https://github.com/langfuse/langfuse/issues/8262) bug: inconsistent behaviour updating the session ID of a trace twice | bug, sdk-python, feat-tracing, stale | 7 | 2026-08-03 |
 | ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
-| ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 2 | 2026-08-01 |
-| ★★☆☆☆ | [#15688](https://github.com/langfuse/langfuse/issues/15688) feat(public-api): add PATCH /api/public/comments/{commentId} | feat-api, feat-comments, Public | 0 | 2026-08-01 |
 | ★☆☆☆☆ | [#8786](https://github.com/langfuse/langfuse/issues/8786) feat(api): allow annotation queue assignments via email in addition to userId | feat-api-auth, feat-annotation, stale | 5 | 2026-08-03 |
 | ★☆☆☆☆ | [#9129](https://github.com/langfuse/langfuse/issues/9129) When I use the conditional edges of langgraph, there is <unknown> in the langfuse trace | stale | 8 | 2026-08-02 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 03:57 UTC, took **53.9s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
+_Last run: 2026-08-03 05:19 UTC, took **57.7s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
