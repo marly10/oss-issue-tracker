@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-03 01:42 UTC_
+_Last updated: 2026-08-03 02:40 UTC_
 
 _Tracking **18** upstream repos, **388** relevant open issues._
 
@@ -202,13 +202,13 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#15696](https://github.com/langfuse/langfuse/issues/15696) Ingested cost_details without a pricing-table model match never populate effective cost - counted in aggregates but rendered as $0.00 in tables | bug, feat-otel, langfuse/langfuse, feat-ingestion, billing, feat-metrics | 0 | 2026-08-02 |
+| ★★☆☆☆ | [#8262](https://github.com/langfuse/langfuse/issues/8262) bug: inconsistent behaviour updating the session ID of a trace twice | bug, sdk-python, feat-tracing, stale | 7 | 2026-08-03 |
 | ★★☆☆☆ | [#15693](https://github.com/langfuse/langfuse/issues/15693) feat(public-api): add content search filter to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15691](https://github.com/langfuse/langfuse/issues/15691) feat(public-api): add fromTimestamp/toTimestamp filters to GET /api/public/comments | feat-api, feat-comments, Public | 0 | 2026-08-02 |
 | ★★☆☆☆ | [#15690](https://github.com/langfuse/langfuse/issues/15690) bug: Missing Docker images for langfuse v4.2.0 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, CI | 2 | 2026-08-01 |
 | ★★☆☆☆ | [#15688](https://github.com/langfuse/langfuse/issues/15688) feat(public-api): add PATCH /api/public/comments/{commentId} | feat-api, feat-comments, Public | 0 | 2026-08-01 |
-| ★★☆☆☆ | [#9251](https://github.com/langfuse/langfuse/issues/9251) bug: Dashboard widgets are not saved for the last changes | bug, feat-dashboard, stale | 5 | 2026-08-01 |
+| ★☆☆☆☆ | [#8786](https://github.com/langfuse/langfuse/issues/8786) feat(api): allow annotation queue assignments via email in addition to userId | feat-api-auth, feat-annotation, stale | 5 | 2026-08-03 |
 | ★☆☆☆☆ | [#9129](https://github.com/langfuse/langfuse/issues/9129) When I use the conditional edges of langgraph, there is <unknown> in the langfuse trace | stale | 8 | 2026-08-02 |
-| ★☆☆☆☆ | [#9256](https://github.com/langfuse/langfuse/issues/9256) Langfuse platform should adhere to NO_PROXY env var | self-hosting, stale | 4 | 2026-08-01 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **388** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-03 01:41 UTC, took **67.9s**, **108** GitHub API calls, **4786/5000** rate limit remaining._
+_Last run: 2026-08-03 02:39 UTC, took **53.1s**, **108** GitHub API calls, **4893/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
