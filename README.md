@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 13:40 UTC_
+_Last updated: 2026-08-04 14:36 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, affects_2.19 | 2 | 2026-08-04 |
 | ★★☆☆☆ | [#85780](https://github.com/ansible/ansible/issues/85780) ansible.builtin.uri does not return `.cookies`/`.cookies_string` unless following redirects | module, bug, has_pr, verified, affects_2.19 | 2 | 2026-08-03 |
 | ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 2 | 2026-08-03 |
 | ★★☆☆☆ | [#87323](https://github.com/ansible/ansible/issues/87323) Inventory toml output fail with TypeError: Object of type 'NoneType' is not TOML serializable | bug, has_pr | 4 | 2026-08-02 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | bug, has_pr, affects_2.21 | 2 | 2026-07-31 |
-| ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 4 | 2026-07-31 |
 | ★☆☆☆☆ | [#84332](https://github.com/ansible/ansible/issues/84332) inconsistent behavior between delegate_to: "" and delegate_to: "{{ undef() \| default('') }}" | bug, has_pr, P3, verified, affects_2.18 | 23 | 2026-08-04 |
 | ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 6 | 2026-08-04 |
 | ★☆☆☆☆ | [#64016](https://github.com/ansible/ansible/issues/64016) ansible 2.8.6 get_url repeatedly downloads file with force==no | easyfix, module, bug, has_pr, affects_2.8, P3 | 35 | 2026-08-03 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 13:39 UTC, took **74.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-04 14:34 UTC, took **79.9s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
