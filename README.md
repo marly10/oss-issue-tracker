@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 06:44 UTC_
+_Last updated: 2026-08-04 07:42 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12516](https://github.com/ansible-collections/community.general/issues/12516) Timezone requires hwclock to be present even when using name key | bug, module, plugins | 2 | 2026-08-04 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, plugins | 3 | 2026-07-29 |
@@ -131,7 +132,6 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
 | ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
-| ★☆☆☆☆ | [#3455](https://github.com/ansible-collections/community.general/issues/3455) zstd support in archive module | feature, module, has_pr, plugins, files | 5 | 2026-07-28 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -231,7 +231,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, Stale, processor/tailsampling | 4 | 2026-07-20 |
 | ★★★★★ | [#38092](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38092) [CI/CD\| run no race tests in CIs too | enhancement, good first issue, ci-cd, never stale | 9 | 2026-05-21 |
 | ★★★★★ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, Stale, processor/resourcedetection, never stale | 9 | 2026-01-20 |
-| ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen | 34 | 2026-08-04 |
+| ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen | 35 | 2026-08-04 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 24 | 2026-07-24 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 8 | 2026-07-24 |
 | ★★★★☆ | [#31387](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31387) [pkg/ottl] Improve OTTL Docs | enhancement, help wanted, good first issue, priority:p2, processor/filter, processor/transform, pkg/ottl, never stale | 13 | 2026-07-21 |
@@ -288,7 +288,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 06:43 UTC, took **75.6s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-04 07:41 UTC, took **63.7s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
