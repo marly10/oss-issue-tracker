@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 12:59 UTC_
+_Last updated: 2026-08-04 13:40 UTC_
 
-_Tracking **18** upstream repos, **380** relevant open issues._
+_Tracking **18** upstream repos, **381** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -220,6 +220,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#2542](https://github.com/observIQ/bindplane-otel-collector/issues/2542) Add TCP Check receiver | — | 0 | 2025-08-23 |
 | ★☆☆☆☆ | [#2296](https://github.com/observIQ/bindplane-otel-collector/issues/2296) install_unix.sh breaks with status code 2 in non-interactive environments | — | 4 | 2026-03-04 |
 
@@ -288,7 +289,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 12:58 UTC, took **63.5s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-04 13:39 UTC, took **74.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
