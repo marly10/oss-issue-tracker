@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 10:34 UTC_
+_Last updated: 2026-08-04 11:28 UTC_
 
-_Tracking **18** upstream repos, **382** relevant open issues._
+_Tracking **18** upstream repos, **380** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -128,10 +128,10 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, plugins | 3 | 2026-07-29 |
-| ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
+| ★☆☆☆☆ | [#4731](https://github.com/ansible-collections/community.general/issues/4731) git_config: Missing support for multiple values | feature, module, plugins, source_control | 7 | 2026-08-04 |
+| ★☆☆☆☆ | [#8053](https://github.com/ansible-collections/community.general/issues/8053) ssh_config: support general options via options dict | feature, module, has_pr, plugins | 3 | 2026-08-04 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
-| ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -245,9 +245,9 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
 | ★★★☆☆ | [#9923](https://github.com/prometheus/prometheus/issues/9923) Crash loop in NewActiveQueryTracker on disk full | help wanted | 6 | 2026-07-29 |
-| ★★★☆☆ | [#12244](https://github.com/prometheus/prometheus/issues/12244) Swarm Task SD container labels missing | help wanted, kind/bug, component/service discovery | 3 | 2026-07-28 |
 | ★★★☆☆ | [#14824](https://github.com/prometheus/prometheus/issues/14824) PromQL: Need richer label matcher logic (or apply matchers to expressions?) | help wanted, priority/Pmaybe, component/promql, not-as-easy-as-it-looks, kind/feature | 8 | 2026-07-27 |
-| ★★★☆☆ | [#14763](https://github.com/prometheus/prometheus/issues/14763) Start Timestamp: Opt-in ST auto-generation globally/per scrape job. | help wanted, kind/feature | 3 | 2026-07-14 |
+| ★★★☆☆ | [#14057](https://github.com/prometheus/prometheus/issues/14057) Add relabeling action that drops sample if any label matches pattern | help wanted, component/config, priority/P3, kind/feature | 4 | 2026-07-08 |
+| ★★★☆☆ | [#16176](https://github.com/prometheus/prometheus/issues/16176) TestDBReadOnly_Querier_NoAlteration is flaky on Windows | help wanted, component/tests | 5 | 2026-07-08 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -288,7 +288,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 10:33 UTC, took **62.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-04 11:27 UTC, took **72.9s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
