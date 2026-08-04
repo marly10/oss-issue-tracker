@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 08:40 UTC_
+_Last updated: 2026-08-04 09:38 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-03 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | bug, has_pr, affects_2.21 | 2 | 2026-07-31 |
 | ★★☆☆☆ | [#82780](https://github.com/ansible/ansible/issues/82780) module_utils/urls.py MAXHEADERS | bug, has_pr, P3, affects_2.16 | 4 | 2026-07-31 |
 | ★★☆☆☆ | [#87308](https://github.com/ansible/ansible/issues/87308) Using `run_once: true` on a block will fail all hosts, but `rescue:` will only rescue the one host | bug, has_pr, affects_2.21 | 2 | 2026-07-30 |
-| ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 3 | 2026-07-30 |
+| ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 6 | 2026-08-04 |
 | ★☆☆☆☆ | [#64016](https://github.com/ansible/ansible/issues/64016) ansible 2.8.6 get_url repeatedly downloads file with force==no | easyfix, module, bug, has_pr, affects_2.8, P3 | 35 | 2026-08-03 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -288,7 +288,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 08:39 UTC, took **62.6s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-04 09:37 UTC, took **59.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
