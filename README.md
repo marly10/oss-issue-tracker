@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-04 11:28 UTC_
+_Last updated: 2026-08-04 12:15 UTC_
 
 _Tracking **18** upstream repos, **380** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, plugins | 3 | 2026-07-29 |
-| ★☆☆☆☆ | [#4731](https://github.com/ansible-collections/community.general/issues/4731) git_config: Missing support for multiple values | feature, module, plugins, source_control | 7 | 2026-08-04 |
+| ★☆☆☆☆ | [#4731](https://github.com/ansible-collections/community.general/issues/4731) git_config: Missing support for multiple values | feature, module, has_pr, plugins, source_control | 7 | 2026-08-04 |
 | ★☆☆☆☆ | [#8053](https://github.com/ansible-collections/community.general/issues/8053) ssh_config: support general options via options dict | feature, module, has_pr, plugins | 3 | 2026-08-04 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
@@ -288,7 +288,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-04 11:27 UTC, took **72.9s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-04 12:13 UTC, took **60.7s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
