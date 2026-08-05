@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-05 13:26 UTC_
+_Last updated: 2026-08-05 15:36 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#9283](https://github.com/ansible-collections/community.general/issues/9283) ufw ordered rules | bug, module, plugins | 4 | 2026-08-05 |
 | ★★☆☆☆ | [#12516](https://github.com/ansible-collections/community.general/issues/12516) Timezone requires hwclock to be present even when using name key | bug, module, plugins | 2 | 2026-08-04 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
@@ -131,18 +132,17 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
-| ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87362](https://github.com/ansible/ansible/issues/87362) modules /plugins disclose URL userinfo inline credentials in failures | needs_triage, bug, has_pr | 1 | 2026-08-05 |
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 1 | 2026-08-05 |
+| ★★☆☆☆ | [#82505](https://github.com/ansible/ansible/issues/82505) Validating arguments against arg spec occuring on all tagged roles | module, bug, has_pr, P3 | 9 | 2026-08-05 |
 | ★★☆☆☆ | [#87358](https://github.com/ansible/ansible/issues/87358) Delegated host address missing from host label for all loop items after the first (regression in 2.21) | needs_triage, bug, affects_2.21 | 1 | 2026-08-05 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 6 | 2026-08-04 |
 | ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, affects_2.19 | 2 | 2026-08-04 |
-| ★★☆☆☆ | [#85780](https://github.com/ansible/ansible/issues/85780) ansible.builtin.uri does not return `.cookies`/`.cookies_string` unless following redirects | module, bug, has_pr, verified, affects_2.19 | 2 | 2026-08-03 |
-| ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 6 | 2026-08-04 |
 | ★☆☆☆☆ | [#64016](https://github.com/ansible/ansible/issues/64016) ansible 2.8.6 get_url repeatedly downloads file with force==no | easyfix, module, bug, has_pr, affects_2.8, P3 | 35 | 2026-08-03 |
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-05 13:24 UTC, took **76.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-05 15:35 UTC, took **69.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
