@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-06 11:42 UTC_
+_Last updated: 2026-08-06 13:20 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87358](https://github.com/ansible/ansible/issues/87358) Delegated host address missing from host label for all loop items after the first (regression in 2.21) | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 3 | 2026-08-06 |
 | ★★☆☆☆ | [#83292](https://github.com/ansible/ansible/issues/83292) Ansible 2.17 returns code 2 when some hosts are failing and rescued | bug, has_pr, P3, affects_2.17 | 7 | 2026-08-06 |
 | ★★☆☆☆ | [#87362](https://github.com/ansible/ansible/issues/87362) modules /plugins disclose URL userinfo inline credentials in failures | needs_triage, bug, has_pr | 1 | 2026-08-05 |
 | ★★☆☆☆ | [#82505](https://github.com/ansible/ansible/issues/82505) Validating arguments against arg spec occuring on all tagged roles | module, bug, has_pr, P3 | 9 | 2026-08-05 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 6 | 2026-08-04 |
-| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, affects_2.19 | 2 | 2026-08-04 |
 | ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, needs_triage, feature | 1 | 2026-08-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -243,12 +243,12 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
 | ★★★☆☆ | [#9923](https://github.com/prometheus/prometheus/issues/9923) Crash loop in NewActiveQueryTracker on disk full | help wanted | 6 | 2026-07-29 |
 | ★★★☆☆ | [#14824](https://github.com/prometheus/prometheus/issues/14824) PromQL: Need richer label matcher logic (or apply matchers to expressions?) | help wanted, priority/Pmaybe, component/promql, not-as-easy-as-it-looks, kind/feature | 8 | 2026-07-27 |
 | ★★★☆☆ | [#14057](https://github.com/prometheus/prometheus/issues/14057) Add relabeling action that drops sample if any label matches pattern | help wanted, component/config, priority/P3, kind/feature | 4 | 2026-07-08 |
-| ★★★☆☆ | [#16176](https://github.com/prometheus/prometheus/issues/16176) TestDBReadOnly_Querier_NoAlteration is flaky on Windows | help wanted, component/tests | 5 | 2026-07-08 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-06 11:41 UTC, took **60.2s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-06 13:19 UTC, took **80.1s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
