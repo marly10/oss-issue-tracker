@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-06 00:58 UTC_
+_Last updated: 2026-08-06 04:11 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-05 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-06 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#83292](https://github.com/ansible/ansible/issues/83292) Ansible 2.17 returns code 2 when some hosts are failing and rescued | bug, has_pr, P3, affects_2.17 | 7 | 2026-08-06 |
 | ★★☆☆☆ | [#87362](https://github.com/ansible/ansible/issues/87362) modules /plugins disclose URL userinfo inline credentials in failures | needs_triage, bug, has_pr | 1 | 2026-08-05 |
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 1 | 2026-08-05 |
 | ★★☆☆☆ | [#82505](https://github.com/ansible/ansible/issues/82505) Validating arguments against arg spec occuring on all tagged roles | module, bug, has_pr, P3 | 9 | 2026-08-05 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 6 | 2026-08-04 |
 | ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, affects_2.19 | 2 | 2026-08-04 |
 | ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 6 | 2026-08-04 |
-| ★☆☆☆☆ | [#64016](https://github.com/ansible/ansible/issues/64016) ansible 2.8.6 get_url repeatedly downloads file with force==no | easyfix, module, bug, has_pr, affects_2.8, P3 | 35 | 2026-08-03 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-06 00:57 UTC, took **56.0s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-06 04:10 UTC, took **56.6s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
