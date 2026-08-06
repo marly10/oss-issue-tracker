@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-06 13:20 UTC_
+_Last updated: 2026-08-06 15:34 UTC_
 
-_Tracking **18** upstream repos, **381** relevant open issues._
+_Tracking **18** upstream repos, **380** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, affects_2.21 | 1 | 2026-08-06 |
+| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87358](https://github.com/ansible/ansible/issues/87358) Delegated host address missing from host label for all loop items after the first (regression in 2.21) | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 3 | 2026-08-06 |
 | ★★☆☆☆ | [#83292](https://github.com/ansible/ansible/issues/83292) Ansible 2.17 returns code 2 when some hosts are failing and rescued | bug, has_pr, P3, affects_2.17 | 7 | 2026-08-06 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-06 13:19 UTC, took **80.1s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-06 15:33 UTC, took **81.4s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
