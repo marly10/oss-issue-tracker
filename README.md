@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-06 09:31 UTC_
+_Last updated: 2026-08-06 11:42 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12530](https://github.com/ansible-collections/community.general/issues/12530) terraform displaying plan name twice for return value for ```command``` | bug, module, plugins | 2 | 2026-08-06 |
 | ★★☆☆☆ | [#9283](https://github.com/ansible-collections/community.general/issues/9283) ufw ordered rules | bug, module, plugins | 4 | 2026-08-05 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
 | ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
@@ -131,7 +132,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, plugins | 2 | 2026-07-29 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
 | ★☆☆☆☆ | [#11574](https://github.com/ansible-collections/community.general/issues/11574) pacemaker_stonith: Resource polling timeout | bug, module, has_pr, traceback, plugins | 12 | 2026-07-30 |
-| ★☆☆☆☆ | [#12498](https://github.com/ansible-collections/community.general/issues/12498) one_vm: no way to idempotently update USER_TEMPLATE attributes on existing VMs | feature, module, has_pr, plugins | 2 | 2026-07-28 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -144,7 +144,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#82505](https://github.com/ansible/ansible/issues/82505) Validating arguments against arg spec occuring on all tagged roles | module, bug, has_pr, P3 | 9 | 2026-08-05 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | needs_info, bug, affects_2.21 | 6 | 2026-08-04 |
 | ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, affects_2.19 | 2 | 2026-08-04 |
-| ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 6 | 2026-08-04 |
+| ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, needs_triage, feature | 1 | 2026-08-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-06 09:29 UTC, took **65.9s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
+_Last run: 2026-08-06 11:41 UTC, took **60.2s**, **108** GitHub API calls, **4892/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
