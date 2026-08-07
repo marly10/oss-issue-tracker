@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-07 12:06 UTC_
+_Last updated: 2026-08-07 13:27 UTC_
 
-_Tracking **18** upstream repos, **380** relevant open issues._
+_Tracking **18** upstream repos, **379** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 3 | 2026-08-06 |
 | ★★☆☆☆ | [#83292](https://github.com/ansible/ansible/issues/83292) Ansible 2.17 returns code 2 when some hosts are failing and rescued | bug, has_pr, P3, affects_2.17 | 7 | 2026-08-06 |
 | ★★☆☆☆ | [#87362](https://github.com/ansible/ansible/issues/87362) modules /plugins disclose URL userinfo inline credentials in failures | needs_triage, bug, has_pr | 1 | 2026-08-05 |
-| ★★☆☆☆ | [#82505](https://github.com/ansible/ansible/issues/82505) Validating arguments against arg spec occuring on all tagged roles | module, bug, has_pr, P3 | 9 | 2026-08-05 |
+| ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | has_pr, feature, P3 | 1 | 2026-08-07 |
 | ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, needs_triage, feature | 1 | 2026-08-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-07 12:05 UTC, took **59.5s**, **108** GitHub API calls, **4784/5000** rate limit remaining._
+_Last run: 2026-08-07 13:26 UTC, took **68.9s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
