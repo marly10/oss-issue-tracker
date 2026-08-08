@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-08 06:04 UTC_
+_Last updated: 2026-08-08 07:08 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -243,7 +243,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted | 1 | 2026-08-06 |
+| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted | 1 | 2026-08-08 |
 | ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-08 06:03 UTC, took **54.9s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-08 07:07 UTC, took **64.6s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
