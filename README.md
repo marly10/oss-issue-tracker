@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-09 03:50 UTC_
+_Last updated: 2026-08-09 04:52 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87358](https://github.com/ansible/ansible/issues/87358) Delegated host address missing from host label for all loop items after the first (regression in 2.21) | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-06 |
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | needs_triage, bug | 3 | 2026-08-06 |
-| ★★☆☆☆ | [#83292](https://github.com/ansible/ansible/issues/83292) Ansible 2.17 returns code 2 when some hosts are failing and rescued | bug, has_pr, P3, affects_2.17 | 7 | 2026-08-06 |
+| ★☆☆☆☆ | [#62826](https://github.com/ansible/ansible/issues/62826) pip module always set to changed when using check mode | module, bug, affects_2.8, P3, needs_verified | 19 | 2026-08-09 |
 | ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | has_pr, feature, P3 | 1 | 2026-08-07 |
 | ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, needs_triage, feature | 1 | 2026-08-06 |
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-09 03:49 UTC, took **54.7s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-09 04:51 UTC, took **58.0s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
