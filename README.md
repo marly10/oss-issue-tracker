@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-10 20:54 UTC_
+_Last updated: 2026-08-10 21:30 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -201,7 +201,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 1 | 2026-08-08 |
+| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 2 | 2026-08-10 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-10 20:53 UTC, took **65.3s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-10 21:29 UTC, took **58.3s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
