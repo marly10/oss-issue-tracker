@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-11 01:05 UTC_
+_Last updated: 2026-08-11 03:09 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,9 +137,9 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, affects_2.21 | 2 | 2026-08-11 |
 | ★★☆☆☆ | [#84117](https://github.com/ansible/ansible/issues/84117) any_errors_fatal stops further play even if the hosts have passed rescue | bug, has_pr, verified, affects_2.17 | 3 | 2026-08-10 |
 | ★★☆☆☆ | [#80737](https://github.com/ansible/ansible/issues/80737) failure in run_once task while using strategy free leads to all other hosts finishing immediately | bug, has_pr, P3, affects_2.14 | 9 | 2026-08-10 |
-| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, affects_2.21 | 2 | 2026-08-10 |
 | ★★☆☆☆ | [#86298](https://github.com/ansible/ansible/issues/86298) SSH connection has_tty does not check use_tty option, breaks machinectl | bug, has_pr, affects_2.20 | 5 | 2026-08-10 |
 | ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, P3, affects_2.11 | 2 | 2026-08-10 |
 | ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, has_pr, affects_2.21 | 2 | 2026-08-07 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-11 01:04 UTC, took **57.3s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-11 03:08 UTC, took **58.1s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
