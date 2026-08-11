@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-11 10:31 UTC_
+_Last updated: 2026-08-11 11:23 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | needs_triage, bug, affects_2.15 | 4 | 2026-08-11 |
 | ★★☆☆☆ | [#87298](https://github.com/ansible/ansible/issues/87298) interpreter discovery - discovery messages name the wrong host when a task uses delegate_to | bug, has_pr, affects_2.21 | 2 | 2026-08-11 |
-| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | needs_triage, bug, affects_2.15 | 2 | 2026-08-11 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, needs_triage, bug, affects_2.21 | 2 | 2026-08-11 |
 | ★★☆☆☆ | [#84117](https://github.com/ansible/ansible/issues/84117) any_errors_fatal stops further play even if the hosts have passed rescue | bug, has_pr, verified, affects_2.17 | 3 | 2026-08-10 |
 | ★★☆☆☆ | [#80737](https://github.com/ansible/ansible/issues/80737) failure in run_once task while using strategy free leads to all other hosts finishing immediately | bug, has_pr, P3, affects_2.14 | 9 | 2026-08-10 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-11 10:30 UTC, took **61.6s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-11 11:22 UTC, took **72.9s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
