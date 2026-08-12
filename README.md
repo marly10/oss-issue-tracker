@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-12 11:25 UTC_
+_Last updated: 2026-08-12 12:06 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | needs_info, bug, needs_verified, affects_2.15 | 6 | 2026-08-12 |
 | ★★☆☆☆ | [#87399](https://github.com/ansible/ansible/issues/87399) regex_replace reports the wrong match count in its mandatory_count error | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87398](https://github.com/ansible/ansible/issues/87398) subelements filter raises UnboundLocalError for an empty accessor | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87396](https://github.com/ansible/ansible/issues/87396) mask_url leaves credentials unmasked when the password is empty | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87394](https://github.com/ansible/ansible/issues/87394) camel_dict_to_snake_dict forgets ignore_list as soon as it recurses | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87393](https://github.com/ansible/ansible/issues/87393) merge_hash and the combine filter hand back the caller's own dictionary | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87392](https://github.com/ansible/ansible/issues/87392) find with exact_mode=false matches any permission bit, not a minimum set | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#87391](https://github.com/ansible/ansible/issues/87391) a failed cache write destroys the previously cached facts | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-12 11:24 UTC, took **60.2s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-12 12:05 UTC, took **93.8s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
