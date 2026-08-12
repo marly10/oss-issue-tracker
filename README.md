@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-12 18:29 UTC_
+_Last updated: 2026-08-12 19:39 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -124,10 +124,10 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12558](https://github.com/ansible-collections/community.general/issues/12558) terraform: state=planned reports changed=false for plans with pending changes unless diff mode is enabled | bug, module, plugins | 2 | 2026-08-12 |
 | ★★☆☆☆ | [#12541](https://github.com/ansible-collections/community.general/issues/12541) golang_package module cannot properly manage commands with main package at root | bug, module, plugins | 2 | 2026-08-08 |
 | ★★☆☆☆ | [#9283](https://github.com/ansible-collections/community.general/issues/9283) ufw ordered rules | bug, module, plugins | 4 | 2026-08-05 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 3 | 2026-08-03 |
-| ★★☆☆☆ | [#8481](https://github.com/ansible-collections/community.general/issues/8481) Parted won't resize in use partition | bug, module, plugins | 7 | 2026-07-30 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 13 | 2026-08-10 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 15 | 2026-08-10 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 2 | 2026-08-03 |
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87395](https://github.com/ansible/ansible/issues/87395) jsonfile cache keys() and flush() raise TypeError when the prefix is unset | needs_triage, bug, affects_2.22 | 2 | 2026-08-12 |
+| ★★☆☆☆ | [#87395](https://github.com/ansible/ansible/issues/87395) jsonfile cache keys() and flush() raise TypeError when the prefix is unset | needs_triage, bug, affects_2.22 | 3 | 2026-08-12 |
 | ★★☆☆☆ | [#87394](https://github.com/ansible/ansible/issues/87394) camel_dict_to_snake_dict forgets ignore_list as soon as it recurses | needs_triage, bug, affects_2.22 | 2 | 2026-08-12 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 6 | 2026-08-12 |
 | ★★☆☆☆ | [#87399](https://github.com/ansible/ansible/issues/87399) regex_replace reports the wrong match count in its mandatory_count error | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
@@ -188,7 +188,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 44 | 2026-08-12 |
+| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 45 | 2026-08-12 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 74 | 2026-08-12 |
 | ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 33 | 2026-08-10 |
 | ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 51 | 2026-08-02 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-12 18:28 UTC, took **59.9s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-12 19:37 UTC, took **75.5s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
