@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-12 09:22 UTC_
+_Last updated: 2026-08-12 11:25 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | needs_triage, bug, affects_2.21 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 3 | 2026-08-12 |
-| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, needs_verified, affects_2.21 | 3 | 2026-08-11 |
-| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | needs_info, bug, needs_verified, affects_2.15 | 5 | 2026-08-11 |
-| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-08-11 |
-| ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | bug, needs_verified | 3 | 2026-08-11 |
-| ★★☆☆☆ | [#87358](https://github.com/ansible/ansible/issues/87358) Delegated host address missing from host label for all loop items after the first (regression in 2.21) | bug, has_pr, affects_2.21 | 1 | 2026-08-11 |
-| ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, feature | 1 | 2026-08-11 |
+| ★★☆☆☆ | [#87399](https://github.com/ansible/ansible/issues/87399) regex_replace reports the wrong match count in its mandatory_count error | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87398](https://github.com/ansible/ansible/issues/87398) subelements filter raises UnboundLocalError for an empty accessor | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87396](https://github.com/ansible/ansible/issues/87396) mask_url leaves credentials unmasked when the password is empty | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87395](https://github.com/ansible/ansible/issues/87395) jsonfile cache keys() and flush() raise TypeError when the prefix is unset | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87394](https://github.com/ansible/ansible/issues/87394) camel_dict_to_snake_dict forgets ignore_list as soon as it recurses | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87393](https://github.com/ansible/ansible/issues/87393) merge_hash and the combine filter hand back the caller's own dictionary | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87392](https://github.com/ansible/ansible/issues/87392) find with exact_mode=false matches any permission bit, not a minimum set | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#87391](https://github.com/ansible/ansible/issues/87391) a failed cache write destroys the previously cached facts | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -188,11 +188,11 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 74 | 2026-08-12 |
 | ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 33 | 2026-08-10 |
 | ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 51 | 2026-08-02 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 41 | 2026-08-02 |
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 8 | 2026-07-28 |
-| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 73 | 2026-07-25 |
 | ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 9 | 2026-07-22 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
 | ★★★☆☆ | [#124435](https://github.com/kubernetes/kubernetes/issues/124435) Provide Zip archive for downloads of Windows binaries | kind/feature, area/release-eng, help wanted, sig/release, triage/accepted | 10 | 2026-07-16 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-12 09:20 UTC, took **71.8s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-12 11:24 UTC, took **60.2s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
