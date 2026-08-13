@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-13 22:26 UTC_
+_Last updated: 2026-08-13 23:12 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, affects_2.21 | 1 | 2026-08-13 |
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-13 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, needs_verified, affects_2.21 | 1 | 2026-08-13 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-13 |
 | ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 3 | 2026-08-12 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-13 22:25 UTC, took **59.6s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-13 23:10 UTC, took **71.2s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
