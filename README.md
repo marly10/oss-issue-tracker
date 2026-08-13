@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-13 14:52 UTC_
+_Last updated: 2026-08-13 15:45 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -139,12 +139,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-13 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-13 |
-| ★★☆☆☆ | [#87395](https://github.com/ansible/ansible/issues/87395) jsonfile cache keys() and flush() raise TypeError when the prefix is unset | needs_triage, bug, affects_2.22 | 3 | 2026-08-12 |
-| ★★☆☆☆ | [#87394](https://github.com/ansible/ansible/issues/87394) camel_dict_to_snake_dict forgets ignore_list as soon as it recurses | needs_triage, bug, affects_2.22 | 2 | 2026-08-12 |
-| ★★☆☆☆ | [#87399](https://github.com/ansible/ansible/issues/87399) regex_replace reports the wrong match count in its mandatory_count error | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#87398](https://github.com/ansible/ansible/issues/87398) subelements filter raises UnboundLocalError for an empty accessor | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#87396](https://github.com/ansible/ansible/issues/87396) mask_url leaves credentials unmasked when the password is empty | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 3 | 2026-08-12 |
+| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, needs_verified, affects_2.21 | 3 | 2026-08-11 |
+| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-08-11 |
+| ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | bug, needs_verified | 3 | 2026-08-11 |
 | ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-08-13 |
+| ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, feature | 1 | 2026-08-11 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-13 14:51 UTC, took **68.1s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-13 15:43 UTC, took **75.3s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
