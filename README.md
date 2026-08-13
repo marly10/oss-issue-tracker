@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-13 07:17 UTC_
+_Last updated: 2026-08-13 08:46 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-13 |
 | ★★☆☆☆ | [#87395](https://github.com/ansible/ansible/issues/87395) jsonfile cache keys() and flush() raise TypeError when the prefix is unset | needs_triage, bug, affects_2.22 | 3 | 2026-08-12 |
 | ★★☆☆☆ | [#87394](https://github.com/ansible/ansible/issues/87394) camel_dict_to_snake_dict forgets ignore_list as soon as it recurses | needs_triage, bug, affects_2.22 | 2 | 2026-08-12 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 6 | 2026-08-12 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87398](https://github.com/ansible/ansible/issues/87398) subelements filter raises UnboundLocalError for an empty accessor | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87396](https://github.com/ansible/ansible/issues/87396) mask_url leaves credentials unmasked when the password is empty | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87393](https://github.com/ansible/ansible/issues/87393) merge_hash and the combine filter hand back the caller's own dictionary | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#87392](https://github.com/ansible/ansible/issues/87392) find with exact_mode=false matches any permission bit, not a minimum set | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -188,7 +188,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 45 | 2026-08-12 |
+| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 44 | 2026-08-13 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 74 | 2026-08-12 |
 | ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 33 | 2026-08-10 |
 | ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 51 | 2026-08-02 |
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-13 07:16 UTC, took **58.6s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-13 08:45 UTC, took **69.0s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
