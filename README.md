@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-13 12:27 UTC_
+_Last updated: 2026-08-13 13:56 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -144,7 +144,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87399](https://github.com/ansible/ansible/issues/87399) regex_replace reports the wrong match count in its mandatory_count error | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87398](https://github.com/ansible/ansible/issues/87398) subelements filter raises UnboundLocalError for an empty accessor | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
 | ★★☆☆☆ | [#87396](https://github.com/ansible/ansible/issues/87396) mask_url leaves credentials unmasked when the password is empty | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
-| ★★☆☆☆ | [#87393](https://github.com/ansible/ansible/issues/87393) merge_hash and the combine filter hand back the caller's own dictionary | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-08-12 |
+| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-08-13 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-13 12:26 UTC, took **59.5s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-13 13:55 UTC, took **66.1s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
