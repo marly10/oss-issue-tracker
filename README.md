@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-14 10:18 UTC_
+_Last updated: 2026-08-14 11:12 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-08-13 |
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, affects_2.21 | 2 | 2026-08-14 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, needs_verified, affects_2.21 | 1 | 2026-08-13 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-13 |
 | ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, has_pr, P3, affects_2.11 | 3 | 2026-08-12 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, needs_verified, affects_2.21 | 3 | 2026-08-11 |
-| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-08-11 |
+| ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 7 | 2026-08-14 |
 | ★☆☆☆☆ | [#30116](https://github.com/ansible/ansible/issues/30116) Timed abort in pause module | module, bug, has_pr, feature, P3, affects_2.14 | 13 | 2026-08-13 |
 | ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-08-13 |
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-14 10:17 UTC, took **57.9s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
+_Last run: 2026-08-14 11:10 UTC, took **64.2s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
