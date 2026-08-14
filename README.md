@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-14 15:01 UTC_
+_Last updated: 2026-08-14 15:57 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,7 +137,6 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87419](https://github.com/ansible/ansible/issues/87419) is_mac() accepts a MAC address with a trailing newline | — | 0 | 2026-08-14 |
 | ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, affects_2.21 | 2 | 2026-08-14 |
 | ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, affects_2.21 | 2 | 2026-08-14 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, needs_verified, affects_2.21 | 1 | 2026-08-13 |
@@ -145,6 +144,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | feature, P3 | 1 | 2026-08-14 |
 | ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 7 | 2026-08-14 |
 | ★☆☆☆☆ | [#30116](https://github.com/ansible/ansible/issues/30116) Timed abort in pause module | module, bug, has_pr, feature, P3, affects_2.14 | 13 | 2026-08-13 |
+| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-08-13 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-14 15:00 UTC, took **68.9s**, **109** GitHub API calls, **4782/5000** rate limit remaining._
+_Last run: 2026-08-14 15:56 UTC, took **71.3s**, **109** GitHub API calls, **4891/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
