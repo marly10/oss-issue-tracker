@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-15 12:58 UTC_
+_Last updated: 2026-08-15 13:28 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 4 | 2026-08-12 |
 | ★★☆☆☆ | [#12558](https://github.com/ansible-collections/community.general/issues/12558) terraform: state=planned reports changed=false for plans with pending changes unless diff mode is enabled | bug, module, plugins | 2 | 2026-08-12 |
 | ★★☆☆☆ | [#12541](https://github.com/ansible-collections/community.general/issues/12541) golang_package module cannot properly manage commands with main package at root | bug, module, plugins | 2 | 2026-08-08 |
-| ★☆☆☆☆ | [#4717](https://github.com/ansible-collections/community.general/issues/4717) Netplan support | feature | 5 | 2026-08-15 |
+| ★☆☆☆☆ | [#4717](https://github.com/ansible-collections/community.general/issues/4717) Netplan support | feature | 6 | 2026-08-15 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 13 | 2026-08-10 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 15 | 2026-08-10 |
 
@@ -243,12 +243,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
 | ★★★☆☆ | [#14398](https://github.com/prometheus/prometheus/issues/14398) __meta_kubernetes_service_loadbalancer_ip not working as expected | help wanted, component/service discovery, good first issue, component/service discovery/kubernetes | 23 | 2026-08-13 |
 | ★★★☆☆ | [#12591](https://github.com/prometheus/prometheus/issues/12591) Expand scrape_config_files in the /config web UI endpoint | help wanted, component/ui, priority/P3, kind/feature | 6 | 2026-08-10 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted | 1 | 2026-08-08 |
 | ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
-| ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-15 12:57 UTC, took **60.4s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-15 13:26 UTC, took **68.7s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
