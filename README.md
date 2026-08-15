@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-15 12:11 UTC_
+_Last updated: 2026-08-15 12:58 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 4 | 2026-08-12 |
 | ★★☆☆☆ | [#12558](https://github.com/ansible-collections/community.general/issues/12558) terraform: state=planned reports changed=false for plans with pending changes unless diff mode is enabled | bug, module, plugins | 2 | 2026-08-12 |
 | ★★☆☆☆ | [#12541](https://github.com/ansible-collections/community.general/issues/12541) golang_package module cannot properly manage commands with main package at root | bug, module, plugins | 2 | 2026-08-08 |
-| ★☆☆☆☆ | [#4717](https://github.com/ansible-collections/community.general/issues/4717) Netplan support | feature | 4 | 2026-08-15 |
+| ★☆☆☆☆ | [#4717](https://github.com/ansible-collections/community.general/issues/4717) Netplan support | feature | 5 | 2026-08-15 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 13 | 2026-08-10 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 15 | 2026-08-10 |
 
@@ -289,7 +289,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-15 12:10 UTC, took **68.7s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-15 12:57 UTC, took **60.4s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
