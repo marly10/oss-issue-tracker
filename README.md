@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-16 01:07 UTC_
+_Last updated: 2026-08-16 02:34 UTC_
 
-_Tracking **18** upstream repos, **379** relevant open issues._
+_Tracking **18** upstream repos, **386** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -176,7 +176,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#110](https://github.com/grafana/google-bigquery-datasource/issues/110) Documentation: Add more verbose documentation for macros support | documentation, type/feature-request, help wanted, stale | 1 | 2026-07-16 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-08-15 |
+| ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
+| ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
+| ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
+| ★★☆☆☆ | [#522](https://github.com/grafana/google-bigquery-datasource/issues/522) Grafana 13.0.2 BigQuery Query Variable definition Field Always Cleared | — | 0 | 2026-06-10 |
+| ★☆☆☆☆ | [#277](https://github.com/grafana/google-bigquery-datasource/issues/277) [bigquery] e2e tests | type/chore | 1 | 2026-08-14 |
+| ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
+| ★☆☆☆☆ | [#247](https://github.com/grafana/google-bigquery-datasource/issues/247) BigQueryOption `queryPriority` is specified in types, but not passed onto BigQuery client | type/feature-request | 1 | 2026-05-23 |
 
 ### [grafana/grafana-ansible-collection](https://github.com/grafana/grafana-ansible-collection)
 
@@ -289,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-16 01:06 UTC, took **56.5s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-16 02:33 UTC, took **53.6s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
