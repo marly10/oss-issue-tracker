@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-16 19:57 UTC_
+_Last updated: 2026-08-16 20:16 UTC_
 
 _Tracking **18** upstream repos, **386** relevant open issues._
 
@@ -150,6 +150,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★☆☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | stale | 1 | 2026-08-16 |
 | ★☆☆☆☆ | [#3165](https://github.com/aws-observability/aws-otel-collector/issues/3165) Vulnerability in amazon/aws-otel-collector:latest image blocking CI/CD pipelines - when will a patched image be published | stale | 4 | 2026-08-02 |
 | ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 38 | 2026-07-26 |
 | ★☆☆☆☆ | [#3209](https://github.com/aws-observability/aws-otel-collector/issues/3209) v0.48.0 awsxray receiver fails to start on ECS/EC2: "could not fetch region from ecs metadata or ec2 metadata" / context deadline exceeded | stale | 2 | 2026-07-26 |
@@ -157,7 +158,6 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 | ★☆☆☆☆ | [#3194](https://github.com/aws-observability/aws-otel-collector/issues/3194) aws-otel-collector-ctl fails with "unknown init system" on systemd hosts with multiple -.mount units | stale | 1 | 2026-07-19 |
 | ★☆☆☆☆ | [#3199](https://github.com/aws-observability/aws-otel-collector/issues/3199) awsxray exporter logs Go pointer addresses instead of UnprocessedTraceSegments error messages | stale | 1 | 2026-07-19 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | — | 4 | 2026-07-14 |
-| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 4 | 2026-07-12 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-16 19:56 UTC, took **53.2s**, **110** GitHub API calls, **4560/5000** rate limit remaining._
+_Last run: 2026-08-16 20:15 UTC, took **60.1s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
