@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-17 10:49 UTC_
+_Last updated: 2026-08-17 11:11 UTC_
 
 _Tracking **18** upstream repos, **386** relevant open issues._
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 | ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, affects_2.21 | 2 | 2026-08-16 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 7 | 2026-08-16 |
 | ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_triage, bug, affects_2.21 | 2 | 2026-08-14 |
-| ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, needs_verified, affects_2.21 | 1 | 2026-08-13 |
+| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 20 | 2026-08-17 |
 | ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | feature, P3 | 1 | 2026-08-14 |
 | ★☆☆☆☆ | [#85539](https://github.com/ansible/ansible/issues/85539) Improve message for ansible_managed option deprecation | has_pr, feature | 7 | 2026-08-14 |
 | ★☆☆☆☆ | [#30116](https://github.com/ansible/ansible/issues/30116) Timed abort in pause module | module, bug, has_pr, feature, P3, affects_2.14 | 13 | 2026-08-13 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-17 10:48 UTC, took **60.3s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-17 11:11 UTC, took **59.0s**, **110** GitHub API calls, **4670/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
