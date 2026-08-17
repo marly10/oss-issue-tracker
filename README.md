@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-17 18:52 UTC_
+_Last updated: 2026-08-17 19:18 UTC_
 
 _Tracking **18** upstream repos, **386** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 2 | 2026-08-17 |
+| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 3 | 2026-08-17 |
 | ★★☆☆☆ | [#12375](https://github.com/ansible-collections/community.general/issues/12375) snap: module fails with `list index out of range` exception if cannot find snap | bug, module, has_pr, traceback, plugins | 3 | 2026-08-15 |
 | ★★☆☆☆ | [#12562](https://github.com/ansible-collections/community.general/issues/12562) lxc_container archive fails on LXC 4.0.5 with KeyError: 'Invalid configuration key' | bug, module, plugins | 2 | 2026-08-14 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket only checks for ticket existance, not expiration | bug, module, plugins | 4 | 2026-08-12 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-17 18:51 UTC, took **61.0s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-17 19:17 UTC, took **61.1s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
