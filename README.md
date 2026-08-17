@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-17 16:17 UTC_
+_Last updated: 2026-08-17 16:49 UTC_
 
 _Tracking **18** upstream repos, **386** relevant open issues._
 
@@ -142,8 +142,8 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 | ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | bug, needs_verified | 4 | 2026-08-17 |
 | ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, affects_2.21 | 2 | 2026-08-16 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 7 | 2026-08-16 |
+| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 21 | 2026-08-17 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 2 | 2026-08-17 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 20 | 2026-08-17 |
 | ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | feature, P3 | 1 | 2026-08-14 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-17 16:16 UTC, took **76.2s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-17 16:48 UTC, took **60.9s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
