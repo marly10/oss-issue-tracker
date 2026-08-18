@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-18 06:05 UTC_
+_Last updated: 2026-08-18 06:59 UTC_
 
 _Tracking **18** upstream repos, **386** relevant open issues._
 
@@ -250,10 +250,10 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 1 | 2026-08-18 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
 | ★★★☆☆ | [#14398](https://github.com/prometheus/prometheus/issues/14398) __meta_kubernetes_service_loadbalancer_ip not working as expected | help wanted, component/service discovery, good first issue, component/service discovery/kubernetes | 23 | 2026-08-13 |
 | ★★★☆☆ | [#12591](https://github.com/prometheus/prometheus/issues/12591) Expand scrape_config_files in the /config web UI endpoint | help wanted, component/ui, priority/P3, kind/feature | 6 | 2026-08-10 |
-| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted | 1 | 2026-08-08 |
 | ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 
@@ -268,13 +268,13 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
+| ★★☆☆☆ | [#828](https://github.com/splunk/splunk-sdk-python/issues/828) Search Result Export with SSL off doesn't work | — | 0 | 2026-08-18 |
 | ★★☆☆☆ | [#826](https://github.com/splunk/splunk-sdk-python/issues/826) splunklib.ai broken by mcp 2.0.0 — 'ai' extra needs an mcp<2 cap (Server.list_tools removed) | — | 0 | 2026-07-29 |
 | ★★☆☆☆ | [#785](https://github.com/splunk/splunk-sdk-python/issues/785) Splunk core -> python3.13 | — | 0 | 2026-05-13 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-04-08 |
 | ★★☆☆☆ | [#687](https://github.com/splunk/splunk-sdk-python/issues/687) Custom command have high CPU load / RAM usage | bug, Custom Search Commands | 1 | 2026-03-20 |
 | ★★☆☆☆ | [#617](https://github.com/splunk/splunk-sdk-python/issues/617) Question - High performing and high scale KVstore content retrieval with the Splunk Python SDK | bug, KV Store | 2 | 2025-11-13 |
 | ★★☆☆☆ | [#678](https://github.com/splunk/splunk-sdk-python/issues/678) JSONResultsReader iterator called on oneshot search does not iterate with for loop. | bug | 4 | 2025-10-09 |
-| ★★☆☆☆ | [#599](https://github.com/splunk/splunk-sdk-python/issues/599) splunklib.binding.HTTPlib.request improper exception handling. | — | 0 | 2025-02-02 |
 
 ### [traceloop/openllmetry](https://github.com/traceloop/openllmetry)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **386** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-18 06:04 UTC, took **72.9s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-18 06:58 UTC, took **59.3s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
