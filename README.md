@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-18 14:44 UTC_
+_Last updated: 2026-08-18 15:13 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | bug, affects_2.21 | 2 | 2026-08-18 |
 | ★★☆☆☆ | [#87423](https://github.com/ansible/ansible/issues/87423) --become fails for Ubuntu 26.04 hosts | needs_triage, bug, affects_2.21 | 1 | 2026-08-18 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, verified, affects_2.21 | 1 | 2026-08-17 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-17 |
 | ★★☆☆☆ | [#86721](https://github.com/ansible/ansible/issues/86721) Absent role in include_role inside of block/rescue leads to unexpected behavior | module, bug, verified, affects_2.19 | 7 | 2026-08-17 |
-| ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, affects_2.21 | 2 | 2026-08-16 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 22 | 2026-08-18 |
 | ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, has_pr, feature | 1 | 2026-08-18 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 2 | 2026-08-17 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-18 14:43 UTC, took **62.9s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-18 15:12 UTC, took **64.2s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
