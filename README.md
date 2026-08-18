@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-18 12:31 UTC_
+_Last updated: 2026-08-18 13:25 UTC_
 
-_Tracking **18** upstream repos, **385** relevant open issues._
+_Tracking **18** upstream repos, **384** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87359](https://github.com/ansible/ansible/issues/87359) 2.20 hostvars undefined | bug, needs_verified | 7 | 2026-08-18 |
 | ★★☆☆☆ | [#87423](https://github.com/ansible/ansible/issues/87423) --become fails for Ubuntu 26.04 hosts | needs_triage, bug, affects_2.21 | 1 | 2026-08-18 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, verified, affects_2.21 | 1 | 2026-08-17 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-17 |
 | ★★☆☆☆ | [#86721](https://github.com/ansible/ansible/issues/86721) Absent role in include_role inside of block/rescue leads to unexpected behavior | module, bug, verified, affects_2.19 | 7 | 2026-08-17 |
+| ★★☆☆☆ | [#87148](https://github.com/ansible/ansible/issues/87148) `run_once` + `register_host_variables` shares variable state across hosts in the batch (affects `set_fact`, and any action plugin using the new v2.21 dynamic var API) | bug, affects_2.21 | 2 | 2026-08-16 |
 | ★☆☆☆☆ | [#87365](https://github.com/ansible/ansible/issues/87365) ansible.builtin.systemd_service - support use of wildcard for instantiated template services | module, has_pr, feature | 1 | 2026-08-18 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 21 | 2026-08-17 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 2 | 2026-08-17 |
@@ -250,7 +250,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 1 | 2026-08-18 |
+| ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 2 | 2026-08-18 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
 | ★★★☆☆ | [#12591](https://github.com/prometheus/prometheus/issues/12591) Expand scrape_config_files in the /config web UI endpoint | help wanted, component/ui, priority/P3, kind/feature | 6 | 2026-08-10 |
 | ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-18 12:29 UTC, took **75.0s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
+_Last run: 2026-08-18 13:24 UTC, took **67.1s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
