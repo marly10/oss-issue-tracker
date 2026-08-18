@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-18 18:36 UTC_
+_Last updated: 2026-08-18 19:10 UTC_
 
 _Tracking **18** upstream repos, **385** relevant open issues._
 
@@ -268,13 +268,13 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
+| ★★☆☆☆ | [#831](https://github.com/splunk/splunk-sdk-python/issues/831) `SPLUNK_HOME` absolute-path check in `splunklib.ai.tools` fails on Windows | — | 0 | 2026-08-18 |
 | ★★☆☆☆ | [#828](https://github.com/splunk/splunk-sdk-python/issues/828) Search Result Export with SSL off doesn't work | — | 0 | 2026-08-18 |
 | ★★☆☆☆ | [#785](https://github.com/splunk/splunk-sdk-python/issues/785) Splunk core -> python3.13 | — | 0 | 2026-05-13 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-04-08 |
 | ★★☆☆☆ | [#687](https://github.com/splunk/splunk-sdk-python/issues/687) Custom command have high CPU load / RAM usage | bug, Custom Search Commands | 1 | 2026-03-20 |
 | ★★☆☆☆ | [#617](https://github.com/splunk/splunk-sdk-python/issues/617) Question - High performing and high scale KVstore content retrieval with the Splunk Python SDK | bug, KV Store | 2 | 2025-11-13 |
 | ★★☆☆☆ | [#678](https://github.com/splunk/splunk-sdk-python/issues/678) JSONResultsReader iterator called on oneshot search does not iterate with for loop. | bug | 4 | 2025-10-09 |
-| ★★☆☆☆ | [#599](https://github.com/splunk/splunk-sdk-python/issues/599) splunklib.binding.HTTPlib.request improper exception handling. | — | 0 | 2025-02-02 |
 
 ### [traceloop/openllmetry](https://github.com/traceloop/openllmetry)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-18 18:35 UTC, took **64.6s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-18 19:09 UTC, took **91.2s**, **110** GitHub API calls, **4890/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
