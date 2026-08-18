@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-18 21:42 UTC_
+_Last updated: 2026-08-18 21:57 UTC_
 
 _Tracking **18** upstream repos, **385** relevant open issues._
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-18 21:41 UTC, took **57.8s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-18 21:56 UTC, took **56.4s**, **110** GitHub API calls, **4670/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
