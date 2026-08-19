@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-19 11:46 UTC_
+_Last updated: 2026-08-19 12:03 UTC_
 
 _Tracking **18** upstream repos, **385** relevant open issues._
 
@@ -141,10 +141,10 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 | ★★☆☆☆ | [#87423](https://github.com/ansible/ansible/issues/87423) --become fails for Ubuntu 26.04 hosts | bug, affects_2.21 | 2 | 2026-08-18 |
 | ★★☆☆☆ | [#87389](https://github.com/ansible/ansible/issues/87389) Vault filter with to_yaml creates byte string | bug, has_pr, verified, affects_2.21 | 1 | 2026-08-17 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 7 | 2026-08-17 |
+| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, docs | 1 | 2026-08-19 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 36 | 2026-08-19 |
 | ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | has_pr, feature, P3 | 1 | 2026-08-18 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 25 | 2026-08-18 |
-| ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 2 | 2026-08-17 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-19 11:45 UTC, took **59.5s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-19 12:02 UTC, took **61.9s**, **111** GitHub API calls, **4669/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
