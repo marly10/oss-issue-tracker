@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-20 13:34 UTC_
+_Last updated: 2026-08-20 14:12 UTC_
 
 _Tracking **18** upstream repos, **385** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 8 | 2026-08-20 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug | 2 | 2026-08-20 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, needs_verified, affects_2.21 | 4 | 2026-08-20 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 8 | 2026-08-20 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 | ★☆☆☆☆ | [#17806](https://github.com/ansible/ansible/issues/17806) hostvars[host][variable] are not recursively templated | affects_2.1, bug, P3, affects_2.12 | 13 | 2026-08-19 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, docs | 2 | 2026-08-19 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 36 | 2026-08-19 |
-| ★☆☆☆☆ | [#86056](https://github.com/ansible/ansible/issues/86056) Expand test coverage of DataLoader.path_dwim_relative_stack | has_pr, feature, P3 | 1 | 2026-08-18 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-20 13:33 UTC, took **66.0s**, **111** GitHub API calls, **4778/5000** rate limit remaining._
+_Last run: 2026-08-20 14:11 UTC, took **64.0s**, **111** GitHub API calls, **4889/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
