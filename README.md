@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-21 16:54 UTC_
+_Last updated: 2026-08-21 17:17 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -195,7 +195,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 53 | 2026-08-19 |
+| ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 54 | 2026-08-21 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 44 | 2026-08-13 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 74 | 2026-08-12 |
 | ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 33 | 2026-08-10 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-21 16:53 UTC, took **62.5s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-21 17:16 UTC, took **66.5s**, **112** GitHub API calls, **4776/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
