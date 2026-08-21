@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-21 10:16 UTC_
+_Last updated: 2026-08-21 10:49 UTC_
 
 _Tracking **18** upstream repos, **385** relevant open issues._
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 8 | 2026-08-20 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug | 2 | 2026-08-20 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 8 | 2026-08-20 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 27 | 2026-08-20 |
+| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 28 | 2026-08-21 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, docs | 3 | 2026-08-20 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | needs_triage, has_pr | 1 | 2026-08-20 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 4 | 2026-08-20 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **385** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-21 10:15 UTC, took **62.3s**, **110** GitHub API calls, **4780/5000** rate limit remaining._
+_Last run: 2026-08-21 10:48 UTC, took **64.3s**, **110** GitHub API calls, **4670/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
