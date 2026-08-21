@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-21 21:33 UTC_
+_Last updated: 2026-08-21 21:53 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -140,7 +140,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, needs_verified, affects_2.21 | 4 | 2026-08-20 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 8 | 2026-08-20 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug | 2 | 2026-08-20 |
-| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, needs_verified, affects_2.15 | 8 | 2026-08-20 |
+| ★☆☆☆☆ | [#61025](https://github.com/ansible/ansible/issues/61025) any_errors_fatal not accepting variables | bug, has_pr, affects_2.14, data_tagging | 11 | 2026-08-21 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 29 | 2026-08-21 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, docs | 3 | 2026-08-20 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | needs_triage, has_pr | 1 | 2026-08-20 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-21 21:32 UTC, took **56.8s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-08-21 21:52 UTC, took **57.8s**, **113** GitHub API calls, **4774/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
