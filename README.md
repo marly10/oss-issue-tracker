@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-22 11:54 UTC_
+_Last updated: 2026-08-22 12:12 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -250,12 +250,12 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 8 | 2026-08-22 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 3 | 2026-08-20 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
 | ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 | ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 | ★★★☆☆ | [#18387](https://github.com/prometheus/prometheus/issues/18387) Support periodic DNS re-resolution for FQDN targets discovered via Consul SD | help wanted, kind/bug | 9 | 2026-08-03 |
-| ★★★☆☆ | [#9923](https://github.com/prometheus/prometheus/issues/9923) Crash loop in NewActiveQueryTracker on disk full | help wanted | 6 | 2026-07-29 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-22 11:53 UTC, took **57.0s**, **114** GitHub API calls, **4658/5000** rate limit remaining._
+_Last run: 2026-08-22 12:11 UTC, took **66.1s**, **114** GitHub API calls, **4544/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
