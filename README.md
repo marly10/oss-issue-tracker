@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-22 10:39 UTC_
+_Last updated: 2026-08-22 10:56 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, plugins, os, packaging | 7 | 2026-08-22 |
+| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 7 | 2026-08-22 |
 | ★★☆☆☆ | [#3236](https://github.com/ansible-collections/community.general/issues/3236) parted: status always changes when specific units are used with resize | bug, module, plugins, system | 5 | 2026-08-22 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 5 | 2026-08-22 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 5 | 2026-08-20 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-22 10:38 UTC, took **55.4s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
+_Last run: 2026-08-22 10:56 UTC, took **55.7s**, **114** GitHub API calls, **4658/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
