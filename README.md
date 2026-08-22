@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-22 10:11 UTC_
+_Last updated: 2026-08-22 10:39 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, plugins, os, packaging | 7 | 2026-08-22 |
+| ★★☆☆☆ | [#3236](https://github.com/ansible-collections/community.general/issues/3236) parted: status always changes when specific units are used with resize | bug, module, plugins, system | 5 | 2026-08-22 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 5 | 2026-08-22 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 5 | 2026-08-20 |
 | ★★☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) Tests for ufw module | bug, module, has_pr, plugins | 2 | 2026-08-18 |
 | ★☆☆☆☆ | [#1946](https://github.com/ansible-collections/community.general/issues/1946) linode_v4: support for nodebalancers and private IPs in the module planned? | feature, module, plugins, python3, cloud | 16 | 2026-08-22 |
 | ★☆☆☆☆ | [#3589](https://github.com/ansible-collections/community.general/issues/3589) twilio: error handling is vague and unhelpful | feature, module, plugins, notification | 3 | 2026-08-22 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) New module: Authselect - Manage authselect profiles and profile features | feature | 5 | 2026-08-18 |
-| ★☆☆☆☆ | [#10792](https://github.com/ansible-collections/community.general/issues/10792) onepassword lookup plugin: prompting for password every time | bug, docs_fragments, plugins | 15 | 2026-08-15 |
-| ★☆☆☆☆ | [#4717](https://github.com/ansible-collections/community.general/issues/4717) Netplan support | feature | 6 | 2026-08-15 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-22 10:10 UTC, took **60.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-22 10:38 UTC, took **55.4s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
