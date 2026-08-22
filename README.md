@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-22 22:27 UTC_
+_Last updated: 2026-08-22 22:47 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug, has_pr | 4 | 2026-08-22 |
+| ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug, has_pr | 5 | 2026-08-22 |
 | ★★☆☆☆ | [#87423](https://github.com/ansible/ansible/issues/87423) --become fails for Ubuntu 26.04 hosts | bug, affects_2.21 | 2 | 2026-08-22 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, needs_verified, affects_2.21 | 4 | 2026-08-20 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 8 | 2026-08-20 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-22 22:26 UTC, took **54.4s**, **114** GitHub API calls, **4544/5000** rate limit remaining._
+_Last run: 2026-08-22 22:46 UTC, took **64.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
