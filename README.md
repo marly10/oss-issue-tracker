@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-24 06:27 UTC_
+_Last updated: 2026-08-24 07:37 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4314](https://github.com/ansible-collections/community.general/issues/4314) syslog_json callback not working with ansible-core 2.12.2? | bug, callback, needs_info, plugins | 9 | 2026-08-23 |
 | ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, plugins | 9 | 2026-08-23 |
-| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 7 | 2026-08-22 |
+| ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 3 | 2026-08-24 |
 | ★☆☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) ufw: add unit tests for insert_relative_to | module, tests, unit, has_pr, plugins | 2 | 2026-08-23 |
 | ★☆☆☆☆ | [#12596](https://github.com/ansible-collections/community.general/issues/12596) ldap_attrs: add integration test coverage for INAPPROPRIATE_MATCHING fallback | feature, module, plugins | 2 | 2026-08-23 |
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-24 06:26 UTC, took **69.8s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-24 07:36 UTC, took **62.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
