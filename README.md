@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-24 14:31 UTC_
+_Last updated: 2026-08-24 15:11 UTC_
 
-_Tracking **18** upstream repos, **384** relevant open issues._
+_Tracking **18** upstream repos, **383** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -195,11 +195,11 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 34 | 2026-08-24 |
 | ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-08-22 |
 | ★★★☆☆ | [#109717](https://github.com/kubernetes/kubernetes/issues/109717) tracker: improve the kubelet test coverage | sig/node, help wanted, good first issue, needs-triage | 54 | 2026-08-21 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 44 | 2026-08-13 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 74 | 2026-08-12 |
-| ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 33 | 2026-08-10 |
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 8 | 2026-07-28 |
 | ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 9 | 2026-07-22 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 40 | 2026-07-17 |
@@ -251,11 +251,11 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 5 | 2026-08-24 |
-| ★★★☆☆ | [#10352](https://github.com/prometheus/prometheus/issues/10352) Patch log level config on runtime | help wanted, component/config, priority/P3 | 5 | 2026-08-22 |
 | ★★★☆☆ | [#12644](https://github.com/prometheus/prometheus/issues/12644) build: Ability to build local arm64 images | help wanted | 4 | 2026-08-22 |
 | ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 9 | 2026-08-22 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 3 | 2026-08-20 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
+| ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-24 14:30 UTC, took **70.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-24 15:10 UTC, took **64.3s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
