@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-24 12:01 UTC_
+_Last updated: 2026-08-24 13:01 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4282](https://github.com/ansible-collections/community.general/issues/4282) vmadm: Does not support bootrom and bhyve_extra_opts settings | bug, module, has_pr, needs_info, plugins, cloud | 8 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
-| ★★☆☆☆ | [#4314](https://github.com/ansible-collections/community.general/issues/4314) syslog_json callback not working with ansible-core 2.12.2? | bug, callback, needs_info, plugins | 9 | 2026-08-23 |
+| ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, plugins | 9 | 2026-08-23 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 3 | 2026-08-24 |
 | ★☆☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) ufw: add unit tests for insert_relative_to | module, tests, unit, has_pr, plugins | 2 | 2026-08-23 |
 | ★☆☆☆☆ | [#12596](https://github.com/ansible-collections/community.general/issues/12596) ldap_attrs: add integration test coverage for INAPPROPRIATE_MATCHING fallback | feature, module, plugins | 2 | 2026-08-23 |
@@ -250,9 +250,9 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 5 | 2026-08-24 |
 | ★★★☆☆ | [#10352](https://github.com/prometheus/prometheus/issues/10352) Patch log level config on runtime | help wanted, component/config, priority/P3 | 5 | 2026-08-22 |
 | ★★★☆☆ | [#12644](https://github.com/prometheus/prometheus/issues/12644) build: Ability to build local arm64 images | help wanted | 4 | 2026-08-22 |
-| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 4 | 2026-08-22 |
 | ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 9 | 2026-08-22 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 3 | 2026-08-20 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-24 12:00 UTC, took **67.1s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-24 12:59 UTC, took **80.8s**, **114** GitHub API calls, **4942/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
