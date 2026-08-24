@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-24 16:21 UTC_
+_Last updated: 2026-08-24 17:00 UTC_
 
 _Tracking **18** upstream repos, **383** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, filter, plugins | 2 | 2026-08-24 |
+| ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, has_pr, filter, plugins | 3 | 2026-08-24 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4282](https://github.com/ansible-collections/community.general/issues/4282) vmadm: Does not support bootrom and bhyve_extra_opts settings | bug, module, has_pr, needs_info, plugins, cloud | 8 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-24 16:20 UTC, took **65.9s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
+_Last run: 2026-08-24 16:59 UTC, took **75.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
