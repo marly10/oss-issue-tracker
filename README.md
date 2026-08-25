@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-25 05:51 UTC_
+_Last updated: 2026-08-25 06:20 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -140,8 +140,8 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, has_pr, needs_verified, affects_2.15 | 8 | 2026-08-24 |
 | ★★☆☆☆ | [#86218](https://github.com/ansible/ansible/issues/86218) user module does not remove SELinux mappings on user deletion | module, bug, has_pr, verified | 2 | 2026-08-24 |
 | ★★☆☆☆ | [#86721](https://github.com/ansible/ansible/issues/86721) Absent role in include_role inside of block/rescue leads to unexpected behavior | module, bug, has_pr, verified, affects_2.19 | 8 | 2026-08-23 |
-| ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, needs_triage, bug, has_pr | 5 | 2026-08-22 |
-| ★★☆☆☆ | [#87423](https://github.com/ansible/ansible/issues/87423) --become fails for Ubuntu 26.04 hosts | bug, affects_2.21 | 2 | 2026-08-22 |
+| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | has_pr, docs, P3, affects_2.17 | 5 | 2026-08-25 |
+| ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, has_pr, docs, P3, verified, affects_2.14 | 3 | 2026-08-25 |
 | ★☆☆☆☆ | [#84732](https://github.com/ansible/ansible/issues/84732) copy module does not preserve file ownership | module, has_pr, docs, needs_verified, affects_2.15 | 1 | 2026-08-24 |
 | ★☆☆☆☆ | [#62826](https://github.com/ansible/ansible/issues/62826) pip module always set to changed when using check mode | module, bug, has_pr, affects_2.8, P3, needs_verified | 20 | 2026-08-24 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, has_pr, docs | 5 | 2026-08-24 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-25 05:50 UTC, took **59.2s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
+_Last run: 2026-08-25 06:19 UTC, took **63.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
