@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-25 14:57 UTC_
+_Last updated: 2026-08-25 15:38 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
+| ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
 | ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, has_pr, verified, affects_2.18 | 5 | 2026-08-25 |
 | ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, has_pr, needs_verified, affects_2.15 | 8 | 2026-08-24 |
-| ★★☆☆☆ | [#86218](https://github.com/ansible/ansible/issues/86218) user module does not remove SELinux mappings on user deletion | module, bug, has_pr, verified | 2 | 2026-08-24 |
+| ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
+| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | has_pr, docs, P3, affects_2.17 | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, has_pr, docs, P3, verified, affects_2.14 | 3 | 2026-08-25 |
-| ★☆☆☆☆ | [#84732](https://github.com/ansible/ansible/issues/84732) copy module does not preserve file ownership | module, has_pr, docs, needs_verified, affects_2.15 | 1 | 2026-08-24 |
-| ★☆☆☆☆ | [#62826](https://github.com/ansible/ansible/issues/62826) pip module always set to changed when using check mode | module, bug, has_pr, affects_2.8, P3, needs_verified | 20 | 2026-08-24 |
-| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | needs_triage, has_pr, docs | 5 | 2026-08-24 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-25 14:56 UTC, took **72.6s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-25 15:37 UTC, took **68.7s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
