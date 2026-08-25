@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-25 21:01 UTC_
+_Last updated: 2026-08-25 21:34 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-24 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-25 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★☆☆☆ | [#4282](https://github.com/ansible-collections/community.general/issues/4282) vmadm: Does not support bootrom and bhyve_extra_opts settings | bug, module, has_pr, needs_info, plugins, cloud | 8 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, plugins | 9 | 2026-08-23 |
-| ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 6 | 2026-08-25 |
+| ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 7 | 2026-08-25 |
 | ★☆☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) ufw: add unit tests for insert_relative_to | module, tests, unit, has_pr, plugins | 2 | 2026-08-23 |
 | ★☆☆☆☆ | [#12596](https://github.com/ansible-collections/community.general/issues/12596) ldap_attrs: add integration test coverage for INAPPROPRIATE_MATCHING fallback | feature, module, plugins | 2 | 2026-08-23 |
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-25 21:00 UTC, took **80.5s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-25 21:33 UTC, took **69.1s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
