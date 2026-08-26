@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-26 03:19 UTC_
+_Last updated: 2026-08-26 04:07 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-25 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-26 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -208,7 +208,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 2 | 2026-08-10 |
+| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 3 | 2026-08-26 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-26 03:17 UTC, took **63.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-26 04:06 UTC, took **74.0s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
