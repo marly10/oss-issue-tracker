@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-26 02:14 UTC_
+_Last updated: 2026-08-26 03:19 UTC_
 
 _Tracking **18** upstream repos, **384** relevant open issues._
 
@@ -137,10 +137,10 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#86072](https://github.com/ansible/ansible/issues/86072) [2.19 regression] ping module failing with "unknown encoding: idna" on 2.19, working fine on 2.18 | module, bug, has_pr, affects_2.19 | 8 | 2026-08-26 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
 | ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, has_pr, verified, affects_2.18 | 5 | 2026-08-25 |
-| ★★☆☆☆ | [#87387](https://github.com/ansible/ansible/issues/87387) async_wrapper.py: IPC pipe timeout causes worker crash on slow IO, resulting in 30-minute poll timeout | bug, has_pr, needs_verified, affects_2.15 | 8 | 2026-08-24 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | has_pr, docs, P3, affects_2.17 | 5 | 2026-08-25 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-26 02:13 UTC, took **66.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-26 03:17 UTC, took **63.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
