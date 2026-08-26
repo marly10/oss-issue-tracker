@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-26 18:06 UTC_
+_Last updated: 2026-08-26 19:59 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -128,10 +128,10 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4282](https://github.com/ansible-collections/community.general/issues/4282) vmadm: Does not support bootrom and bhyve_extra_opts settings | bug, module, has_pr, needs_info, plugins, cloud | 8 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
+| ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 19 | 2026-08-26 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager fails in air-gapped environments | feature, module, plugins | 2 | 2026-08-26 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 7 | 2026-08-25 |
 | ★☆☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) ufw: add unit tests for insert_relative_to | module, tests, unit, has_pr, plugins | 2 | 2026-08-23 |
-| ★☆☆☆☆ | [#12596](https://github.com/ansible-collections/community.general/issues/12596) ldap_attrs: add integration test coverage for INAPPROPRIATE_MATCHING fallback | feature, module, plugins | 2 | 2026-08-23 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
 | ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, has_pr, verified, affects_2.18 | 5 | 2026-08-25 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 31 | 2026-08-26 |
+| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 33 | 2026-08-26 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | has_pr, docs, P3, affects_2.17 | 5 | 2026-08-25 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-26 18:05 UTC, took **71.0s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-08-26 19:58 UTC, took **64.3s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
