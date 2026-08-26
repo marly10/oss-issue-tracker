@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-26 05:55 UTC_
+_Last updated: 2026-08-26 06:25 UTC_
 
-_Tracking **18** upstream repos, **384** relevant open issues._
+_Tracking **18** upstream repos, **383** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -248,7 +248,6 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#19520](https://github.com/prometheus/prometheus/issues/19520) Native histograms: update mixin to support NHCB | priority/Pmaybe, good first issue | 1 | 2026-08-26 |
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 5 | 2026-08-24 |
@@ -256,6 +255,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 | ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 9 | 2026-08-22 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 3 | 2026-08-20 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
+| ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **384** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-26 05:53 UTC, took **77.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-08-26 06:24 UTC, took **60.2s**, **114** GitHub API calls, **4772/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
