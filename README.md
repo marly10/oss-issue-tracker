@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-27 04:02 UTC_
+_Last updated: 2026-08-27 15:07 UTC_
 
 _Tracking **18** upstream repos, **382** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4282](https://github.com/ansible-collections/community.general/issues/4282) vmadm: Does not support bootrom and bhyve_extra_opts settings | bug, module, has_pr, needs_info, plugins, cloud | 8 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
-| ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 19 | 2026-08-26 |
+| ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 21 | 2026-08-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager fails in air-gapped environments | feature, module, plugins | 2 | 2026-08-26 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 7 | 2026-08-25 |
 | ★☆☆☆☆ | [#12581](https://github.com/ansible-collections/community.general/issues/12581) ufw: add unit tests for insert_relative_to | module, tests, unit, has_pr, plugins | 2 | 2026-08-23 |
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#81549](https://github.com/ansible/ansible/issues/81549) v2_playbook_on_no_hosts_remaining doesn't fire without any_errors_fatal or max_fail_percentage | bug, P3, affects_2.15 | 6 | 2026-08-27 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 9 | 2026-08-26 |
 | ★★☆☆☆ | [#86072](https://github.com/ansible/ansible/issues/86072) [2.19 regression] ping module failing with "unknown encoding: idna" on 2.19, working fine on 2.18 | module, bug, has_pr, affects_2.19 | 8 | 2026-08-26 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
-| ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, has_pr, verified, affects_2.18 | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 33 | 2026-08-26 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-08-25 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-08-26 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-08-27 |
 | ★★☆☆☆ | [#563](https://github.com/grafana/google-bigquery-datasource/issues/563) Can't read boolean data | — | 0 | 2026-08-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -239,10 +239,10 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 6 | 2026-08-03 |
 | ★★★★★ | [#38092](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/38092) [CI/CD\| run no race tests in CIs too | enhancement, good first issue, ci-cd, never stale | 9 | 2026-05-21 |
+| ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, Stale, exporter/elasticsearch | 21 | 2026-08-27 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, Stale, pkg/pdatatest | 2 | 2026-08-12 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 11 | 2026-08-10 |
 | ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 5 | 2026-08-04 |
-| ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen | 35 | 2026-08-04 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-27 04:01 UTC, took **66.2s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-08-27 15:06 UTC, took **77.0s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
