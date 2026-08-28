@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-28 11:33 UTC_
+_Last updated: 2026-08-28 21:30 UTC_
 
-_Tracking **18** upstream repos, **381** relevant open issues._
+_Tracking **18** upstream repos, **380** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87460](https://github.com/ansible/ansible/issues/87460) Inconsistent whitespace stripping on vault passwords | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-08-28 |
 | ★★☆☆☆ | [#81549](https://github.com/ansible/ansible/issues/81549) v2_playbook_on_no_hosts_remaining doesn't fire without any_errors_fatal or max_fail_percentage | bug, P3, affects_2.15 | 6 | 2026-08-27 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 9 | 2026-08-26 |
 | ★★☆☆☆ | [#86072](https://github.com/ansible/ansible/issues/86072) [2.19 regression] ping module failing with "unknown encoding: idna" on 2.19, working fine on 2.18 | module, bug, has_pr, affects_2.19 | 8 | 2026-08-26 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 33 | 2026-08-26 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
-| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-08-25 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -250,12 +250,12 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 4 | 2026-08-28 |
+| ★★★☆☆ | [#11969](https://github.com/prometheus/prometheus/issues/11969) Help/Description entry for recording rules | help wanted, component/rules | 5 | 2026-08-28 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 5 | 2026-08-24 |
 | ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 9 | 2026-08-22 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 3 | 2026-08-20 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 5 | 2026-08-15 |
-| ★★★☆☆ | [#15545](https://github.com/prometheus/prometheus/issues/15545) Idea: Test Alert Conditions Against Historical Data for Different `for:` Values | help wanted, component/ui, component/rules, priority/P3, kind/feature | 5 | 2026-08-06 |
-| ★★★☆☆ | [#15863](https://github.com/prometheus/prometheus/issues/15863) Enhancements to kubernetes_sd_config to support Gateway API resources | help wanted, component/service discovery, kind/feature, component/service discovery/kubernetes | 9 | 2026-08-03 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-28 11:32 UTC, took **61.0s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-28 21:29 UTC, took **60.4s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
