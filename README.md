@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-29 03:17 UTC_
+_Last updated: 2026-08-29 10:10 UTC_
 
-_Tracking **18** upstream repos, **380** relevant open issues._
+_Tracking **18** upstream repos, **379** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-28 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-08-29 |
 | ★★☆☆☆ | [#1191](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1191) histogramPoint emits a non-zero SumOfSquaredDeviation when the normalized count is 0, and Cloud Monitoring rejects the point permanently | — | 0 | 2026-08-26 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-29 03:16 UTC, took **62.5s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-29 10:09 UTC, took **58.5s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
