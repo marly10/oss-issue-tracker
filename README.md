@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-28 21:30 UTC_
+_Last updated: 2026-08-29 03:17 UTC_
 
 _Tracking **18** upstream repos, **380** relevant open issues._
 
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 9 | 2026-08-26 |
 | ★★☆☆☆ | [#86072](https://github.com/ansible/ansible/issues/86072) [2.19 regression] ping module failing with "unknown encoding: idna" on 2.19, working fine on 2.18 | module, bug, has_pr, affects_2.19 | 8 | 2026-08-26 |
 | ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
-| ★★☆☆☆ | [#87428](https://github.com/ansible/ansible/issues/87428) Update user module for Linux shadow-utils changes | module, bug, has_pr, P3 | 5 | 2026-08-25 |
+| ★☆☆☆☆ | [#82958](https://github.com/ansible/ansible/issues/82958) systemd_service: Support for the "machine" parameter | module, has_pr, feature | 12 | 2026-08-29 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 33 | 2026-08-26 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-08-28 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-08-29 |
 | ★★☆☆☆ | [#563](https://github.com/grafana/google-bigquery-datasource/issues/563) Can't read boolean data | — | 0 | 2026-08-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -250,7 +250,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 4 | 2026-08-28 |
+| ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 5 | 2026-08-28 |
 | ★★★☆☆ | [#11969](https://github.com/prometheus/prometheus/issues/11969) Help/Description entry for recording rules | help wanted, component/rules | 5 | 2026-08-28 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 5 | 2026-08-24 |
 | ★★★☆☆ | [#13556](https://github.com/prometheus/prometheus/issues/13556) scrape: Add more tests validating HTTP requests made on scrape (and their headers) | help wanted, component/tests | 9 | 2026-08-22 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **380** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-28 21:29 UTC, took **60.4s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-29 03:16 UTC, took **62.5s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
