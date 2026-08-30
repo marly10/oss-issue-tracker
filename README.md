@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-29 23:05 UTC_
+_Last updated: 2026-08-30 01:13 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#86721](https://github.com/ansible/ansible/issues/86721) Absent role in include_role inside of block/rescue leads to unexpected behavior | module, bug, verified, affects_2.19 | 8 | 2026-08-30 |
 | ★★☆☆☆ | [#87460](https://github.com/ansible/ansible/issues/87460) Inconsistent whitespace stripping on vault passwords | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-08-28 |
 | ★★☆☆☆ | [#81549](https://github.com/ansible/ansible/issues/81549) v2_playbook_on_no_hosts_remaining doesn't fire without any_errors_fatal or max_fail_percentage | bug, P3, affects_2.15 | 6 | 2026-08-27 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 9 | 2026-08-26 |
 | ★★☆☆☆ | [#86072](https://github.com/ansible/ansible/issues/86072) [2.19 regression] ping module failing with "unknown encoding: idna" on 2.19, working fine on 2.18 | module, bug, has_pr, affects_2.19 | 8 | 2026-08-26 |
-| ★★☆☆☆ | [#87366](https://github.com/ansible/ansible/issues/87366) dnf/package regression in ansible-core 2.21: DNF plugin stdout causes JSON parsing failure | module, bug, has_pr, verified, affects_2.21 | 4 | 2026-08-25 |
 | ★☆☆☆☆ | [#82958](https://github.com/ansible/ansible/issues/82958) systemd_service: Support for the "machine" parameter | module, has_pr, feature | 12 | 2026-08-29 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 33 | 2026-08-26 |
 | ★☆☆☆☆ | [#87430](https://github.com/ansible/ansible/issues/87430) user module, SSH key generation follows private-key symlinks | has_pr | 1 | 2026-08-25 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-29 23:04 UTC, took **62.4s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-30 01:12 UTC, took **64.9s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
