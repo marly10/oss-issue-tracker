@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-30 19:27 UTC_
+_Last updated: 2026-08-30 21:57 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, verified, affects_2.17 | 5 | 2026-08-30 |
 | ★★☆☆☆ | [#83682](https://github.com/ansible/ansible/issues/83682) user parameter shouldn't be required when adding a variable with cron_file set on cron module | module, bug, has_pr, P3, affects_2.17 | 1 | 2026-08-30 |
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, has_pr, affects_2.16 | 1 | 2026-08-30 |
 | ★★☆☆☆ | [#86721](https://github.com/ansible/ansible/issues/86721) Absent role in include_role inside of block/rescue leads to unexpected behavior | module, bug, verified, affects_2.19 | 8 | 2026-08-30 |
 | ★★☆☆☆ | [#87460](https://github.com/ansible/ansible/issues/87460) Inconsistent whitespace stripping on vault passwords | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-08-28 |
 | ★★☆☆☆ | [#81549](https://github.com/ansible/ansible/issues/81549) v2_playbook_on_no_hosts_remaining doesn't fire without any_errors_fatal or max_fail_percentage | bug, P3, affects_2.15 | 6 | 2026-08-27 |
-| ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items | bug, affects_2.21 | 9 | 2026-08-26 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-08-30 |
 | ★☆☆☆☆ | [#82958](https://github.com/ansible/ansible/issues/82958) systemd_service: Support for the "machine" parameter | module, has_pr, feature | 12 | 2026-08-29 |
 
@@ -153,11 +153,11 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★☆☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | stale | 1 | 2026-08-16 |
 | ★☆☆☆☆ | [#3165](https://github.com/aws-observability/aws-otel-collector/issues/3165) Vulnerability in amazon/aws-otel-collector:latest image blocking CI/CD pipelines - when will a patched image be published | stale | 4 | 2026-08-02 |
 | ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 38 | 2026-07-26 |
-| ★☆☆☆☆ | [#3209](https://github.com/aws-observability/aws-otel-collector/issues/3209) v0.48.0 awsxray receiver fails to start on ECS/EC2: "could not fetch region from ecs metadata or ec2 metadata" / context deadline exceeded | stale | 2 | 2026-07-26 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | — | 4 | 2026-07-14 |
 | ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 4 | 2026-07-12 |
 | ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | — | 2 | 2026-07-09 |
 | ★☆☆☆☆ | [#1166](https://github.com/aws-observability/aws-otel-collector/issues/1166) spanmetricsprocessor for ADOT | feature-request, ADOT collector, processor | 9 | 2026-03-03 |
+| ★☆☆☆☆ | [#556](https://github.com/aws-observability/aws-otel-collector/issues/556) Support host metrics receiver | metrics, feature-request, receiver, ADOT collector | 18 | 2025-02-11 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-30 19:26 UTC, took **64.9s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-30 21:56 UTC, took **56.8s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
