@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-08-31 18:10 UTC_
+_Last updated: 2026-08-31 22:48 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -124,8 +124,8 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 7 | 2026-08-31 |
 | ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, has_pr, filter, plugins | 3 | 2026-08-24 |
-| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 6 | 2026-08-23 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
 | ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) New module: sssd_config - Manage SSSD Configuration | feature | 1 | 2026-08-30 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-08-27 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-08-31 18:08 UTC, took **68.0s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
+_Last run: 2026-08-31 22:46 UTC, took **61.6s**, **112** GitHub API calls, **4888/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
