@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-01 11:50 UTC_
+_Last updated: 2026-09-01 15:35 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87475](https://github.com/ansible/ansible/issues/87475) Ansible crash with large fork with Windows PSRP connection | bug, needs_verified, affects_2.21 | 2 | 2026-09-01 |
+| ★★☆☆☆ | [#87460](https://github.com/ansible/ansible/issues/87460) Inconsistent whitespace stripping on vault passwords | bug, has_pr, affects_2.20 | 3 | 2026-09-01 |
 | ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, verified, affects_2.18 | 5 | 2026-09-01 |
 | ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, verified, affects_2.19 | 3 | 2026-08-31 |
 | ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, P3, affects_2.11 | 3 | 2026-08-31 |
-| ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, verified, affects_2.17 | 5 | 2026-08-30 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 5 | 2026-09-01 |
 | ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, docs, P3, verified, affects_2.14 | 3 | 2026-09-01 |
 | ★☆☆☆☆ | [#62826](https://github.com/ansible/ansible/issues/62826) pip module always set to changed when using check mode | module, bug, affects_2.8, P3, needs_verified | 20 | 2026-08-31 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 34 | 2026-08-31 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-01 11:49 UTC, took **65.6s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-01 15:34 UTC, took **72.4s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
