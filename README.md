@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-02 05:49 UTC_
+_Last updated: 2026-09-02 09:58 UTC_
 
-_Tracking **18** upstream repos, **377** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -138,13 +138,13 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 5 | 2026-09-02 |
+| ★☆☆☆☆ | [#87477](https://github.com/ansible/ansible/issues/87477) Show a did you mean style of message for tags | needs_triage, feature | 1 | 2026-09-02 |
 | ★☆☆☆☆ | [#83255](https://github.com/ansible/ansible/issues/83255) Plugin development documentation requires updates which address handling Unsafe value wrappers | docs, affects_2.14, data_tagging | 7 | 2026-09-02 |
 | ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 5 | 2026-09-02 |
 | ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 12 | 2026-09-02 |
 | ★☆☆☆☆ | [#75109](https://github.com/ansible/ansible/issues/75109) sub plugins are not being pulled into documentation or ansible-doc etc | docs, affects_2.15 | 14 | 2026-09-02 |
 | ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 5 | 2026-09-02 |
 | ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 12 | 2026-09-02 |
-| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 6 | 2026-09-02 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-02 05:48 UTC, took **62.9s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-02 09:57 UTC, took **68.3s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
