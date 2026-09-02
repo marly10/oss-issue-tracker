@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-02 01:12 UTC_
+_Last updated: 2026-09-02 05:49 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 7 | 2026-08-31 |
 | ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, has_pr, filter, plugins | 3 | 2026-08-24 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
-| ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) New module: sssd_config - Manage SSSD Configuration | feature | 2 | 2026-09-01 |
+| ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) New module: sssd_config - Manage SSSD Configuration | feature | 4 | 2026-09-02 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-08-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager fails in air-gapped environments | feature, module, plugins | 2 | 2026-08-26 |
 | ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) include Augeas module | feature | 7 | 2026-08-25 |
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87475](https://github.com/ansible/ansible/issues/87475) Ansible crash with large fork with Windows PSRP connection | bug, needs_verified, affects_2.21 | 2 | 2026-09-01 |
-| ★★☆☆☆ | [#87460](https://github.com/ansible/ansible/issues/87460) Inconsistent whitespace stripping on vault passwords | bug, has_pr, affects_2.20 | 3 | 2026-09-01 |
-| ★★☆☆☆ | [#85503](https://github.com/ansible/ansible/issues/85503) chmod: invalid mode: ‘A+user:myuser:rx:allow’ when using become_user and acl package is not installed on the node | bug, verified, affects_2.18 | 5 | 2026-09-01 |
-| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, verified, affects_2.19 | 3 | 2026-08-31 |
-| ★★☆☆☆ | [#79293](https://github.com/ansible/ansible/issues/79293) combine(.. , list_merge='append') filter does not work correctly with two equivalent vars | bug, P3, affects_2.11 | 3 | 2026-08-31 |
-| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 6 | 2026-09-02 |
-| ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, docs, P3, verified, affects_2.14 | 3 | 2026-09-01 |
-| ★☆☆☆☆ | [#62826](https://github.com/ansible/ansible/issues/62826) pip module always set to changed when using check mode | module, bug, affects_2.8, P3, needs_verified | 20 | 2026-08-31 |
+| ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 5 | 2026-09-02 |
+| ★☆☆☆☆ | [#83255](https://github.com/ansible/ansible/issues/83255) Plugin development documentation requires updates which address handling Unsafe value wrappers | docs, affects_2.14, data_tagging | 7 | 2026-09-02 |
+| ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 5 | 2026-09-02 |
+| ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 12 | 2026-09-02 |
+| ★☆☆☆☆ | [#75109](https://github.com/ansible/ansible/issues/75109) sub plugins are not being pulled into documentation or ansible-doc etc | docs, affects_2.15 | 14 | 2026-09-02 |
+| ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 5 | 2026-09-02 |
+| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 12 | 2026-09-02 |
+| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 6 | 2026-09-02 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-02 01:11 UTC, took **66.9s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-02 05:48 UTC, took **62.9s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
