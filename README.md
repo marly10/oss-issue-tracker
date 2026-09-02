@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-02 14:05 UTC_
+_Last updated: 2026-09-02 17:51 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 5 | 2026-09-02 |
-| ★☆☆☆☆ | [#83255](https://github.com/ansible/ansible/issues/83255) Plugin development documentation requires updates which address handling Unsafe value wrappers | docs, affects_2.14, data_tagging | 7 | 2026-09-02 |
-| ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 5 | 2026-09-02 |
-| ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 12 | 2026-09-02 |
-| ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 5 | 2026-09-02 |
-| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 12 | 2026-09-02 |
-| ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 6 | 2026-09-02 |
-| ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, docs, P3, verified, affects_2.14 | 4 | 2026-09-02 |
+| ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 4 | 2026-09-02 |
+| ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 4 | 2026-09-02 |
+| ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 11 | 2026-09-02 |
+| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-09-02 |
+| ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, docs, P3, verified, affects_2.14 | 3 | 2026-09-02 |
+| ★☆☆☆☆ | [#83255](https://github.com/ansible/ansible/issues/83255) Plugin development documentation requires updates which address handling Unsafe value wrappers | docs, affects_2.14, data_tagging | 6 | 2026-09-02 |
+| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 5 | 2026-09-02 |
+| ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 4 | 2026-09-02 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-02 14:03 UTC, took **95.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-02 17:50 UTC, took **68.2s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
