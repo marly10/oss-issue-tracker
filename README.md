@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-03 19:54 UTC_
+_Last updated: 2026-09-03 21:57 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 6 | 2026-09-03 |
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 7 | 2026-09-03 |
 | ★★☆☆☆ | [#86946](https://github.com/ansible/ansible/issues/86946) copy module - A worker was found in a dead state | module, bug, affects_2.20 | 8 | 2026-09-02 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items and conditionals | bug, affects_2.21 | 9 | 2026-09-02 |
 | ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 4 | 2026-09-02 |
-| ★☆☆☆☆ | [#87481](https://github.com/ansible/ansible/issues/87481) About `apt_repository` deprecation: How to remove repositories with `deb822_repository`? | module, needs_triage, docs, affects_2.21 | 1 | 2026-09-03 |
+| ★☆☆☆☆ | [#87481](https://github.com/ansible/ansible/issues/87481) About `apt_repository` deprecation: How to remove repositories with `deb822_repository`? | module, needs_triage, docs, affects_2.21 | 2 | 2026-09-03 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 35 | 2026-09-03 |
 | ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 4 | 2026-09-02 |
 | ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 11 | 2026-09-02 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-03 19:53 UTC, took **67.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-03 21:56 UTC, took **62.9s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
