@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-03 17:17 UTC_
+_Last updated: 2026-09-03 19:54 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 5 | 2026-09-03 |
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 6 | 2026-09-03 |
 | ★★☆☆☆ | [#86946](https://github.com/ansible/ansible/issues/86946) copy module - A worker was found in a dead state | module, bug, affects_2.20 | 8 | 2026-09-02 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items and conditionals | bug, affects_2.21 | 9 | 2026-09-02 |
 | ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 4 | 2026-09-02 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-03 17:16 UTC, took **69.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-03 19:53 UTC, took **67.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
