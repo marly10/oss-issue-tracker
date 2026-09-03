@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-03 13:46 UTC_
+_Last updated: 2026-09-03 17:17 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12644](https://github.com/ansible-collections/community.general/issues/12644) keycloak_user: `attributes` is never idempotent — reports changed=True on every run | bug, module, plugins | 2 | 2026-09-03 |
+| ★★☆☆☆ | [#12644](https://github.com/ansible-collections/community.general/issues/12644) keycloak_user: `attributes` is never idempotent — reports changed=True on every run | bug, module, plugins | 3 | 2026-09-03 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 7 | 2026-08-31 |
 | ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, has_pr, filter, plugins | 3 | 2026-08-24 |
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 6 | 2026-08-23 |
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 5 | 2026-09-03 |
 | ★★☆☆☆ | [#86946](https://github.com/ansible/ansible/issues/86946) copy module - A worker was found in a dead state | module, bug, affects_2.20 | 8 | 2026-09-02 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items and conditionals | bug, affects_2.21 | 9 | 2026-09-02 |
 | ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 4 | 2026-09-02 |
+| ★☆☆☆☆ | [#87481](https://github.com/ansible/ansible/issues/87481) About `apt_repository` deprecation: How to remove repositories with `deb822_repository`? | module, needs_triage, docs, affects_2.21 | 1 | 2026-09-03 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 35 | 2026-09-03 |
 | ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 4 | 2026-09-02 |
 | ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 11 | 2026-09-02 |
-| ★☆☆☆☆ | [#82260](https://github.com/ansible/ansible/issues/82260) How am I supposed to pass galaxy_token? | docs, affects_2.15 | 11 | 2026-09-02 |
-| ★☆☆☆☆ | [#82459](https://github.com/ansible/ansible/issues/82459) Unarchive module inherits permissions from original zip-file. Docs not clear | module, docs, P3, verified, affects_2.14 | 3 | 2026-09-02 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-03 13:44 UTC, took **70.1s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-03 17:16 UTC, took **69.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
