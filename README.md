@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-04 06:03 UTC_
+_Last updated: 2026-09-04 11:07 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -126,7 +126,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#12644](https://github.com/ansible-collections/community.general/issues/12644) keycloak_user: `attributes` is never idempotent — reports changed=True on every run | bug, module, plugins | 3 | 2026-09-03 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 7 | 2026-08-31 |
-| ★★☆☆☆ | [#12609](https://github.com/ansible-collections/community.general/issues/12609) AnsibleFilterTypeError import deprecated in unicode_normalize/hashids filters | bug, has_pr, filter, plugins | 3 | 2026-08-24 |
+| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 13 | 2026-09-04 |
 | ★☆☆☆☆ | [#3358](https://github.com/ansible-collections/community.general/issues/3358) TSS: Environment Variables are ignored | bug, lookup, needs_info, plugins | 17 | 2026-09-04 |
 | ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) New module: sssd_config - Manage SSSD Configuration | feature | 4 | 2026-09-02 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-08-27 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-04 06:02 UTC, took **71.2s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-04 11:06 UTC, took **65.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
