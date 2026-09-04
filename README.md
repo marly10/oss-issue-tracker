@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-04 11:07 UTC_
+_Last updated: 2026-09-04 14:56 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -141,10 +141,10 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#86946](https://github.com/ansible/ansible/issues/86946) copy module - A worker was found in a dead state | module, bug, affects_2.20 | 8 | 2026-09-02 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items and conditionals | bug, affects_2.21 | 9 | 2026-09-02 |
 | ★★☆☆☆ | [#70003](https://github.com/ansible/ansible/issues/70003) dnf module: undocumented return values diverging from other modules | module, bug, has_pr, docs, P3, affects_2.11 | 4 | 2026-09-02 |
+| ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | needs_triage, feature | 2 | 2026-09-04 |
 | ★☆☆☆☆ | [#87481](https://github.com/ansible/ansible/issues/87481) About `apt_repository` deprecation: How to remove repositories with `deb822_repository`? | module, needs_triage, docs, affects_2.21 | 2 | 2026-09-03 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 35 | 2026-09-03 |
 | ★☆☆☆☆ | [#60880](https://github.com/ansible/ansible/issues/60880) Use human-readable 'name' for headings in Common Options in Config docs | docs, P3, affects_2.9 | 4 | 2026-09-02 |
-| ★☆☆☆☆ | [#74688](https://github.com/ansible/ansible/issues/74688) Linking to versioned docs from command-line output of ansible-doc | docs, affects_2.17 | 11 | 2026-09-02 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-04 11:06 UTC, took **65.5s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
+_Last run: 2026-09-04 14:55 UTC, took **67.6s**, **113** GitHub API calls, **4887/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
