@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-05 20:42 UTC_
+_Last updated: 2026-09-05 22:18 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, plugins, remote_management | 7 | 2026-09-05 |
 | ★★☆☆☆ | [#12644](https://github.com/ansible-collections/community.general/issues/12644) keycloak_user: `attributes` is never idempotent — reports changed=True on every run | bug, module, plugins | 3 | 2026-09-03 |
-| ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 13 | 2026-09-05 |
+| ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 15 | 2026-09-05 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 8 | 2026-09-05 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 13 | 2026-09-04 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-05 20:41 UTC, took **66.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-05 22:17 UTC, took **65.6s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
