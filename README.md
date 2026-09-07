@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-07 00:30 UTC_
+_Last updated: 2026-09-07 05:05 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-06 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-07 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -126,7 +126,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, plugins, remote_management | 7 | 2026-09-05 |
-| ★☆☆☆☆ | [#7849](https://github.com/ansible-collections/community.general/issues/7849) make module archive in zstd | feature, module, plugins | 3 | 2026-09-06 |
+| ★★☆☆☆ | [#12644](https://github.com/ansible-collections/community.general/issues/12644) keycloak_user: `attributes` is never idempotent — reports changed=True on every run | bug, module, plugins | 3 | 2026-09-03 |
 | ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 16 | 2026-09-06 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 8 | 2026-09-05 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-06 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-07 |
 | ★★☆☆☆ | [#563](https://github.com/grafana/google-bigquery-datasource/issues/563) Can't read boolean data | — | 0 | 2026-08-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-07 00:29 UTC, took **58.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-07 05:04 UTC, took **61.3s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
