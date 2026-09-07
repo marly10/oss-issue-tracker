@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-06 22:55 UTC_
+_Last updated: 2026-09-07 00:30 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87496](https://github.com/ansible/ansible/issues/87496) `getaddrinfo` patch validation fails on QNX Neutrino 6.5.0 | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-09-07 |
 | ★★☆☆☆ | [#87492](https://github.com/ansible/ansible/issues/87492) VariableManager.set_host_facts() aliases the caller's dict across hosts when the host has no prior cached facts (cross-host fact leak on later update) | needs_triage, bug, affects_2.21 | 2 | 2026-09-06 |
 | ★★☆☆☆ | [#87491](https://github.com/ansible/ansible/issues/87491) template: missing `src` file is no longer catchable via `failed_when` | module, needs_triage, bug, has_pr, affects_2.19 | 4 | 2026-09-06 |
 | ★★☆☆☆ | [#83682](https://github.com/ansible/ansible/issues/83682) user parameter shouldn't be required when adding a variable with cron_file set on cron module | module, bug, P3, affects_2.17 | 1 | 2026-09-06 |
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, affects_2.16 | 1 | 2026-09-06 |
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 7 | 2026-09-03 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 4 | 2026-09-06 |
 | ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 5 | 2026-09-04 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | needs_triage, feature | 2 | 2026-09-04 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-06 22:54 UTC, took **62.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-07 00:29 UTC, took **58.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
