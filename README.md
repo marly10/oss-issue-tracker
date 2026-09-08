@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-08 09:10 UTC_
+_Last updated: 2026-09-08 13:35 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-07 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-08 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -250,12 +250,12 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#4340](https://github.com/prometheus/prometheus/issues/4340) Azure Discovery incorrectly discovering de-allocated VM NICs | help wanted, kind/enhancement, component/service discovery | 8 | 2026-09-08 |
+| ★★★☆☆ | [#4057](https://github.com/prometheus/prometheus/issues/4057) Using `Select()` for both sample+metadata queries is unsuitable for remote storage implementations | help wanted, component/remote storage, priority/P3, component/api | 9 | 2026-09-08 |
 | ★★★☆☆ | [#19264](https://github.com/prometheus/prometheus/issues/19264) Deltas: add PromQL function to disable processing of start times | help wanted, not-as-easy-as-it-looks | 7 | 2026-09-02 |
 | ★★★☆☆ | [#17109](https://github.com/prometheus/prometheus/issues/17109) Scrape configuration to limit label churn / added series | help wanted, priority/P2, component/scraping, kind/feature | 9 | 2026-09-01 |
 | ★★★☆☆ | [#17770](https://github.com/prometheus/prometheus/issues/17770) Feature Request: Add Labelmap PromQL Function | help wanted, component/promql, priority/P3, kind/feature | 9 | 2026-09-01 |
 | ★★★☆☆ | [#18308](https://github.com/prometheus/prometheus/issues/18308) "Compaction failed" errors in Windows container when TSDB (Data directory) is stored in Docker volume | help wanted, component/tsdb | 5 | 2026-09-01 |
-| ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 5 | 2026-08-28 |
-| ★★★☆☆ | [#11969](https://github.com/prometheus/prometheus/issues/11969) Help/Description entry for recording rules | help wanted, component/rules | 5 | 2026-08-28 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-08 09:09 UTC, took **71.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-08 13:34 UTC, took **82.1s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
