@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-09 00:28 UTC_
+_Last updated: 2026-09-09 04:59 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | ★★☆☆☆ | [#86947](https://github.com/ansible/ansible/issues/86947) Filter using dataclasses.asdict triggers _lazy_containers.UnsupportedConstructionMethodError | bug, needs_verified, affects_2.20 | 1 | 2026-09-07 |
 | ★★☆☆☆ | [#83682](https://github.com/ansible/ansible/issues/83682) user parameter shouldn't be required when adding a variable with cron_file set on cron module | module, bug, P3, affects_2.17 | 1 | 2026-09-06 |
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, affects_2.16 | 1 | 2026-09-06 |
-| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 7 | 2026-09-03 |
+| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 37 | 2026-09-09 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 2 | 2026-09-08 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 4 | 2026-09-06 |
 | ★☆☆☆☆ | [#84500](https://github.com/ansible/ansible/issues/84500) ansible.builtin.service_facts incorrectly documents the status values reported for systemd systems | module, has_pr, docs, P3, needs_verified, affects_2.18 | 5 | 2026-09-04 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-08 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-09 |
 | ★★☆☆☆ | [#563](https://github.com/grafana/google-bigquery-datasource/issues/563) Can't read boolean data | — | 0 | 2026-08-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-09 00:27 UTC, took **68.1s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-09 04:58 UTC, took **62.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
