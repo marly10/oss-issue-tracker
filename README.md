@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-09 17:21 UTC_
+_Last updated: 2026-09-09 19:51 UTC_
 
 _Tracking **18** upstream repos, **375** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 8 | 2026-09-09 |
+| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 9 | 2026-09-09 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, plugins, remote_management | 7 | 2026-09-05 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 14 | 2026-09-07 |
@@ -137,10 +137,10 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87491](https://github.com/ansible/ansible/issues/87491) template: missing `src` file is no longer catchable via `failed_when` | module, bug, has_pr, affects_2.19 | 4 | 2026-09-08 |
 | ★★☆☆☆ | [#86947](https://github.com/ansible/ansible/issues/86947) Filter using dataclasses.asdict triggers _lazy_containers.UnsupportedConstructionMethodError | bug, needs_verified, affects_2.20 | 1 | 2026-09-07 |
 | ★★☆☆☆ | [#83682](https://github.com/ansible/ansible/issues/83682) user parameter shouldn't be required when adding a variable with cron_file set on cron module | module, bug, P3, affects_2.17 | 1 | 2026-09-06 |
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, affects_2.16 | 1 | 2026-09-06 |
+| ★★☆☆☆ | [#87415](https://github.com/ansible/ansible/issues/87415) ansible_facts merge leaks one host's setup-module result onto another host in the same play | needs_info, bug, needs_verified, affects_2.21 | 7 | 2026-09-03 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 37 | 2026-09-09 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 2 | 2026-09-08 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, feature, P3 | 4 | 2026-09-06 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-09 17:19 UTC, took **68.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-09 19:50 UTC, took **68.1s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
