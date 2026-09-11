@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-11 10:56 UTC_
+_Last updated: 2026-09-11 14:43 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -181,8 +181,8 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
+| ★★☆☆☆ | [#522](https://github.com/grafana/google-bigquery-datasource/issues/522) Grafana 13.0.2 BigQuery Query Variable definition Field Always Cleared | — | 0 | 2026-06-10 |
 | ★☆☆☆☆ | [#321](https://github.com/grafana/google-bigquery-datasource/issues/321) multivalue variable interpolates only the first element | need investigation, stale | 1 | 2026-09-05 |
-| ★☆☆☆☆ | [#277](https://github.com/grafana/google-bigquery-datasource/issues/277) [bigquery] e2e tests | type/chore | 1 | 2026-08-14 |
 | ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
 
 ### [grafana/grafana-ansible-collection](https://github.com/grafana/grafana-ansible-collection)
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-11 10:55 UTC, took **68.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-11 14:42 UTC, took **76.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
