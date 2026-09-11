@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-11 14:43 UTC_
+_Last updated: 2026-09-11 17:56 UTC_
 
-_Tracking **18** upstream repos, **372** relevant open issues._
+_Tracking **18** upstream repos, **373** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 4 | 2026-09-11 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, plugins | 9 | 2026-09-09 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, plugins, remote_management | 7 | 2026-09-05 |
@@ -131,17 +132,16 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 | ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 16 | 2026-09-06 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 8 | 2026-09-05 |
-| ★☆☆☆☆ | [#3358](https://github.com/ansible-collections/community.general/issues/3358) TSS: Environment Variables are ignored | bug, lookup, needs_info, plugins | 17 | 2026-09-04 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, has_pr, P3, affects_2.15 | 4 | 2026-09-11 |
 | ★★☆☆☆ | [#81569](https://github.com/ansible/ansible/issues/81569) copy module in check mode fails to populate the dest/path attributes of the registered variable | bug, has_pr, P3, affects_2.14 | 1 | 2026-09-11 |
 | ★★☆☆☆ | [#85283](https://github.com/ansible/ansible/issues/85283) Module blockinfile doesn't respect line endings that differ from os.linesep | module, bug, has_pr, needs_verified, affects_2.18 | 2 | 2026-09-10 |
 | ★★☆☆☆ | [#86947](https://github.com/ansible/ansible/issues/86947) Filter using dataclasses.asdict triggers _lazy_containers.UnsupportedConstructionMethodError | bug, needs_verified, affects_2.20 | 1 | 2026-09-07 |
-| ★★☆☆☆ | [#83682](https://github.com/ansible/ansible/issues/83682) user parameter shouldn't be required when adding a variable with cron_file set on cron module | module, bug, P3, affects_2.17 | 1 | 2026-09-06 |
-| ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, affects_2.16 | 1 | 2026-09-06 |
+| ★☆☆☆☆ | [#86889](https://github.com/ansible/ansible/issues/86889) Deprecate ansible-pull CLI | has_pr, feature | 1 | 2026-09-11 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 3 | 2026-09-11 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 36 | 2026-09-10 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 37 | 2026-09-09 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-11 14:42 UTC, took **76.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-11 17:55 UTC, took **79.6s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
