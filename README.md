@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-13 18:05 UTC_
+_Last updated: 2026-09-13 20:43 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -124,11 +124,11 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 7 | 2026-09-13 |
-| ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, has_pr, plugins | 10 | 2026-09-13 |
+| ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 8 | 2026-09-13 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
 | ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
+| ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 14 | 2026-09-07 |
 | ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 16 | 2026-09-06 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87527](https://github.com/ansible/ansible/issues/87527) local connection leaks subprocess and descriptors when become handshake fails after Popen | needs_triage, bug, has_pr | 1 | 2026-09-13 |
 | ★★☆☆☆ | [#79624](https://github.com/ansible/ansible/issues/79624) Argument Spec Validation Failure with vault + no_log | module, bug, has_pr, P3, affects_2.14 | 8 | 2026-09-11 |
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, has_pr, P3, affects_2.15 | 4 | 2026-09-11 |
 | ★★☆☆☆ | [#81569](https://github.com/ansible/ansible/issues/81569) copy module in check mode fails to populate the dest/path attributes of the registered variable | bug, has_pr, P3, affects_2.14 | 1 | 2026-09-11 |
@@ -144,17 +145,16 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★☆☆☆☆ | [#84498](https://github.com/ansible/ansible/issues/84498) Adding no_log to role argument validation | module, has_pr, feature, data_tagging | 4 | 2026-09-11 |
 | ★☆☆☆☆ | [#86889](https://github.com/ansible/ansible/issues/86889) Deprecate ansible-pull CLI | has_pr, feature | 1 | 2026-09-11 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 3 | 2026-09-11 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 36 | 2026-09-10 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | stale | 5 | 2026-09-13 |
+| ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | stale | 3 | 2026-09-13 |
+| ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | stale | 5 | 2026-09-13 |
 | ★☆☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | stale | 1 | 2026-08-16 |
 | ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 38 | 2026-07-26 |
-| ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | — | 4 | 2026-07-14 |
-| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 4 | 2026-07-12 |
-| ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | — | 2 | 2026-07-09 |
 | ★☆☆☆☆ | [#1166](https://github.com/aws-observability/aws-otel-collector/issues/1166) spanmetricsprocessor for ADOT | feature-request, ADOT collector, processor | 9 | 2026-03-03 |
 | ★☆☆☆☆ | [#556](https://github.com/aws-observability/aws-otel-collector/issues/556) Support host metrics receiver | metrics, feature-request, receiver, ADOT collector | 18 | 2025-02-11 |
 | ★☆☆☆☆ | [#821](https://github.com/aws-observability/aws-otel-collector/issues/821) span events doesn't show up in the Xray trace segments | traces, X-Ray | 9 | 2025-01-28 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-13 18:04 UTC, took **62.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-13 20:42 UTC, took **66.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
