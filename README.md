@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-13 20:43 UTC_
+_Last updated: 2026-09-13 22:38 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87528](https://github.com/ansible/ansible/issues/87528) winrm connection reset() drops the WinRS shell without close_shell | needs_triage, bug | 1 | 2026-09-13 |
 | ★★☆☆☆ | [#87527](https://github.com/ansible/ansible/issues/87527) local connection leaks subprocess and descriptors when become handshake fails after Popen | needs_triage, bug, has_pr | 1 | 2026-09-13 |
 | ★★☆☆☆ | [#79624](https://github.com/ansible/ansible/issues/79624) Argument Spec Validation Failure with vault + no_log | module, bug, has_pr, P3, affects_2.14 | 8 | 2026-09-11 |
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, has_pr, P3, affects_2.15 | 4 | 2026-09-11 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 38 | 2026-09-13 |
 | ★☆☆☆☆ | [#84498](https://github.com/ansible/ansible/issues/84498) Adding no_log to role argument validation | module, has_pr, feature, data_tagging | 4 | 2026-09-11 |
 | ★☆☆☆☆ | [#86889](https://github.com/ansible/ansible/issues/86889) Deprecate ansible-pull CLI | has_pr, feature | 1 | 2026-09-11 |
-| ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 3 | 2026-09-11 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-13 20:42 UTC, took **66.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-13 22:37 UTC, took **70.3s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
