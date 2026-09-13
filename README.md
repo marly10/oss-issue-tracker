@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-13 15:03 UTC_
+_Last updated: 2026-09-13 18:05 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -124,8 +124,8 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 7 | 2026-09-13 |
 | ★★☆☆☆ | [#12576](https://github.com/ansible-collections/community.general/issues/12576) xenserver_guest: copying from existing VM fails | bug, module, has_pr, plugins | 10 | 2026-09-13 |
-| ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 6 | 2026-09-12 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
 | ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
@@ -284,9 +284,9 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 7 | 2026-07-29 |
 | ★★★★☆ | [#2303](https://github.com/traceloop/openllmetry/issues/2303) 🚀 Feature: Support for Azure AI Search | enhancement, good first issue, help wanted | 16 | 2026-05-18 |
 | ★★★★☆ | [#2283](https://github.com/traceloop/openllmetry/issues/2283) 🚀 Feature: Add instruments support for httpx | enhancement, good first issue | 11 | 2025-11-06 |
+| ★★★☆☆ | [#3492](https://github.com/traceloop/openllmetry/issues/3492) 🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1` | good first issue, help wanted | 13 | 2026-09-13 |
 | ★★★☆☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 12 | 2026-09-10 |
 | ★★★☆☆ | [#785](https://github.com/traceloop/openllmetry/issues/785) 🚀 Feature: Support runpod.ai | help wanted, new instrumentation | 4 | 2026-08-19 |
-| ★★★☆☆ | [#3492](https://github.com/traceloop/openllmetry/issues/3492) 🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1` | good first issue, help wanted | 12 | 2026-07-09 |
 | ★★★☆☆ | [#2803](https://github.com/traceloop/openllmetry/issues/2803) 🚀 Feature: Install less packages | good first issue, help wanted | 19 | 2026-06-08 |
 
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-13 15:02 UTC, took **63.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-13 18:04 UTC, took **62.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
