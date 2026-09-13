@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-13 01:09 UTC_
+_Last updated: 2026-09-13 06:06 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-12 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-13 |
 | ★★☆☆☆ | [#563](https://github.com/grafana/google-bigquery-datasource/issues/563) Can't read boolean data | — | 0 | 2026-08-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-13 01:07 UTC, took **62.9s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-13 06:05 UTC, took **63.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
