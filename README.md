@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-14 10:37 UTC_
+_Last updated: 2026-09-14 16:31 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -124,11 +124,11 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 2 | 2026-09-14 |
 | ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 8 | 2026-09-13 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
 | ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
-| ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-05 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 14 | 2026-09-07 |
 | ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 16 | 2026-09-06 |
 | ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
@@ -150,7 +150,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | stale | 5 | 2026-09-13 |
+| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | stale | 6 | 2026-09-14 |
 | ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | stale | 3 | 2026-09-13 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | stale | 5 | 2026-09-13 |
 | ★☆☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | stale | 1 | 2026-08-16 |
@@ -235,6 +235,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★★ | [#50959](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) [receiver/azuremonitor] Resource Groups discovery based on tags | enhancement, good first issue, receiver/azuremonitor | 6 | 2026-09-14 |
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 7 | 2026-09-14 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
@@ -242,7 +243,6 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 12 | 2026-09-06 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, Stale, exporter/elasticsearch | 21 | 2026-08-27 |
 | ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 5 | 2026-08-04 |
-| ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen | 35 | 2026-08-04 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-14 10:35 UTC, took **88.8s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-14 16:30 UTC, took **74.6s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
