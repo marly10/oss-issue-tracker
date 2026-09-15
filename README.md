@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-15 12:04 UTC_
+_Last updated: 2026-09-15 16:51 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | needs_triage, data_tagging, core-internal | 0 | 2026-09-15 |
 | ★★☆☆☆ | [#87178](https://github.com/ansible/ansible/issues/87178) Regresssion: "'item' is undefined" if using delegate_to with with_items and conditionals | bug, affects_2.21 | 10 | 2026-09-14 |
 | ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 4 | 2026-09-14 |
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, has_pr, P3, affects_2.15 | 4 | 2026-09-11 |
 | ★★☆☆☆ | [#81569](https://github.com/ansible/ansible/issues/81569) copy module in check mode fails to populate the dest/path attributes of the registered variable | bug, has_pr, P3, affects_2.14 | 1 | 2026-09-11 |
-| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 37 | 2026-09-14 |
+| ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 39 | 2026-09-15 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 38 | 2026-09-13 |
 | ★☆☆☆☆ | [#86889](https://github.com/ansible/ansible/issues/86889) Deprecate ansible-pull CLI | has_pr, feature | 1 | 2026-09-11 |
-| ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 3 | 2026-09-11 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -235,7 +235,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★★ | [#50959](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) [receiver/azuremonitor] Resource Groups discovery based on tags | enhancement, good first issue, receiver/azuremonitor | 6 | 2026-09-14 |
+| ★★★★★ | [#50959](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) [receiver/azuremonitor] Resource Groups discovery based on tags | enhancement, good first issue, receiver/azuremonitor | 9 | 2026-09-15 |
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 7 | 2026-09-14 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-15 12:03 UTC, took **70.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-15 16:50 UTC, took **72.0s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
