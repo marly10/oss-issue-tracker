@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-15 06:36 UTC_
+_Last updated: 2026-09-15 12:04 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 3 | 2026-09-14 |
 | ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 8 | 2026-09-13 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
@@ -131,7 +132,6 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 14 | 2026-09-07 |
 | ★☆☆☆☆ | [#3947](https://github.com/ansible-collections/community.general/issues/3947) ipa_dnsrecord PTR and record_value without dot | bug, module, has_pr, plugins, identity | 16 | 2026-09-06 |
-| ★☆☆☆☆ | [#3042](https://github.com/ansible-collections/community.general/issues/3042) VirtualMediaEject should not require image_url | bug, module, has_pr, plugins, python3, remote_management | 22 | 2026-09-05 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-14 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-15 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-15 06:35 UTC, took **66.4s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-15 12:03 UTC, took **70.2s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
