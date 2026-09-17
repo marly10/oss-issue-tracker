@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-17 12:05 UTC_
+_Last updated: 2026-09-17 16:52 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -137,9 +137,9 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
+| ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 7 | 2026-09-17 |
 | ★★☆☆☆ | [#85703](https://github.com/ansible/ansible/issues/85703) `Ansible.builtin.pause` fails with Inappropriate ioctl for device | module, bug, has_pr, P3, needs_verified, affects_2.18 | 4 | 2026-09-17 |
-| ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 6 | 2026-09-16 |
+| ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
 | ★★☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | needs_triage, data_tagging, core-internal | 0 | 2026-09-15 |
 | ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 4 | 2026-09-14 |
 | ★☆☆☆☆ | [#87542](https://github.com/ansible/ansible/issues/87542) Dangling sentence in `ansible.builtin.user` documentation | module, needs_triage, has_pr, docs, affects_2.21 | 1 | 2026-09-16 |
@@ -250,12 +250,12 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#13591](https://github.com/prometheus/prometheus/issues/13591) Allow configuration of partial evaluation strategies for rule group evaluation failures | help wanted, priority/P3, kind/feature | 3 | 2026-09-17 |
 | ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 3 | 2026-09-14 |
 | ★★★☆☆ | [#4340](https://github.com/prometheus/prometheus/issues/4340) Azure Discovery incorrectly discovering de-allocated VM NICs | help wanted, kind/enhancement, component/service discovery | 8 | 2026-09-08 |
 | ★★★☆☆ | [#4057](https://github.com/prometheus/prometheus/issues/4057) Using `Select()` for both sample+metadata queries is unsuitable for remote storage implementations | help wanted, component/remote storage, priority/P3, component/api | 9 | 2026-09-08 |
 | ★★★☆☆ | [#17109](https://github.com/prometheus/prometheus/issues/17109) Scrape configuration to limit label churn / added series | help wanted, priority/P2, component/scraping, kind/feature | 9 | 2026-09-01 |
 | ★★★☆☆ | [#17770](https://github.com/prometheus/prometheus/issues/17770) Feature Request: Add Labelmap PromQL Function | help wanted, component/promql, priority/P3, kind/feature | 9 | 2026-09-01 |
-| ★★★☆☆ | [#18308](https://github.com/prometheus/prometheus/issues/18308) "Compaction failed" errors in Windows container when TSDB (Data directory) is stored in Docker volume | help wanted, component/tsdb | 5 | 2026-09-01 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-17 12:04 UTC, took **69.1s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-17 16:51 UTC, took **67.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
