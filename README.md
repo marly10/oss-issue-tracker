@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-17 19:55 UTC_
+_Last updated: 2026-09-17 22:32 UTC_
 
 _Tracking **18** upstream repos, **373** relevant open issues._
 
@@ -250,8 +250,8 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 3 | 2026-09-17 |
 | ★★★☆☆ | [#13591](https://github.com/prometheus/prometheus/issues/13591) Allow configuration of partial evaluation strategies for rule group evaluation failures | help wanted, priority/P3, kind/feature | 3 | 2026-09-17 |
-| ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 3 | 2026-09-14 |
 | ★★★☆☆ | [#4340](https://github.com/prometheus/prometheus/issues/4340) Azure Discovery incorrectly discovering de-allocated VM NICs | help wanted, kind/enhancement, component/service discovery | 8 | 2026-09-08 |
 | ★★★☆☆ | [#4057](https://github.com/prometheus/prometheus/issues/4057) Using `Select()` for both sample+metadata queries is unsuitable for remote storage implementations | help wanted, component/remote storage, priority/P3, component/api | 9 | 2026-09-08 |
 | ★★★☆☆ | [#17109](https://github.com/prometheus/prometheus/issues/17109) Scrape configuration to limit label churn / added series | help wanted, priority/P2, component/scraping, kind/feature | 9 | 2026-09-01 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-17 19:54 UTC, took **68.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-17 22:31 UTC, took **67.7s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
