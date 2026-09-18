@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-18 13:54 UTC_
+_Last updated: 2026-09-18 17:19 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#11907](https://github.com/ansible-collections/community.general/issues/11907) pkgng: `state=latest` does not upgrade already-installed packages. | bug, module, has_pr, plugins | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 3 | 2026-09-14 |
 | ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 8 | 2026-09-13 |
@@ -131,17 +132,16 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
 | ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
 | ★☆☆☆☆ | [#12755](https://github.com/ansible-collections/community.general/issues/12755) github_secrets: support github environment secrets | feature, module, plugins | 4 | 2026-09-16 |
-| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 14 | 2026-09-07 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#83618](https://github.com/ansible/ansible/issues/83618) FileNotFoundError when executing chmod on directory | easyfix, module, bug, has_pr, P3, affects_2.15 | 8 | 2026-09-18 |
 | ★★☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | needs_triage, bug, affects_2.21 | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 8 | 2026-09-17 |
 | ★★☆☆☆ | [#85703](https://github.com/ansible/ansible/issues/85703) `Ansible.builtin.pause` fails with Inappropriate ioctl for device | module, bug, has_pr, P3, needs_verified, affects_2.18 | 4 | 2026-09-17 |
 | ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
-| ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 4 | 2026-09-14 |
 | ★☆☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | needs_triage, data_tagging, core-internal | 1 | 2026-09-17 |
 | ★☆☆☆☆ | [#87542](https://github.com/ansible/ansible/issues/87542) Dangling sentence in `ansible.builtin.user` documentation | module, needs_triage, has_pr, docs, affects_2.21 | 1 | 2026-09-16 |
 | ★☆☆☆☆ | [#85605](https://github.com/ansible/ansible/issues/85605) Ansible 2.19.0 breaks  `loop`-templates because of jinja native types. | bug | 39 | 2026-09-15 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-18 13:53 UTC, took **68.8s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-18 17:17 UTC, took **69.6s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
