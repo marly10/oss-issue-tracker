@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-18 17:19 UTC_
+_Last updated: 2026-09-18 19:42 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -137,10 +137,10 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, P3, affects_2.15 | 4 | 2026-09-18 |
 | ★★☆☆☆ | [#83618](https://github.com/ansible/ansible/issues/83618) FileNotFoundError when executing chmod on directory | easyfix, module, bug, has_pr, P3, affects_2.15 | 8 | 2026-09-18 |
 | ★★☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | needs_triage, bug, affects_2.21 | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 8 | 2026-09-17 |
-| ★★☆☆☆ | [#85703](https://github.com/ansible/ansible/issues/85703) `Ansible.builtin.pause` fails with Inappropriate ioctl for device | module, bug, has_pr, P3, needs_verified, affects_2.18 | 4 | 2026-09-17 |
 | ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
 | ★☆☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | needs_triage, data_tagging, core-internal | 1 | 2026-09-17 |
 | ★☆☆☆☆ | [#87542](https://github.com/ansible/ansible/issues/87542) Dangling sentence in `ansible.builtin.user` documentation | module, needs_triage, has_pr, docs, affects_2.21 | 1 | 2026-09-16 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-18 17:17 UTC, took **69.6s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-18 19:41 UTC, took **67.1s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
