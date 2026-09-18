@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-18 09:46 UTC_
+_Last updated: 2026-09-18 13:54 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | needs_triage, bug, affects_2.21 | 2 | 2026-09-17 |
+| ★★☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | needs_triage, bug, affects_2.21 | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 8 | 2026-09-17 |
 | ★★☆☆☆ | [#85703](https://github.com/ansible/ansible/issues/85703) `Ansible.builtin.pause` fails with Inappropriate ioctl for device | module, bug, has_pr, P3, needs_verified, affects_2.18 | 4 | 2026-09-17 |
 | ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-18 09:45 UTC, took **63.0s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
+_Last run: 2026-09-18 13:53 UTC, took **68.8s**, **114** GitHub API calls, **4886/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
