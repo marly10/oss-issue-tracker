@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-20 01:22 UTC_
+_Last updated: 2026-09-20 06:27 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -127,10 +127,10 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#11907](https://github.com/ansible-collections/community.general/issues/11907) pkgng: `state=latest` does not upgrade already-installed packages. | bug, module, has_pr, plugins | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 3 | 2026-09-14 |
-| ★★☆☆☆ | [#12710](https://github.com/ansible-collections/community.general/issues/12710) proton_pass lookup: the PAT is printed in plaintext when pass-cli login times out | bug, has_pr | 8 | 2026-09-13 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
 | ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
-| ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 1 | 2026-09-18 |
+| ★★☆☆☆ | [#12707](https://github.com/ansible-collections/community.general/issues/12707) community.general.gitlab_runner module crashes under Python 3.12 | bug, module, plugins | 3 | 2026-09-11 |
+| ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 2 | 2026-09-20 |
 | ★☆☆☆☆ | [#12755](https://github.com/ansible-collections/community.general/issues/12755) github_secrets: support github environment secrets | feature, module, plugins | 4 | 2026-09-16 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-19 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-20 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-20 01:22 UTC, took **57.7s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-20 06:26 UTC, took **60.6s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
