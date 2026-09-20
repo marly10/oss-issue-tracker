@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-20 19:46 UTC_
+_Last updated: 2026-09-20 21:53 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -150,14 +150,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | stale | 6 | 2026-09-14 |
+| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 6 | 2026-09-20 |
 | ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | stale | 3 | 2026-09-13 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | stale | 5 | 2026-09-13 |
-| ★☆☆☆☆ | [#3212](https://github.com/aws-observability/aws-otel-collector/issues/3212) ADOT v0.48.0 gRPC exporter fails to connect to endpoints with AAAA records in IPv4-only subnets (no IPv4 fallback) | stale | 1 | 2026-08-16 |
 | ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 38 | 2026-07-26 |
 | ★☆☆☆☆ | [#1166](https://github.com/aws-observability/aws-otel-collector/issues/1166) spanmetricsprocessor for ADOT | feature-request, ADOT collector, processor | 9 | 2026-03-03 |
 | ★☆☆☆☆ | [#556](https://github.com/aws-observability/aws-otel-collector/issues/556) Support host metrics receiver | metrics, feature-request, receiver, ADOT collector | 18 | 2025-02-11 |
 | ★☆☆☆☆ | [#821](https://github.com/aws-observability/aws-otel-collector/issues/821) span events doesn't show up in the Xray trace segments | traces, X-Ray | 9 | 2025-01-28 |
+| ★☆☆☆☆ | [#1767](https://github.com/aws-observability/aws-otel-collector/issues/1767) [windows][CI/CD] ADOT collector delayed start | — | 5 | 2024-02-19 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-20 19:45 UTC, took **64.4s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-20 21:52 UTC, took **58.1s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
