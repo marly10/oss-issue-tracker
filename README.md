@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-22 11:29 UTC_
+_Last updated: 2026-09-22 15:36 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 6 | 2026-09-22 |
 | ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, has_pr, verified, affects_2.17 | 5 | 2026-09-22 |
-| ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 5 | 2026-09-21 |
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, P3, affects_2.15 | 4 | 2026-09-18 |
 | ★★☆☆☆ | [#83618](https://github.com/ansible/ansible/issues/83618) FileNotFoundError when executing chmod on directory | easyfix, module, bug, has_pr, P3, affects_2.15 | 8 | 2026-09-18 |
-| ★★☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | needs_triage, bug, affects_2.21 | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 8 | 2026-09-17 |
 | ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
-| ★☆☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | needs_triage, data_tagging, core-internal | 1 | 2026-09-17 |
+| ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-09-22 |
+| ★☆☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | data_tagging, core-internal | 1 | 2026-09-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -238,8 +238,8 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★★★★ | [#48419](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48419) [connector/signaltometrics] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, connector/signaltometrics | 7 | 2026-09-14 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
+| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 13 | 2026-09-22 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, Stale, pkg/pdatatest | 2 | 2026-09-06 |
-| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 12 | 2026-09-06 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, Stale, exporter/elasticsearch | 21 | 2026-08-27 |
 | ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 5 | 2026-08-04 |
 | ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen | 35 | 2026-08-04 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-22 11:28 UTC, took **65.1s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-22 15:35 UTC, took **75.4s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
