@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-23 09:33 UTC_
+_Last updated: 2026-09-23 14:22 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-22 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-23 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -124,12 +124,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 8 | 2026-09-23 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 6 | 2026-09-23 |
 | ★★☆☆☆ | [#11907](https://github.com/ansible-collections/community.general/issues/11907) pkgng: `state=latest` does not upgrade already-installed packages. | bug, module, has_pr, plugins | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 3 | 2026-09-14 |
 | ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 5 | 2026-09-12 |
-| ★★☆☆☆ | [#12502](https://github.com/ansible-collections/community.general/issues/12502) git_config: allow empty string in `user.email` | bug, module, has_pr, plugins | 6 | 2026-09-12 |
 | ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 2 | 2026-09-20 |
 | ★☆☆☆☆ | [#12755](https://github.com/ansible-collections/community.general/issues/12755) github_secrets: support github environment secrets | feature, module, plugins | 4 | 2026-09-16 |
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-23 09:32 UTC, took **66.3s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-23 14:21 UTC, took **72.2s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
