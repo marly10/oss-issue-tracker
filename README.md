@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-23 18:28 UTC_
+_Last updated: 2026-09-23 21:39 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,9 +124,9 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#11907](https://github.com/ansible-collections/community.general/issues/11907) pkgng: `state=latest` does not upgrade already-installed packages. | bug, module, has_pr, plugins | 4 | 2026-09-23 |
 | ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 8 | 2026-09-23 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 6 | 2026-09-23 |
-| ★★☆☆☆ | [#11907](https://github.com/ansible-collections/community.general/issues/11907) pkgng: `state=latest` does not upgrade already-installed packages. | bug, module, has_pr, plugins | 3 | 2026-09-18 |
 | ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) community.general.ip_netns: Weak exists check | bug, module, plugins | 3 | 2026-09-14 |
 | ★☆☆☆☆ | [#9021](https://github.com/ansible-collections/community.general/issues/9021) SELinux restorecon module | feature | 2 | 2026-09-23 |
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, P3, affects_2.15 | 4 | 2026-09-18 |
 | ★★☆☆☆ | [#83618](https://github.com/ansible/ansible/issues/83618) FileNotFoundError when executing chmod on directory | easyfix, module, bug, has_pr, P3, affects_2.15 | 8 | 2026-09-18 |
 | ★★☆☆☆ | [#81847](https://github.com/ansible/ansible/issues/81847) dnf/yum connects to internet while package is already installed in offline environment | bug, verified, affects_2.15 | 8 | 2026-09-17 |
-| ★★☆☆☆ | [#85714](https://github.com/ansible/ansible/issues/85714) ansible systemd module does not work correctly with global scope in newer systemd versions | module, bug, has_pr, P3, needs_verified, affects_2.18 | 2 | 2026-09-17 |
+| ★☆☆☆☆ | [#65687](https://github.com/ansible/ansible/issues/65687) get_url in check_mode reports changed status when there is nothing to change | module, bug, P3, needs_verified, affects_2.9 | 23 | 2026-09-23 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-09-22 |
 | ★☆☆☆☆ | [#87536](https://github.com/ansible/ansible/issues/87536) Document that YAML mapping keys can't be encrypted post-DT (v2.19.0b1+) | data_tagging, core-internal | 1 | 2026-09-22 |
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-23 18:27 UTC, took **67.3s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
+_Last run: 2026-09-23 21:38 UTC, took **70.2s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
