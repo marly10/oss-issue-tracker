@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-24 20:47 UTC_
+_Last updated: 2026-09-24 23:32 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#4484](https://github.com/ansible-collections/community.general/issues/4484) nsupdate module does not work as documented with pythondns 2.1.0 | bug, module, needs_info, plugins, net_tools | 7 | 2026-09-24 |
 | ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 8 | 2026-09-23 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 6 | 2026-09-23 |
-| ★☆☆☆☆ | [#9021](https://github.com/ansible-collections/community.general/issues/9021) SELinux restorecon module | feature | 3 | 2026-09-24 |
+| ★☆☆☆☆ | [#9021](https://github.com/ansible-collections/community.general/issues/9021) SELinux restorecon module | feature | 4 | 2026-09-24 |
 | ★☆☆☆☆ | [#12802](https://github.com/ansible-collections/community.general/issues/12802) github_app_access_token allow client_id as identifier | feature | 4 | 2026-09-24 |
 | ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 2 | 2026-09-20 |
 | ★☆☆☆☆ | [#12755](https://github.com/ansible-collections/community.general/issues/12755) github_secrets: support github environment secrets | feature, module, plugins | 4 | 2026-09-16 |
@@ -140,7 +140,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 6 | 2026-09-22 |
 | ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, has_pr, verified, affects_2.17 | 5 | 2026-09-22 |
 | ★★☆☆☆ | [#81698](https://github.com/ansible/ansible/issues/81698) ansible-galaxy collection publish ignores --token argument when custom galaxy server is configured | bug, P3, affects_2.15 | 4 | 2026-09-18 |
-| ★★☆☆☆ | [#83618](https://github.com/ansible/ansible/issues/83618) FileNotFoundError when executing chmod on directory | easyfix, module, bug, has_pr, P3, affects_2.15 | 8 | 2026-09-18 |
+| ★☆☆☆☆ | [#87577](https://github.com/ansible/ansible/issues/87577) Prevent duplicate key warnings in `ansible.builtin.from_yaml` | needs_triage, feature | 3 | 2026-09-24 |
 | ★☆☆☆☆ | [#85584](https://github.com/ansible/ansible/issues/85584) cron: allow custom cron cmd | module, has_pr, feature | 1 | 2026-09-24 |
 | ★☆☆☆☆ | [#65687](https://github.com/ansible/ansible/issues/65687) get_url in check_mode reports changed status when there is nothing to change | module, bug, P3, needs_verified, affects_2.9 | 26 | 2026-09-24 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-09-22 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-24 20:46 UTC, took **73.0s**, **116** GitHub API calls, **4884/5000** rate limit remaining._
+_Last run: 2026-09-24 23:31 UTC, took **69.8s**, **115** GitHub API calls, **4885/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
