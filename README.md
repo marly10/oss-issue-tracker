@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-26 06:40 UTC_
+_Last updated: 2026-09-26 11:47 UTC_
 
-_Tracking **18** upstream repos, **368** relevant open issues._
+_Tracking **18** upstream repos, **370** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **368** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 6 | 2026-09-26 |
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 8 | 2026-09-24 |
 | ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 8 | 2026-09-23 |
 | ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 6 | 2026-09-23 |
@@ -131,7 +132,6 @@ _Tracking **18** upstream repos, **368** relevant open issues._
 | ★☆☆☆☆ | [#9021](https://github.com/ansible-collections/community.general/issues/9021) SELinux restorecon module | feature | 4 | 2026-09-25 |
 | ★☆☆☆☆ | [#12802](https://github.com/ansible-collections/community.general/issues/12802) github_app_access_token allow client_id as identifier | feature | 4 | 2026-09-24 |
 | ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 2 | 2026-09-20 |
-| ★☆☆☆☆ | [#12755](https://github.com/ansible-collections/community.general/issues/12755) github_secrets: support github environment secrets | feature, module, plugins | 4 | 2026-09-16 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -238,11 +238,11 @@ _Tracking **18** upstream repos, **368** relevant open issues._
 | ★★★★★ | [#51416](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51416) [pkg/ottl] `Time()` treats a trailing `%Z` as UTC | bug, good first issue, priority:p2, pkg/ottl | 1 | 2026-09-24 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
+| ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 4 | 2026-09-26 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, pkg/pdatatest | 2 | 2026-09-25 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 22 | 2026-09-25 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, Stale, receiver/sqlserver, waiting-for-code-owners | 9 | 2026-09-23 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 13 | 2026-09-22 |
-| ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 5 | 2026-08-04 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **368** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-26 06:39 UTC, took **66.6s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-26 11:46 UTC, took **61.4s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
