@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-26 11:47 UTC_
+_Last updated: 2026-09-26 15:08 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#84793](https://github.com/ansible/ansible/issues/84793) Different behavior for `state: restarted` in the `ansible.builtin.service` module (FreeBSD) | module, bug, has_pr, needs_verified | 1 | 2026-09-26 |
 | ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 6 | 2026-09-22 |
-| ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, has_pr, verified, affects_2.17 | 5 | 2026-09-22 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 4 | 2026-09-25 |
 | ★☆☆☆☆ | [#87577](https://github.com/ansible/ansible/issues/87577) Prevent duplicate key warnings in `ansible.builtin.from_yaml` | needs_triage, feature | 3 | 2026-09-24 |
 | ★☆☆☆☆ | [#85584](https://github.com/ansible/ansible/issues/85584) cron: allow custom cron cmd | module, has_pr, feature | 1 | 2026-09-24 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-26 11:46 UTC, took **61.4s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-26 15:07 UTC, took **67.9s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
