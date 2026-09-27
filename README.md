@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-27 01:50 UTC_
+_Last updated: 2026-09-27 07:12 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12711](https://github.com/ansible-collections/community.general/issues/12711) proton_pass lookup: fields inside a section are silently ignored (reads extra_fields, pass-cli emits section_fields) | bug, has_pr | 6 | 2026-09-26 |
-| ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 8 | 2026-09-24 |
-| ★★☆☆☆ | [#3513](https://github.com/ansible-collections/community.general/issues/3513) ZFS extra options with ":" is not allowed | bug, module, needs_info, plugins, os, packaging | 8 | 2026-09-23 |
-| ★★☆☆☆ | [#8228](https://github.com/ansible-collections/community.general/issues/8228) cobbler - ProtocolError for FQDN:443/********_api: 404 Not Found> | bug, needs_info, inventory, plugins | 6 | 2026-09-23 |
-| ★★☆☆☆ | [#12744](https://github.com/ansible-collections/community.general/issues/12744) zpool: special and dedup vdevs are not read back from an existing pool | bug, module, plugins | 5 | 2026-09-15 |
-| ★☆☆☆☆ | [#9021](https://github.com/ansible-collections/community.general/issues/9021) SELinux restorecon module | feature | 4 | 2026-09-25 |
-| ★☆☆☆☆ | [#12802](https://github.com/ansible-collections/community.general/issues/12802) github_app_access_token allow client_id as identifier | feature | 4 | 2026-09-24 |
-| ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) New module: rpm_info - Gather RPM package information | feature | 2 | 2026-09-20 |
+| ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol: hangs when snapshot already exists | bug, module, has_pr, plugins | 2 | 2026-09-27 |
+| ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) ip_netns: weak exists check | bug, module, has_pr, plugins | 3 | 2026-09-27 |
+| ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
+| ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
+| ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
+| ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) sssd_config: new module | feature, has_pr | 4 | 2026-09-27 |
+| ★☆☆☆☆ | [#12802](https://github.com/ansible-collections/community.general/issues/12802) github_app_access_token lookup plugin: allow client_id as identifier | feature, has_pr | 4 | 2026-09-27 |
+| ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-09-27 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-26 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-09-27 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-27 01:49 UTC, took **66.6s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-27 07:11 UTC, took **64.7s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
