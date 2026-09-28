@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-28 07:35 UTC_
+_Last updated: 2026-09-28 15:53 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -139,12 +139,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#84793](https://github.com/ansible/ansible/issues/84793) Different behavior for `state: restarted` in the `ansible.builtin.service` module (FreeBSD) | module, bug, has_pr, needs_verified | 1 | 2026-09-26 |
 | ★★☆☆☆ | [#85849](https://github.com/ansible/ansible/issues/85849) [2.19] variable in delegate_to evaluated before task condition | bug, needs_verified, affects_2.19 | 6 | 2026-09-22 |
+| ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | module, needs_triage, docs, affects_2.21 | 2 | 2026-09-28 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | has_pr, docs | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 4 | 2026-09-25 |
 | ★☆☆☆☆ | [#87577](https://github.com/ansible/ansible/issues/87577) Prevent duplicate key warnings in `ansible.builtin.from_yaml` | needs_triage, feature | 3 | 2026-09-24 |
 | ★☆☆☆☆ | [#85584](https://github.com/ansible/ansible/issues/85584) cron: allow custom cron cmd | module, has_pr, feature | 1 | 2026-09-24 |
 | ★☆☆☆☆ | [#65687](https://github.com/ansible/ansible/issues/65687) get_url in check_mode reports changed status when there is nothing to change | module, bug, P3, needs_verified, affects_2.9 | 26 | 2026-09-24 |
-| ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-09-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -238,7 +238,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★★★★ | [#51416](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51416) [pkg/ottl] `Time()` treats a trailing `%Z` as UTC | bug, good first issue, priority:p2, pkg/ottl | 1 | 2026-09-24 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
-| ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 6 | 2026-09-27 |
+| ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 7 | 2026-09-28 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, pkg/pdatatest | 2 | 2026-09-25 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 22 | 2026-09-25 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, Stale, receiver/sqlserver, waiting-for-code-owners | 9 | 2026-09-23 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-28 07:34 UTC, took **70.1s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-28 15:52 UTC, took **68.5s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
