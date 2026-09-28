@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-28 15:53 UTC_
+_Last updated: 2026-09-28 21:26 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12477](https://github.com/ansible-collections/community.general/issues/12477) lvol: hangs when snapshot already exists | bug, module, has_pr, plugins | 2 | 2026-09-27 |
+| ★★☆☆☆ | [#12833](https://github.com/ansible-collections/community.general/issues/12833) opentelemetry callback: KeyError in v2_runner_on_skipped for a meta task skipped by `when` (regression in 13.0.0, #11434) | bug, traceback | 5 | 2026-09-28 |
 | ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) ip_netns: weak exists check | bug, module, has_pr, plugins | 3 | 2026-09-27 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
@@ -195,14 +195,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 24 | 2026-09-28 |
+| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 47 | 2026-09-28 |
+| ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 41 | 2026-09-28 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 81 | 2026-09-16 |
 | ★★★☆☆ | [#141819](https://github.com/kubernetes/kubernetes/issues/141819) E2E testing: check for goroutine leaks | kind/feature, help wanted, sig/testing, needs-triage | 7 | 2026-09-07 |
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 9 | 2026-09-02 |
 | ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 10 | 2026-09-01 |
-| ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 39 | 2026-09-01 |
 | ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 43 | 2026-08-29 |
-| ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 35 | 2026-08-25 |
-| ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-08-22 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -235,7 +235,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★★ | [#51416](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51416) [pkg/ottl] `Time()` treats a trailing `%Z` as UTC | bug, good first issue, priority:p2, pkg/ottl | 1 | 2026-09-24 |
+| ★★★★★ | [#51416](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51416) [pkg/ottl] `Time()` treats a trailing `%Z` as UTC | bug, good first issue, priority:p2, pkg/ottl | 2 | 2026-09-28 |
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
 | ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 7 | 2026-09-28 |
@@ -250,12 +250,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 6 | 2026-09-28 |
 | ★★★☆☆ | [#13657](https://github.com/prometheus/prometheus/issues/13657) Proposal: Cache expanded postings on TSDB | help wanted, kind/enhancement, not-as-easy-as-it-looks, priority/P3, component/tsdb | 3 | 2026-09-28 |
 | ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 2 | 2026-09-21 |
 | ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 3 | 2026-09-17 |
 | ★★★☆☆ | [#13591](https://github.com/prometheus/prometheus/issues/13591) Allow configuration of partial evaluation strategies for rule group evaluation failures | help wanted, priority/P3, kind/feature | 3 | 2026-09-17 |
 | ★★★☆☆ | [#4340](https://github.com/prometheus/prometheus/issues/4340) Azure Discovery incorrectly discovering de-allocated VM NICs | help wanted, kind/enhancement, component/service discovery | 8 | 2026-09-08 |
-| ★★★☆☆ | [#4057](https://github.com/prometheus/prometheus/issues/4057) Using `Select()` for both sample+metadata queries is unsuitable for remote storage implementations | help wanted, component/remote storage, priority/P3, component/api | 9 | 2026-09-08 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-28 15:52 UTC, took **68.5s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-28 21:24 UTC, took **69.2s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
