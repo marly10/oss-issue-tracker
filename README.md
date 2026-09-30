@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-29 22:39 UTC_
+_Last updated: 2026-09-30 01:33 UTC_
 
-_Tracking **18** upstream repos, **369** relevant open issues._
+_Tracking **18** upstream repos, **370** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-29 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-09-30 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#142384](https://github.com/kubernetes/kubernetes/issues/142384) `gsutil` will no longer be available from March 2027 | help wanted, sig/testing, sig/cloud-provider, triage/accepted | 7 | 2026-09-29 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 42 | 2026-09-29 |
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 24 | 2026-09-28 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 47 | 2026-09-28 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 | ★★★☆☆ | [#141819](https://github.com/kubernetes/kubernetes/issues/141819) E2E testing: check for goroutine leaks | kind/feature, help wanted, sig/testing, needs-triage | 7 | 2026-09-07 |
 | ★★★☆☆ | [#25836](https://github.com/kubernetes/kubernetes/issues/25836) Audit all APIs for selector fields, ensure documented semantics when nil or empty. | priority/backlog, help wanted, sig/architecture, lifecycle/frozen | 9 | 2026-09-02 |
 | ★★★☆☆ | [#140489](https://github.com/kubernetes/kubernetes/issues/140489) Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI | sig/network, help wanted, sig/testing, area/ipv6, triage/accepted, area/network-policy | 10 | 2026-09-01 |
-| ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 43 | 2026-08-29 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -237,7 +237,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 |---|---|---|---|---|
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
-| ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 26 | 2026-09-29 |
+| ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 27 | 2026-09-30 |
 | ★★★★☆ | [#39053](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39053) [receiver_creator] Started components not reporting status | enhancement, help wanted, never stale, receiver/receivercreator | 5 | 2026-09-29 |
 | ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 7 | 2026-09-28 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, pkg/pdatatest | 2 | 2026-09-25 |
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-29 22:38 UTC, took **74.3s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-30 01:31 UTC, took **82.9s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
