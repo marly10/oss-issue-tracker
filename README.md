@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-30 07:18 UTC_
+_Last updated: 2026-09-30 13:51 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87618](https://github.com/ansible/ansible/issues/87618) Data Tagging: default broken for regular dicts | needs_triage, bug | 1 | 2026-09-30 |
 | ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, verified, affects_2.17 | 5 | 2026-09-29 |
 | ★★☆☆☆ | [#86856](https://github.com/ansible/ansible/issues/86856) ansible.builtin.copy does not report diffs for recursive copies | module, bug, has_pr, P3, affects_2.20 | 3 | 2026-09-28 |
-| ★★☆☆☆ | [#84793](https://github.com/ansible/ansible/issues/84793) Different behavior for `state: restarted` in the `ansible.builtin.service` module (FreeBSD) | module, bug, has_pr, needs_verified | 1 | 2026-09-26 |
+| ★☆☆☆☆ | [#87619](https://github.com/ansible/ansible/issues/87619) Enhance 'ansible.builtin.meta' to provide a standard method for exiting playbooks and terminating workflows | module, needs_triage, feature | 1 | 2026-09-30 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 3 | 2026-09-29 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, has_pr, feature, affects_2.21 | 4 | 2026-09-29 |
 | ★☆☆☆☆ | [#87577](https://github.com/ansible/ansible/issues/87577) Prevent duplicate key warnings in `ansible.builtin.from_yaml` | needs_triage, has_pr, feature | 3 | 2026-09-28 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | has_pr, docs | 5 | 2026-09-27 |
-| ★☆☆☆☆ | [#87490](https://github.com/ansible/ansible/issues/87490) Alternative to the global `vars` dictionnary as a "null namespace" for vars | waiting_on_contributor, feature | 4 | 2026-09-25 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-30 07:17 UTC, took **96.3s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-30 13:50 UTC, took **80.8s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
