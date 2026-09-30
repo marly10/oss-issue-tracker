@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-09-30 13:51 UTC_
+_Last updated: 2026-09-30 18:37 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -126,12 +126,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#12839](https://github.com/ansible-collections/community.general/issues/12839) ip_netns: check mode reports changed for an already existing namespace | bug, module, plugins | 2 | 2026-09-29 |
 | ★★☆☆☆ | [#12833](https://github.com/ansible-collections/community.general/issues/12833) opentelemetry callback: KeyError in v2_runner_on_skipped for a meta task skipped by `when` (regression in 13.0.0, #11434) | bug, has_pr, traceback | 5 | 2026-09-29 |
-| ★★☆☆☆ | [#12731](https://github.com/ansible-collections/community.general/issues/12731) ip_netns: weak exists check | bug, module, has_pr, plugins | 3 | 2026-09-27 |
 | ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
 | ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) sssd_config: new module | feature, has_pr | 4 | 2026-09-27 |
 | ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-09-27 |
+| ★☆☆☆☆ | [#12514](https://github.com/ansible-collections/community.general/issues/12514) augeas: new module | feature | 7 | 2026-09-27 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-09-30 13:50 UTC, took **80.8s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-09-30 18:36 UTC, took **76.8s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
