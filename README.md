@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-01 07:37 UTC_
+_Last updated: 2026-10-01 14:46 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#87618](https://github.com/ansible/ansible/issues/87618) Data Tagging: default broken for regular dicts | needs_triage, bug | 1 | 2026-09-30 |
 | ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, verified, affects_2.17 | 5 | 2026-09-29 |
-| ★★☆☆☆ | [#86856](https://github.com/ansible/ansible/issues/86856) ansible.builtin.copy does not report diffs for recursive copies | module, bug, has_pr, P3, affects_2.20 | 3 | 2026-09-28 |
+| ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 14 | 2026-10-01 |
 | ★☆☆☆☆ | [#86369](https://github.com/ansible/ansible/issues/86369) Regression in caching vaulted variables | needs_info, bug, affects_2.20 | 11 | 2026-10-01 |
 | ★☆☆☆☆ | [#87619](https://github.com/ansible/ansible/issues/87619) Enhance 'ansible.builtin.meta' to provide a standard method for exiting playbooks and terminating workflows | module, needs_triage, feature | 1 | 2026-09-30 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 3 | 2026-09-29 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, has_pr, feature, affects_2.21 | 4 | 2026-09-29 |
-| ★☆☆☆☆ | [#87577](https://github.com/ansible/ansible/issues/87577) Prevent duplicate key warnings in `ansible.builtin.from_yaml` | needs_triage, has_pr, feature | 3 | 2026-09-28 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -296,7 +296,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-01 07:36 UTC, took **74.0s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-10-01 14:44 UTC, took **81.3s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
