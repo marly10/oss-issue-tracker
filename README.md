@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-01 19:52 UTC_
+_Last updated: 2026-10-01 23:29 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -124,9 +124,9 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12850](https://github.com/ansible-collections/community.general/issues/12850) ipa_user: setting krbpasswordexpiration will not change value in FreeIPA | bug, module, plugins | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#12839](https://github.com/ansible-collections/community.general/issues/12839) ip_netns: check mode reports changed for an already existing namespace | bug, module, plugins | 2 | 2026-09-29 |
 | ★★☆☆☆ | [#12833](https://github.com/ansible-collections/community.general/issues/12833) opentelemetry callback: KeyError in v2_runner_on_skipped for a meta task skipped by `when` (regression in 13.0.0, #11434) | bug, has_pr, traceback | 5 | 2026-09-29 |
-| ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
 | ★☆☆☆☆ | [#12845](https://github.com/ansible-collections/community.general/issues/12845) logrotate: add diff mode support | feature, module, plugins | 2 | 2026-09-30 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | needs_triage, bug, affects_2.22 | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#87618](https://github.com/ansible/ansible/issues/87618) Data Tagging: default broken for regular dicts | needs_triage, bug | 1 | 2026-09-30 |
-| ★★☆☆☆ | [#83747](https://github.com/ansible/ansible/issues/83747) ansible.builtin.apt autoremove doesn't remove anything while similar ansible.builtin.command does | module, bug, verified, affects_2.17 | 5 | 2026-09-29 |
+| ★☆☆☆☆ | [#87019](https://github.com/ansible/ansible/issues/87019) Templated ansible_host causes a new connection (and a new runspace/shell) to be created on every loop iteration | bug, affects_2.19, affects_2.20 | 11 | 2026-10-01 |
 | ★☆☆☆☆ | [#86369](https://github.com/ansible/ansible/issues/86369) Regression in caching vaulted variables | bug, affects_2.20 | 11 | 2026-10-01 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 14 | 2026-10-01 |
 | ★☆☆☆☆ | [#87619](https://github.com/ansible/ansible/issues/87619) Enhance 'ansible.builtin.meta' to provide a standard method for exiting playbooks and terminating workflows | module, needs_triage, feature | 1 | 2026-09-30 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 3 | 2026-09-29 |
-| ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, has_pr, feature, affects_2.21 | 4 | 2026-09-29 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-01 19:51 UTC, took **72.5s**, **118** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-01 23:28 UTC, took **72.5s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
