@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-02 08:49 UTC_
+_Last updated: 2026-10-02 15:05 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#10545](https://github.com/ansible-collections/community.general/issues/10545) diy callback defines deprecated method v2_on_any | bug, callback, has_pr, plugins | 3 | 2026-10-02 |
+| ★★☆☆☆ | [#12853](https://github.com/ansible-collections/community.general/issues/12853) ipa_hostgroup fails even if it was successful | bug, module, plugins | 2 | 2026-10-02 |
 | ★★☆☆☆ | [#12850](https://github.com/ansible-collections/community.general/issues/12850) ipa_user: setting krbpasswordexpiration will not change value in FreeIPA | bug, module, plugins | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#12839](https://github.com/ansible-collections/community.general/issues/12839) ip_netns: check mode reports changed for an already existing namespace | bug, module, plugins | 2 | 2026-09-29 |
 | ★★☆☆☆ | [#12833](https://github.com/ansible-collections/community.general/issues/12833) opentelemetry callback: KeyError in v2_runner_on_skipped for a meta task skipped by `when` (regression in 13.0.0, #11434) | bug, has_pr, traceback | 5 | 2026-09-29 |
 | ★☆☆☆☆ | [#12845](https://github.com/ansible-collections/community.general/issues/12845) logrotate: add diff mode support | feature, module, plugins | 2 | 2026-09-30 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
-| ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) sssd_config: new module | feature, has_pr | 4 | 2026-09-27 |
-| ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-09-27 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -251,7 +251,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#15175](https://github.com/prometheus/prometheus/issues/15175) Alert Firing State not persisted at restart | help wanted, component/rules | 3 | 2026-10-01 |
+| ★★★☆☆ | [#15175](https://github.com/prometheus/prometheus/issues/15175) Alert Firing State not persisted at restart | help wanted, component/rules | 4 | 2026-10-02 |
 | ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 31 | 2026-09-29 |
 | ★★★☆☆ | [#6222](https://github.com/prometheus/prometheus/issues/6222) Promtool subcommands should consistently support stdin reads | help wanted, kind/enhancement, component/promtool, priority/P3, hacktoberfest | 6 | 2026-09-29 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 8 | 2026-09-29 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-02 08:48 UTC, took **69.7s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-02 15:04 UTC, took **74.7s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
