@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-02 15:05 UTC_
+_Last updated: 2026-10-02 19:54 UTC_
 
-_Tracking **18** upstream repos, **370** relevant open issues._
+_Tracking **18** upstream repos, **371** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#10545](https://github.com/ansible-collections/community.general/issues/10545) diy callback defines deprecated method v2_on_any | bug, callback, has_pr, plugins | 3 | 2026-10-02 |
+| ★★☆☆☆ | [#10545](https://github.com/ansible-collections/community.general/issues/10545) diy callback defines deprecated method v2_on_any | bug, callback, has_pr, plugins | 6 | 2026-10-02 |
 | ★★☆☆☆ | [#12853](https://github.com/ansible-collections/community.general/issues/12853) ipa_hostgroup fails even if it was successful | bug, module, plugins | 2 | 2026-10-02 |
 | ★★☆☆☆ | [#12850](https://github.com/ansible-collections/community.general/issues/12850) ipa_user: setting krbpasswordexpiration will not change value in FreeIPA | bug, module, plugins | 2 | 2026-10-01 |
 | ★★☆☆☆ | [#12839](https://github.com/ansible-collections/community.general/issues/12839) ip_netns: check mode reports changed for an already existing namespace | bug, module, plugins | 2 | 2026-09-29 |
@@ -177,13 +177,13 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-10-02 |
+| ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
 | ★★☆☆☆ | [#522](https://github.com/grafana/google-bigquery-datasource/issues/522) Grafana 13.0.2 BigQuery Query Variable definition Field Always Cleared | — | 0 | 2026-06-10 |
 | ★☆☆☆☆ | [#321](https://github.com/grafana/google-bigquery-datasource/issues/321) multivalue variable interpolates only the first element | need investigation, stale | 1 | 2026-09-05 |
 | ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
-| ★☆☆☆☆ | [#247](https://github.com/grafana/google-bigquery-datasource/issues/247) BigQueryOption `queryPriority` is specified in types, but not passed onto BigQuery client | type/feature-request | 1 | 2026-05-23 |
 
 ### [grafana/grafana-ansible-collection](https://github.com/grafana/grafana-ansible-collection)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-02 15:04 UTC, took **74.7s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-10-02 19:53 UTC, took **71.3s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
