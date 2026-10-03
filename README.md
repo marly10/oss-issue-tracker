@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-03 19:51 UTC_
+_Last updated: 2026-10-03 22:28 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -127,19 +127,19 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#10545](https://github.com/ansible-collections/community.general/issues/10545) diy callback defines deprecated method v2_on_any | bug, callback, has_pr, plugins | 6 | 2026-10-02 |
 | ★★☆☆☆ | [#12853](https://github.com/ansible-collections/community.general/issues/12853) ipa_hostgroup fails even if it was successful | bug, module, plugins | 2 | 2026-10-02 |
 | ★★☆☆☆ | [#12850](https://github.com/ansible-collections/community.general/issues/12850) ipa_user: setting krbpasswordexpiration will not change value in FreeIPA | bug, module, plugins | 2 | 2026-10-01 |
-| ★★☆☆☆ | [#12839](https://github.com/ansible-collections/community.general/issues/12839) ip_netns: check mode reports changed for an already existing namespace | bug, module, plugins | 2 | 2026-09-29 |
-| ★★☆☆☆ | [#12833](https://github.com/ansible-collections/community.general/issues/12833) opentelemetry callback: KeyError in v2_runner_on_skipped for a meta task skipped by `when` (regression in 13.0.0, #11434) | bug, has_pr, traceback | 5 | 2026-09-29 |
-| ★☆☆☆☆ | [#12845](https://github.com/ansible-collections/community.general/issues/12845) logrotate: add diff mode support | feature, module, plugins | 2 | 2026-09-30 |
+| ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
+| ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) sssd_config: new module | feature, has_pr | 4 | 2026-09-27 |
+| ★☆☆☆☆ | [#12454](https://github.com/ansible-collections/community.general/issues/12454) nmcli: option to set ipv4.route-table, ipv6.route-table | feature, module, plugins | 2 | 2026-09-27 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 3 | 2026-10-03 |
+| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | needs_triage, bug, affects_2.22 | 3 | 2026-10-03 |
 | ★★☆☆☆ | [#24989](https://github.com/ansible/ansible/issues/24989) Module unarchive: Failure when the group name in the group parameter contains a space. | needs_info, affects_2.3, module, bug, P3, needs_verified | 9 | 2026-10-02 |
-| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | needs_triage, bug, affects_2.22 | 2 | 2026-10-02 |
-| ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 2 | 2026-10-01 |
 | ★☆☆☆☆ | [#56779](https://github.com/ansible/ansible/issues/56779) Fix output message in `x transfer mechanism failed` | module, bug, has_pr, affects_2.7, P3 | 14 | 2026-10-03 |
 | ★☆☆☆☆ | [#87019](https://github.com/ansible/ansible/issues/87019) Templated ansible_host causes a new connection (and a new runspace/shell) to be created on every loop iteration | bug, affects_2.19, affects_2.20 | 11 | 2026-10-01 |
 | ★☆☆☆☆ | [#86369](https://github.com/ansible/ansible/issues/86369) Regression in caching vaulted variables | bug, affects_2.20 | 11 | 2026-10-01 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-03 19:50 UTC, took **71.8s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-03 22:27 UTC, took **63.0s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
