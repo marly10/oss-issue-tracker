@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-03 08:00 UTC_
+_Last updated: 2026-10-03 13:09 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -238,12 +238,12 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 |---|---|---|---|---|
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 4 | 2026-08-19 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
-| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 14 | 2026-10-02 |
+| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 14 | 2026-10-03 |
+| ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 6 | 2026-10-03 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 27 | 2026-09-30 |
 | ★★★★☆ | [#39053](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39053) [receiver_creator] Started components not reporting status | enhancement, help wanted, never stale, receiver/receivercreator | 5 | 2026-09-29 |
 | ★★★★☆ | [#51297](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) [receiver/azuremonitor] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account | good first issue, receiver/azuremonitor | 7 | 2026-09-28 |
 | ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, pkg/pdatatest | 2 | 2026-09-25 |
-| ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 22 | 2026-09-25 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-03 07:59 UTC, took **71.8s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-03 13:08 UTC, took **65.0s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
