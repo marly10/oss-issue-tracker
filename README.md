@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-04 20:27 UTC_
+_Last updated: 2026-10-04 23:24 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -141,17 +141,17 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | needs_triage, bug, affects_2.22 | 4 | 2026-10-04 |
 | ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 3 | 2026-10-03 |
 | ★★☆☆☆ | [#24989](https://github.com/ansible/ansible/issues/24989) Module unarchive: Failure when the group name in the group parameter contains a space. | needs_info, affects_2.3, module, bug, P3, needs_verified | 9 | 2026-10-02 |
+| ★☆☆☆☆ | [#81687](https://github.com/ansible/ansible/issues/81687) Galaxy Version syntax breaking installation from local copies | bug, has_pr, verified, affects_2.15 | 15 | 2026-10-04 |
 | ★☆☆☆☆ | [#87425](https://github.com/ansible/ansible/issues/87425) Document validate_certs for Galaxy servers | docs | 5 | 2026-10-04 |
 | ★☆☆☆☆ | [#56779](https://github.com/ansible/ansible/issues/56779) Fix output message in `x transfer mechanism failed` | module, bug, has_pr, affects_2.7, P3 | 14 | 2026-10-03 |
 | ★☆☆☆☆ | [#87019](https://github.com/ansible/ansible/issues/87019) Templated ansible_host causes a new connection (and a new runspace/shell) to be created on every loop iteration | bug, affects_2.19, affects_2.20 | 11 | 2026-10-01 |
-| ★☆☆☆☆ | [#86369](https://github.com/ansible/ansible/issues/86369) Regression in caching vaulted variables | bug, affects_2.20 | 11 | 2026-10-01 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#3234](https://github.com/aws-observability/aws-otel-collector/issues/3234) Bump golang.org/x/crypto and google.golang.org/grpc for CVE-2026-56854, CVE-2026-84304 and CVE-2026-84445 | — | 0 | 2026-09-25 |
-| ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs, stale | 40 | 2026-09-28 |
+| ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 40 | 2026-10-04 |
 | ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 6 | 2026-09-20 |
 | ★☆☆☆☆ | [#3213](https://github.com/aws-observability/aws-otel-collector/issues/3213) Need to Upgrade golang.org/x/net & golang.org/x/crypto version | stale | 3 | 2026-09-13 |
 | ★☆☆☆☆ | [#3225](https://github.com/aws-observability/aws-otel-collector/issues/3225) awsemf exporter repeatedly fails with PutLogEvents "context deadline exceeded" during startup since ADOT 0.44.0 (works in 0.43.3) | stale | 5 | 2026-09-13 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-04 20:26 UTC, took **64.5s**, **116** GitHub API calls, **4884/5000** rate limit remaining._
+_Last run: 2026-10-04 23:23 UTC, took **62.1s**, **116** GitHub API calls, **4884/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
