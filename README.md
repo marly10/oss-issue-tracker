@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-04 01:49 UTC_
+_Last updated: 2026-10-04 07:28 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#10545](https://github.com/ansible-collections/community.general/issues/10545) diy callback defines deprecated method v2_on_any | bug, callback, has_pr, plugins | 6 | 2026-10-02 |
 | ★★☆☆☆ | [#12853](https://github.com/ansible-collections/community.general/issues/12853) ipa_hostgroup fails even if it was successful | bug, module, plugins | 2 | 2026-10-02 |
 | ★★☆☆☆ | [#12850](https://github.com/ansible-collections/community.general/issues/12850) ipa_user: setting krbpasswordexpiration will not change value in FreeIPA | bug, module, plugins | 2 | 2026-10-01 |
-| ★★☆☆☆ | [#12513](https://github.com/ansible-collections/community.general/issues/12513) krb_ticket: only checks for ticket existence, not expiration | bug, module, plugins | 4 | 2026-09-27 |
+| ★☆☆☆☆ | [#4699](https://github.com/ansible-collections/community.general/issues/4699) zfs: property values in non-canonical form break idempotency | bug, module, plugins | 12 | 2026-10-04 |
 | ★☆☆☆☆ | [#12580](https://github.com/ansible-collections/community.general/issues/12580) authselect: new module | feature, has_pr | 5 | 2026-09-27 |
 | ★☆☆☆☆ | [#12619](https://github.com/ansible-collections/community.general/issues/12619) dnf_config_manager: fails in air-gapped environments | feature, module, has_pr, plugins | 2 | 2026-09-27 |
 | ★☆☆☆☆ | [#12634](https://github.com/ansible-collections/community.general/issues/12634) sssd_config: new module | feature, has_pr | 4 | 2026-09-27 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-04 01:48 UTC, took **62.5s**, **117** GitHub API calls, **4883/5000** rate limit remaining._
+_Last run: 2026-10-04 07:26 UTC, took **67.5s**, **116** GitHub API calls, **4884/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
