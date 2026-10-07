@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-06 21:17 UTC_
+_Last updated: 2026-10-07 00:46 UTC_
 
 _Tracking **18** upstream repos, **367** relevant open issues._
 
@@ -137,9 +137,9 @@ _Tracking **18** upstream repos, **367** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | bug, has_pr, affects_2.22 | 9 | 2026-10-06 |
 | ★★☆☆☆ | [#87623](https://github.com/ansible/ansible/issues/87623) Argument spec validation fails for no_log options with non-string defaults | needs_triage, bug, has_pr, pre_release | 7 | 2026-10-06 |
 | ★★☆☆☆ | [#87640](https://github.com/ansible/ansible/issues/87640) `IndexError('list index out of range')` gathering `mounts` (from unexpected `lvs` output) | bug, has_pr | 1 | 2026-10-06 |
-| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | bug, affects_2.22 | 8 | 2026-10-06 |
 | ★★☆☆☆ | [#87618](https://github.com/ansible/ansible/issues/87618) Data Tagging: default broken for regular dicts | bug, has_pr, P3 | 3 | 2026-10-06 |
 | ★★☆☆☆ | [#85617](https://github.com/ansible/ansible/issues/85617) any_errors_fatal causes hosts to be dropped if rescue occurs in included task | bug, has_pr, P3, verified, affects_2.18 | 3 | 2026-10-06 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-10-06 |
@@ -195,10 +195,10 @@ _Tracking **18** upstream repos, **367** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 85 | 2026-10-06 |
 | ★★★☆☆ | [#121641](https://github.com/kubernetes/kubernetes/issues/121641) CRD API can accept invalid spec that later the naming controller fails to reconcile | kind/bug, sig/api-machinery, help wanted, triage/accepted | 10 | 2026-10-06 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 45 | 2026-10-06 |
 | ★★★☆☆ | [#112733](https://github.com/kubernetes/kubernetes/issues/112733) Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown` | kind/bug, sig/node, help wanted, good first issue, triage/accepted | 36 | 2026-10-06 |
-| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 83 | 2026-09-30 |
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 24 | 2026-09-28 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 47 | 2026-09-28 |
 | ★★★☆☆ | [#141819](https://github.com/kubernetes/kubernetes/issues/141819) E2E testing: check for goroutine leaks | kind/feature, help wanted, sig/testing, needs-triage | 7 | 2026-09-07 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **367** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-06 21:15 UTC, took **72.4s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-07 00:45 UTC, took **73.7s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
