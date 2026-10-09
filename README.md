@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-09 15:50 UTC_
+_Last updated: 2026-10-09 20:22 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -105,7 +105,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-08 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-09 |
 | ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
@@ -139,12 +139,12 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, affects_2.18 | 6 | 2026-10-08 |
 | ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | bug, has_pr, affects_2.22 | 9 | 2026-10-06 |
-| ★★☆☆☆ | [#87640](https://github.com/ansible/ansible/issues/87640) `IndexError('list index out of range')` gathering `mounts` (from unexpected `lvs` output) | bug, has_pr | 1 | 2026-10-06 |
+| ★☆☆☆☆ | [#81629](https://github.com/ansible/ansible/issues/81629) [RFE] Make it easier to upgrade all installed collections | feature | 4 | 2026-10-09 |
+| ★☆☆☆☆ | [#84074](https://github.com/ansible/ansible/issues/84074) Expose more timeout-related context in `ansible-test` | bug | 19 | 2026-10-09 |
 | ★☆☆☆☆ | [#17806](https://github.com/ansible/ansible/issues/17806) hostvars[host][variable] are not recursively templated | affects_2.1, bug, P3, verified, affects_2.12 | 13 | 2026-10-08 |
 | ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | module, needs_triage, feature | 3 | 2026-10-07 |
 | ★☆☆☆☆ | [#87019](https://github.com/ansible/ansible/issues/87019) Templated ansible_host causes a new connection (and a new runspace/shell) to be created on every loop iteration | bug, has_pr, affects_2.19, affects_2.20 | 13 | 2026-10-07 |
 | ★☆☆☆☆ | [#87552](https://github.com/ansible/ansible/issues/87552) `ansible.builtin.first_found` lookup searches different paths if task calls `ansible.builtin.template` module | waiting_on_contributor, feature, affects_2.21 | 4 | 2026-10-06 |
-| ★☆☆☆☆ | [#87619](https://github.com/ansible/ansible/issues/87619) Enhance 'ansible.builtin.meta' to provide a standard method for exiting playbooks and terminating workflows | module, feature | 1 | 2026-10-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -202,7 +202,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 6 | 2026-10-07 |
 | ★★★☆☆ | [#140942](https://github.com/kubernetes/kubernetes/issues/140942) Ensure Credential Pulled Images tests still flaking with "pulled record ... never appeared" after #138527/#138642 (kubelet-gce-e2e-swap-ubuntu-serial) | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-07 |
 | ★★★☆☆ | [#134799](https://github.com/kubernetes/kubernetes/issues/134799) Add e2e test for probes using ContainerRestartRules | area/test, priority/backlog, kind/cleanup, sig/node, help wanted, triage/accepted | 7 | 2026-10-07 |
-| ★★★☆☆ | [#134172](https://github.com/kubernetes/kubernetes/issues/134172) Clean up features for SIG Node e2e tests | area/test, kind/cleanup, sig/node, help wanted, priority/important-longterm, triage/accepted | 10 | 2026-10-07 |
+| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 86 | 2026-10-07 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -236,7 +236,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 5 | 2026-10-04 |
+| ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 6 | 2026-10-09 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
 | ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 4 | 2026-10-09 |
 | ★★★★☆ | [#51889](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51889) [processor/filter] Document internal telemetry metrics in README | documentation, good first issue, processor/filter, waiting-for-code-owners | 2 | 2026-10-08 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-09 15:48 UTC, took **99.7s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-09 20:21 UTC, took **79.0s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
