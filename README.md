@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-08 22:14 UTC_
+_Last updated: 2026-10-09 02:10 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -251,12 +251,12 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 6 | 2026-10-09 |
 | ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 31 | 2026-09-29 |
 | ★★★☆☆ | [#6222](https://github.com/prometheus/prometheus/issues/6222) Promtool subcommands should consistently support stdin reads | help wanted, kind/enhancement, component/promtool, priority/P3, hacktoberfest | 6 | 2026-09-29 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 8 | 2026-09-29 |
 | ★★★☆☆ | [#13657](https://github.com/prometheus/prometheus/issues/13657) Proposal: Cache expanded postings on TSDB | help wanted, kind/enhancement, not-as-easy-as-it-looks, priority/P3, component/tsdb | 3 | 2026-09-28 |
 | ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 2 | 2026-09-21 |
-| ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 3 | 2026-09-17 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-08 22:13 UTC, took **77.9s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-09 02:09 UTC, took **76.9s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
