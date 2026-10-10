@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-10 11:23 UTC_
+_Last updated: 2026-10-10 16:18 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -139,7 +139,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, has_pr, affects_2.16 | 1 | 2026-10-10 |
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, affects_2.18 | 6 | 2026-10-08 |
-| ★★☆☆☆ | [#87625](https://github.com/ansible/ansible/issues/87625) Upgrading to 2.22 exposes no_log secrets that 2.21 masked, without a warning | bug, has_pr, affects_2.22 | 9 | 2026-10-06 |
+| ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 15 | 2026-10-10 |
 | ★☆☆☆☆ | [#81629](https://github.com/ansible/ansible/issues/81629) [RFE] Make it easier to upgrade all installed collections | feature | 4 | 2026-10-09 |
 | ★☆☆☆☆ | [#84074](https://github.com/ansible/ansible/issues/84074) Expose more timeout-related context in `ansible-test` | bug | 19 | 2026-10-09 |
 | ★☆☆☆☆ | [#17806](https://github.com/ansible/ansible/issues/17806) hostvars[host][variable] are not recursively templated | affects_2.1, bug, P3, verified, affects_2.12 | 13 | 2026-10-08 |
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 88 | 2026-10-10 |
 | ★★★☆☆ | [#136114](https://github.com/kubernetes/kubernetes/issues/136114) [Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall | sig/node, help wanted, kind/failing-test, needs-triage | 10 | 2026-10-09 |
 | ★★★☆☆ | [#138226](https://github.com/kubernetes/kubernetes/issues/138226) [Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity | sig/node, kind/flake, help wanted, triage/accepted | 10 | 2026-10-08 |
 | ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 7 | 2026-10-08 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 6 | 2026-10-07 |
 | ★★★☆☆ | [#140942](https://github.com/kubernetes/kubernetes/issues/140942) Ensure Credential Pulled Images tests still flaking with "pulled record ... never appeared" after #138527/#138642 (kubelet-gce-e2e-swap-ubuntu-serial) | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-07 |
 | ★★★☆☆ | [#134799](https://github.com/kubernetes/kubernetes/issues/134799) Add e2e test for probes using ContainerRestartRules | area/test, priority/backlog, kind/cleanup, sig/node, help wanted, triage/accepted | 7 | 2026-10-07 |
-| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 86 | 2026-10-07 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-10 11:22 UTC, took **72.1s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-10 16:16 UTC, took **69.0s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
