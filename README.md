@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-09 20:22 UTC_
+_Last updated: 2026-10-10 00:07 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -195,9 +195,9 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#136114](https://github.com/kubernetes/kubernetes/issues/136114) [Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall | sig/node, help wanted, kind/failing-test, needs-triage | 10 | 2026-10-09 |
 | ★★★☆☆ | [#138226](https://github.com/kubernetes/kubernetes/issues/138226) [Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity | sig/node, kind/flake, help wanted, triage/accepted | 10 | 2026-10-08 |
 | ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 7 | 2026-10-08 |
-| ★★★☆☆ | [#136114](https://github.com/kubernetes/kubernetes/issues/136114) [Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall | sig/node, help wanted, kind/failing-test, needs-triage | 9 | 2026-10-08 |
 | ★★★☆☆ | [#141786](https://github.com/kubernetes/kubernetes/issues/141786) [Flaking Test] restarted with a non-local redirect http liveness probe | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-08 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 6 | 2026-10-07 |
 | ★★★☆☆ | [#140942](https://github.com/kubernetes/kubernetes/issues/140942) Ensure Credential Pulled Images tests still flaking with "pulled record ... never appeared" after #138527/#138642 (kubelet-gce-e2e-swap-ubuntu-serial) | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-07 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-09 20:21 UTC, took **79.0s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-10 00:05 UTC, took **72.4s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
