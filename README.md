@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-10 16:18 UTC_
+_Last updated: 2026-10-10 20:08 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12904](https://github.com/ansible-collections/community.general/issues/12904) _cmd_runner module utils: `environ_update` from one context leaks into subsequent commands | bug, module_utils, plugins | 1 | 2026-10-10 |
-| ★★☆☆☆ | [#12902](https://github.com/ansible-collections/community.general/issues/12902) gitlab_project: every task fails with 'bool' object has no attribute 'attributes' since 13.5.0 | bug, module, plugins | 5 | 2026-10-09 |
+| ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 3 | 2026-10-10 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 8 | 2026-10-07 |
 | ★★☆☆☆ | [#12896](https://github.com/ansible-collections/community.general/issues/12896) pkgng: Close stdin of pkg(8) to pick default answers to interactive prompts | bug, module, plugins | 2 | 2026-10-06 |
 | ★☆☆☆☆ | [#12897](https://github.com/ansible-collections/community.general/issues/12897) logstash callback plugin: add HTTP(S) transport and authentication | feature, callback, plugins | 3 | 2026-10-10 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 9 | 2026-10-07 |
 | ★☆☆☆☆ | [#3358](https://github.com/ansible-collections/community.general/issues/3358) TSS: Environment Variables are ignored | bug, lookup, needs_info, plugins | 18 | 2026-10-06 |
 | ★☆☆☆☆ | [#12770](https://github.com/ansible-collections/community.general/issues/12770) rpm_info: new module | feature | 3 | 2026-10-05 |
+| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 15 | 2026-10-05 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-10 16:16 UTC, took **69.0s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-10 20:07 UTC, took **71.0s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
