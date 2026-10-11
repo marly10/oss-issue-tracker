@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-11 15:05 UTC_
+_Last updated: 2026-10-11 19:29 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87677](https://github.com/ansible/ansible/issues/87677) ansible-core 2.21 does not work with Python 3.15 | needs_triage, bug | 1 | 2026-10-11 |
 | ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, has_pr, affects_2.16 | 1 | 2026-10-10 |
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, affects_2.18 | 6 | 2026-10-08 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 15 | 2026-10-10 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★☆☆☆☆ | [#84074](https://github.com/ansible/ansible/issues/84074) Expose more timeout-related context in `ansible-test` | bug | 19 | 2026-10-09 |
 | ★☆☆☆☆ | [#17806](https://github.com/ansible/ansible/issues/17806) hostvars[host][variable] are not recursively templated | affects_2.1, bug, P3, verified, affects_2.12 | 13 | 2026-10-08 |
 | ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | module, needs_triage, feature | 3 | 2026-10-07 |
-| ★☆☆☆☆ | [#87019](https://github.com/ansible/ansible/issues/87019) Templated ansible_host causes a new connection (and a new runspace/shell) to be created on every loop iteration | bug, has_pr, affects_2.19, affects_2.20 | 13 | 2026-10-07 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-11 15:04 UTC, took **68.5s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-11 19:28 UTC, took **69.4s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
