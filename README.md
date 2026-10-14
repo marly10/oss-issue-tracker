@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-14 08:02 UTC_
+_Last updated: 2026-10-14 13:36 UTC_
 
-_Tracking **18** upstream repos, **382** relevant open issues._
+_Tracking **18** upstream repos, **383** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#12960](https://github.com/ansible-collections/community.general/issues/12960) zypper: applying a patch that requires a reboot (rc 102) fails with "Module failed: Unknown error." although it was installed | bug, module, plugins | 2 | 2026-10-14 |
+| ★★☆☆☆ | [#12960](https://github.com/ansible-collections/community.general/issues/12960) zypper: applying a patch that requires a reboot (rc 102) fails with "Module failed: Unknown error." although it was installed | bug, module, plugins | 5 | 2026-10-14 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 8 | 2026-10-07 |
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87691](https://github.com/ansible/ansible/issues/87691) module.exit_json(rc=1) results in module failure without announced deprecation | needs_triage, bug | 1 | 2026-10-14 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | needs_triage, bug, affects_2.14 | 2 | 2026-10-14 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 2 | 2026-10-13 |
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug | 1 | 2026-10-13 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-10-12 |
 | ★★☆☆☆ | [#86947](https://github.com/ansible/ansible/issues/86947) Filter using dataclasses.asdict triggers _lazy_containers.UnsupportedConstructionMethodError | bug, needs_verified, affects_2.20 | 2 | 2026-10-12 |
-| ★★☆☆☆ | [#82724](https://github.com/ansible/ansible/issues/82724) `check_required_one_of` does not check for null params values | bug, has_pr, affects_2.16 | 1 | 2026-10-10 |
 | ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | waiting_on_contributor, module, feature | 4 | 2026-10-13 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 15 | 2026-10-10 |
 
@@ -238,12 +238,12 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 |---|---|---|---|---|
 | ★★★★★ | [#50330](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) Support component status attributes | enhancement, good first issue, extension/opamp | 6 | 2026-10-09 |
 | ★★★★★ | [#48420](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48420) [processor/tailsampling] Change default `error_mode` to `ignore` | enhancement, help wanted, good first issue, processor/tailsampling | 5 | 2026-08-17 |
+| ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 7 | 2026-10-14 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 3 | 2026-10-13 |
 | ★★★★☆ | [#46116](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/46116) [cmd/mdatagen] Move feature gates for metadata.yaml | enhancement, help wanted, good first issue, priority:p2, cmd/mdatagen, never stale | 36 | 2026-10-13 |
 | ★★★★☆ | [#27629](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27629) CI/CD: Add label automation to Discussions | enhancement, help wanted, ci-cd, never stale | 6 | 2026-10-11 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 23 | 2026-10-10 |
-| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 4 | 2026-10-09 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-14 08:01 UTC, took **80.9s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-14 13:35 UTC, took **101.0s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
