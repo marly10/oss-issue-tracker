@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-14 18:10 UTC_
+_Last updated: 2026-10-14 21:38 UTC_
 
 _Tracking **18** upstream repos, **383** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 8 | 2026-10-07 |
 | ★★☆☆☆ | [#12896](https://github.com/ansible-collections/community.general/issues/12896) pkgng: Close stdin of pkg(8) to pick default answers to interactive prompts | bug, module, plugins | 2 | 2026-10-06 |
-| ★☆☆☆☆ | [#12969](https://github.com/ansible-collections/community.general/issues/12969) ufw fails in check mode if ufw is not yet installed | feature, module, plugins | 4 | 2026-10-14 |
+| ★☆☆☆☆ | [#12969](https://github.com/ansible-collections/community.general/issues/12969) ufw fails in check mode if ufw is not yet installed | feature, module, plugins | 6 | 2026-10-14 |
 | ★☆☆☆☆ | [#12897](https://github.com/ansible-collections/community.general/issues/12897) logstash callback plugin: add HTTP(S) transport and authentication | feature, callback, plugins | 3 | 2026-10-10 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 9 | 2026-10-07 |
 | ★☆☆☆☆ | [#3358](https://github.com/ansible-collections/community.general/issues/3358) TSS: Environment Variables are ignored | bug, lookup, needs_info, plugins | 18 | 2026-10-06 |
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87691](https://github.com/ansible/ansible/issues/87691) module.exit_json(rc=1) results in module failure without announced deprecation | P2, needs_triage, bug, has_pr | 3 | 2026-10-14 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | needs_triage, bug, affects_2.14 | 3 | 2026-10-14 |
-| ★★☆☆☆ | [#87691](https://github.com/ansible/ansible/issues/87691) module.exit_json(rc=1) results in module failure without announced deprecation | P2, needs_triage, bug | 3 | 2026-10-14 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 2 | 2026-10-13 |
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug | 1 | 2026-10-13 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-10-12 |
@@ -251,12 +251,12 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 7 | 2026-10-14 |
 | ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 6 | 2026-10-09 |
 | ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 31 | 2026-09-29 |
 | ★★★☆☆ | [#6222](https://github.com/prometheus/prometheus/issues/6222) Promtool subcommands should consistently support stdin reads | help wanted, kind/enhancement, component/promtool, priority/P3, hacktoberfest | 6 | 2026-09-29 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 8 | 2026-09-29 |
 | ★★★☆☆ | [#13657](https://github.com/prometheus/prometheus/issues/13657) Proposal: Cache expanded postings on TSDB | help wanted, kind/enhancement, not-as-easy-as-it-looks, priority/P3, component/tsdb | 3 | 2026-09-28 |
-| ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 2 | 2026-09-21 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-14 18:09 UTC, took **92.6s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-14 21:37 UTC, took **80.5s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
