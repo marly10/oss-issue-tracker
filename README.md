@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-15 18:17 UTC_
+_Last updated: 2026-10-15 21:28 UTC_
 
 _Tracking **18** upstream repos, **383** relevant open issues._
 
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | bug, affects_2.14 | 3 | 2026-10-15 |
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug | 4 | 2026-10-15 |
-| ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | needs_triage, bug, affects_2.14 | 3 | 2026-10-14 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 2 | 2026-10-13 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-10-12 |
 | ★★☆☆☆ | [#86947](https://github.com/ansible/ansible/issues/86947) Filter using dataclasses.asdict triggers _lazy_containers.UnsupportedConstructionMethodError | bug, needs_verified, affects_2.20 | 2 | 2026-10-12 |
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 8 | 2026-10-15 |
 | ★★★☆☆ | [#143046](https://github.com/kubernetes/kubernetes/issues/143046) [Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-15 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 89 | 2026-10-13 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-13 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 | ★★★☆☆ | [#142957](https://github.com/kubernetes/kubernetes/issues/142957) Don't check featuregates directly in E2E tests | kind/bug, help wanted, sig/testing, needs-triage | 3 | 2026-10-13 |
 | ★★★☆☆ | [#142942](https://github.com/kubernetes/kubernetes/issues/142942) No e2e test for `allocateLoadBalancerNodePorts: false` + `externalTrafficPolicy: Local` | area/test, priority/backlog, sig/network, help wanted, triage/accepted | 5 | 2026-10-12 |
 | ★★★☆☆ | [#138226](https://github.com/kubernetes/kubernetes/issues/138226) [Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity | sig/node, kind/flake, help wanted, triage/accepted | 10 | 2026-10-08 |
-| ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 7 | 2026-10-08 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **383** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-15 18:16 UTC, took **84.0s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-15 21:27 UTC, took **84.5s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
