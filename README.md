@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-15 09:17 UTC_
+_Last updated: 2026-10-15 14:13 UTC_
 
-_Tracking **18** upstream repos, **382** relevant open issues._
+_Tracking **18** upstream repos, **383** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#12562](https://github.com/ansible-collections/community.general/issues/12562) lxc_container: archive fails on LXC 4.0.5 with KeyError | bug, module, plugins | 3 | 2026-10-15 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
 | ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 8 | 2026-10-07 |
@@ -131,7 +132,6 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★☆☆☆☆ | [#12969](https://github.com/ansible-collections/community.general/issues/12969) ufw fails in check mode if ufw is not yet installed | feature, module, plugins | 6 | 2026-10-14 |
 | ★☆☆☆☆ | [#12897](https://github.com/ansible-collections/community.general/issues/12897) logstash callback plugin: add HTTP(S) transport and authentication | feature, callback, plugins | 3 | 2026-10-10 |
 | ★☆☆☆☆ | [#9126](https://github.com/ansible-collections/community.general/issues/9126) How to use  bitwarden_secrets_manager with AWX | lookup, needs_info, plugins, docs | 9 | 2026-10-07 |
-| ★☆☆☆☆ | [#3358](https://github.com/ansible-collections/community.general/issues/3358) TSS: Environment Variables are ignored | bug, lookup, needs_info, plugins | 18 | 2026-10-06 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#143046](https://github.com/kubernetes/kubernetes/issues/143046) [Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow] | sig/node, kind/flake, help wanted, needs-triage | 6 | 2026-10-15 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 89 | 2026-10-13 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-13 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 46 | 2026-10-13 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 | ★★★☆☆ | [#142942](https://github.com/kubernetes/kubernetes/issues/142942) No e2e test for `allocateLoadBalancerNodePorts: false` + `externalTrafficPolicy: Local` | area/test, priority/backlog, sig/network, help wanted, triage/accepted | 5 | 2026-10-12 |
 | ★★★☆☆ | [#136114](https://github.com/kubernetes/kubernetes/issues/136114) [Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall | sig/node, help wanted, kind/failing-test, needs-triage | 10 | 2026-10-09 |
 | ★★★☆☆ | [#138226](https://github.com/kubernetes/kubernetes/issues/138226) [Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity | sig/node, kind/flake, help wanted, triage/accepted | 10 | 2026-10-08 |
-| ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 7 | 2026-10-08 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **382** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-15 09:16 UTC, took **87.6s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-15 14:11 UTC, took **93.1s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
