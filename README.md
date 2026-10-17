@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-17 12:07 UTC_
+_Last updated: 2026-10-17 15:28 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#12562](https://github.com/ansible-collections/community.general/issues/12562) lxc_container: archive fails on LXC 4.0.5 with KeyError | bug, module, plugins | 3 | 2026-10-15 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
-| ★★☆☆☆ | [#3668](https://github.com/ansible-collections/community.general/issues/3668) nmcli is not idempotent | bug, module, needs_info, plugins, net_tools | 8 | 2026-10-07 |
+| ★☆☆☆☆ | [#10050](https://github.com/ansible-collections/community.general/issues/10050) [lvol] Support poolmetadatasize parameter | feature, module, has_pr, plugins | 5 | 2026-10-17 |
 | ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-10-16 |
 | ★☆☆☆☆ | [#12969](https://github.com/ansible-collections/community.general/issues/12969) ufw fails in check mode if ufw is not yet installed | feature, module, plugins | 6 | 2026-10-14 |
 | ★☆☆☆☆ | [#12897](https://github.com/ansible-collections/community.general/issues/12897) logstash callback plugin: add HTTP(S) transport and authentication | feature, callback, plugins | 3 | 2026-10-10 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-17 12:06 UTC, took **75.5s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-17 15:27 UTC, took **72.7s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
