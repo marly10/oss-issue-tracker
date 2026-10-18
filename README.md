@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-18 21:42 UTC_
+_Last updated: 2026-10-18 23:40 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -251,8 +251,8 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 7 | 2026-10-18 |
 | ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 7 | 2026-10-14 |
-| ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 6 | 2026-10-09 |
 | ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 31 | 2026-09-29 |
 | ★★★☆☆ | [#6222](https://github.com/prometheus/prometheus/issues/6222) Promtool subcommands should consistently support stdin reads | help wanted, kind/enhancement, component/promtool, priority/P3, hacktoberfest | 6 | 2026-09-29 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 8 | 2026-09-29 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-18 21:41 UTC, took **84.3s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-18 23:39 UTC, took **77.0s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
