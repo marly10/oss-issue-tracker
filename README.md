@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-18 14:13 UTC_
+_Last updated: 2026-10-18 17:23 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug, has_pr | 5 | 2026-10-18 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-10-18 |
 | ★★☆☆☆ | [#77217](https://github.com/ansible/ansible/issues/77217) AnsibleModule.preserved_copy() results in module fail: Error while setting attributes: /usr/bin/chattr: Inappropriate ioctl for device while reading flags on /tmp/id_rsa_test | bug, has_pr, P3, affects_2.18 | 10 | 2026-10-17 |
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | needs_triage, bug, has_pr, affects_2.19 | 3 | 2026-10-17 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | bug, affects_2.14 | 3 | 2026-10-15 |
-| ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug | 4 | 2026-10-15 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 2 | 2026-10-13 |
-| ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-10-12 |
+| ★☆☆☆☆ | [#87711](https://github.com/ansible/ansible/issues/87711) [get_url] Display unvalidate  documentation URL when raise permission error. | needs_triage, docs, affects_2.21 | 1 | 2026-10-18 |
 | ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | waiting_on_contributor, module, feature | 4 | 2026-10-13 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-18 14:12 UTC, took **72.1s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-18 17:21 UTC, took **70.7s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
