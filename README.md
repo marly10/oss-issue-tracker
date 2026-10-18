@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-18 01:23 UTC_
+_Last updated: 2026-10-18 06:05 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | needs_triage, bug, affects_2.21 | 1 | 2026-10-17 |
+| ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-10-18 |
 | ★★☆☆☆ | [#77217](https://github.com/ansible/ansible/issues/77217) AnsibleModule.preserved_copy() results in module fail: Error while setting attributes: /usr/bin/chattr: Inappropriate ioctl for device while reading flags on /tmp/id_rsa_test | bug, has_pr, P3, affects_2.18 | 10 | 2026-10-17 |
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | needs_triage, bug, has_pr, affects_2.19 | 3 | 2026-10-17 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | bug, affects_2.14 | 3 | 2026-10-15 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-18 01:22 UTC, took **74.5s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
+_Last run: 2026-10-18 06:04 UTC, took **72.6s**, **118** GitHub API calls, **4882/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
