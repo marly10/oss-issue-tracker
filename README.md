@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-19 14:03 UTC_
+_Last updated: 2026-10-19 19:47 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -144,7 +144,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | needs_triage, bug, has_pr, affects_2.19 | 3 | 2026-10-17 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | bug, affects_2.14 | 3 | 2026-10-15 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 4 | 2026-10-19 |
-| ★☆☆☆☆ | [#87711](https://github.com/ansible/ansible/issues/87711) [get_url] Display unvalidate  documentation URL when raise permission error. | needs_triage, has_pr, docs, affects_2.21 | 2 | 2026-10-19 |
+| ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | waiting_on_contributor, module, feature | 4 | 2026-10-13 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-19 14:01 UTC, took **97.2s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-10-19 19:46 UTC, took **85.9s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
