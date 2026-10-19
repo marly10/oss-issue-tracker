@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-19 19:47 UTC_
+_Last updated: 2026-10-19 23:08 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#86761](https://github.com/ansible/ansible/issues/86761) Register projections: callback unit tests can no longer create (Callback)TaskResult objects | bug | 6 | 2026-10-19 |
 | ★★☆☆☆ | [#24989](https://github.com/ansible/ansible/issues/24989) Module unarchive: Failure when the group name in the group parameter contains a space. | needs_info, affects_2.3, module, bug, P3, needs_verified | 10 | 2026-10-19 |
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug, has_pr | 6 | 2026-10-18 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | needs_triage, bug, has_pr, affects_2.21 | 1 | 2026-10-18 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | needs_triage, bug, has_pr, affects_2.19 | 3 | 2026-10-17 |
 | ★★☆☆☆ | [#87690](https://github.com/ansible/ansible/issues/87690) Potential WinRM instability when using large winrm_operation_timeout_sec and winrm_read_timeout_sec values | bug, affects_2.14 | 3 | 2026-10-15 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 4 | 2026-10-19 |
-| ★☆☆☆☆ | [#87652](https://github.com/ansible/ansible/issues/87652) find module: add user/group filters, prune paths, and inline state to enable targeted remote file removal | waiting_on_contributor, module, feature | 4 | 2026-10-13 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-19 19:46 UTC, took **85.9s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-10-19 23:06 UTC, took **75.8s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
