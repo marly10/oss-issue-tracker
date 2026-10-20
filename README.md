@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-20 06:40 UTC_
+_Last updated: 2026-10-20 12:09 UTC_
 
 _Tracking **18** upstream repos, **381** relevant open issues._
 
@@ -128,10 +128,10 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 | ★★☆☆☆ | [#12562](https://github.com/ansible-collections/community.general/issues/12562) lxc_container: archive fails on LXC 4.0.5 with KeyError | bug, module, plugins | 3 | 2026-10-15 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
 | ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
+| ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 | ★☆☆☆☆ | [#10050](https://github.com/ansible-collections/community.general/issues/10050) [lvol] Support poolmetadatasize parameter | feature, module, has_pr, plugins | 5 | 2026-10-17 |
 | ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-10-16 |
 | ★☆☆☆☆ | [#12969](https://github.com/ansible-collections/community.general/issues/12969) ufw fails in check mode if ufw is not yet installed | feature, module, plugins | 6 | 2026-10-14 |
-| ★☆☆☆☆ | [#12897](https://github.com/ansible-collections/community.general/issues/12897) logstash callback plugin: add HTTP(S) transport and authentication | feature, callback, plugins | 3 | 2026-10-10 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -251,9 +251,9 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 33 | 2026-10-20 |
 | ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 7 | 2026-10-18 |
 | ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 7 | 2026-10-14 |
-| ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 31 | 2026-09-29 |
 | ★★★☆☆ | [#6222](https://github.com/prometheus/prometheus/issues/6222) Promtool subcommands should consistently support stdin reads | help wanted, kind/enhancement, component/promtool, priority/P3, hacktoberfest | 6 | 2026-09-29 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 8 | 2026-09-29 |
 | ★★★☆☆ | [#13657](https://github.com/prometheus/prometheus/issues/13657) Proposal: Cache expanded postings on TSDB | help wanted, kind/enhancement, not-as-easy-as-it-looks, priority/P3, component/tsdb | 3 | 2026-09-28 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **381** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-20 06:38 UTC, took **84.6s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-10-20 12:08 UTC, took **83.8s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
