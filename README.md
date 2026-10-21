@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-21 17:13 UTC_
+_Last updated: 2026-10-21 20:38 UTC_
 
-_Tracking **18** upstream repos, **379** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 1 | 2026-10-21 |
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | bug, has_pr, P3, verified, affects_2.19 | 5 | 2026-10-20 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 3 | 2026-10-20 |
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, docs, affects_2.18 | 7 | 2026-10-20 |
 | ★★☆☆☆ | [#86761](https://github.com/ansible/ansible/issues/86761) Register projections: callback unit tests can no longer create (Callback)TaskResult objects | bug | 6 | 2026-10-19 |
 | ★★☆☆☆ | [#24989](https://github.com/ansible/ansible/issues/24989) Module unarchive: Failure when the group name in the group parameter contains a space. | needs_info, affects_2.3, module, bug, P3, needs_verified | 10 | 2026-10-19 |
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug, has_pr | 6 | 2026-10-18 |
-| ★★☆☆☆ | [#77217](https://github.com/ansible/ansible/issues/77217) AnsibleModule.preserved_copy() results in module fail: Error while setting attributes: /usr/bin/chattr: Inappropriate ioctl for device while reading flags on /tmp/id_rsa_test | bug, has_pr, P3, affects_2.18 | 10 | 2026-10-17 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 4 | 2026-10-19 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -218,10 +218,10 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★★★☆ | [#8192](https://github.com/nightscout/cgm-remote-monitor/issues/8192) List items are not scrollable when viewing Food Editor on mobile. | good-first-issue | 2 | 2026-09-30 |
 | ★★★★☆ | [#8048](https://github.com/nightscout/cgm-remote-monitor/issues/8048) Clock whit seconds | feature request, good-first-issue | 1 | 2026-06-30 |
 | ★★★★☆ | [#7540](https://github.com/nightscout/cgm-remote-monitor/issues/7540) BASE_URL and sub-directories. | good-first-issue | 6 | 2025-07-22 |
-| ★★★★☆ | [#7377](https://github.com/nightscout/cgm-remote-monitor/issues/7377) Clock views don't show when token auth is used | clock, good-first-issue | 1 | 2025-05-22 |
 | ★★★☆☆ | [#6236](https://github.com/nightscout/cgm-remote-monitor/issues/6236) Patchy BG data in Loopalyzer report | bug, help wanted | 16 | 2026-10-08 |
 | ★★★☆☆ | [#5742](https://github.com/nightscout/cgm-remote-monitor/issues/5742) Custom WebHook Support | help wanted, feature request | 2 | 2026-06-15 |
 | ★★★☆☆ | [#6061](https://github.com/nightscout/cgm-remote-monitor/issues/6061) REST-API Endpoints for Grafana | help wanted, feature/rest-api | 6 | 2025-05-22 |
+| ★★★☆☆ | [#6028](https://github.com/nightscout/cgm-remote-monitor/issues/6028) Loopalyzer report has missing Active insulin rendering for some days | help wanted | 4 | 2020-10-14 |
 
 ### [observIQ/bindplane-otel-collector](https://github.com/observIQ/bindplane-otel-collector)
 
@@ -298,7 +298,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-21 17:12 UTC, took **90.1s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-21 20:37 UTC, took **85.6s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
