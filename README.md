@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-22 01:49 UTC_
+_Last updated: 2026-10-22 06:39 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 2 | 2026-10-21 |
+| ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 3 | 2026-10-22 |
+| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 5 | 2026-10-22 |
 | ★★☆☆☆ | [#86298](https://github.com/ansible/ansible/issues/86298) SSH connection has_tty does not check use_tty option, breaks machinectl | bug, has_pr, affects_2.20 | 6 | 2026-10-21 |
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | bug, has_pr, P3, verified, affects_2.19 | 5 | 2026-10-20 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 3 | 2026-10-20 |
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, docs, affects_2.18 | 7 | 2026-10-20 |
 | ★★☆☆☆ | [#86761](https://github.com/ansible/ansible/issues/86761) Register projections: callback unit tests can no longer create (Callback)TaskResult objects | bug | 6 | 2026-10-19 |
-| ★★☆☆☆ | [#24989](https://github.com/ansible/ansible/issues/24989) Module unarchive: Failure when the group name in the group parameter contains a space. | needs_info, affects_2.3, module, bug, P3, needs_verified | 10 | 2026-10-19 |
 | ★☆☆☆☆ | [#87594](https://github.com/ansible/ansible/issues/87594) asnible.builtin.hostname kinda misleading | needs_info, module, docs, affects_2.21 | 4 | 2026-10-19 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-10-21 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-10-22 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -298,7 +298,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-22 01:47 UTC, took **82.7s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-22 06:38 UTC, took **80.8s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
