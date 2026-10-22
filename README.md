@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-22 17:22 UTC_
+_Last updated: 2026-10-22 20:38 UTC_
 
-_Tracking **18** upstream repos, **255** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -100,6 +100,19 @@ _Tracking **18** upstream repos, **255** relevant open issues._
 | ★★☆☆☆ | [#379](https://github.com/GoogleCloudPlatform/bigquery-utils/issues/379) Missing Datasource for Hourly Utilization Heatmap section | bug | 1 | 2024-10-03 |
 | ★★☆☆☆ | [#422](https://github.com/GoogleCloudPlatform/bigquery-utils/issues/422) Add a queries_grouped_by_session.sql script to the optimization/ scripts | enhancement | 1 | 2024-09-18 |
 
+### [GoogleCloudPlatform/opentelemetry-operations-go](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go)
+
+| Score | Issue | Labels | Comments | Updated |
+|---|---|---|---|---|
+| ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-22 |
+| ★★☆☆☆ | [#946](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/946) Add support for tracking metrics with `Cloud Run` resource type | enhancement | 6 | 2026-03-18 |
+| ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
+| ★★☆☆☆ | [#1026](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1026) GCP detector ignores context | bug, priority: p1 | 2 | 2025-05-28 |
+| ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
+| ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
+| ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
+
 ### [GoogleCloudPlatform/opentelemetry-operations-python](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python)
 
 | Score | Issue | Labels | Comments | Updated |
@@ -111,10 +124,10 @@ _Tracking **18** upstream repos, **255** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#5795](https://github.com/ansible-collections/community.general/issues/5795) pkgng jail tests fail on 13.0, 13.1, 13.2, 13.3, 13.4, 13.5, 14.0, 14.1, 14.2, 14.3 | bug, module, has_pr, plugins, os, packaging | 4 | 2026-10-22 |
 | ★★☆☆☆ | [#12987](https://github.com/ansible-collections/community.general/issues/12987) opentelemetry callback: every host's span event carries the result of the last host that reported | bug, callback, has_pr, plugins | 4 | 2026-10-19 |
 | ★★☆☆☆ | [#12562](https://github.com/ansible-collections/community.general/issues/12562) lxc_container: archive fails on LXC 4.0.5 with KeyError | bug, module, plugins | 3 | 2026-10-15 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
+| ★★☆☆☆ | [#12501](https://github.com/ansible-collections/community.general/issues/12501) copr: fails on Fedora 44 (dnf5) | bug, module, has_pr, plugins | 7 | 2026-10-11 |
 | ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 | ★☆☆☆☆ | [#10050](https://github.com/ansible-collections/community.general/issues/10050) [lvol] Support poolmetadatasize parameter | feature, module, has_pr, plugins | 5 | 2026-10-17 |
 | ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-10-16 |
@@ -285,7 +298,7 @@ _Tracking **18** upstream repos, **255** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-22 17:21 UTC, took **114.0s**, **106** GitHub API calls, **4894/5000** rate limit remaining._
+_Last run: 2026-10-22 20:37 UTC, took **86.4s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
