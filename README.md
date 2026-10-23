@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-23 12:03 UTC_
+_Last updated: 2026-10-23 16:56 UTC_
 
-_Tracking **18** upstream repos, **377** relevant open issues._
+_Tracking **18** upstream repos, **376** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -144,7 +144,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | bug, has_pr, P3, verified, affects_2.19 | 5 | 2026-10-20 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 3 | 2026-10-20 |
 | ★★☆☆☆ | [#85229](https://github.com/ansible/ansible/issues/85229) AnsibleUndefined passed to role bypasses role defaults | bug, docs, affects_2.18 | 7 | 2026-10-20 |
-| ★★☆☆☆ | [#86761](https://github.com/ansible/ansible/issues/86761) Register projections: callback unit tests can no longer create (Callback)TaskResult objects | bug | 6 | 2026-10-19 |
+| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 41 | 2026-10-23 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -195,7 +195,6 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#126379](https://github.com/kubernetes/kubernetes/issues/126379) add and use alternative APIs which support contextual logging | area/logging, kind/feature, help wanted, sig/instrumentation, good first issue, triage/accepted, wg/structured-logging | 44 | 2026-10-23 |
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 25 | 2026-10-23 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 50 | 2026-10-23 |
 | ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 6 | 2026-10-20 |
@@ -203,6 +202,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 9 | 2026-10-15 |
 | ★★★☆☆ | [#143046](https://github.com/kubernetes/kubernetes/issues/143046) [Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-15 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 89 | 2026-10-13 |
+| ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-13 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -298,7 +298,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-23 12:01 UTC, took **89.4s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-10-23 16:55 UTC, took **89.7s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
