@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-24 06:22 UTC_
+_Last updated: 2026-10-24 11:18 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 8 | 2026-10-24 |
 | ★★☆☆☆ | [#78278](https://github.com/ansible/ansible/issues/78278) ansible-test --changed crashes when there are untracked symlinks to directories | bug, has_pr, affects_2.17 | 5 | 2026-10-22 |
-| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 7 | 2026-10-22 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 3 | 2026-10-22 |
 | ★★☆☆☆ | [#86298](https://github.com/ansible/ansible/issues/86298) SSH connection has_tty does not check use_tty option, breaks machinectl | bug, has_pr, affects_2.20 | 6 | 2026-10-21 |
 | ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | bug, has_pr, P3, verified, affects_2.19 | 5 | 2026-10-20 |
@@ -195,10 +195,10 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
 | ★★★☆☆ | [#136304](https://github.com/kubernetes/kubernetes/issues/136304) Graduate apiserver metrics to BETA | sig/api-machinery, help wanted, sig/instrumentation, triage/accepted | 10 | 2026-10-23 |
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 25 | 2026-10-23 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 50 | 2026-10-23 |
-| ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 6 | 2026-10-20 |
 | ★★★☆☆ | [#142957](https://github.com/kubernetes/kubernetes/issues/142957) Don't check featuregates directly in E2E tests | kind/bug, help wanted, sig/testing, needs-triage | 4 | 2026-10-16 |
 | ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 9 | 2026-10-15 |
 | ★★★☆☆ | [#143046](https://github.com/kubernetes/kubernetes/issues/143046) [Flaking Test] [It] [sig-node] HugepageAwareMemoryReporting [Feature:HugePages] with feature gate enabled should subtract hugepage capacity from memory.available [Disruptive] [Serial] [Slow] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 7 | 2026-10-15 |
@@ -298,7 +298,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-24 06:21 UTC, took **72.3s**, **123** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-10-24 11:17 UTC, took **77.4s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
