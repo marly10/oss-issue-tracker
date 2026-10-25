@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-25 06:57 UTC_
+_Last updated: 2026-10-25 12:19 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -124,9 +124,9 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
 | ★★☆☆☆ | [#10744](https://github.com/ansible-collections/community.general/issues/10744) zpool: vdev disks do not support symlinks | bug, module, has_pr, plugins | 9 | 2026-10-24 |
 | ★★☆☆☆ | [#12987](https://github.com/ansible-collections/community.general/issues/12987) opentelemetry callback: every host's span event carries the result of the last host that reported | bug, callback, has_pr, plugins | 4 | 2026-10-19 |
-| ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 6 | 2026-10-13 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 16 | 2026-10-24 |
 | ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 | ★☆☆☆☆ | [#10050](https://github.com/ansible-collections/community.general/issues/10050) [lvol] Support poolmetadatasize parameter | feature, module, has_pr, plugins | 5 | 2026-10-17 |
@@ -298,7 +298,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-25 06:56 UTC, took **75.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-10-25 12:17 UTC, took **73.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
