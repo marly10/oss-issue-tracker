@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-26 19:36 UTC_
+_Last updated: 2026-10-26 23:19 UTC_
 
-_Tracking **18** upstream repos, **375** relevant open issues._
+_Tracking **18** upstream repos, **372** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -106,7 +106,7 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
 | ★★★☆☆ | [#705](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/705) Consider using gorelease to prevent unwanted breaking changes. | enhancement, priority: p3, enhancement accepted | 0 | 2024-07-29 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-24 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-26 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#706](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/706) Consider using dependabot to keep up-to-date with repositories we depend on | enhancement, priority: p2 | 1 | 2024-08-28 |
 | ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#5999](https://github.com/ansible-collections/community.general/issues/5999) gitlab_user: state=unblocked does not unblock a blocked user | bug, module, plugins, gitlab, source_control | 2 | 2026-10-26 |
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 9 | 2026-10-26 |
 | ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
 | ★★☆☆☆ | [#10744](https://github.com/ansible-collections/community.general/issues/10744) zpool: vdev disks do not support symlinks | bug, module, has_pr, plugins | 9 | 2026-10-24 |
@@ -131,17 +132,16 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 16 | 2026-10-24 |
 | ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 | ★☆☆☆☆ | [#10050](https://github.com/ansible-collections/community.general/issues/10050) [lvol] Support poolmetadatasize parameter | feature, module, has_pr, plugins | 5 | 2026-10-17 |
-| ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-10-16 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug | 6 | 2026-10-25 |
-| ★★☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | needs_triage, bug | 8 | 2026-10-24 |
 | ★★☆☆☆ | [#78278](https://github.com/ansible/ansible/issues/78278) ansible-test --changed crashes when there are untracked symlinks to directories | bug, has_pr, affects_2.17 | 5 | 2026-10-22 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 3 | 2026-10-22 |
 | ★★☆☆☆ | [#86298](https://github.com/ansible/ansible/issues/86298) SSH connection has_tty does not check use_tty option, breaks machinectl | bug, has_pr, affects_2.20 | 6 | 2026-10-21 |
+| ★★☆☆☆ | [#87706](https://github.com/ansible/ansible/issues/87706) `process_include_results` crashes with `TypeError` on `nested include_tasks` when `_raw_params` evaluates to non-string in child context | bug, has_pr, P3, verified, affects_2.19 | 5 | 2026-10-20 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, has_pr, feature, P3, affects_2.11, security | 7 | 2026-10-26 |
 | ★☆☆☆☆ | [#86214](https://github.com/ansible/ansible/issues/86214) systemd_service always results in `changed` | module, bug, has_pr, needs_verified, affects_2.20 | 12 | 2026-10-26 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 41 | 2026-10-23 |
@@ -215,11 +215,8 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#6676](https://github.com/nightscout/cgm-remote-monitor/issues/6676) Horizontal Scrolling with mouse wheel (holding Shift key) | good-first-issue | 1 | 2026-10-05 |
-| ★★★★☆ | [#8048](https://github.com/nightscout/cgm-remote-monitor/issues/8048) Clock whit seconds | feature request, good-first-issue | 1 | 2026-06-30 |
 | ★★★★☆ | [#7540](https://github.com/nightscout/cgm-remote-monitor/issues/7540) BASE_URL and sub-directories. | good-first-issue | 6 | 2025-07-22 |
-| ★★★☆☆ | [#6236](https://github.com/nightscout/cgm-remote-monitor/issues/6236) Patchy BG data in Loopalyzer report | bug, help wanted | 16 | 2026-10-08 |
 | ★★★☆☆ | [#5742](https://github.com/nightscout/cgm-remote-monitor/issues/5742) Custom WebHook Support | help wanted, feature request | 2 | 2026-06-15 |
-| ★★★☆☆ | [#6061](https://github.com/nightscout/cgm-remote-monitor/issues/6061) REST-API Endpoints for Grafana | help wanted, feature/rest-api | 6 | 2025-05-22 |
 | ★★★☆☆ | [#6028](https://github.com/nightscout/cgm-remote-monitor/issues/6028) Loopalyzer report has missing Active insulin rendering for some days | help wanted | 4 | 2020-10-14 |
 
 ### [observIQ/bindplane-otel-collector](https://github.com/observIQ/bindplane-otel-collector)
@@ -297,7 +294,7 @@ _Tracking **18** upstream repos, **375** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-26 19:34 UTC, took **89.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-10-26 23:17 UTC, took **90.2s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
