@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-27 02:09 UTC_
+_Last updated: 2026-10-27 07:45 UTC_
 
-_Tracking **18** upstream repos, **371** relevant open issues._
+_Tracking **18** upstream repos, **372** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 9 | 2026-10-26 |
 | ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
 | ★★☆☆☆ | [#10744](https://github.com/ansible-collections/community.general/issues/10744) zpool: vdev disks do not support symlinks | bug, module, has_pr, plugins | 9 | 2026-10-24 |
-| ★★☆☆☆ | [#12987](https://github.com/ansible-collections/community.general/issues/12987) opentelemetry callback: every host's span event carries the result of the last host that reported | bug, callback, has_pr, plugins | 4 | 2026-10-19 |
+| ★☆☆☆☆ | [#2519](https://github.com/ansible-collections/community.general/issues/2519) zypper_repository: Add option to allow repository metadata to be unsigned | feature, module, has_pr, plugins, os, packaging | 17 | 2026-10-27 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 16 | 2026-10-24 |
 | ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-27 02:08 UTC, took **74.7s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-27 07:44 UTC, took **81.6s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
