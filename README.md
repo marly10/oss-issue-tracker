@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-27 18:57 UTC_
+_Last updated: 2026-10-27 22:48 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 3 | 2026-10-27 |
 | ★★☆☆☆ | [#13091](https://github.com/ansible-collections/community.general/issues/13091) nsupdate does not support CAA record with validationmethods using several methods | bug, module, traceback, plugins | 5 | 2026-10-27 |
 | ★★☆☆☆ | [#6545](https://github.com/ansible-collections/community.general/issues/6545) lvol: Idempotency issue manageing LV | bug, module, has_pr, needs_info, plugins | 3 | 2026-10-26 |
-| ★★☆☆☆ | [#5999](https://github.com/ansible-collections/community.general/issues/5999) gitlab_user: state=unblocked does not unblock a blocked user | bug, module, plugins, gitlab, source_control | 2 | 2026-10-26 |
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 9 | 2026-10-26 |
 | ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
 | ★★☆☆☆ | [#10744](https://github.com/ansible-collections/community.general/issues/10744) zpool: vdev disks do not support symlinks | bug, module, has_pr, plugins | 9 | 2026-10-24 |
-| ★☆☆☆☆ | [#2519](https://github.com/ansible-collections/community.general/issues/2519) zypper_repository: Add option to allow repository metadata to be unsigned | feature, module, has_pr, plugins, os, packaging | 17 | 2026-10-27 |
 | ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 16 | 2026-10-24 |
+| ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 | ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug, has_pr | 6 | 2026-10-27 |
 | ★★☆☆☆ | [#78278](https://github.com/ansible/ansible/issues/78278) ansible-test --changed crashes when there are untracked symlinks to directories | bug, has_pr, affects_2.17 | 5 | 2026-10-22 |
 | ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 3 | 2026-10-22 |
-| ★★☆☆☆ | [#86298](https://github.com/ansible/ansible/issues/86298) SSH connection has_tty does not check use_tty option, breaks machinectl | bug, has_pr, affects_2.20 | 6 | 2026-10-21 |
+| ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 13 | 2026-10-27 |
 | ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, has_pr, feature, P3, affects_2.11, security | 7 | 2026-10-26 |
 | ★☆☆☆☆ | [#86214](https://github.com/ansible/ansible/issues/86214) systemd_service always results in `changed` | module, bug, has_pr, needs_verified, affects_2.20 | 12 | 2026-10-26 |
 | ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 41 | 2026-10-23 |
@@ -248,12 +248,12 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 4 | 2026-10-27 |
 | ★★★☆☆ | [#10399](https://github.com/prometheus/prometheus/issues/10399) PromQL: scalar comparison for range selector | help wanted, priority/P2, component/promql, kind/feature | 9 | 2026-10-27 |
 | ★★★☆☆ | [#11231](https://github.com/prometheus/prometheus/issues/11231) remote read: support sharding | help wanted, component/remote storage, priority/P3, kind/feature | 3 | 2026-10-26 |
 | ★★★☆☆ | [#12559](https://github.com/prometheus/prometheus/issues/12559) remote write: resharding happening during remote write endpoint outage | help wanted, kind/bug, priority/P2, component/remote storage | 10 | 2026-10-25 |
 | ★★★☆☆ | [#16525](https://github.com/prometheus/prometheus/issues/16525) Set and check (and document) a global label_value_length_limit | help wanted, priority/P3, component/scraping, component/documentation, kind/feature, good first issue | 35 | 2026-10-22 |
 | ★★★☆☆ | [#10643](https://github.com/prometheus/prometheus/issues/10643) Create a major.minor and major Docker tags for latest of each version (i.e. 2.35 tag to represent the latest 2.35.x) | help wanted, kind/enhancement, priority/P3 | 8 | 2026-10-21 |
-| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 7 | 2026-10-14 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-27 18:55 UTC, took **89.3s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-27 22:47 UTC, took **80.2s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
