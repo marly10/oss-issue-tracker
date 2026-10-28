@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-28 01:49 UTC_
+_Last updated: 2026-10-28 07:31 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#72453](https://github.com/ansible/ansible/issues/72453) files module, rmtree failed: [Errno 2] No such file or directory: <path-of-dir>, when directory is deleted by external process | affects_2.4, bug, has_pr, P3, verified | 5 | 2026-10-27 |
-| ★★☆☆☆ | [#87679](https://github.com/ansible/ansible/issues/87679) ansible-vault encrypt loses both the plaintext and the vault if it is killed mid-write | waiting_on_contributor, bug, has_pr | 6 | 2026-10-27 |
-| ★★☆☆☆ | [#78278](https://github.com/ansible/ansible/issues/78278) ansible-test --changed crashes when there are untracked symlinks to directories | bug, has_pr, affects_2.17 | 5 | 2026-10-22 |
-| ★★☆☆☆ | [#87682](https://github.com/ansible/ansible/issues/87682) ssh: stdout starts with a stray \r\n under become when a read ends right after the BECOME-SUCCESS marker | bug, has_pr, affects_2.21 | 3 | 2026-10-22 |
-| ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 13 | 2026-10-27 |
-| ★☆☆☆☆ | [#71209](https://github.com/ansible/ansible/issues/71209) Using passwd command to change a user password instead of usermod | module, has_pr, feature, P3, affects_2.11, security | 7 | 2026-10-26 |
-| ★☆☆☆☆ | [#86214](https://github.com/ansible/ansible/issues/86214) systemd_service always results in `changed` | module, bug, has_pr, needs_verified, affects_2.20 | 12 | 2026-10-26 |
-| ★☆☆☆☆ | [#86122](https://github.com/ansible/ansible/issues/86122) [WARNING]: Module invocation had junk after the JSON data: | bug, P3, affects_2.18 | 41 | 2026-10-23 |
+| ★★☆☆☆ | [#87810](https://github.com/ansible/ansible/issues/87810) password lookup changes empty chars= handling from default fallback to generation failure | needs_triage, bug, has_pr, affects_2.23 | 2 | 2026-10-28 |
+| ★★☆☆☆ | [#87809](https://github.com/ansible/ansible/issues/87809) SSH remote_user CLI option uses a different key from the argument parser | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★★☆☆☆ | [#87808](https://github.com/ansible/ansible/issues/87808) WinRM: give malformed kinit_args a configuration-specific error | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★★☆☆☆ | [#87807](https://github.com/ansible/ansible/issues/87807) ansible-doc attributes collection option versions to ansible-core | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★★☆☆☆ | [#87806](https://github.com/ansible/ansible/issues/87806) ansible-doc strips relative-link markup before its URL completion pass | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★★☆☆☆ | [#87805](https://github.com/ansible/ansible/issues/87805) WinRM stdin failure reports raw CLIXML instead of the decoded stderr | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★★☆☆☆ | [#87804](https://github.com/ansible/ansible/issues/87804) strftime documentation uses seconds= but the filter accepts second= | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★☆☆☆☆ | [#67759](https://github.com/ansible/ansible/issues/67759) Add ansible-galaxy collection uninstall | feature, affects_2.16 | 21 | 2026-10-28 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-28 01:48 UTC, took **81.8s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-28 07:30 UTC, took **80.5s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
