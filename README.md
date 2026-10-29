@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-29 02:44 UTC_
+_Last updated: 2026-10-29 08:57 UTC_
 
 _Tracking **18** upstream repos, **369** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, plugins | 2 | 2026-10-28 |
+| ★★☆☆☆ | [#10235](https://github.com/ansible-collections/community.general/issues/10235) Parted does not recognize differences in partition sizes | bug, module, has_pr, plugins | 3 | 2026-10-29 |
+| ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
+| ★★☆☆☆ | [#9091](https://github.com/ansible-collections/community.general/issues/9091) nmcli: failed to save connection, 802-11-wireless-security.psk: property is invalid | bug, module, has_pr, plugins | 3 | 2026-10-29 |
+| ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, plugins | 3 | 2026-10-29 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 3 | 2026-10-27 |
 | ★★☆☆☆ | [#6545](https://github.com/ansible-collections/community.general/issues/6545) lvol: Idempotency issue manageing LV | bug, module, has_pr, needs_info, plugins | 3 | 2026-10-26 |
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 9 | 2026-10-26 |
 | ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
-| ★★☆☆☆ | [#10744](https://github.com/ansible-collections/community.general/issues/10744) zpool: vdev disks do not support symlinks | bug, module, has_pr, plugins | 9 | 2026-10-24 |
-| ★☆☆☆☆ | [#10771](https://github.com/ansible-collections/community.general/issues/10771) zpool: state=present is not idempotent | bug, module, has_pr, plugins | 16 | 2026-10-24 |
-| ★☆☆☆☆ | [#13016](https://github.com/ansible-collections/community.general/issues/13016) lxd_network and lxd_image | feature, connection, plugins | 2 | 2026-10-20 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-29 02:43 UTC, took **76.9s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-10-29 08:55 UTC, took **89.0s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
