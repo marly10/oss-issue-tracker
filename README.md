@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-30 06:02 UTC_
+_Last updated: 2026-10-30 12:40 UTC_
 
 _Tracking **18** upstream repos, **369** relevant open issues._
 
@@ -106,7 +106,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
 | ★★★☆☆ | [#705](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/705) Consider using gorelease to prevent unwanted breaking changes. | enhancement, priority: p3, enhancement accepted | 0 | 2024-07-29 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-29 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-30 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#706](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/706) Consider using dependabot to keep up-to-date with repositories we depend on | enhancement, priority: p2 | 1 | 2024-08-28 |
 | ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
@@ -124,20 +124,20 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
+| ★★☆☆☆ | [#10598](https://github.com/ansible-collections/community.general/issues/10598) bitwarden lookup plugin: crashes when trying to lookup non-existent field of existent entry | bug, lookup, has_pr, traceback, plugins | 3 | 2026-10-30 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
 | ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, has_pr, plugins | 4 | 2026-10-29 |
 | ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
-| ★★☆☆☆ | [#9091](https://github.com/ansible-collections/community.general/issues/9091) nmcli: failed to save connection, 802-11-wireless-security.psk: property is invalid | bug, module, has_pr, plugins | 3 | 2026-10-29 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 3 | 2026-10-27 |
 | ★★☆☆☆ | [#6545](https://github.com/ansible-collections/community.general/issues/6545) lvol: Idempotency issue manageing LV | bug, module, has_pr, needs_info, plugins | 3 | 2026-10-26 |
 | ★★☆☆☆ | [#5494](https://github.com/ansible-collections/community.general/issues/5494) zfs: fails when setting `userquota@` property via `extra_zfs_properties` | bug, module, needs_info, plugins, system | 9 | 2026-10-26 |
-| ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 5 | 2026-10-25 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 2 | 2026-10-30 |
+| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 3 | 2026-10-30 |
 | ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, needs_triage, bug, has_pr | 1 | 2026-10-28 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | needs_triage, bug, affects_2.19 | 2 | 2026-10-28 |
 | ★★☆☆☆ | [#87814](https://github.com/ansible/ansible/issues/87814) password_hash: given salt is not used as-is when libxcrypt is available, so hashes change from 2.20 and between controllers | needs_triage, bug, affects_2.21 | 4 | 2026-10-28 |
@@ -281,8 +281,8 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 | ★★★★☆ | [#417](https://github.com/traceloop/openllmetry/issues/417) 🐛 Bug Report: disabled tests for GCP / VertexAI | good first issue, help wanted, testing | 8 | 2026-09-21 |
 | ★★★★☆ | [#2303](https://github.com/traceloop/openllmetry/issues/2303) 🚀 Feature: Support for Azure AI Search | enhancement, good first issue, help wanted | 16 | 2026-05-18 |
 | ★★★★☆ | [#2283](https://github.com/traceloop/openllmetry/issues/2283) 🚀 Feature: Add instruments support for httpx | enhancement, good first issue | 11 | 2025-11-06 |
+| ★★★☆☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 17 | 2026-10-30 |
 | ★★★☆☆ | [#1618](https://github.com/traceloop/openllmetry/issues/1618) 🚀 Feature: Support new Pinecone APIs | good first issue, help wanted | 13 | 2026-10-28 |
-| ★★★☆☆ | [#4069](https://github.com/traceloop/openllmetry/issues/4069) 🚀 Feature: Suggestion: Add beginner-friendly example for LLM tracing | good first issue | 16 | 2026-10-14 |
 | ★★★☆☆ | [#2803](https://github.com/traceloop/openllmetry/issues/2803) 🚀 Feature: Install less packages | good first issue, help wanted | 20 | 2026-10-14 |
 | ★★★☆☆ | [#3492](https://github.com/traceloop/openllmetry/issues/3492) 🐛 Bug Report: `opentelemetry-instrumentation-qdrant` is incompatible with `qdrant-client` version `1.16.1` | good first issue, help wanted | 13 | 2026-09-13 |
 | ★★★☆☆ | [#785](https://github.com/traceloop/openllmetry/issues/785) 🚀 Feature: Support runpod.ai | help wanted, new instrumentation | 4 | 2026-08-19 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-30 06:01 UTC, took **84.9s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-30 12:38 UTC, took **93.2s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
