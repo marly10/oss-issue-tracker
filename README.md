@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-30 12:40 UTC_
+_Last updated: 2026-10-30 18:13 UTC_
 
 _Tracking **18** upstream repos, **369** relevant open issues._
 
@@ -233,10 +233,10 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, processor/k8sattributes | 1 | 2026-10-29 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 24 | 2026-10-27 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 15 | 2026-10-24 |
-| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 5 | 2026-10-24 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 8 | 2026-10-14 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
@@ -294,7 +294,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-30 12:38 UTC, took **93.2s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
+_Last run: 2026-10-30 18:11 UTC, took **104.5s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
