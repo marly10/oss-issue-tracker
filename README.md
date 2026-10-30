@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-30 18:13 UTC_
+_Last updated: 2026-10-30 22:17 UTC_
 
-_Tracking **18** upstream repos, **369** relevant open issues._
+_Tracking **18** upstream repos, **370** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,8 +124,8 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
 | ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
-| ★★☆☆☆ | [#10598](https://github.com/ansible-collections/community.general/issues/10598) bitwarden lookup plugin: crashes when trying to lookup non-existent field of existent entry | bug, lookup, has_pr, traceback, plugins | 3 | 2026-10-30 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
 | ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, has_pr, plugins | 4 | 2026-10-29 |
 | ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 3 | 2026-10-30 |
+| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 4 | 2026-10-30 |
 | ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, needs_triage, bug, has_pr | 1 | 2026-10-28 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | needs_triage, bug, affects_2.19 | 2 | 2026-10-28 |
 | ★★☆☆☆ | [#87814](https://github.com/ansible/ansible/issues/87814) password_hash: given salt is not used as-is when libxcrypt is available, so hashes change from 2.20 and between controllers | needs_triage, bug, affects_2.21 | 4 | 2026-10-28 |
@@ -223,6 +223,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3740](https://github.com/observIQ/bindplane-otel-collector/issues/3740) Pull requests without issues can merge to main and release/v2.0.0 | — | 0 | 2026-10-30 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
@@ -233,8 +234,8 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 1 | 2026-10-30 |
 | ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
-| ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, processor/k8sattributes | 1 | 2026-10-29 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 24 | 2026-10-27 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 15 | 2026-10-24 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
@@ -294,7 +295,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-30 18:11 UTC, took **104.5s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-30 22:16 UTC, took **77.3s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
