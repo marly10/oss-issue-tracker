@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-31 07:29 UTC_
+_Last updated: 2026-10-31 13:48 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,14 +124,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#7766](https://github.com/ansible-collections/community.general/issues/7766) Can't delete CAA records in Cloudflare | bug, module, has_pr, plugins | 4 | 2026-10-31 |
+| ★★☆☆☆ | [#7780](https://github.com/ansible-collections/community.general/issues/7780) cloudflare_dns isn't idempotent with TLSA records | bug, module, has_pr, plugins | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
 | ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
-| ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, has_pr, plugins | 4 | 2026-10-29 |
-| ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
+| ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
 | ★☆☆☆☆ | [#4037](https://github.com/ansible-collections/community.general/issues/4037) github_release latest tag | feature, module, plugins, source_control | 6 | 2026-10-31 |
-| ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 5 | 2026-10-31 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -249,12 +249,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#11362](https://github.com/prometheus/prometheus/issues/11362) Add service discovery metadata to a single metric | help wanted, priority/Pmaybe, not-as-easy-as-it-looks, kind/feature | 5 | 2026-10-31 |
 | ★★★☆☆ | [#11112](https://github.com/prometheus/prometheus/issues/11112) Compactions cause the configured storage.tsdb.retention.size to be exceeded (and risk of running out of disk space) | help wanted, priority/P3, component/tsdb | 9 | 2026-10-28 |
 | ★★★☆☆ | [#16942](https://github.com/prometheus/prometheus/issues/16942) WAL Replay not using more memory than before the restart | help wanted, not-as-easy-as-it-looks, component/wal | 9 | 2026-10-28 |
 | ★★★☆☆ | [#15350](https://github.com/prometheus/prometheus/issues/15350) Add Feature to Set Retention Time per Metric | help wanted, kind/feature | 4 | 2026-10-27 |
 | ★★★☆☆ | [#10399](https://github.com/prometheus/prometheus/issues/10399) PromQL: scalar comparison for range selector | help wanted, priority/P2, component/promql, kind/feature | 9 | 2026-10-27 |
 | ★★★☆☆ | [#11231](https://github.com/prometheus/prometheus/issues/11231) remote read: support sharding | help wanted, component/remote storage, priority/P3, kind/feature | 3 | 2026-10-26 |
-| ★★★☆☆ | [#12559](https://github.com/prometheus/prometheus/issues/12559) remote write: resharding happening during remote write endpoint outage | help wanted, kind/bug, priority/P2, component/remote storage | 10 | 2026-10-25 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-31 07:28 UTC, took **77.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-10-31 13:46 UTC, took **79.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
