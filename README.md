@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-31 01:38 UTC_
+_Last updated: 2026-10-31 07:29 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -130,8 +130,8 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
 | ★★☆☆☆ | [#13108](https://github.com/ansible-collections/community.general/issues/13108) sysrc: non-idempotent handling of whitespace | bug, module, has_pr, plugins | 4 | 2026-10-29 |
 | ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
-| ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 3 | 2026-10-27 |
-| ★★☆☆☆ | [#6545](https://github.com/ansible-collections/community.general/issues/6545) lvol: Idempotency issue manageing LV | bug, module, has_pr, needs_info, plugins | 3 | 2026-10-26 |
+| ★☆☆☆☆ | [#4037](https://github.com/ansible-collections/community.general/issues/4037) github_release latest tag | feature, module, plugins, source_control | 6 | 2026-10-31 |
+| ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 5 | 2026-10-31 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-31 01:37 UTC, took **77.8s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-31 07:28 UTC, took **77.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
