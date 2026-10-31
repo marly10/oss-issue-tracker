@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-31 13:48 UTC_
+_Last updated: 2026-10-31 17:59 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -129,7 +129,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
 | ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
-| ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
+| ★☆☆☆☆ | [#13176](https://github.com/ansible-collections/community.general/issues/13176) Discussion: proposal to add modules for managing Sonatype Nexus Repository Manager 3 | feature | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
 | ★☆☆☆☆ | [#4037](https://github.com/ansible-collections/community.general/issues/4037) github_release latest tag | feature, module, plugins, source_control | 6 | 2026-10-31 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-31 13:46 UTC, took **79.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-10-31 17:57 UTC, took **92.2s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
