@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-10-31 20:58 UTC_
+_Last updated: 2026-10-31 23:57 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -106,7 +106,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 0 | 2025-05-20 |
 | ★★★☆☆ | [#705](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/705) Consider using gorelease to prevent unwanted breaking changes. | enhancement, priority: p3, enhancement accepted | 0 | 2024-07-29 |
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-30 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-10-31 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#706](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/706) Consider using dependabot to keep up-to-date with repositories we depend on | enhancement, priority: p2 | 1 | 2024-08-28 |
 | ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
@@ -142,7 +142,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, needs_triage, bug, has_pr | 1 | 2026-10-28 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | needs_triage, bug, affects_2.19 | 2 | 2026-10-28 |
 | ★★☆☆☆ | [#87814](https://github.com/ansible/ansible/issues/87814) password_hash: given salt is not used as-is when libxcrypt is available, so hashes change from 2.20 and between controllers | needs_triage, bug, affects_2.21 | 4 | 2026-10-28 |
-| ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | needs_triage, bug, affects_2.23 | 1 | 2026-10-28 |
+| ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 16 | 2026-10-29 |
 | ★☆☆☆☆ | [#77304](https://github.com/ansible/ansible/issues/77304) Cannot run ansible-test sanity behind a proxy | bug, has_pr, P3, affects_2.12 | 17 | 2026-10-28 |
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-10-31 20:57 UTC, took **76.0s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-10-31 23:56 UTC, took **71.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
