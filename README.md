@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-01 16:56 UTC_
+_Last updated: 2026-11-01 20:55 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#7780](https://github.com/ansible-collections/community.general/issues/7780) cloudflare_dns isn't idempotent with TLSA records | bug, module, has_pr, plugins | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
-| ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 4 | 2026-11-01 |
+| ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 7 | 2026-11-01 |
 | ★☆☆☆☆ | [#13176](https://github.com/ansible-collections/community.general/issues/13176) Discussion: proposal to add modules for managing Sonatype Nexus Repository Manager 3 | feature | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
 | ★☆☆☆☆ | [#4037](https://github.com/ansible-collections/community.general/issues/4037) github_release latest tag | feature, module, plugins, source_control | 6 | 2026-10-31 |
@@ -137,8 +137,8 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87839](https://github.com/ansible/ansible/issues/87839) ansible-test integration: filtering ignored when using delegation (--venv, --docker, etc.) | needs_triage, bug, affects_2.20 | 2 | 2026-11-01 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 4 | 2026-11-01 |
-| ★★☆☆☆ | [#87839](https://github.com/ansible/ansible/issues/87839) ansible-test integration: filtering ignored when using delegation (--venv, --docker, etc.) | needs_triage, bug, affects_2.20 | 1 | 2026-10-30 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 4 | 2026-10-30 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | module, needs_triage, feature | 1 | 2026-11-01 |
 | ★☆☆☆☆ | [#87841](https://github.com/ansible/ansible/issues/87841) Add explicit distribution facts support for Alibaba Cloud Linux 4 | needs_triage, has_pr, feature | 1 | 2026-11-01 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-01 16:55 UTC, took **78.6s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-11-01 20:54 UTC, took **70.6s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
