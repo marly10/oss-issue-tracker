@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-01 03:46 UTC_
+_Last updated: 2026-11-01 10:50 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -128,7 +128,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#7780](https://github.com/ansible-collections/community.general/issues/7780) cloudflare_dns isn't idempotent with TLSA records | bug, module, has_pr, plugins | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
-| ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
+| ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 4 | 2026-11-01 |
 | ★☆☆☆☆ | [#13176](https://github.com/ansible-collections/community.general/issues/13176) Discussion: proposal to add modules for managing Sonatype Nexus Repository Manager 3 | feature | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
 | ★☆☆☆☆ | [#4037](https://github.com/ansible-collections/community.general/issues/4037) github_release latest tag | feature, module, plugins, source_control | 6 | 2026-10-31 |
@@ -141,7 +141,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 4 | 2026-10-30 |
 | ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, needs_triage, bug, has_pr | 1 | 2026-10-28 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | needs_triage, bug, affects_2.19 | 2 | 2026-10-28 |
-| ★☆☆☆☆ | [#87841](https://github.com/ansible/ansible/issues/87841) Add explicit distribution facts support for Alibaba Cloud Linux 4 | needs_triage, feature | 1 | 2026-11-01 |
+| ★☆☆☆☆ | [#87841](https://github.com/ansible/ansible/issues/87841) Add explicit distribution facts support for Alibaba Cloud Linux 4 | needs_triage, has_pr, feature | 1 | 2026-11-01 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 16 | 2026-10-29 |
 | ★☆☆☆☆ | [#77304](https://github.com/ansible/ansible/issues/77304) Cannot run ansible-test sanity behind a proxy | bug, has_pr, P3, affects_2.12 | 17 | 2026-10-28 |
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 97 | 2026-10-28 |
 | ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 7 | 2026-10-28 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-24 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 25 | 2026-10-23 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 50 | 2026-10-23 |
 | ★★★☆☆ | [#142957](https://github.com/kubernetes/kubernetes/issues/142957) Don't check featuregates directly in E2E tests | kind/bug, help wanted, sig/testing, needs-triage | 4 | 2026-10-16 |
-| ★★★☆☆ | [#140978](https://github.com/kubernetes/kubernetes/issues/140978) No e2e coverage for readiness probes during graceful pod termination | kind/bug, area/test, priority/backlog, area/kubelet, sig/node, help wanted, sig/testing, triage/accepted | 9 | 2026-10-15 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-01 03:45 UTC, took **89.0s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-11-01 10:48 UTC, took **76.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
