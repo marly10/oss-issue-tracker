@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-01 20:55 UTC_
+_Last updated: 2026-11-02 00:03 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,10 +124,10 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#7766](https://github.com/ansible-collections/community.general/issues/7766) Can't delete CAA records in Cloudflare | bug, module, has_pr, plugins | 4 | 2026-10-31 |
-| ★★☆☆☆ | [#7780](https://github.com/ansible-collections/community.general/issues/7780) cloudflare_dns isn't idempotent with TLSA records | bug, module, has_pr, plugins | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
-| ★★☆☆☆ | [#13148](https://github.com/ansible-collections/community.general/issues/13148) yum_versionlock: existing locks are not recognized with dnf5 | bug, module | 2 | 2026-10-30 |
+| ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
+| ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
+| ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
 | ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 7 | 2026-11-01 |
 | ★☆☆☆☆ | [#13176](https://github.com/ansible-collections/community.general/issues/13176) Discussion: proposal to add modules for managing Sonatype Nexus Repository Manager 3 | feature | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-01 20:54 UTC, took **70.6s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-11-02 00:02 UTC, took **84.4s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
