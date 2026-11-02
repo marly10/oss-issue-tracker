@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-02 13:53 UTC_
+_Last updated: 2026-11-02 22:31 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#4383](https://github.com/ansible-collections/community.general/issues/4383) The nmcli routes functions are not idempotent. | bug, module, needs_info, plugins, net_tools | 4 | 2026-10-31 |
 | ★★☆☆☆ | [#4113](https://github.com/ansible-collections/community.general/issues/4113) jenkins_job fails with Jenkins 2.319.x due to: Unable to create job, Error in request. Possibly authentication failed [403] | bug, module, needs_info, traceback, plugins, web_infrastructure | 4 | 2026-10-30 |
 | ★★☆☆☆ | [#11843](https://github.com/ansible-collections/community.general/issues/11843) Re-enable callback unit tests for ansible-core >= 2.21 | bug, callback, has_pr, plugins | 7 | 2026-10-29 |
-| ★★☆☆☆ | [#8901](https://github.com/ansible-collections/community.general/issues/8901) lvg: resizing existing pv doesn't work against Ubuntu 24.04 | bug, module, needs_info, plugins | 3 | 2026-10-29 |
+| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 16 | 2026-11-02 |
 | ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 7 | 2026-11-01 |
 | ★☆☆☆☆ | [#13176](https://github.com/ansible-collections/community.general/issues/13176) Discussion: proposal to add modules for managing Sonatype Nexus Repository Manager 3 | feature | 4 | 2026-10-31 |
 | ★☆☆☆☆ | [#5032](https://github.com/ansible-collections/community.general/issues/5032) [Feature] Get specific/custom release of a public repository github | feature, module | 6 | 2026-10-31 |
@@ -138,13 +138,13 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | bug, P3, verified, affects_2.19 | 3 | 2026-11-02 |
-| ★★☆☆☆ | [#87839](https://github.com/ansible/ansible/issues/87839) ansible-test integration: filtering ignored when using delegation (--venv, --docker, etc.) | needs_triage, bug, affects_2.20 | 2 | 2026-11-01 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 4 | 2026-11-01 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 4 | 2026-10-30 |
-| ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 17 | 2026-11-02 |
+| ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug, has_pr | 18 | 2026-11-02 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | module, needs_triage, feature | 1 | 2026-11-01 |
 | ★☆☆☆☆ | [#87841](https://github.com/ansible/ansible/issues/87841) Add explicit distribution facts support for Alibaba Cloud Linux 4 | needs_triage, has_pr, feature | 1 | 2026-11-01 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-10-31 |
+| ★☆☆☆☆ | [#77304](https://github.com/ansible/ansible/issues/77304) Cannot run ansible-test sanity behind a proxy | bug, has_pr, P3, affects_2.12 | 17 | 2026-10-28 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -223,7 +223,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#3740](https://github.com/observIQ/bindplane-otel-collector/issues/3740) Pull requests without issues can merge to main and release/v2.0.0 | — | 0 | 2026-10-30 |
+| ★★☆☆☆ | [#3747](https://github.com/observIQ/bindplane-otel-collector/issues/3747) Mirror from DBDOT: chore: Report `bindplane.session_id` as non-identifying attribute (#81) | — | 0 | 2026-11-02 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
@@ -234,10 +234,10 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 2 | 2026-11-01 |
 | ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
 | ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 24 | 2026-10-27 |
-| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, processor/resourcedetection, never stale | 15 | 2026-10-24 |
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 8 | 2026-10-14 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
@@ -295,7 +295,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-02 13:52 UTC, took **87.1s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-11-02 22:29 UTC, took **89.2s**, **119** GitHub API calls, **4881/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
