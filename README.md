@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-03 18:30 UTC_
+_Last updated: 2026-11-03 23:36 UTC_
 
 _Tracking **18** upstream repos, **372** relevant open issues._
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87865](https://github.com/ansible/ansible/issues/87865) connection_loader, loading Community Plugins raises TypeError | bug, affects_2.21 | 4 | 2026-11-03 |
+| ★★☆☆☆ | [#87865](https://github.com/ansible/ansible/issues/87865) connection_loader, loading Community Plugins raises TypeError | needs_triage, bug, affects_2.21 | 5 | 2026-11-03 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | bug, P3, verified, affects_2.19 | 4 | 2026-11-03 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 4 | 2026-11-01 |
@@ -223,19 +223,20 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#3752](https://github.com/observIQ/bindplane-otel-collector/issues/3752) Mirror from DBDOT: chore: Bump OTel v0.164.1, DBDOT-contrib v1.3.0 (#92) | — | 0 | 2026-11-03 |
+| ★★☆☆☆ | [#3758](https://github.com/observIQ/bindplane-otel-collector/issues/3758) AIX supervisor is behind the other platforms | — | 0 | 2026-11-03 |
+| ★★☆☆☆ | [#3757](https://github.com/observIQ/bindplane-otel-collector/issues/3757) Backport the AIX OpAMP exporter change from DBDOT | — | 0 | 2026-11-03 |
+| ★★☆☆☆ | [#3755](https://github.com/observIQ/bindplane-otel-collector/issues/3755) Mirror from DBDOT: chore: v1.3.1 release prep (#94) | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3750](https://github.com/observIQ/bindplane-otel-collector/issues/3750) Updater cannot run as a non-root user | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3749](https://github.com/observIQ/bindplane-otel-collector/issues/3749) Package install silently accepts a changed BDOT_UNPRIVILEGED or BDOT_USER on an existing install | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3747](https://github.com/observIQ/bindplane-otel-collector/issues/3747) Mirror from DBDOT: chore: Report `bindplane.session_id` as non-identifying attribute (#81) | — | 0 | 2026-11-02 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
-| ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
-| ★☆☆☆☆ | [#2296](https://github.com/observIQ/bindplane-otel-collector/issues/2296) install_unix.sh breaks with status code 2 in non-interactive environments | — | 4 | 2026-03-04 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#19172](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/19172) Add Warning header to all necessary components | documentation, help wanted, good first issue, priority:p3, never stale | 10 | 2026-11-03 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 2 | 2026-11-01 |
 | ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
@@ -243,7 +244,6 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 8 | 2026-10-14 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
-| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 3 | 2026-10-13 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-03 18:28 UTC, took **86.8s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
+_Last run: 2026-11-03 23:34 UTC, took **83.9s**, **120** GitHub API calls, **4880/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
