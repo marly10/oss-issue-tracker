@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-04 10:49 UTC_
+_Last updated: 2026-11-04 18:16 UTC_
 
-_Tracking **18** upstream repos, **372** relevant open issues._
+_Tracking **18** upstream repos, **371** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,11 +137,11 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87877](https://github.com/ansible/ansible/issues/87877) from_json failed when used with remove_keys | needs_triage, bug, affects_2.21 | 1 | 2026-11-04 |
 | ★★☆☆☆ | [#87865](https://github.com/ansible/ansible/issues/87865) connection_loader, loading Community Plugins raises TypeError | needs_triage, bug, affects_2.21 | 5 | 2026-11-03 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | bug, P3, verified, affects_2.19 | 4 | 2026-11-03 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 4 | 2026-11-01 |
+| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug | 4 | 2026-10-30 |
 | ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 21 | 2026-11-03 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | module, needs_triage, feature | 2 | 2026-11-03 |
 | ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-10-31 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-03 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-04 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -223,14 +223,14 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#3762](https://github.com/observIQ/bindplane-otel-collector/issues/3762) Mirror from DBDOT: fix: correct slim feature gate skip list for v0.164.1 (#97) | — | 0 | 2026-11-04 |
 | ★★☆☆☆ | [#3758](https://github.com/observIQ/bindplane-otel-collector/issues/3758) AIX supervisor is behind the other platforms | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3757](https://github.com/observIQ/bindplane-otel-collector/issues/3757) Backport the AIX OpAMP exporter change from DBDOT | — | 0 | 2026-11-03 |
-| ★★☆☆☆ | [#3755](https://github.com/observIQ/bindplane-otel-collector/issues/3755) Mirror from DBDOT: chore: v1.3.1 release prep (#94) | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3750](https://github.com/observIQ/bindplane-otel-collector/issues/3750) Updater cannot run as a non-root user | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3749](https://github.com/observIQ/bindplane-otel-collector/issues/3749) Package install silently accepts a changed BDOT_UNPRIVILEGED or BDOT_USER on an existing install | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3747](https://github.com/observIQ/bindplane-otel-collector/issues/3747) Mirror from DBDOT: chore: Report `bindplane.session_id` as non-identifying attribute (#81) | — | 0 | 2026-11-02 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
+| ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
+| ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **372** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-04 10:48 UTC, took **90.3s**, **121** GitHub API calls, **4879/5000** rate limit remaining._
+_Last run: 2026-11-04 18:15 UTC, took **94.0s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
