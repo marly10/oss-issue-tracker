@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-04 23:43 UTC_
+_Last updated: 2026-11-05 03:45 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, needs_triage, bug, affects_2.21 | 2 | 2026-11-05 |
 | ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 2 | 2026-11-04 |
 | ★★☆☆☆ | [#87865](https://github.com/ansible/ansible/issues/87865) connection_loader, loading Community Plugins raises TypeError | needs_triage, bug, affects_2.21 | 5 | 2026-11-03 |
 | ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | bug, P3, verified, affects_2.19 | 4 | 2026-11-03 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#87709](https://github.com/ansible/ansible/issues/87709) Free strategy polls forever once the reader of stdout exits | bug, has_pr, verified, affects_2.21 | 4 | 2026-11-01 |
 | ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 22 | 2026-11-04 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | module, needs_triage, feature | 2 | 2026-11-03 |
-| ★☆☆☆☆ | [#86828](https://github.com/ansible/ansible/issues/86828) user: add password_last_change_day | module, has_pr, feature, P3 | 4 | 2026-10-31 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-04 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-05 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-04 23:41 UTC, took **86.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-05 03:44 UTC, took **82.0s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
