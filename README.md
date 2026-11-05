@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-05 18:56 UTC_
+_Last updated: 2026-11-05 23:55 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, bug, has_pr | 1 | 2026-11-05 |
+| ★★☆☆☆ | [#87814](https://github.com/ansible/ansible/issues/87814) password_hash: given salt is not used as-is when libxcrypt is available, so hashes change from 2.20 and between controllers | bug, affects_2.21 | 4 | 2026-11-05 |
 | ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 3 | 2026-11-05 |
 | ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, needs_triage, bug, has_pr, affects_2.21 | 3 | 2026-11-05 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, has_pr, P3, affects_2.21 | 3 | 2026-11-05 |
 | ★★☆☆☆ | [#87865](https://github.com/ansible/ansible/issues/87865) connection_loader, loading Community Plugins raises TypeError | needs_triage, bug, affects_2.21 | 5 | 2026-11-03 |
-| ★★☆☆☆ | [#87820](https://github.com/ansible/ansible/issues/87820) role deduplication not ran with `--skip-tags always` | bug, P3, verified, affects_2.19 | 4 | 2026-11-03 |
-| ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-03 |
 | ★☆☆☆☆ | [#87731](https://github.com/ansible/ansible/issues/87731) ansible-test 2.22 and devel default images have trouble running on GitHub Actions ubuntu-24.04 runners | bug | 26 | 2026-11-05 |
 | ★☆☆☆☆ | [#82408](https://github.com/ansible/ansible/issues/82408) backup option: implement custom naming for files ( ansible_managed like ) | module, has_pr, feature | 11 | 2026-11-05 |
 
@@ -223,10 +223,10 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3747](https://github.com/observIQ/bindplane-otel-collector/issues/3747) Mirror from DBDOT: chore: Report `bindplane.session_id` as non-identifying attribute (#81) | dbdot-mirror-issue | 0 | 2026-11-05 |
 | ★★☆☆☆ | [#3766](https://github.com/observIQ/bindplane-otel-collector/issues/3766) Mirror from DBDOT: feat(aix): include the OpAMP exporter in the AIX build (BP-1566) (#96) | dbdot-mirror-issue | 0 | 2026-11-05 |
 | ★★☆☆☆ | [#3750](https://github.com/observIQ/bindplane-otel-collector/issues/3750) Updater cannot run as a non-root user | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3749](https://github.com/observIQ/bindplane-otel-collector/issues/3749) Package install silently accepts a changed BDOT_UNPRIVILEGED or BDOT_USER on an existing install | — | 0 | 2026-11-03 |
-| ★★☆☆☆ | [#3747](https://github.com/observIQ/bindplane-otel-collector/issues/3747) Mirror from DBDOT: chore: Report `bindplane.session_id` as non-identifying attribute (#81) | — | 0 | 2026-11-02 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-05 18:55 UTC, took **88.9s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-05 23:53 UTC, took **81.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
