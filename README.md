@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-05 23:55 UTC_
+_Last updated: 2026-11-06 03:53 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-05 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#1215](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1215) Logging exporter: splitting a text payload larger than 256KB can cut a multi-byte UTF-8 character, which drops the whole batch silently | — | 0 | 2026-11-04 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-05 23:53 UTC, took **81.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-06 03:52 UTC, took **82.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
