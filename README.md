@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-08 15:39 UTC_
+_Last updated: 2026-11-08 19:57 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13212](https://github.com/ansible-collections/community.general/issues/13212) lvm_pv: resize=true warns "Rescan path does not exist" on every run for virtio-blk disks | bug, module, has_pr, needs_info, needs_template, plugins | 3 | 2026-11-08 |
+| ★★☆☆☆ | [#13212](https://github.com/ansible-collections/community.general/issues/13212) lvm_pv: resize=true warns "Rescan path does not exist" on every run for virtio-blk disks | bug, module, has_pr, plugins | 4 | 2026-11-08 |
 | ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
 | ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
 | ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-08 15:37 UTC, took **88.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-08 19:55 UTC, took **76.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
