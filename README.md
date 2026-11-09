@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-09 10:24 UTC_
+_Last updated: 2026-11-09 20:53 UTC_
 
-_Tracking **18** upstream repos, **370** relevant open issues._
+_Tracking **18** upstream repos, **369** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -104,12 +104,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-08 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-09 |
 | ★★☆☆☆ | [#1217](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1217) exporter/collector/logs: sanitize invalid UTF-8 in log fields and treat client-side marshaling errors as permanent | — | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
+| ★★☆☆☆ | [#706](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/706) Consider using dependabot to keep up-to-date with repositories we depend on | enhancement, priority: p2 | 1 | 2024-08-28 |
 | ★☆☆☆☆ | [#1215](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1215) Logging exporter: splitting a text payload larger than 256KB can cut a multi-byte UTF-8 character, which drops the whole batch silently | — | 1 | 2026-11-06 |
-| ★☆☆☆☆ | [#1099](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1099) Migrate googleclientauth extension to use credentials.DetectDefault | — | 1 | 2026-01-26 |
 | ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
 | ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
 
@@ -124,9 +124,9 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13212](https://github.com/ansible-collections/community.general/issues/13212) lvm_pv: resize=true warns "Rescan path does not exist" on every run for virtio-blk disks | bug, module, has_pr, plugins | 4 | 2026-11-08 |
 | ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
 | ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
+| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
 | ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
 | ★☆☆☆☆ | [#361](https://github.com/ansible-collections/community.general/issues/361) zypper migration options is not available  | feature, module, waiting_on_contributor | 10 | 2026-11-07 |
 | ★☆☆☆☆ | [#3497](https://github.com/ansible-collections/community.general/issues/3497) Zypper `disable_recommends` default setting violates principle of least surprise | bug, module, has_pr, plugins, os, packaging | 14 | 2026-11-07 |
@@ -224,12 +224,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#3769](https://github.com/observIQ/bindplane-otel-collector/issues/3769) Mirror from DBDOT: chore: Add collector make target (#108) | dbdot-mirror-issue | 0 | 2026-11-06 |
-| ★★☆☆☆ | [#3766](https://github.com/observIQ/bindplane-otel-collector/issues/3766) Mirror from DBDOT: feat(aix): include the OpAMP exporter in the AIX build (BP-1566) (#96) | dbdot-mirror-issue | 0 | 2026-11-05 |
 | ★★☆☆☆ | [#3750](https://github.com/observIQ/bindplane-otel-collector/issues/3750) Updater cannot run as a non-root user | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3749](https://github.com/observIQ/bindplane-otel-collector/issues/3749) Package install silently accepts a changed BDOT_UNPRIVILEGED or BDOT_USER on an existing install | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
+| ★★☆☆☆ | [#2542](https://github.com/observIQ/bindplane-otel-collector/issues/2542) Add TCP Check receiver | — | 0 | 2025-08-23 |
 | ★☆☆☆☆ | [#2296](https://github.com/observIQ/bindplane-otel-collector/issues/2296) install_unix.sh breaks with status code 2 in non-interactive environments | — | 4 | 2026-03-04 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
@@ -268,13 +268,13 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-09-04 |
 | ★★☆☆☆ | [#840](https://github.com/splunk/splunk-sdk-python/issues/840) mcp 2.x compatibility for splunklib.ai | — | 0 | 2026-09-03 |
 | ★★☆☆☆ | [#828](https://github.com/splunk/splunk-sdk-python/issues/828) Search Result Export with SSL off doesn't work | — | 0 | 2026-08-18 |
 | ★★☆☆☆ | [#785](https://github.com/splunk/splunk-sdk-python/issues/785) Splunk core -> python3.13 | — | 0 | 2026-05-13 |
 | ★★☆☆☆ | [#687](https://github.com/splunk/splunk-sdk-python/issues/687) Custom command have high CPU load / RAM usage | bug, Custom Search Commands | 1 | 2026-03-20 |
 | ★★☆☆☆ | [#617](https://github.com/splunk/splunk-sdk-python/issues/617) Question - High performing and high scale KVstore content retrieval with the Splunk Python SDK | bug, KV Store | 2 | 2025-11-13 |
-| ★☆☆☆☆ | [#835](https://github.com/splunk/splunk-sdk-python/issues/835) connect() fails on FIPS-enabled Splunk 10.4.x: unguarded ctx.set_groups() raises ssl.SSLError (_ssl.c:4981) before any connection is attempted | — | 2 | 2026-11-06 |
 | ★☆☆☆☆ | [#831](https://github.com/splunk/splunk-sdk-python/issues/831) `SPLUNK_HOME` absolute-path check in `splunklib.ai.tools` fails on Windows | — | 1 | 2026-08-19 |
 
 ### [traceloop/openllmetry](https://github.com/traceloop/openllmetry)
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-09 10:23 UTC, took **82.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-09 20:52 UTC, took **91.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
