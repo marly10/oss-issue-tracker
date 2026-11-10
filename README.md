@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-10 03:00 UTC_
+_Last updated: 2026-11-10 10:52 UTC_
 
-_Tracking **18** upstream repos, **369** relevant open issues._
+_Tracking **18** upstream repos, **370** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-10 |
+| ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, has_pr, verified, affects_2.23 | 1 | 2026-11-10 |
 | ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 4 | 2026-11-09 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 5 | 2026-11-09 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | needs_triage, bug | 1 | 2026-11-09 |
 | ★★☆☆☆ | [#74918](https://github.com/ansible/ansible/issues/74918) Ansible fails to recursively change attributes when directory contains symlinks | module, bug, P3, needs_verified, affects_2.11, affects_2.12 | 2 | 2026-11-07 |
-| ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, needs_triage, bug, affects_2.22 | 1 | 2026-11-07 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug, has_pr | 4 | 2026-11-06 |
-| ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, bug, has_pr | 1 | 2026-11-05 |
 | ★☆☆☆☆ | [#86233](https://github.com/ansible/ansible/issues/86233) 'ansible-galaxy collection download' always downloads | feature, P3 | 5 | 2026-11-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-09 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-10 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -229,13 +229,14 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
-| ★★☆☆☆ | [#2542](https://github.com/observIQ/bindplane-otel-collector/issues/2542) Add TCP Check receiver | — | 0 | 2025-08-23 |
+| ★☆☆☆☆ | [#3772](https://github.com/observIQ/bindplane-otel-collector/issues/3772) Mirror from DBDOT: ci(e2e): run e2e tests on main (#112) | dbdot-mirror-issue | 1 | 2026-11-10 |
 | ★☆☆☆☆ | [#2296](https://github.com/observIQ/bindplane-otel-collector/issues/2296) install_unix.sh breaks with status code 2 in non-interactive environments | — | 4 | 2026-03-04 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
 | ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
@@ -243,7 +244,6 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 | ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 8 | 2026-10-14 |
 | ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
-| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 3 | 2026-10-13 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-10 02:59 UTC, took **100.5s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-10 10:51 UTC, took **86.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
