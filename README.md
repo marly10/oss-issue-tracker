@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-10 10:52 UTC_
+_Last updated: 2026-11-10 18:20 UTC_
 
-_Tracking **18** upstream repos, **370** relevant open issues._
+_Tracking **18** upstream repos, **373** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -104,12 +104,12 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#725](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/725) Use godocs more effectively | documentation, enhancement, priority: p3 | 0 | 2024-07-15 |
 | ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-10 |
 | ★★☆☆☆ | [#1217](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1217) exporter/collector/logs: sanitize invalid UTF-8 in log fields and treat client-side marshaling errors as permanent | — | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
-| ★★☆☆☆ | [#716](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/716) LogName should be more useful in the collector exporter. | enhancement, priority: p2 | 1 | 2024-07-15 |
+| ★★☆☆☆ | [#790](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/790) Codecov flakes on datapointcache.go | bug, priority: p3 | 2 | 2024-05-20 |
+| ★★☆☆☆ | [#807](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/807) Implement sum of squared deviations for exponential histograms in SDK exporter | enhancement, priority: p3 | 1 | 2024-03-04 |
 | ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
 | ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
 
@@ -124,6 +124,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, plugins | 3 | 2026-11-10 |
 | ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
 | ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
@@ -131,20 +132,19 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★☆☆☆☆ | [#361](https://github.com/ansible-collections/community.general/issues/361) zypper migration options is not available  | feature, module, waiting_on_contributor | 10 | 2026-11-07 |
 | ★☆☆☆☆ | [#3497](https://github.com/ansible-collections/community.general/issues/3497) Zypper `disable_recommends` default setting violates principle of least surprise | bug, module, has_pr, plugins, os, packaging | 14 | 2026-11-07 |
 | ★☆☆☆☆ | [#4859](https://github.com/ansible-collections/community.general/issues/4859) [zypper] "Failed to parse zypper xml output: no element found" with transactional-update | bug, module | 12 | 2026-11-06 |
-| ★☆☆☆☆ | [#3570](https://github.com/ansible-collections/community.general/issues/3570) [Feature Request] [zypper] Allow refreshing cache without specifying `name:` | feature, module, has_pr, plugins, os, packaging | 11 | 2026-11-04 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-10 |
+| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug, needs_verified | 1 | 2026-11-10 |
+| ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, bug, has_pr, affects_2.22 | 1 | 2026-11-10 |
+| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, has_pr, affects_2.21 | 3 | 2026-11-10 |
+| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 4 | 2026-11-10 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, has_pr, verified, affects_2.23 | 1 | 2026-11-10 |
 | ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 4 | 2026-11-09 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 5 | 2026-11-09 |
-| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | needs_triage, bug | 1 | 2026-11-09 |
-| ★★☆☆☆ | [#74918](https://github.com/ansible/ansible/issues/74918) Ansible fails to recursively change attributes when directory contains symlinks | module, bug, P3, needs_verified, affects_2.11, affects_2.12 | 2 | 2026-11-07 |
-| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug, has_pr | 4 | 2026-11-06 |
-| ★☆☆☆☆ | [#86233](https://github.com/ansible/ansible/issues/86233) 'ansible-galaxy collection download' always downloads | feature, P3 | 5 | 2026-11-06 |
+| ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | needs_info, module, feature | 2 | 2026-11-10 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -195,6 +195,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 97 | 2026-10-28 |
 | ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 7 | 2026-10-28 |
@@ -202,7 +203,6 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
 | ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 25 | 2026-10-23 |
 | ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 50 | 2026-10-23 |
-| ★★★☆☆ | [#142957](https://github.com/kubernetes/kubernetes/issues/142957) Don't check featuregates directly in E2E tests | kind/bug, help wanted, sig/testing, needs-triage | 4 | 2026-10-16 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
@@ -236,14 +236,14 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★★ | [#52966](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52966) [extension/k8sleaderelector] Validate lease timing settings at config validation | enhancement, good first issue, Contribfest, extension/k8sleaderelector | 2 | 2026-11-10 |
+| ★★★★★ | [#52963](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52963) [receiver/hostmetrics] Invalid scraper key error does not show the key | bug, good first issue, receiver/hostmetrics, Contribfest | 2 | 2026-11-10 |
+| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 1 | 2026-11-10 |
+| ★★★★☆ | [#52967](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52967) [receiver/k8scluster] Fix `allocatable_types_to_report` docs: value types and supported resources | documentation, good first issue, receiver/k8scluster, Contribfest | 2 | 2026-11-10 |
+| ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 2 | 2026-11-10 |
+| ★★★★☆ | [#52965](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52965) [receiver/kafka, receiver/kafkametrics] READMEs document removed `auth.plain_text` and `auth.tls` | documentation, good first issue, receiver/kafka, receiver/kafkametrics, Contribfest, pkg/kafka/configkafka | 4 | 2026-11-10 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
-| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
-| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
-| ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 24 | 2026-10-27 |
-| ★★★★☆ | [#22095](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/22095) Migrate to latest semconv version and ensure we regularly update going forward | enhancement, good first issue, priority:p2, never stale, component-stability-phase-1 | 30 | 2026-10-24 |
-| ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 8 | 2026-10-14 |
-| ★★★★☆ | [#45700](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/45700) Support multiple collection intervals within a receiver | enhancement, help wanted, receiver/sqlserver, waiting-for-code-owners | 10 | 2026-10-14 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-10 10:51 UTC, took **86.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-10 18:18 UTC, took **94.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
