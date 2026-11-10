@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-10 18:20 UTC_
+_Last updated: 2026-11-10 23:31 UTC_
 
-_Tracking **18** upstream repos, **373** relevant open issues._
+_Tracking **18** upstream repos, **370** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, plugins | 3 | 2026-11-10 |
+| ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, has_pr, plugins | 5 | 2026-11-10 |
 | ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
 | ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 4 | 2026-11-10 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, has_pr, verified, affects_2.23 | 1 | 2026-11-10 |
 | ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 4 | 2026-11-09 |
-| ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 5 | 2026-11-09 |
+| ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, has_pr, feature | 4 | 2026-11-10 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | needs_info, module, feature | 2 | 2026-11-10 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -223,6 +223,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3773](https://github.com/observIQ/bindplane-otel-collector/issues/3773) Mirror from DBDOT: fix(install): print tail -f on AIX, which has no tail -F (BP-1628) (#111) | dbdot-mirror-issue | 0 | 2026-11-10 |
 | ★★☆☆☆ | [#3769](https://github.com/observIQ/bindplane-otel-collector/issues/3769) Mirror from DBDOT: chore: Add collector make target (#108) | dbdot-mirror-issue | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#3750](https://github.com/observIQ/bindplane-otel-collector/issues/3750) Updater cannot run as a non-root user | — | 0 | 2026-11-03 |
 | ★★☆☆☆ | [#3749](https://github.com/observIQ/bindplane-otel-collector/issues/3749) Package install silently accepts a changed BDOT_UNPRIVILEGED or BDOT_USER on an existing install | — | 0 | 2026-11-03 |
@@ -230,20 +231,19 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 | ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★★☆☆☆ | [#3596](https://github.com/observIQ/bindplane-otel-collector/issues/3596) How to handle process stuck in shutdown. | — | 0 | 2026-08-04 |
 | ★☆☆☆☆ | [#3772](https://github.com/observIQ/bindplane-otel-collector/issues/3772) Mirror from DBDOT: ci(e2e): run e2e tests on main (#112) | dbdot-mirror-issue | 1 | 2026-11-10 |
-| ★☆☆☆☆ | [#2296](https://github.com/observIQ/bindplane-otel-collector/issues/2296) install_unix.sh breaks with status code 2 in non-interactive environments | — | 4 | 2026-03-04 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★★ | [#52966](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52966) [extension/k8sleaderelector] Validate lease timing settings at config validation | enhancement, good first issue, Contribfest, extension/k8sleaderelector | 2 | 2026-11-10 |
-| ★★★★★ | [#52963](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52963) [receiver/hostmetrics] Invalid scraper key error does not show the key | bug, good first issue, receiver/hostmetrics, Contribfest | 2 | 2026-11-10 |
+| ★★★★★ | [#52966](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52966) [extension/k8sleaderelector] Validate lease timing settings at config validation | enhancement, good first issue, Contribfest, extension/k8sleaderelector | 3 | 2026-11-10 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 1 | 2026-11-10 |
-| ★★★★☆ | [#52967](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52967) [receiver/k8scluster] Fix `allocatable_types_to_report` docs: value types and supported resources | documentation, good first issue, receiver/k8scluster, Contribfest | 2 | 2026-11-10 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 2 | 2026-11-10 |
-| ★★★★☆ | [#52965](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52965) [receiver/kafka, receiver/kafkametrics] READMEs document removed `auth.plain_text` and `auth.tls` | documentation, good first issue, receiver/kafka, receiver/kafkametrics, Contribfest, pkg/kafka/configkafka | 4 | 2026-11-10 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
+| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
+| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
+| ★★★★☆ | [#39342](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39342) [exporter/elasticsearch] Document indexed document structure | enhancement, good first issue, exporter/elasticsearch | 24 | 2026-10-27 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **373** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-10 18:18 UTC, took **94.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-10 23:30 UTC, took **87.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
