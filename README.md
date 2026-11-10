@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-09 20:53 UTC_
+_Last updated: 2026-11-10 03:00 UTC_
 
 _Tracking **18** upstream repos, **369** relevant open issues._
 
@@ -104,12 +104,12 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-09 |
+| ★★★☆☆ | [#725](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/725) Use godocs more effectively | documentation, enhancement, priority: p3 | 0 | 2024-07-15 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-10 |
 | ★★☆☆☆ | [#1217](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1217) exporter/collector/logs: sanitize invalid UTF-8 in log fields and treat client-side marshaling errors as permanent | — | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
-| ★★☆☆☆ | [#706](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/706) Consider using dependabot to keep up-to-date with repositories we depend on | enhancement, priority: p2 | 1 | 2024-08-28 |
-| ★☆☆☆☆ | [#1215](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1215) Logging exporter: splitting a text payload larger than 256KB can cut a multi-byte UTF-8 character, which drops the whole batch silently | — | 1 | 2026-11-06 |
+| ★★☆☆☆ | [#716](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/716) LogName should be more useful in the collector exporter. | enhancement, priority: p2 | 1 | 2024-07-15 |
 | ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
 | ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87880](https://github.com/ansible/ansible/issues/87880) `ansible-test sanity --docker --test pylint` crashes on community.general | bug | 4 | 2026-11-09 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 5 | 2026-11-09 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | needs_triage, bug | 1 | 2026-11-09 |
 | ★★☆☆☆ | [#74918](https://github.com/ansible/ansible/issues/74918) Ansible fails to recursively change attributes when directory contains symlinks | module, bug, P3, needs_verified, affects_2.11, affects_2.12 | 2 | 2026-11-07 |
 | ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, needs_triage, bug, affects_2.22 | 1 | 2026-11-07 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | needs_triage, bug, has_pr | 4 | 2026-11-06 |
 | ★★☆☆☆ | [#87815](https://github.com/ansible/ansible/issues/87815) Deprecate use of passlib for 2.23 | P2, bug, has_pr | 1 | 2026-11-05 |
-| ★★☆☆☆ | [#87814](https://github.com/ansible/ansible/issues/87814) password_hash: given salt is not used as-is when libxcrypt is available, so hashes change from 2.20 and between controllers | bug, affects_2.21 | 4 | 2026-11-05 |
 | ★☆☆☆☆ | [#86233](https://github.com/ansible/ansible/issues/86233) 'ansible-galaxy collection download' always downloads | feature, P3 | 5 | 2026-11-06 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -208,7 +208,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, stale, tech-debt, feat-table-filters, search | 5 | 2026-10-19 |
+| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 6 | 2026-11-10 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-09 20:52 UTC, took **91.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-10 02:59 UTC, took **100.5s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
