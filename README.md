@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-11 10:13 UTC_
+_Last updated: 2026-11-11 17:54 UTC_
 
 _Tracking **18** upstream repos, **370** relevant open issues._
 
@@ -127,22 +127,22 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 | ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, has_pr, plugins | 5 | 2026-11-10 |
 | ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
 | ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
+| ★☆☆☆☆ | [#7404](https://github.com/ansible-collections/community.general/issues/7404) redis_data module needs support for the db parameter | feature, module, plugins | 12 | 2026-11-11 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
 | ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
 | ★☆☆☆☆ | [#361](https://github.com/ansible-collections/community.general/issues/361) zypper migration options is not available  | feature, module, waiting_on_contributor | 10 | 2026-11-07 |
 | ★☆☆☆☆ | [#3497](https://github.com/ansible-collections/community.general/issues/3497) Zypper `disable_recommends` default setting violates principle of least surprise | bug, module, has_pr, plugins, os, packaging | 14 | 2026-11-07 |
-| ★☆☆☆☆ | [#4859](https://github.com/ansible-collections/community.general/issues/4859) [zypper] "Failed to parse zypper xml output: no element found" with transactional-update | bug, module | 12 | 2026-11-06 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | needs_triage, bug, affects_2.22 | 2 | 2026-11-11 |
-| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug, needs_verified | 1 | 2026-11-10 |
+| ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | needs_triage, bug, affects_2.22 | 4 | 2026-11-11 |
+| ★★☆☆☆ | [#84328](https://github.com/ansible/ansible/issues/84328) include_tasks does not work well with include_role.tasks_from if task is in subdirectory | module, bug, has_pr, verified, affects_2.15 | 4 | 2026-11-11 |
+| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 1 | 2026-11-11 |
+| ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 6 | 2026-11-11 |
 | ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, bug, has_pr, affects_2.22 | 1 | 2026-11-10 |
 | ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, has_pr, affects_2.21 | 3 | 2026-11-10 |
-| ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 4 | 2026-11-10 |
-| ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, has_pr, verified, affects_2.23 | 1 | 2026-11-10 |
 | ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, has_pr, feature | 4 | 2026-11-10 |
 | ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | needs_info, module, feature | 2 | 2026-11-10 |
 
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **370** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-11 10:11 UTC, took **93.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-11 17:52 UTC, took **89.8s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
