@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-11 23:45 UTC_
+_Last updated: 2026-11-12 04:19 UTC_
 
 _Tracking **18** upstream repos, **371** relevant open issues._
 
@@ -108,8 +108,8 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#790](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/790) Codecov flakes on datapointcache.go | bug, priority: p3 | 2 | 2024-05-20 |
-| ★★☆☆☆ | [#807](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/807) Implement sum of squared deviations for exponential histograms in SDK exporter | enhancement, priority: p3 | 1 | 2024-03-04 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
+| ★★☆☆☆ | [#707](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/707) Add metrics for export RPCs | enhancement, priority: p2 | 4 | 2023-08-15 |
 | ★☆☆☆☆ | [#1068](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1068) Duplicate label key encountered service_name on trace metrics | — | 22 | 2025-09-29 |
 | ★☆☆☆☆ | [#1017](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1017) Client metrics for cross-project GCS traffic | — | 6 | 2025-02-19 |
 
@@ -137,13 +137,13 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | needs_triage, bug, affects_2.22 | 5 | 2026-11-12 |
+| ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-11-12 |
+| ★★☆☆☆ | [#87915](https://github.com/ansible/ansible/issues/87915) "changed_when_result": "Error while evaluating conditional: '_task' is undefined" | module, needs_triage, bug, affects_2.19 | 3 | 2026-11-12 |
+| ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 7 | 2026-11-12 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 5 | 2026-11-11 |
-| ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | needs_triage, bug, affects_2.22 | 4 | 2026-11-11 |
 | ★★☆☆☆ | [#84328](https://github.com/ansible/ansible/issues/84328) include_tasks does not work well with include_role.tasks_from if task is in subdirectory | module, bug, has_pr, verified, affects_2.15 | 4 | 2026-11-11 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 1 | 2026-11-11 |
-| ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 6 | 2026-11-11 |
-| ★★☆☆☆ | [#87893](https://github.com/ansible/ansible/issues/87893) user: the documented locked-password value `'*'` is registered as a secret and masks every `*` in the output | module, bug, has_pr, affects_2.22 | 1 | 2026-11-10 |
-| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, has_pr, affects_2.21 | 3 | 2026-11-10 |
 | ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, has_pr, feature | 4 | 2026-11-10 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -297,7 +297,7 @@ _Tracking **18** upstream repos, **371** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-11 23:44 UTC, took **82.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-12 04:18 UTC, took **77.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
