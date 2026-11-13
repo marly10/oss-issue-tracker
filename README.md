@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-13 08:13 UTC_
+_Last updated: 2026-11-13 16:20 UTC_
 
-_Tracking **18** upstream repos, **369** relevant open issues._
+_Tracking **18** upstream repos, **376** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,7 +137,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in task names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 1 | 2026-11-13 |
+| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 1 | 2026-11-13 |
 | ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-11-12 |
@@ -208,7 +208,14 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#15733](https://github.com/langfuse/langfuse/issues/15733) chore(web): remove expired searchBar feature-preview plumbing (TODO past due 2026-06-19) | good first issue, tech-debt, feat-table-filters, search | 7 | 2026-11-13 |
+| ★★★☆☆ | [#20207](https://github.com/langfuse/langfuse/issues/20207) bug: `pnpm run dev` rebuilds the native addon in an endless loop on Linux | bug | 0 | 2026-11-13 |
+| ★★★☆☆ | [#19741](https://github.com/langfuse/langfuse/issues/19741) bug: Claude Code plugin re-sends earlier turns after a session moves directory (duplicate roots, doubled cost) | bug, integrations, feat-ingestion | 0 | 2026-11-13 |
+| ★★☆☆☆ | [#19887](https://github.com/langfuse/langfuse/issues/19887) bug: redesigned session view renders a guardrail/classifier generation as the conversation instead of the agent's chat generations | bug, 🐞❔ unconfirmed bug, feat-sessions, AI commented, difficulty | 3 | 2026-11-13 |
+| ★★☆☆☆ | [#18431](https://github.com/langfuse/langfuse/issues/18431) bug: OpenAI Responses shell and apply_patch outputs render as user messages in the trace view | bug, 🐞❔ unconfirmed bug, integration-openai, feat-tracing | 1 | 2026-11-13 |
+| ★★☆☆☆ | [#18760](https://github.com/langfuse/langfuse/issues/18760) bug: TOOL observations render their input as a User message and output as an Assistant message | bug, single-trace-ui, feat-tracing, feat-otel | 1 | 2026-11-13 |
+| ★★☆☆☆ | [#18822](https://github.com/langfuse/langfuse/issues/18822) bug: normalized I/O leaves OTel GenAI blob, uri and file parts as custom parts | bug, 🐞❔ unconfirmed bug, feat-multimodal, integration-otel, feat-otel | 2 | 2026-11-13 |
+| ★★☆☆☆ | [#20099](https://github.com/langfuse/langfuse/issues/20099) bug: Formatted view does not render `reasoning_content` on Chat Completions messages | bug, integration-openai, single-trace-ui | 1 | 2026-11-13 |
+| ★☆☆☆☆ | [#16868](https://github.com/langfuse/langfuse/issues/16868) feat(web): persist environment-filter selection in the URL | feat-dashboard, feat-tracing-environments, stale, feature | 4 | 2026-11-13 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -297,7 +304,7 @@ _Tracking **18** upstream repos, **369** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-13 08:11 UTC, took **85.9s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-13 16:19 UTC, took **96.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
