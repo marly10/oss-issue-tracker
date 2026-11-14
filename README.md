@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-14 02:13 UTC_
+_Last updated: 2026-11-14 08:58 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-13 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-14 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#790](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/790) Codecov flakes on datapointcache.go | bug, priority: p3 | 2 | 2024-05-20 |
@@ -137,6 +137,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, affects_2.22 | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 2 | 2026-11-13 |
 | ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
@@ -144,7 +145,6 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 7 | 2026-11-12 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 5 | 2026-11-11 |
 | ★★☆☆☆ | [#84328](https://github.com/ansible/ansible/issues/84328) include_tasks does not work well with include_role.tasks_from if task is in subdirectory | module, bug, has_pr, verified, affects_2.15 | 4 | 2026-11-11 |
-| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 1 | 2026-11-11 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#18760](https://github.com/langfuse/langfuse/issues/18760) bug: TOOL observations render their input as a User message and output as an Assistant message | bug, single-trace-ui, feat-tracing, feat-otel | 2 | 2026-11-14 |
+| ★★☆☆☆ | [#19664](https://github.com/langfuse/langfuse/issues/19664) bug: Worker liveness probe causes restart loops under heavy load | bug, self-hosting, infra, performance-improvements, AI commented, difficulty | 4 | 2026-11-14 |
 | ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 3 | 2026-11-14 |
 | ★☆☆☆☆ | [#16640](https://github.com/langfuse/langfuse/issues/16640) User-scoped API tokens for cross-project data access (MCP / agents) | feat-auth, feat-api, feat-rbac, feat-api-auth, stale, feature, feat-mcp, feat-org-api | 6 | 2026-11-14 |
 | ★☆☆☆☆ | [#16868](https://github.com/langfuse/langfuse/issues/16868) feat(web): persist environment-filter selection in the URL | feat-dashboard, feat-tracing-environments, feature | 4 | 2026-11-14 |
 | ★☆☆☆☆ | [#1214](https://github.com/langfuse/langfuse/issues/1214) feat(langchain): extract value as string form prompttemplates | prio-low, sdk-python, sdk-js, integration-langchain, stale | 3 | 2026-11-13 |
 | ★☆☆☆☆ | [#1437](https://github.com/langfuse/langfuse/issues/1437) bug: cost count issue with GPT-4-vision or claude-3-opus when there is base64 image | 🐞❔ unconfirmed bug, stale | 10 | 2026-11-13 |
 | ★☆☆☆☆ | [#1413](https://github.com/langfuse/langfuse/issues/1413) Support for Nemo Guardrails | stale | 4 | 2026-11-13 |
-| ★☆☆☆☆ | [#1198](https://github.com/langfuse/langfuse/issues/1198) feat(ui): allow filtering for null values (trace.name) | ui, stale | 2 | 2026-11-13 |
-| ★☆☆☆☆ | [#906](https://github.com/langfuse/langfuse/issues/906) feat(python-sdk): Introduce custom error types instead of bare exception | prio-low, prio-medium, sdk-python, stale | 4 | 2026-11-13 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -258,7 +258,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 6 | 2026-11-13 |
+| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 6 | 2026-11-14 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 2 | 2026-11-05 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-14 02:12 UTC, took **83.0s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-14 08:57 UTC, took **81.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
