@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-14 08:58 UTC_
+_Last updated: 2026-11-14 15:32 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -124,9 +124,9 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) 🐛 redis_data always reports changed when the key already has the desired value | bug, module, plugins | 2 | 2026-11-14 |
+| ★★☆☆☆ | [#13242](https://github.com/ansible-collections/community.general/issues/13242) ufw: default policy reports wrong "changed" while ufw is inactive (always changed in check mode, never changed otherwise) | bug, module, plugins | 2 | 2026-11-14 |
 | ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, has_pr, plugins | 5 | 2026-11-10 |
-| ★★☆☆☆ | [#13196](https://github.com/ansible-collections/community.general/issues/13196) pipx: check mode reports changed: false for latest (outdated app or injects), inject and absent | bug, module, plugins | 4 | 2026-11-07 |
-| ★★☆☆☆ | [#9018](https://github.com/ansible-collections/community.general/issues/9018) The archive module executes without errors for non-existent files | bug, module | 6 | 2026-11-07 |
 | ★☆☆☆☆ | [#7404](https://github.com/ansible-collections/community.general/issues/7404) redis_data module needs support for the db parameter | feature, module, plugins | 12 | 2026-11-11 |
 | ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
 | ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, affects_2.22 | 1 | 2026-11-14 |
+| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 2 | 2026-11-13 |
 | ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-11-12 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 7 | 2026-11-12 |
 | ★★☆☆☆ | [#87836](https://github.com/ansible/ansible/issues/87836) `password_hash` overruns `struct crypt_data` with glibc's libcrypt, crashing the worker | bug, has_pr | 5 | 2026-11-11 |
-| ★★☆☆☆ | [#84328](https://github.com/ansible/ansible/issues/84328) include_tasks does not work well with include_role.tasks_from if task is in subdirectory | module, bug, has_pr, verified, affects_2.15 | 4 | 2026-11-11 |
+| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 6 | 2026-11-14 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20232](https://github.com/langfuse/langfuse/issues/20232) bug(score-analytics): multi-unit timeline averages ignore score counts | bug, feat-scores, internal-analytics | 0 | 2026-11-14 |
+| ★★★☆☆ | [#20228](https://github.com/langfuse/langfuse/issues/20228) bug(datasets): CSV import resolves even when row processing fails | bug, feat-datasets | 0 | 2026-11-14 |
 | ★★☆☆☆ | [#18760](https://github.com/langfuse/langfuse/issues/18760) bug: TOOL observations render their input as a User message and output as an Assistant message | bug, single-trace-ui, feat-tracing, feat-otel | 2 | 2026-11-14 |
 | ★★☆☆☆ | [#19664](https://github.com/langfuse/langfuse/issues/19664) bug: Worker liveness probe causes restart loops under heavy load | bug, self-hosting, infra, performance-improvements, AI commented, difficulty | 4 | 2026-11-14 |
 | ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 3 | 2026-11-14 |
 | ★☆☆☆☆ | [#16640](https://github.com/langfuse/langfuse/issues/16640) User-scoped API tokens for cross-project data access (MCP / agents) | feat-auth, feat-api, feat-rbac, feat-api-auth, stale, feature, feat-mcp, feat-org-api | 6 | 2026-11-14 |
 | ★☆☆☆☆ | [#16868](https://github.com/langfuse/langfuse/issues/16868) feat(web): persist environment-filter selection in the URL | feat-dashboard, feat-tracing-environments, feature | 4 | 2026-11-14 |
 | ★☆☆☆☆ | [#1214](https://github.com/langfuse/langfuse/issues/1214) feat(langchain): extract value as string form prompttemplates | prio-low, sdk-python, sdk-js, integration-langchain, stale | 3 | 2026-11-13 |
-| ★☆☆☆☆ | [#1437](https://github.com/langfuse/langfuse/issues/1437) bug: cost count issue with GPT-4-vision or claude-3-opus when there is base64 image | 🐞❔ unconfirmed bug, stale | 10 | 2026-11-13 |
-| ★☆☆☆☆ | [#1413](https://github.com/langfuse/langfuse/issues/1413) Support for Nemo Guardrails | stale | 4 | 2026-11-13 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-14 08:57 UTC, took **81.1s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-14 15:30 UTC, took **80.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
