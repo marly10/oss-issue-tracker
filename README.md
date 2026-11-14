@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-14 20:03 UTC_
+_Last updated: 2026-11-14 23:50 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -124,11 +124,11 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) 🐛 redis_data always reports changed when the key already has the desired value | bug, module, plugins | 2 | 2026-11-14 |
+| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 3 | 2026-11-14 |
+| ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, has_pr, plugins | 9 | 2026-11-14 |
 | ★★☆☆☆ | [#13242](https://github.com/ansible-collections/community.general/issues/13242) ufw: default policy reports wrong "changed" while ufw is inactive (always changed in check mode, never changed otherwise) | bug, module, plugins | 2 | 2026-11-14 |
 | ★★☆☆☆ | [#13230](https://github.com/ansible-collections/community.general/issues/13230) urpmi module broken | bug, module, has_pr, plugins | 5 | 2026-11-10 |
-| ★☆☆☆☆ | [#7404](https://github.com/ansible-collections/community.general/issues/7404) redis_data module needs support for the db parameter | feature, module, plugins | 12 | 2026-11-11 |
-| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-09 |
+| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-14 |
 | ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
 | ★☆☆☆☆ | [#361](https://github.com/ansible-collections/community.general/issues/361) zypper migration options is not available  | feature, module, waiting_on_contributor | 10 | 2026-11-07 |
 | ★☆☆☆☆ | [#3497](https://github.com/ansible-collections/community.general/issues/3497) Zypper `disable_recommends` default setting violates principle of least surprise | bug, module, has_pr, plugins, os, packaging | 14 | 2026-11-07 |
@@ -208,8 +208,8 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20232](https://github.com/langfuse/langfuse/issues/20232) bug(score-analytics): multi-unit timeline averages ignore score counts | bug, feat-scores, internal-analytics | 0 | 2026-11-14 |
 | ★★★☆☆ | [#20228](https://github.com/langfuse/langfuse/issues/20228) bug(datasets): CSV import resolves even when row processing fails | bug, feat-datasets | 0 | 2026-11-14 |
+| ★★☆☆☆ | [#20232](https://github.com/langfuse/langfuse/issues/20232) bug(score-analytics): multi-unit timeline averages ignore score counts | bug, feat-scores, internal-analytics | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#18760](https://github.com/langfuse/langfuse/issues/18760) bug: TOOL observations render their input as a User message and output as an Assistant message | bug, single-trace-ui, feat-tracing, feat-otel | 2 | 2026-11-14 |
 | ★★☆☆☆ | [#19664](https://github.com/langfuse/langfuse/issues/19664) bug: Worker liveness probe causes restart loops under heavy load | bug, self-hosting, infra, performance-improvements, AI commented, difficulty | 4 | 2026-11-14 |
 | ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 3 | 2026-11-14 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-14 20:02 UTC, took **87.5s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-14 23:48 UTC, took **78.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
