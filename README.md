@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-13 22:03 UTC_
+_Last updated: 2026-11-14 02:13 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-13 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-14 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 3 | 2026-11-14 |
+| ★☆☆☆☆ | [#16640](https://github.com/langfuse/langfuse/issues/16640) User-scoped API tokens for cross-project data access (MCP / agents) | feat-auth, feat-api, feat-rbac, feat-api-auth, stale, feature, feat-mcp, feat-org-api | 6 | 2026-11-14 |
+| ★☆☆☆☆ | [#16868](https://github.com/langfuse/langfuse/issues/16868) feat(web): persist environment-filter selection in the URL | feat-dashboard, feat-tracing-environments, feature | 4 | 2026-11-14 |
 | ★☆☆☆☆ | [#1214](https://github.com/langfuse/langfuse/issues/1214) feat(langchain): extract value as string form prompttemplates | prio-low, sdk-python, sdk-js, integration-langchain, stale | 3 | 2026-11-13 |
 | ★☆☆☆☆ | [#1437](https://github.com/langfuse/langfuse/issues/1437) bug: cost count issue with GPT-4-vision or claude-3-opus when there is base64 image | 🐞❔ unconfirmed bug, stale | 10 | 2026-11-13 |
 | ★☆☆☆☆ | [#1413](https://github.com/langfuse/langfuse/issues/1413) Support for Nemo Guardrails | stale | 4 | 2026-11-13 |
 | ★☆☆☆☆ | [#1198](https://github.com/langfuse/langfuse/issues/1198) feat(ui): allow filtering for null values (trace.name) | ui, stale | 2 | 2026-11-13 |
 | ★☆☆☆☆ | [#906](https://github.com/langfuse/langfuse/issues/906) feat(python-sdk): Introduce custom error types instead of bare exception | prio-low, prio-medium, sdk-python, stale | 4 | 2026-11-13 |
-| ★☆☆☆☆ | [#714](https://github.com/langfuse/langfuse/issues/714) feat: Alerts on User Consumption | stale | 3 | 2026-11-13 |
-| ★☆☆☆☆ | [#630](https://github.com/langfuse/langfuse/issues/630) feat: Monitor Vector DB | — | 4 | 2026-11-13 |
-| ★☆☆☆☆ | [#502](https://github.com/langfuse/langfuse/issues/502) feat: full support of google vertex models, #characters and costs | prio-medium | 1 | 2026-11-13 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-13 22:01 UTC, took **118.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-14 02:12 UTC, took **83.0s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
