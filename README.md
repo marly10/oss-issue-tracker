@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-15 10:46 UTC_
+_Last updated: 2026-11-15 17:27 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-15 |
+| ★★★☆☆ | [#20244](https://github.com/langfuse/langfuse/issues/20244) bug: table cells clip focus rings | bug, tables, feat-users | 0 | 2026-11-15 |
+| ★★★☆☆ | [#20241](https://github.com/langfuse/langfuse/issues/20241) bug: AI gateway oversized-request tests intermittently fail with connection resets | bug, unconfirmed-bug | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20228](https://github.com/langfuse/langfuse/issues/20228) bug(datasets): CSV import resolves even when row processing fails | bug, feat-datasets | 0 | 2026-11-14 |
 | ★★☆☆☆ | [#15109](https://github.com/langfuse/langfuse/issues/15109) bug: Session "Total cost" shows $0.00 when cost is model-calculated (not caller-ingested) | bug, stale, langfuse/langfuse, feat-metrics | 2 | 2026-11-15 |
 | ★★☆☆☆ | [#20232](https://github.com/langfuse/langfuse/issues/20232) bug(score-analytics): multi-unit timeline averages ignore score counts | bug, feat-scores, internal-analytics | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#18760](https://github.com/langfuse/langfuse/issues/18760) bug: TOOL observations render their input as a User message and output as an Assistant message | bug, single-trace-ui, feat-tracing, feat-otel | 2 | 2026-11-14 |
 | ★★☆☆☆ | [#19664](https://github.com/langfuse/langfuse/issues/19664) bug: Worker liveness probe causes restart loops under heavy load | bug, self-hosting, infra, performance-improvements, AI commented, difficulty | 4 | 2026-11-14 |
-| ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 3 | 2026-11-14 |
-| ★☆☆☆☆ | [#16640](https://github.com/langfuse/langfuse/issues/16640) User-scoped API tokens for cross-project data access (MCP / agents) | feat-auth, feat-api, feat-rbac, feat-api-auth, stale, feature, feat-mcp, feat-org-api | 6 | 2026-11-14 |
-| ★☆☆☆☆ | [#16868](https://github.com/langfuse/langfuse/issues/16868) feat(web): persist environment-filter selection in the URL | feat-dashboard, feat-tracing-environments, feature | 4 | 2026-11-14 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-15 10:44 UTC, took **79.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-15 17:25 UTC, took **77.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
