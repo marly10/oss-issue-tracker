@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-15 03:11 UTC_
+_Last updated: 2026-11-15 10:46 UTC_
 
-_Tracking **18** upstream repos, **376** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -124,10 +124,10 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 4 | 2026-11-15 |
 | ★★☆☆☆ | [#9790](https://github.com/ansible-collections/community.general/issues/9790) nmcli: state=present does not bring up interface | bug, module, has_pr, plugins | 4 | 2026-11-15 |
 | ★★☆☆☆ | [#4430](https://github.com/ansible-collections/community.general/issues/4430) nmcli not setting dns4_search. | bug, module, needs_info, plugins, net_tools | 4 | 2026-11-15 |
 | ★★☆☆☆ | [#10607](https://github.com/ansible-collections/community.general/issues/10607) nmcli: always shows changes if method not specified, but method does not change | bug, module, needs_info, plugins | 3 | 2026-11-15 |
-| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 3 | 2026-11-14 |
 | ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, has_pr, plugins | 9 | 2026-11-14 |
 | ★★☆☆☆ | [#13242](https://github.com/ansible-collections/community.general/issues/13242) ufw: default policy reports wrong "changed" while ufw is inactive (always changed in check mode, never changed otherwise) | bug, module, plugins | 2 | 2026-11-14 |
 | ★☆☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | feature, module, plugins | 3 | 2026-11-15 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-14 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-15 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -244,13 +244,13 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 4 | 2026-11-11 |
+| ★★★★☆ | [#53143](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53143) [exporter/influxdb] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-15 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 4 | 2026-11-11 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 1 | 2026-11-10 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
-| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-15 03:09 UTC, took **79.4s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-15 10:44 UTC, took **79.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
