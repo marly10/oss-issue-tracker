@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-16 01:32 UTC_
+_Last updated: 2026-11-16 08:32 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-15 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-16 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -208,13 +208,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20276](https://github.com/langfuse/langfuse/issues/20276) bug: AI Gateway cannot save an OpenAI connection with a custom base URL (credential probe hardcodes gpt-4o-mini) | bug, 🐞❔ unconfirmed bug, feat-models | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20251](https://github.com/langfuse/langfuse/issues/20251) bug: $ sequences in playground variable values and sandbox edits are interpreted as replacement patterns | bug, 🐞❔ unconfirmed bug, feat-playground, feat-in-app-agent, feat-halo | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20244](https://github.com/langfuse/langfuse/issues/20244) bug: table cells clip focus rings | bug, tables, feat-users | 0 | 2026-11-15 |
-| ★★★☆☆ | [#20241](https://github.com/langfuse/langfuse/issues/20241) bug: AI gateway oversized-request tests intermittently fail with connection resets | bug, unconfirmed-bug | 0 | 2026-11-15 |
-| ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 1 | 2026-11-15 |
+| ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 2 | 2026-11-16 |
+| ★★☆☆☆ | [#15072](https://github.com/langfuse/langfuse/issues/15072) bug: Tracing search has Unicode compatibility and Chinese input binding issues | bug, 🐞❔ unconfirmed bug, feat-tracing, stale | 3 | 2026-11-16 |
 | ★★☆☆☆ | [#20256](https://github.com/langfuse/langfuse/issues/20256) feat: Add newest-first sorting to the session timeline | feat-sessions, single-session-ui, feature | 0 | 2026-11-15 |
+| ★★☆☆☆ | [#15109](https://github.com/langfuse/langfuse/issues/15109) bug: Session "Total cost" shows $0.00 when cost is model-calculated (not caller-ingested) | bug, stale, langfuse/langfuse, feat-metrics | 2 | 2026-11-15 |
 | ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 46 | 2026-11-15 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -244,10 +244,10 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 4 | 2026-11-11 |
+| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 2 | 2026-11-16 |
 | ★★★★☆ | [#53143](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53143) [exporter/influxdb] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-15 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 4 | 2026-11-11 |
-| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 1 | 2026-11-10 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-16 01:31 UTC, took **80.8s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-16 08:30 UTC, took **91.8s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
