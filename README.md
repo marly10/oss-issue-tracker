@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-15 21:57 UTC_
+_Last updated: 2026-11-16 01:32 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
 | ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-11-12 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 7 | 2026-11-12 |
-| ★☆☆☆☆ | [#82114](https://github.com/ansible/ansible/issues/82114) include_tasks' apply recursivity option | module, docs, affects_2.18 | 3 | 2026-11-15 |
+| ★☆☆☆☆ | [#82114](https://github.com/ansible/ansible/issues/82114) include_tasks' apply recursivity option | module, has_pr, docs, affects_2.18 | 3 | 2026-11-15 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 6 | 2026-11-14 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20276](https://github.com/langfuse/langfuse/issues/20276) bug: AI Gateway cannot save an OpenAI connection with a custom base URL (credential probe hardcodes gpt-4o-mini) | bug, 🐞❔ unconfirmed bug, feat-models | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20251](https://github.com/langfuse/langfuse/issues/20251) bug: $ sequences in playground variable values and sandbox edits are interpreted as replacement patterns | bug, 🐞❔ unconfirmed bug, feat-playground, feat-in-app-agent, feat-halo | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20244](https://github.com/langfuse/langfuse/issues/20244) bug: table cells clip focus rings | bug, tables, feat-users | 0 | 2026-11-15 |
 | ★★★☆☆ | [#20241](https://github.com/langfuse/langfuse/issues/20241) bug: AI gateway oversized-request tests intermittently fail with connection resets | bug, unconfirmed-bug | 0 | 2026-11-15 |
 | ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 1 | 2026-11-15 |
 | ★★☆☆☆ | [#20256](https://github.com/langfuse/langfuse/issues/20256) feat: Add newest-first sorting to the session timeline | feat-sessions, single-session-ui, feature | 0 | 2026-11-15 |
-| ★★☆☆☆ | [#15109](https://github.com/langfuse/langfuse/issues/15109) bug: Session "Total cost" shows $0.00 when cost is model-calculated (not caller-ingested) | bug, stale, langfuse/langfuse, feat-metrics | 2 | 2026-11-15 |
-| ★★☆☆☆ | [#20232](https://github.com/langfuse/langfuse/issues/20232) bug(score-analytics): multi-unit timeline averages ignore score counts | bug, feat-scores, internal-analytics | 1 | 2026-11-14 |
+| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 46 | 2026-11-15 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-15 21:56 UTC, took **83.7s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-16 01:31 UTC, took **80.8s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
