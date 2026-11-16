@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-16 08:32 UTC_
+_Last updated: 2026-11-16 18:51 UTC_
 
-_Tracking **18** upstream repos, **378** relevant open issues._
+_Tracking **18** upstream repos, **376** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -128,10 +128,10 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#4430](https://github.com/ansible-collections/community.general/issues/4430) nmcli not setting dns4_search. | bug, module, needs_info, plugins, net_tools | 4 | 2026-11-15 |
 | ★★☆☆☆ | [#10607](https://github.com/ansible-collections/community.general/issues/10607) nmcli: always shows changes if method not specified, but method does not change | bug, module, needs_info, plugins | 3 | 2026-11-15 |
 | ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, has_pr, plugins | 9 | 2026-11-14 |
-| ★★☆☆☆ | [#13242](https://github.com/ansible-collections/community.general/issues/13242) ufw: default policy reports wrong "changed" while ufw is inactive (always changed in check mode, never changed otherwise) | bug, module, plugins | 2 | 2026-11-14 |
+| ★☆☆☆☆ | [#8217](https://github.com/ansible-collections/community.general/issues/8217) Unable to to specify a specific package version in Ansible for apt_rpm module | feature, module, has_pr, plugins | 20 | 2026-11-16 |
+| ★☆☆☆☆ | [#7582](https://github.com/ansible-collections/community.general/issues/7582) [Feature Request] ipa_user: add passkey parameter | feature, module, plugins | 2 | 2026-11-16 |
+| ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) [Feature Request] ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-11-16 |
 | ★☆☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | feature, module, plugins | 3 | 2026-11-15 |
-| ★☆☆☆☆ | [#11482](https://github.com/ansible-collections/community.general/issues/11482) Releasing, Versioning and Deprecation (2/N) | admin | 17 | 2026-11-14 |
-| ★☆☆☆☆ | [#13216](https://github.com/ansible-collections/community.general/issues/13216) nmcli: more routes4/routes6 options, specifically src | feature, module, plugins | 2 | 2026-11-08 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -195,9 +195,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 98 | 2026-11-16 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
-| ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 97 | 2026-10-28 |
 | ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 7 | 2026-10-28 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-24 |
 | ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20251](https://github.com/langfuse/langfuse/issues/20251) bug: $ sequences in playground variable values and sandbox edits are interpreted as replacement patterns | bug, 🐞❔ unconfirmed bug, feat-playground, feat-in-app-agent, feat-halo | 0 | 2026-11-15 |
-| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-15 |
-| ★★★☆☆ | [#20244](https://github.com/langfuse/langfuse/issues/20244) bug: table cells clip focus rings | bug, tables, feat-users | 0 | 2026-11-15 |
-| ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 2 | 2026-11-16 |
-| ★★☆☆☆ | [#15072](https://github.com/langfuse/langfuse/issues/15072) bug: Tracing search has Unicode compatibility and Chinese input binding issues | bug, 🐞❔ unconfirmed bug, feat-tracing, stale | 3 | 2026-11-16 |
-| ★★☆☆☆ | [#20256](https://github.com/langfuse/langfuse/issues/20256) feat: Add newest-first sorting to the session timeline | feat-sessions, single-session-ui, feature | 0 | 2026-11-15 |
-| ★★☆☆☆ | [#15109](https://github.com/langfuse/langfuse/issues/15109) bug: Session "Total cost" shows $0.00 when cost is model-calculated (not caller-ingested) | bug, stale, langfuse/langfuse, feat-metrics | 2 | 2026-11-15 |
-| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 46 | 2026-11-15 |
+| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-16 |
+| ★★★☆☆ | [#18849](https://github.com/langfuse/langfuse/issues/18849) bug: trace and observation "Add to" button no longer shows annotation queue count (regression from #17765) | bug, feat-annotation | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#19676](https://github.com/langfuse/langfuse/issues/19676) bug: amd64 and arm64 images of the same tag have different Next.js build IDs; multi-arch web replicas 404 on /_next/static and hang on "Loading" | bug, infra, AI commented, difficulty | 4 | 2026-11-16 |
+| ★★☆☆☆ | [#20121](https://github.com/langfuse/langfuse/issues/20121) bug: New session view shows messages from child observations | bug, 🐞❔ unconfirmed bug, feat-sessions | 6 | 2026-11-16 |
+| ★★☆☆☆ | [#20290](https://github.com/langfuse/langfuse/issues/20290) CI Runtime Report: 2026-11-10..2026-11-16 — best week on record (gated 256s, 2.3% failures); the e2e Build step is cache-bimodal | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#19941](https://github.com/langfuse/langfuse/issues/19941) bug: session and trace Messages can show an auxiliary call instead of the root input/output | bug, feat-sessions, AI commented, difficulty | 2 | 2026-11-16 |
+| ★☆☆☆☆ | [#20256](https://github.com/langfuse/langfuse/issues/20256) feat: Add newest-first sorting to the session timeline | feat-sessions, single-session-ui, feature | 1 | 2026-11-16 |
+| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 47 | 2026-11-16 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -234,9 +234,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#3786](https://github.com/observIQ/bindplane-otel-collector/issues/3786) Mirror from DBDOT: fix(ci): pass VERSION explicitly to release-test binary builds (#118) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3785](https://github.com/observIQ/bindplane-otel-collector/issues/3785) Mirror from DBDOT: refactor(updater): stamp collector identity via linker flags (#116) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3781](https://github.com/observIQ/bindplane-otel-collector/issues/3781) Cannot find referenced version 1.74.1 | — | 0 | 2026-11-11 |
-| ★★☆☆☆ | [#3773](https://github.com/observIQ/bindplane-otel-collector/issues/3773) Mirror from DBDOT: fix(install): print tail -f on AIX, which has no tail -F (BP-1628) (#111) | dbdot-mirror-issue | 0 | 2026-11-10 |
 | ★★☆☆☆ | [#3769](https://github.com/observIQ/bindplane-otel-collector/issues/3769) Mirror from DBDOT: chore: Add collector make target (#108) | dbdot-mirror-issue | 0 | 2026-11-06 |
 | ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
+| ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
 | ★☆☆☆☆ | [#3772](https://github.com/observIQ/bindplane-otel-collector/issues/3772) Mirror from DBDOT: ci(e2e): run e2e tests on main (#112) | dbdot-mirror-issue | 1 | 2026-11-10 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
@@ -244,13 +244,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 4 | 2026-11-11 |
-| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd, Contribfest | 2 | 2026-11-16 |
-| ★★★★☆ | [#53143](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53143) [exporter/influxdb] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-15 |
+| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 4 | 2026-11-11 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
+| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-16 08:30 UTC, took **91.8s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-16 18:49 UTC, took **93.3s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
