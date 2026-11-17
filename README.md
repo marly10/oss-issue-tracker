@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-17 02:09 UTC_
+_Last updated: 2026-11-17 10:39 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -124,25 +124,25 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 6 | 2026-11-17 |
+| ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 4 | 2026-11-17 |
+| ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
 | ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 5 | 2026-11-16 |
 | ★★☆☆☆ | [#4430](https://github.com/ansible-collections/community.general/issues/4430) nmcli not setting dns4_search. | bug, module, needs_info, plugins, net_tools | 4 | 2026-11-15 |
-| ★★☆☆☆ | [#10607](https://github.com/ansible-collections/community.general/issues/10607) nmcli: always shows changes if method not specified, but method does not change | bug, module, needs_info, plugins | 3 | 2026-11-15 |
-| ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, has_pr, plugins | 9 | 2026-11-14 |
 | ★☆☆☆☆ | [#8217](https://github.com/ansible-collections/community.general/issues/8217) Unable to to specify a specific package version in Ansible for apt_rpm module | feature, module, has_pr, plugins | 20 | 2026-11-16 |
 | ★☆☆☆☆ | [#7582](https://github.com/ansible-collections/community.general/issues/7582) [Feature Request] ipa_user: add passkey parameter | feature, module, plugins | 2 | 2026-11-16 |
 | ★☆☆☆☆ | [#12986](https://github.com/ansible-collections/community.general/issues/12986) [Feature Request] ipa_sysaccount: Add way to control FreeIPA system accounts | feature | 1 | 2026-11-16 |
-| ★☆☆☆☆ | [#12422](https://github.com/ansible-collections/community.general/issues/12422) lxc_container doesn't wait for returned IP | feature, module, plugins | 3 | 2026-11-15 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-17 |
+| ★★☆☆☆ | [#71828](https://github.com/ansible/ansible/issues/71828) lineinfile module: non existing file is not created when using "backrefs" | module, bug, has_pr, P3, affects_2.9 | 5 | 2026-11-17 |
 | ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 2 | 2026-11-13 |
 | ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
-| ★★☆☆☆ | [#87031](https://github.com/ansible/ansible/issues/87031) 2.21.0 regresses in sandboxed environments that block Unix-domain socket creation | bug, P3, affects_2.21 | 3 | 2026-11-12 |
-| ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 7 | 2026-11-12 |
 | ★☆☆☆☆ | [#82114](https://github.com/ansible/ansible/issues/82114) include_tasks' apply recursivity option | module, has_pr, docs, affects_2.18 | 3 | 2026-11-15 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 6 | 2026-11-14 |
 
@@ -177,11 +177,11 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-17 |
+| ★★☆☆☆ | [#625](https://github.com/grafana/google-bigquery-datasource/issues/625) Job labels show the dashboard and panel of an earlier query | — | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
-| ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
 | ★☆☆☆☆ | [#322](https://github.com/grafana/google-bigquery-datasource/issues/322) Streaming JSON parser for Big Query | stale | 3 | 2026-11-07 |
 | ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
 
@@ -208,13 +208,13 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20346](https://github.com/langfuse/langfuse/issues/20346) bug(datasets): runs table metrics return raw score rows to the web process (~440 MB per page), blocking other requests incl. OTel ingestion | bug, feat-datasets, performance, back-end-performance | 0 | 2026-11-17 |
 | ★★★☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 0 | 2026-11-16 |
-| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-16 |
-| ★★★☆☆ | [#18849](https://github.com/langfuse/langfuse/issues/18849) bug: trace and observation "Add to" button no longer shows annotation queue count (regression from #17765) | bug, feat-annotation | 0 | 2026-11-16 |
-| ★★☆☆☆ | [#15018](https://github.com/langfuse/langfuse/issues/15018) bug(sdk-python): OpenAI stream helpers reject Langfuse-specific arguments | bug, sdk-python, integration-openai, stale | 1 | 2026-11-17 |
+| ★★☆☆☆ | [#20121](https://github.com/langfuse/langfuse/issues/20121) bug: New session view shows messages from child observations | bug, 🐞❔ unconfirmed bug, feat-sessions | 7 | 2026-11-17 |
+| ★★☆☆☆ | [#20149](https://github.com/langfuse/langfuse/issues/20149) bug(pricing): Bedrock in-Region and geographic Claude ids priced at the global rate (10% low) | bug, feat-llm-cost-tracking, feat-models, unconfirmed-bug | 1 | 2026-11-17 |
+| ★★☆☆☆ | [#15018](https://github.com/langfuse/langfuse/issues/15018) bug(sdk-python): OpenAI stream helpers reject Langfuse-specific arguments | bug, sdk-python, integration-openai, stale | 2 | 2026-11-17 |
 | ★★☆☆☆ | [#19767](https://github.com/langfuse/langfuse/issues/19767) bug: OpenAI Responses usage with nested `cache_write_tokens_details` is not recognized, so the generation is priced $0 | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, AI commented, difficulty | 2 | 2026-11-16 |
 | ★★☆☆☆ | [#19676](https://github.com/langfuse/langfuse/issues/19676) bug: amd64 and arm64 images of the same tag have different Next.js build IDs; multi-arch web replicas 404 on /_next/static and hang on "Loading" | bug, infra, AI commented, difficulty | 4 | 2026-11-16 |
-| ★★☆☆☆ | [#20121](https://github.com/langfuse/langfuse/issues/20121) bug: New session view shows messages from child observations | bug, 🐞❔ unconfirmed bug, feat-sessions | 6 | 2026-11-16 |
 | ★☆☆☆☆ | [#15006](https://github.com/langfuse/langfuse/issues/15006) Allow annotation queues without score configs for corrected-output workflows | feat-scores, feat-annotation, stale, feature | 2 | 2026-11-17 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-17 02:07 UTC, took **99.9s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-17 10:37 UTC, took **93.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
