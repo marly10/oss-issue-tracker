@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-16 18:51 UTC_
+_Last updated: 2026-11-17 02:09 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-14 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#790](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/790) Codecov flakes on datapointcache.go | bug, priority: p3 | 2 | 2024-05-20 |
@@ -124,7 +124,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 4 | 2026-11-15 |
+| ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 5 | 2026-11-16 |
 | ★★☆☆☆ | [#4430](https://github.com/ansible-collections/community.general/issues/4430) nmcli not setting dns4_search. | bug, module, needs_info, plugins, net_tools | 4 | 2026-11-15 |
 | ★★☆☆☆ | [#10607](https://github.com/ansible-collections/community.general/issues/10607) nmcli: always shows changes if method not specified, but method does not change | bug, module, needs_info, plugins | 3 | 2026-11-15 |
 | ★★☆☆☆ | [#4053](https://github.com/ansible-collections/community.general/issues/4053) counter_enabled doesn't properly count tasks from import/include_tasks | bug, callback, has_pr, plugins | 9 | 2026-11-14 |
@@ -176,7 +176,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 0 | 2026-11-16 |
 | ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-16 |
 | ★★★☆☆ | [#18849](https://github.com/langfuse/langfuse/issues/18849) bug: trace and observation "Add to" button no longer shows annotation queue count (regression from #17765) | bug, feat-annotation | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#15018](https://github.com/langfuse/langfuse/issues/15018) bug(sdk-python): OpenAI stream helpers reject Langfuse-specific arguments | bug, sdk-python, integration-openai, stale | 1 | 2026-11-17 |
+| ★★☆☆☆ | [#19767](https://github.com/langfuse/langfuse/issues/19767) bug: OpenAI Responses usage with nested `cache_write_tokens_details` is not recognized, so the generation is priced $0 | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, AI commented, difficulty | 2 | 2026-11-16 |
 | ★★☆☆☆ | [#19676](https://github.com/langfuse/langfuse/issues/19676) bug: amd64 and arm64 images of the same tag have different Next.js build IDs; multi-arch web replicas 404 on /_next/static and hang on "Loading" | bug, infra, AI commented, difficulty | 4 | 2026-11-16 |
 | ★★☆☆☆ | [#20121](https://github.com/langfuse/langfuse/issues/20121) bug: New session view shows messages from child observations | bug, 🐞❔ unconfirmed bug, feat-sessions | 6 | 2026-11-16 |
-| ★★☆☆☆ | [#20290](https://github.com/langfuse/langfuse/issues/20290) CI Runtime Report: 2026-11-10..2026-11-16 — best week on record (gated 256s, 2.3% failures); the e2e Build step is cache-bimodal | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-16 |
-| ★★☆☆☆ | [#19941](https://github.com/langfuse/langfuse/issues/19941) bug: session and trace Messages can show an auxiliary call instead of the root input/output | bug, feat-sessions, AI commented, difficulty | 2 | 2026-11-16 |
-| ★☆☆☆☆ | [#20256](https://github.com/langfuse/langfuse/issues/20256) feat: Add newest-first sorting to the session timeline | feat-sessions, single-session-ui, feature | 1 | 2026-11-16 |
-| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 47 | 2026-11-16 |
+| ★☆☆☆☆ | [#15006](https://github.com/langfuse/langfuse/issues/15006) Allow annotation queues without score configs for corrected-output workflows | feat-scores, feat-annotation, stale, feature | 2 | 2026-11-17 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-16 18:49 UTC, took **93.3s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-17 02:07 UTC, took **99.9s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
