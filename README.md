@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-17 10:39 UTC_
+_Last updated: 2026-11-17 19:22 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -124,8 +124,8 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 5 | 2026-11-17 |
 | ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 6 | 2026-11-17 |
-| ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 4 | 2026-11-17 |
 | ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
 | ★★☆☆☆ | [#13243](https://github.com/ansible-collections/community.general/issues/13243) redis_data always reports changed when the key already has the desired value | bug, module, plugins | 5 | 2026-11-16 |
 | ★★☆☆☆ | [#4430](https://github.com/ansible-collections/community.general/issues/4430) nmcli not setting dns4_search. | bug, module, needs_info, plugins, net_tools | 4 | 2026-11-15 |
@@ -137,14 +137,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 3 | 2026-11-17 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#71828](https://github.com/ansible/ansible/issues/71828) lineinfile module: non existing file is not created when using "backrefs" | module, bug, has_pr, P3, affects_2.9 | 5 | 2026-11-17 |
 | ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-14 |
 | ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 2 | 2026-11-13 |
 | ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
-| ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 5 | 2026-11-12 |
+| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 7 | 2026-11-17 |
 | ★☆☆☆☆ | [#82114](https://github.com/ansible/ansible/issues/82114) include_tasks' apply recursivity option | module, has_pr, docs, affects_2.18 | 3 | 2026-11-15 |
-| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 6 | 2026-11-14 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -177,11 +177,11 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#625](https://github.com/grafana/google-bigquery-datasource/issues/625) Job labels show the dashboard and panel of an earlier query | — | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
+| ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
 | ★☆☆☆☆ | [#322](https://github.com/grafana/google-bigquery-datasource/issues/322) Streaming JSON parser for Big Query | stale | 3 | 2026-11-07 |
 | ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
 
@@ -208,13 +208,13 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20346](https://github.com/langfuse/langfuse/issues/20346) bug(datasets): runs table metrics return raw score rows to the web process (~440 MB per page), blocking other requests incl. OTel ingestion | bug, feat-datasets, performance, back-end-performance | 0 | 2026-11-17 |
 | ★★★☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 0 | 2026-11-16 |
-| ★★☆☆☆ | [#20121](https://github.com/langfuse/langfuse/issues/20121) bug: New session view shows messages from child observations | bug, 🐞❔ unconfirmed bug, feat-sessions | 7 | 2026-11-17 |
+| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#20371](https://github.com/langfuse/langfuse/issues/20371) bug: CLICKHOUSE_MIGRATION_SSL always sets skip_verify=true, migrations never verify the ClickHouse certificate | bug, self-hosting, [Core] ClickHouse database | 1 | 2026-11-17 |
+| ★★☆☆☆ | [#20346](https://github.com/langfuse/langfuse/issues/20346) bug(datasets): runs table metrics return raw score rows to the web process (~440 MB per page), blocking other requests incl. OTel ingestion | bug, feat-datasets, performance, back-end-performance | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#20149](https://github.com/langfuse/langfuse/issues/20149) bug(pricing): Bedrock in-Region and geographic Claude ids priced at the global rate (10% low) | bug, feat-llm-cost-tracking, feat-models, unconfirmed-bug | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#15018](https://github.com/langfuse/langfuse/issues/15018) bug(sdk-python): OpenAI stream helpers reject Langfuse-specific arguments | bug, sdk-python, integration-openai, stale | 2 | 2026-11-17 |
 | ★★☆☆☆ | [#19767](https://github.com/langfuse/langfuse/issues/19767) bug: OpenAI Responses usage with nested `cache_write_tokens_details` is not recognized, so the generation is priced $0 | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, AI commented, difficulty | 2 | 2026-11-16 |
-| ★★☆☆☆ | [#19676](https://github.com/langfuse/langfuse/issues/19676) bug: amd64 and arm64 images of the same tag have different Next.js build IDs; multi-arch web replicas 404 on /_next/static and hang on "Loading" | bug, infra, AI commented, difficulty | 4 | 2026-11-16 |
 | ★☆☆☆☆ | [#15006](https://github.com/langfuse/langfuse/issues/15006) Allow annotation queues without score configs for corrected-output workflows | feat-scores, feat-annotation, stale, feature | 2 | 2026-11-17 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -230,13 +230,13 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
+| ★★☆☆☆ | [#3798](https://github.com/observIQ/bindplane-otel-collector/issues/3798) Mirror from DBDOT: feat: log Go runtime CPU settings at startup and warn on GOMAXPROCS overcommit (BP-360) (#129) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3787](https://github.com/observIQ/bindplane-otel-collector/issues/3787) Mirror from DBDOT: fix(ci): verify Windows signatures from the Windows artifact bundle (#120) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3786](https://github.com/observIQ/bindplane-otel-collector/issues/3786) Mirror from DBDOT: fix(ci): pass VERSION explicitly to release-test binary builds (#118) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3785](https://github.com/observIQ/bindplane-otel-collector/issues/3785) Mirror from DBDOT: refactor(updater): stamp collector identity via linker flags (#116) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3781](https://github.com/observIQ/bindplane-otel-collector/issues/3781) Cannot find referenced version 1.74.1 | — | 0 | 2026-11-11 |
-| ★★☆☆☆ | [#3769](https://github.com/observIQ/bindplane-otel-collector/issues/3769) Mirror from DBDOT: chore: Add collector make target (#108) | dbdot-mirror-issue | 0 | 2026-11-06 |
-| ★★☆☆☆ | [#3711](https://github.com/observIQ/bindplane-otel-collector/issues/3711) bindplane-agent_v2 source: self-metrics fail to export to Google Cloud with duplicate server_port / url_scheme labels | — | 0 | 2026-10-21 |
-| ★★☆☆☆ | [#3674](https://github.com/observIQ/bindplane-otel-collector/issues/3674) RPM package fails to install with --prefix: package is not relocatable | — | 0 | 2026-10-01 |
+| ★☆☆☆☆ | [#3794](https://github.com/observIQ/bindplane-otel-collector/issues/3794) Mirror from DBDOT: chore: fix advanced CodeQL scanning (#110) | dbdot-mirror-issue | 1 | 2026-11-17 |
 | ★☆☆☆☆ | [#3772](https://github.com/observIQ/bindplane-otel-collector/issues/3772) Mirror from DBDOT: ci(e2e): run e2e tests on main (#112) | dbdot-mirror-issue | 1 | 2026-11-10 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
@@ -258,7 +258,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 |---|---|---|---|---|
 | ★★★★☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 0 | 2024-06-25 |
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 6 | 2026-11-14 |
+| ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 2 | 2026-11-05 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-17 10:37 UTC, took **93.2s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-17 19:20 UTC, took **93.9s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
