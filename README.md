@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-17 19:22 UTC_
+_Last updated: 2026-11-18 01:42 UTC_
 
 _Tracking **18** upstream repos, **376** relevant open issues._
 
@@ -137,12 +137,12 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 3 | 2026-11-17 |
+| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | needs_triage, bug | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 3 | 2026-11-17 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#71828](https://github.com/ansible/ansible/issues/71828) lineinfile module: non existing file is not created when using "backrefs" | module, bug, has_pr, P3, affects_2.9 | 5 | 2026-11-17 |
-| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-14 |
-| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 2 | 2026-11-13 |
-| ★★☆☆☆ | [#87917](https://github.com/ansible/ansible/issues/87917) ansible-galaxy fails with 'Non integer values in LooseVersion' when a collection version range contains spaces | bug, has_pr, affects_2.22 | 1 | 2026-11-12 |
+| ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, feature | 4 | 2026-11-17 |
 | ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 7 | 2026-11-17 |
 | ★☆☆☆☆ | [#82114](https://github.com/ansible/ansible/issues/82114) include_tasks' apply recursivity option | module, has_pr, docs, affects_2.18 | 3 | 2026-11-15 |
 
@@ -176,12 +176,12 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#578](https://github.com/grafana/google-bigquery-datasource/issues/578) Feature request: label BigQuery jobs with the Grafana user | — | 0 | 2026-10-07 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
 | ★★☆☆☆ | [#533](https://github.com/grafana/google-bigquery-datasource/issues/533) Feature: GCE for Alerting | — | 0 | 2026-06-28 |
+| ★★☆☆☆ | [#522](https://github.com/grafana/google-bigquery-datasource/issues/522) Grafana 13.0.2 BigQuery Query Variable definition Field Always Cleared | — | 0 | 2026-06-10 |
 | ★☆☆☆☆ | [#322](https://github.com/grafana/google-bigquery-datasource/issues/322) Streaming JSON parser for Big Query | stale | 3 | 2026-11-07 |
 | ★☆☆☆☆ | [#502](https://github.com/grafana/google-bigquery-datasource/issues/502) NUMERIC / BIGNUMERIC values lose precision (converted via float64) | — | 2 | 2026-07-04 |
 
@@ -208,14 +208,14 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 0 | 2026-11-16 |
-| ★★★☆☆ | [#20249](https://github.com/langfuse/langfuse/issues/20249) bug: v4 historic backfill duplicates traces ingested via direct write during dual mode | bug, feat-otel, feat-ingestion | 0 | 2026-11-16 |
+| ★★☆☆☆ | [#18859](https://github.com/langfuse/langfuse/issues/18859) bug(sdk-python): @observe drops a free function's first positional input when it has a keyword-only cls parameter | bug, sdk-python, stale, unconfirmed-bug | 3 | 2026-11-18 |
+| ★★☆☆☆ | [#18557](https://github.com/langfuse/langfuse/issues/18557) bug: <short description> Token statistics(input , output & total) are inaccurate | bug, 🐞❔ unconfirmed bug, feat-llm-cost-tracking, feat-tracing, stale, unconfirmed-bug | 3 | 2026-11-18 |
+| ★★☆☆☆ | [#18565](https://github.com/langfuse/langfuse/issues/18565) bug: OpenInference llm.token_count.prompt_details.audio is not subtracted from input tokens | bug, feat-llm-cost-tracking, integration-otel, feat-otel, stale | 1 | 2026-11-18 |
+| ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, stale, infra | 2 | 2026-11-18 |
+| ★★☆☆☆ | [#18832](https://github.com/langfuse/langfuse/issues/18832) bug(devcontainer): Codespaces setup hangs on a Corepack prompt, and Rust is missing | bug, stale, feat-onboarding | 1 | 2026-11-18 |
+| ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management, stale | 1 | 2026-11-18 |
 | ★★☆☆☆ | [#20371](https://github.com/langfuse/langfuse/issues/20371) bug: CLICKHOUSE_MIGRATION_SSL always sets skip_verify=true, migrations never verify the ClickHouse certificate | bug, self-hosting, [Core] ClickHouse database | 1 | 2026-11-17 |
-| ★★☆☆☆ | [#20346](https://github.com/langfuse/langfuse/issues/20346) bug(datasets): runs table metrics return raw score rows to the web process (~440 MB per page), blocking other requests incl. OTel ingestion | bug, feat-datasets, performance, back-end-performance | 1 | 2026-11-17 |
-| ★★☆☆☆ | [#20149](https://github.com/langfuse/langfuse/issues/20149) bug(pricing): Bedrock in-Region and geographic Claude ids priced at the global rate (10% low) | bug, feat-llm-cost-tracking, feat-models, unconfirmed-bug | 1 | 2026-11-17 |
-| ★★☆☆☆ | [#15018](https://github.com/langfuse/langfuse/issues/15018) bug(sdk-python): OpenAI stream helpers reject Langfuse-specific arguments | bug, sdk-python, integration-openai, stale | 2 | 2026-11-17 |
-| ★★☆☆☆ | [#19767](https://github.com/langfuse/langfuse/issues/19767) bug: OpenAI Responses usage with nested `cache_write_tokens_details` is not recognized, so the generation is priced $0 | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, AI commented, difficulty | 2 | 2026-11-16 |
-| ★☆☆☆☆ | [#15006](https://github.com/langfuse/langfuse/issues/15006) Allow annotation queues without score configs for corrected-output workflows | feat-scores, feat-annotation, stale, feature | 2 | 2026-11-17 |
+| ★☆☆☆☆ | [#18592](https://github.com/langfuse/langfuse/issues/18592) feat(evals): support multiple named scores and per-dimension reasoning in a single LLM-as-a-Judge call | feat-evals, stale, feature | 4 | 2026-11-18 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -230,23 +230,23 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3804](https://github.com/observIQ/bindplane-otel-collector/issues/3804) Mirror from DBDOT: deps: update go non-major deps (#143) | dbdot-mirror-issue | 0 | 2026-11-17 |
+| ★★☆☆☆ | [#3803](https://github.com/observIQ/bindplane-otel-collector/issues/3803) Mirror from DBDOT: deps: update alpine:3.24 docker digest to f59abe6 (#140) | dbdot-mirror-issue | 0 | 2026-11-17 |
+| ★★☆☆☆ | [#3802](https://github.com/observIQ/bindplane-otel-collector/issues/3802) Mirror from DBDOT: deps: pin dependencies (#139) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3798](https://github.com/observIQ/bindplane-otel-collector/issues/3798) Mirror from DBDOT: feat: log Go runtime CPU settings at startup and warn on GOMAXPROCS overcommit (BP-360) (#129) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3787](https://github.com/observIQ/bindplane-otel-collector/issues/3787) Mirror from DBDOT: fix(ci): verify Windows signatures from the Windows artifact bundle (#120) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★★☆☆☆ | [#3786](https://github.com/observIQ/bindplane-otel-collector/issues/3786) Mirror from DBDOT: fix(ci): pass VERSION explicitly to release-test binary builds (#118) | dbdot-mirror-issue | 0 | 2026-11-12 |
-| ★★☆☆☆ | [#3785](https://github.com/observIQ/bindplane-otel-collector/issues/3785) Mirror from DBDOT: refactor(updater): stamp collector identity via linker flags (#116) | dbdot-mirror-issue | 0 | 2026-11-12 |
-| ★★☆☆☆ | [#3781](https://github.com/observIQ/bindplane-otel-collector/issues/3781) Cannot find referenced version 1.74.1 | — | 0 | 2026-11-11 |
 | ★☆☆☆☆ | [#3794](https://github.com/observIQ/bindplane-otel-collector/issues/3794) Mirror from DBDOT: chore: fix advanced CodeQL scanning (#110) | dbdot-mirror-issue | 1 | 2026-11-17 |
-| ★☆☆☆☆ | [#3772](https://github.com/observIQ/bindplane-otel-collector/issues/3772) Mirror from DBDOT: ci(e2e): run e2e tests on main (#112) | dbdot-mirror-issue | 1 | 2026-11-10 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 4 | 2026-11-11 |
+| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 5 | 2026-11-17 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
-| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 4 | 2026-11-11 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-17 19:20 UTC, took **93.9s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-18 01:41 UTC, took **88.3s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
