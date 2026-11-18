@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-18 09:09 UTC_
+_Last updated: 2026-11-18 18:00 UTC_
 
-_Tracking **18** upstream repos, **376** relevant open issues._
+_Tracking **18** upstream repos, **377** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -137,9 +137,9 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 3 | 2026-11-18 |
-| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | needs_triage, bug | 1 | 2026-11-17 |
-| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 3 | 2026-11-17 |
+| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | needs_triage, bug | 2 | 2026-11-18 |
+| ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 5 | 2026-11-18 |
+| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 4 | 2026-11-18 |
 | ★★☆☆☆ | [#87812](https://github.com/ansible/ansible/issues/87812) Ctrl-C is ignored on a new forked worker, the run fails with response "A worker was found in a dead state", continues, or hangs | bug, verified, affects_2.23 | 1 | 2026-11-17 |
 | ★★☆☆☆ | [#71828](https://github.com/ansible/ansible/issues/71828) lineinfile module: non existing file is not created when using "backrefs" | module, bug, has_pr, P3, affects_2.9 | 5 | 2026-11-17 |
 | ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, feature | 4 | 2026-11-17 |
@@ -195,27 +195,27 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
+| ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 98 | 2026-11-16 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
 | ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 7 | 2026-10-28 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-24 |
 | ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
-| ★★★☆☆ | [#115823](https://github.com/kubernetes/kubernetes/issues/115823) Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold | priority/backlog, kind/documentation, kind/cleanup, sig/node, help wanted, good first issue, triage/accepted | 25 | 2026-10-23 |
-| ★★★☆☆ | [#115782](https://github.com/kubernetes/kubernetes/issues/115782) Write the stress test for gRPC, http, and tcp probes | priority/backlog, kind/cleanup, sig/node, help wanted, good first issue, needs-triage | 50 | 2026-10-23 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20449](https://github.com/langfuse/langfuse/issues/20449) bug(web): rangeFromString ignores full date-range preset names | bug, feat-dashboard | 0 | 2026-11-18 |
+| ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 3 | 2026-11-18 |
 | ★★☆☆☆ | [#20406](https://github.com/langfuse/langfuse/issues/20406) Instance-wide (global) custom models and prices for self-hosted deployments | feat-api, feat-llm-cost-tracking, feat-models, feature | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#18859](https://github.com/langfuse/langfuse/issues/18859) bug(sdk-python): @observe drops a free function's first positional input when it has a keyword-only cls parameter | bug, sdk-python, stale, unconfirmed-bug | 3 | 2026-11-18 |
 | ★★☆☆☆ | [#18557](https://github.com/langfuse/langfuse/issues/18557) bug: <short description> Token statistics(input , output & total) are inaccurate | bug, 🐞❔ unconfirmed bug, feat-llm-cost-tracking, feat-tracing, stale, unconfirmed-bug | 3 | 2026-11-18 |
 | ★★☆☆☆ | [#18565](https://github.com/langfuse/langfuse/issues/18565) bug: OpenInference llm.token_count.prompt_details.audio is not subtracted from input tokens | bug, feat-llm-cost-tracking, integration-otel, feat-otel, stale | 1 | 2026-11-18 |
-| ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, stale, infra | 2 | 2026-11-18 |
-| ★★☆☆☆ | [#18832](https://github.com/langfuse/langfuse/issues/18832) bug(devcontainer): Codespaces setup hangs on a Corepack prompt, and Rust is missing | bug, stale, feat-onboarding | 1 | 2026-11-18 |
+| ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 22 | 2026-11-18 |
 | ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 48 | 2026-11-18 |
-| ★☆☆☆☆ | [#18592](https://github.com/langfuse/langfuse/issues/18592) feat(evals): support multiple named scores and per-dimension reasoning in a single LLM-as-a-Judge call | feat-evals, stale, feature | 4 | 2026-11-18 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -230,13 +230,13 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3812](https://github.com/observIQ/bindplane-otel-collector/issues/3812) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser to v2.20.2 (#141) | dbdot-mirror-issue | 0 | 2026-11-18 |
+| ★★☆☆☆ | [#3811](https://github.com/observIQ/bindplane-otel-collector/issues/3811) Mirror from DBDOT: chore(release): publish full build images from the release pipeline (#136) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3804](https://github.com/observIQ/bindplane-otel-collector/issues/3804) Mirror from DBDOT: deps: update go non-major deps (#143) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3803](https://github.com/observIQ/bindplane-otel-collector/issues/3803) Mirror from DBDOT: deps: update alpine:3.24 docker digest to f59abe6 (#140) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3802](https://github.com/observIQ/bindplane-otel-collector/issues/3802) Mirror from DBDOT: deps: pin dependencies (#139) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3798](https://github.com/observIQ/bindplane-otel-collector/issues/3798) Mirror from DBDOT: feat: log Go runtime CPU settings at startup and warn on GOMAXPROCS overcommit (BP-360) (#129) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#3787](https://github.com/observIQ/bindplane-otel-collector/issues/3787) Mirror from DBDOT: fix(ci): verify Windows signatures from the Windows artifact bundle (#120) | dbdot-mirror-issue | 0 | 2026-11-12 |
-| ★★☆☆☆ | [#3786](https://github.com/observIQ/bindplane-otel-collector/issues/3786) Mirror from DBDOT: fix(ci): pass VERSION explicitly to release-test binary builds (#118) | dbdot-mirror-issue | 0 | 2026-11-12 |
 | ★☆☆☆☆ | [#3794](https://github.com/observIQ/bindplane-otel-collector/issues/3794) Mirror from DBDOT: chore: fix advanced CodeQL scanning (#110) | dbdot-mirror-issue | 1 | 2026-11-17 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
@@ -257,7 +257,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 1 | 2026-11-18 |
+| ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
@@ -304,7 +304,7 @@ _Tracking **18** upstream repos, **376** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-18 09:07 UTC, took **91.6s**, **122** GitHub API calls, **4878/5000** rate limit remaining._
+_Last run: 2026-11-18 17:58 UTC, took **99.6s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
