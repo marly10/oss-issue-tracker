@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-19 05:20 UTC_
+_Last updated: 2026-11-19 14:32 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-18 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-19 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -123,6 +123,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, plugins | 2 | 2026-11-19 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
 | ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 6 | 2026-11-17 |
 | ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
@@ -130,20 +131,19 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
 | ★☆☆☆☆ | [#13307](https://github.com/ansible-collections/community.general/issues/13307) flatpak: add bundle support | feature, module, plugins | 2 | 2026-11-18 |
 | ★☆☆☆☆ | [#8217](https://github.com/ansible-collections/community.general/issues/8217) Unable to to specify a specific package version in Ansible for apt_rpm module | feature, module, has_pr, plugins | 20 | 2026-11-16 |
-| ★☆☆☆☆ | [#7582](https://github.com/ansible-collections/community.general/issues/7582) [Feature Request] ipa_user: add passkey parameter | feature, module, plugins | 2 | 2026-11-16 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87942](https://github.com/ansible/ansible/issues/87942) cpython3.12+ os.fork() memory leak bug causes slowdown on macos controller | needs_triage, bug, affects_2.19 | 3 | 2026-11-19 |
+| ★★☆☆☆ | [#87940](https://github.com/ansible/ansible/issues/87940) $REDACTED$ in hostnames in ansible 2.22 | needs_triage, bug, affects_2.22 | 2 | 2026-11-19 |
+| ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, affects_2.20 | 2 | 2026-11-19 |
 | ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-19 |
 | ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | needs_triage, bug, has_pr | 2 | 2026-11-19 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 8 | 2026-11-19 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 6 | 2026-11-18 |
 | ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 5 | 2026-11-18 |
-| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | needs_triage, bug, affects_2.22 | 4 | 2026-11-18 |
-| ★☆☆☆☆ | [#85851](https://github.com/ansible/ansible/issues/85851) known_hosts sanity_check's call to ssh-keygen fails under SELinux | module, feature | 4 | 2026-11-17 |
-| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 7 | 2026-11-17 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -194,13 +194,13 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 4 | 2026-11-19 |
 | ★★★☆☆ | [#144319](https://github.com/kubernetes/kubernetes/issues/144319) [Failing Test] pull-kubernetes-node-kubelet-inplace-pod-level-resources-resize times out and selects tests that require DynamicContainers | priority/important-soon, sig/node, help wanted, kind/failing-test, triage/accepted | 6 | 2026-11-19 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
-| ★★★☆☆ | [#138679](https://github.com/kubernetes/kubernetes/issues/138679) [Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series | kind/flake, help wanted, sig/instrumentation, triage/accepted | 7 | 2026-10-28 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-24 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
@@ -208,11 +208,11 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 0 | 2026-11-18 |
-| ★★★☆☆ | [#20449](https://github.com/langfuse/langfuse/issues/20449) bug(web): rangeFromString ignores full date-range preset names | bug, feat-dashboard | 0 | 2026-11-18 |
+| ★★☆☆☆ | [#20494](https://github.com/langfuse/langfuse/issues/20494) bug: Unable to Upgrade from 3.96.2 web image version to 3.224.1 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, [Core] ClickHouse database | 1 | 2026-11-19 |
+| ★★☆☆☆ | [#20471](https://github.com/langfuse/langfuse/issues/20471) Batch media upload URL endpoint: one request to link N media instead of one per media occurrence | feat-multimodal-media, feature | 0 | 2026-11-19 |
 | ★★☆☆☆ | [#18434](https://github.com/langfuse/langfuse/issues/18434) bug: LangChain v1 standard content blocks show as raw JSON in the Formatted trace view | bug, 🐞❔ unconfirmed bug, feat-tracing, stale | 1 | 2026-11-19 |
 | ★★☆☆☆ | [#18834](https://github.com/langfuse/langfuse/issues/18834) bug: Worker S3 downloads fail with `ECONNRESET: socket hang up` on v3.225.11 (stale keep-alive sockets); not seen on v3.171.0 | bug, stale, integration-s3 | 3 | 2026-11-19 |
 | ★★☆☆☆ | [#18859](https://github.com/langfuse/langfuse/issues/18859) bug(sdk-python): @observe drops a free function's first positional input when it has a keyword-only cls parameter | bug, sdk-python, unconfirmed-bug | 3 | 2026-11-19 |
-| ★★☆☆☆ | [#20158](https://github.com/langfuse/langfuse/issues/20158) bug(sdk-python): `datetime.time` and `timedelta` values are recorded as `"<time>"` and `"<timedelta>"` | bug, sdk-python | 3 | 2026-11-18 |
 | ★☆☆☆☆ | [#18494](https://github.com/langfuse/langfuse/issues/18494) Make bar charts the default visualization for event charts | feat-dashboard, improvement, stale | 1 | 2026-11-19 |
 | ★☆☆☆☆ | [#20406](https://github.com/langfuse/langfuse/issues/20406) Instance-wide (global) custom models and prices for self-hosted deployments | feat-api, feat-llm-cost-tracking, feat-models, feature | 1 | 2026-11-18 |
 
@@ -242,7 +242,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 5 | 2026-11-18 |
+| ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 6 | 2026-11-19 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 5 | 2026-11-17 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-19 05:19 UTC, took **86.3s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-19 14:30 UTC, took **104.1s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
