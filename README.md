@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-19 14:32 UTC_
+_Last updated: 2026-11-19 22:24 UTC_
 
-_Tracking **18** upstream repos, **377** relevant open issues._
+_Tracking **18** upstream repos, **376** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -136,11 +136,11 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87942](https://github.com/ansible/ansible/issues/87942) cpython3.12+ os.fork() memory leak bug causes slowdown on macos controller | needs_triage, bug, affects_2.19 | 3 | 2026-11-19 |
-| ★★☆☆☆ | [#87940](https://github.com/ansible/ansible/issues/87940) $REDACTED$ in hostnames in ansible 2.22 | needs_triage, bug, affects_2.22 | 2 | 2026-11-19 |
+| ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, affects_2.20 | 3 | 2026-11-19 |
+| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | bug, P3 | 3 | 2026-11-19 |
+| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, bug, has_pr, affects_2.22 | 1 | 2026-11-19 |
+| ★★☆☆☆ | [#87920](https://github.com/ansible/ansible/issues/87920) $REDACTED$ in role names in the console output gives away possible secrets | bug, affects_2.22 | 4 | 2026-11-19 |
 | ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, affects_2.20 | 2 | 2026-11-19 |
-| ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-19 |
-| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | needs_triage, bug, has_pr | 2 | 2026-11-19 |
 | ★★☆☆☆ | [#74237](https://github.com/ansible/ansible/issues/74237) wait_for_connection ignores short timeouts | module, bug, has_pr, P3, verified, affects_2.10 | 8 | 2026-11-19 |
 | ★★☆☆☆ | [#87910](https://github.com/ansible/ansible/issues/87910) Play output unreadable: integers in a vaulted list are stripped from hostnames | bug, affects_2.22 | 6 | 2026-11-18 |
 | ★★☆☆☆ | [#87881](https://github.com/ansible/ansible/issues/87881) ansible.builtin.git: 'NoneType' object has no attribute 'startswith' | module, bug, affects_2.21 | 5 | 2026-11-18 |
@@ -195,26 +195,26 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 4 | 2026-11-19 |
-| ★★★☆☆ | [#144319](https://github.com/kubernetes/kubernetes/issues/144319) [Failing Test] pull-kubernetes-node-kubelet-inplace-pod-level-resources-resize times out and selects tests that require DynamicContainers | priority/important-soon, sig/node, help wanted, kind/failing-test, triage/accepted | 6 | 2026-11-19 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 8 | 2026-10-24 |
+| ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 0 | 2026-11-18 |
-| ★★☆☆☆ | [#20494](https://github.com/langfuse/langfuse/issues/20494) bug: Unable to Upgrade from 3.96.2 web image version to 3.224.1 | bug, 🐞❔ unconfirmed bug, self-hosting, infra, [Core] ClickHouse database | 1 | 2026-11-19 |
-| ★★☆☆☆ | [#20471](https://github.com/langfuse/langfuse/issues/20471) Batch media upload URL endpoint: one request to link N media instead of one per media occurrence | feat-multimodal-media, feature | 0 | 2026-11-19 |
-| ★★☆☆☆ | [#18434](https://github.com/langfuse/langfuse/issues/18434) bug: LangChain v1 standard content blocks show as raw JSON in the Formatted trace view | bug, 🐞❔ unconfirmed bug, feat-tracing, stale | 1 | 2026-11-19 |
+| ★★☆☆☆ | [#20536](https://github.com/langfuse/langfuse/issues/20536) docs(v4): re-exported span IDs with the same start_time collapse to the last-processed write, not duplicates | docs, improvement, feat-otel, feat-ingestion | 0 | 2026-11-19 |
+| ★★☆☆☆ | [#20531](https://github.com/langfuse/langfuse/issues/20531) Proposal: Federated MCP tools with server-side tool bundles | feature, feat-mcp | 0 | 2026-11-19 |
+| ★★☆☆☆ | [#20149](https://github.com/langfuse/langfuse/issues/20149) bug(pricing): Bedrock in-Region and geographic Claude ids priced at the global rate (10% low) | bug, feat-llm-cost-tracking, feat-models, unconfirmed-bug | 2 | 2026-11-19 |
+| ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, stale, infra | 3 | 2026-11-19 |
+| ★★☆☆☆ | [#16501](https://github.com/langfuse/langfuse/issues/16501) security: Auth endpoints (signup + credentials login) have no application-level rate limiting | bug, feat-auth, security, AI commented, needs-grilling | 3 | 2026-11-19 |
 | ★★☆☆☆ | [#18834](https://github.com/langfuse/langfuse/issues/18834) bug: Worker S3 downloads fail with `ECONNRESET: socket hang up` on v3.225.11 (stale keep-alive sockets); not seen on v3.171.0 | bug, stale, integration-s3 | 3 | 2026-11-19 |
-| ★★☆☆☆ | [#18859](https://github.com/langfuse/langfuse/issues/18859) bug(sdk-python): @observe drops a free function's first positional input when it has a keyword-only cls parameter | bug, sdk-python, unconfirmed-bug | 3 | 2026-11-19 |
-| ★☆☆☆☆ | [#18494](https://github.com/langfuse/langfuse/issues/18494) Make bar charts the default visualization for event charts | feat-dashboard, improvement, stale | 1 | 2026-11-19 |
-| ★☆☆☆☆ | [#20406](https://github.com/langfuse/langfuse/issues/20406) Instance-wide (global) custom models and prices for self-hosted deployments | feat-api, feat-llm-cost-tracking, feat-models, feature | 1 | 2026-11-18 |
+| ★☆☆☆☆ | [#20406](https://github.com/langfuse/langfuse/issues/20406) Instance-wide (global) custom models and prices for self-hosted deployments | feat-api, feat-llm-cost-tracking, feat-models, feature | 2 | 2026-11-19 |
+| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 49 | 2026-11-19 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -229,6 +229,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3814](https://github.com/observIQ/bindplane-otel-collector/issues/3814) Mirror from DBDOT: chore: v1.4.0 release prep (#148) | dbdot-mirror-issue | 0 | 2026-11-19 |
 | ★★☆☆☆ | [#3812](https://github.com/observIQ/bindplane-otel-collector/issues/3812) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser to v2.20.2 (#141) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3811](https://github.com/observIQ/bindplane-otel-collector/issues/3811) Mirror from DBDOT: chore(release): publish full build images from the release pipeline (#136) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3804](https://github.com/observIQ/bindplane-otel-collector/issues/3804) Mirror from DBDOT: deps: update go non-major deps (#143) | dbdot-mirror-issue | 0 | 2026-11-17 |
@@ -236,33 +237,32 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#3802](https://github.com/observIQ/bindplane-otel-collector/issues/3802) Mirror from DBDOT: deps: pin dependencies (#139) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3798](https://github.com/observIQ/bindplane-otel-collector/issues/3798) Mirror from DBDOT: feat: log Go runtime CPU settings at startup and warn on GOMAXPROCS overcommit (BP-360) (#129) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★☆☆☆☆ | [#3794](https://github.com/observIQ/bindplane-otel-collector/issues/3794) Mirror from DBDOT: chore: fix advanced CodeQL scanning (#110) | dbdot-mirror-issue | 1 | 2026-11-17 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 6 | 2026-11-19 |
-| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 5 | 2026-11-17 |
+| ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 9 | 2026-11-19 |
+| ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 4 | 2026-11-19 |
+| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 6 | 2026-11-19 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
-| ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 3 | 2026-11-12 |
 | ★★★★☆ | [#52914](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52914) [extension/avro_log_encoding] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-10 |
 | ★★★★☆ | [#52509](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52509) Use generated semantic conventions references instead of local ones | good first issue, priority:p2, processor/k8sattributes | 3 | 2026-11-06 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 17 | 2026-11-02 |
-| ★★★★☆ | [#51845](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) [receiver/kafka] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge | good first issue, receiver/kafka | 6 | 2026-10-30 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 8 | 2026-11-19 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 2 | 2026-11-05 |
 | ★★★☆☆ | [#8787](https://github.com/prometheus/prometheus/issues/8787) RW2 reliable stateless exemplars (M2): group together samples and exemplars in a single TimeSeries proto | help wanted, component/remote storage | 9 | 2026-11-04 |
-| ★★★☆☆ | [#11362](https://github.com/prometheus/prometheus/issues/11362) Add service discovery metadata to a single metric | help wanted, priority/Pmaybe, not-as-easy-as-it-looks, kind/feature | 5 | 2026-10-31 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-19 14:30 UTC, took **104.1s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-19 22:22 UTC, took **103.8s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
