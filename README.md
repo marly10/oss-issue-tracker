@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-20 12:07 UTC_
+_Last updated: 2026-11-20 20:02 UTC_
 
-_Tracking **18** upstream repos, **379** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -143,7 +143,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 2 | 2026-11-20 |
 | ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, affects_2.20 | 3 | 2026-11-19 |
 | ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | bug, P3 | 3 | 2026-11-19 |
-| ★☆☆☆☆ | [#83633](https://github.com/ansible/ansible/issues/83633) There are no definitions for valid color options | docs, P3, affects_2.17 | 8 | 2026-11-20 |
+| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, bug, has_pr, affects_2.22 | 1 | 2026-11-19 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -209,12 +209,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#20591](https://github.com/langfuse/langfuse/issues/20591) Security: v3 images ship vulnerable next, @sentry/nextjs and proxy-addr (3.227.1) | bug, security, infra | 0 | 2026-11-20 |
 | ★★★☆☆ | [#20582](https://github.com/langfuse/langfuse/issues/20582) bug: Codex tracing plugin duplicates base instructions in reconstructed LLM input | bug, feat-tracing, [Langfuse] | 0 | 2026-11-20 |
-| ★★☆☆☆ | [#20494](https://github.com/langfuse/langfuse/issues/20494) bug: Unable to Upgrade from 3.96.2 web image version to 3.224.1 | bug, self-hosting, infra | 4 | 2026-11-20 |
 | ★★☆☆☆ | [#16501](https://github.com/langfuse/langfuse/issues/16501) security: Auth endpoints (signup + credentials login) have no application-level rate limiting | bug, feat-auth, security, AI commented, needs-grilling | 3 | 2026-11-20 |
 | ★★☆☆☆ | [#19767](https://github.com/langfuse/langfuse/issues/19767) bug: OpenAI Responses usage with nested `cache_write_tokens_details` is not recognized, so the generation is priced $0 | bug, 🐞❔ unconfirmed bug, integration-openai, feat-llm-cost-tracking, AI commented, difficulty | 3 | 2026-11-20 |
 | ★★☆☆☆ | [#20449](https://github.com/langfuse/langfuse/issues/20449) bug(web): rangeFromString ignores full date-range preset names | bug, feat-dashboard | 1 | 2026-11-20 |
 | ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, infra | 4 | 2026-11-20 |
 | ★☆☆☆☆ | [#12614](https://github.com/langfuse/langfuse/issues/12614) Allow using `metadata` fields (e.g. `organizationId`) as Breakdown Dimension in Dashboard Widgets | feat-metadata, feature, AI edited | 15 | 2026-11-20 |
+| ★☆☆☆☆ | [#18592](https://github.com/langfuse/langfuse/issues/18592) feat(evals): support multiple named scores and per-dimension reasoning in a single LLM-as-a-Judge call | feat-evals, feature | 5 | 2026-11-20 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -229,6 +229,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3817](https://github.com/observIQ/bindplane-otel-collector/issues/3817) Mirror from DBDOT: feat: Add Exabeam exporter (BP-1307) (#149) | dbdot-mirror-issue | 0 | 2026-11-20 |
 | ★★☆☆☆ | [#3814](https://github.com/observIQ/bindplane-otel-collector/issues/3814) Mirror from DBDOT: chore: v1.4.0 release prep (#148) | dbdot-mirror-issue | 0 | 2026-11-19 |
 | ★★☆☆☆ | [#3812](https://github.com/observIQ/bindplane-otel-collector/issues/3812) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser to v2.20.2 (#141) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3811](https://github.com/observIQ/bindplane-otel-collector/issues/3811) Mirror from DBDOT: chore(release): publish full build images from the release pipeline (#136) | dbdot-mirror-issue | 0 | 2026-11-18 |
@@ -236,19 +237,18 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#3803](https://github.com/observIQ/bindplane-otel-collector/issues/3803) Mirror from DBDOT: deps: update alpine:3.24 docker digest to f59abe6 (#140) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3802](https://github.com/observIQ/bindplane-otel-collector/issues/3802) Mirror from DBDOT: deps: pin dependencies (#139) | dbdot-mirror-issue | 0 | 2026-11-17 |
 | ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#3798](https://github.com/observIQ/bindplane-otel-collector/issues/3798) Mirror from DBDOT: feat: log Go runtime CPU settings at startup and warn on GOMAXPROCS overcommit (BP-360) (#129) | dbdot-mirror-issue | 0 | 2026-11-17 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 6 | 2026-11-19 |
+| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 7 | 2026-11-20 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 10 | 2026-11-20 |
 | ★★★★☆ | [#53398](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53398) [receiver/solace] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53397](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53397) [receiver/namedpipe] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53396](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53396) [exporter/logzio] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 4 | 2026-11-19 |
-| ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 6 | 2026-11-19 |
 | ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
@@ -256,12 +256,12 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 4 | 2026-11-20 |
 | ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 8 | 2026-11-19 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
-| ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 2 | 2026-11-05 |
 | ★★★☆☆ | [#8787](https://github.com/prometheus/prometheus/issues/8787) RW2 reliable stateless exemplars (M2): group together samples and exemplars in a single TimeSeries proto | help wanted, component/remote storage | 9 | 2026-11-04 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-20 12:05 UTC, took **88.7s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-20 20:01 UTC, took **97.5s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
