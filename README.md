@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-21 16:14 UTC_
+_Last updated: 2026-11-21 21:40 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -136,6 +136,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug | 1 | 2026-11-21 |
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
 | ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
 | ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | bug, has_pr, P3 | 3 | 2026-11-20 |
@@ -143,7 +144,6 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, affects_2.20 | 3 | 2026-11-20 |
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 2 | 2026-11-20 |
 | ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 2 | 2026-11-20 |
-| ★★☆☆☆ | [#87921](https://github.com/ansible/ansible/issues/87921) apt: update_cache fails with an empty reason when apt reports a failed download only as warnings | module, bug, has_pr, affects_2.22 | 1 | 2026-11-19 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -207,13 +207,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20647](https://github.com/langfuse/langfuse/issues/20647) bug: Vercel AI SDK v5 + Anthropic prompt caching: cache tokens subtracted twice, input usage reads 0 and cost is understated | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-21 |
 | ★★★☆☆ | [#20642](https://github.com/langfuse/langfuse/issues/20642) bug: timeToFirstToken always null in v2 Observations API on events_only deployments, although completion_start_time is stored | bug, feat-api | 0 | 2026-11-21 |
+| ★★☆☆☆ | [#20645](https://github.com/langfuse/langfuse/issues/20645) Restore glanceable observation level counts on the v4 trace view | single-trace-ui, feature | 0 | 2026-11-21 |
 | ★★☆☆☆ | [#20081](https://github.com/langfuse/langfuse/issues/20081) bug: OTel ingestion ignores gen_ai.response.time_to_first_chunk (and Strands' gen_ai.server.time_to_first_token), so completionStartTime stays null | bug, integration-otel, feat-otel | 1 | 2026-11-21 |
 | ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#20371](https://github.com/langfuse/langfuse/issues/20371) bug: CLICKHOUSE_MIGRATION_SSL always sets skip_verify=true, migrations never verify the ClickHouse certificate | bug, self-hosting, [Core] ClickHouse database | 2 | 2026-11-21 |
 | ★★☆☆☆ | [#20634](https://github.com/langfuse/langfuse/issues/20634) Complement Langfuse observability with Screwtape spend-books + trust-score | feat-agents, feature | 0 | 2026-11-21 |
-| ★★☆☆☆ | [#18796](https://github.com/langfuse/langfuse/issues/18796) bug(sdk-js): LangfuseSpanProcessor mask is not applied to AI SDK (gen_ai.*) spans | bug, integration-vercel-ai-sdk, feat-data-masking, integration-otel, feat-otel, stale | 5 | 2026-11-21 |
-| ★★☆☆☆ | [#18978](https://github.com/langfuse/langfuse/issues/18978) bug: anthropic SDK >=1.14 OTel spans exported by default, duplicating LangChain Claude generations | bug, sdk-python, 🐞❔ unconfirmed bug, integration-langchain, feat-otel, stale | 3 | 2026-11-21 |
 | ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 23 | 2026-11-21 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -256,7 +256,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 3 | 2026-11-21 |
+| ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 4 | 2026-11-21 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 4 | 2026-11-20 |
 | ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 8 | 2026-11-19 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-21 16:13 UTC, took **84.1s**, **123** GitHub API calls, **4877/5000** rate limit remaining._
+_Last run: 2026-11-21 21:39 UTC, took **81.3s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
