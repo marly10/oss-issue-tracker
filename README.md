@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-22 16:40 UTC_
+_Last updated: 2026-11-22 22:01 UTC_
 
-_Tracking **18** upstream repos, **378** relevant open issues._
+_Tracking **18** upstream repos, **377** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -154,8 +154,8 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#3239](https://github.com/aws-observability/aws-otel-collector/issues/3239) Add prometheusremotewritereceiver to ADOT Collector | — | 0 | 2026-10-22 |
 | ★★☆☆☆ | [#3240](https://github.com/aws-observability/aws-otel-collector/issues/3240) Update method for verifying deb signatures | — | 0 | 2026-10-22 |
 | ★★☆☆☆ | [#3234](https://github.com/aws-observability/aws-otel-collector/issues/3234) Bump golang.org/x/crypto and google.golang.org/grpc for CVE-2026-56854, CVE-2026-84304 and CVE-2026-84445 | — | 0 | 2026-09-25 |
+| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | stale | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#2462](https://github.com/aws-observability/aws-otel-collector/issues/2462) ECS FireLens compatibiltiy: Make it a drop in replacement for aws for fluent bit | logs | 40 | 2026-10-04 |
-| ★☆☆☆☆ | [#3162](https://github.com/aws-observability/aws-otel-collector/issues/3162) AWS exporters fail to refresh externally-rotated credentials (e.g., SSM hybrid-activated on-prem instances) | — | 6 | 2026-09-20 |
 | ★☆☆☆☆ | [#1166](https://github.com/aws-observability/aws-otel-collector/issues/1166) spanmetricsprocessor for ADOT | feature-request, ADOT collector, processor | 9 | 2026-03-03 |
 
 ### [collabnix/dockerlabs](https://github.com/collabnix/dockerlabs)
@@ -194,7 +194,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 4 | 2026-11-19 |
+| ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 6 | 2026-11-22 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 9 | 2026-11-21 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20666](https://github.com/langfuse/langfuse/issues/20666) bug: latencyFormatter shows "60s", "60m", "24h" and "1Kms" for values just below a unit boundary | bug, feat-tracing, feat-experiments | 0 | 2026-11-22 |
+| ★★★☆☆ | [#20582](https://github.com/langfuse/langfuse/issues/20582) bug: Codex tracing plugin duplicates base instructions in reconstructed LLM input | bug, feat-tracing, [Langfuse] | 0 | 2026-11-22 |
 | ★★★☆☆ | [#20657](https://github.com/langfuse/langfuse/issues/20657) bug: a pending clustered ClickHouse migration with one replica down leaves the version dirty and the web container crashlooping | bug, self-hosting | 0 | 2026-11-22 |
 | ★★★☆☆ | [#20659](https://github.com/langfuse/langfuse/issues/20659) bug: with LANGFUSE_SKIP_S3_LIST_FOR_OBSERVATIONS_PROJECT_IDS, an observation update merged against a lagging ClickHouse replica permanently drops the create's fields | bug, feat-ingestion | 0 | 2026-11-22 |
 | ★★☆☆☆ | [#20658](https://github.com/langfuse/langfuse/issues/20658) CI does not run against a clustered ClickHouse, although cluster mode is the default | self-hosting, improvement, [Core] ClickHouse database | 0 | 2026-11-22 |
 | ★★☆☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#18210](https://github.com/langfuse/langfuse/issues/18210) bug: User consumption “Total cost” only sums the top 20 users | bug, feat-dashboard, feat-llm-cost-tracking, stale | 2 | 2026-11-22 |
 | ★★☆☆☆ | [#18291](https://github.com/langfuse/langfuse/issues/18291) bug: Experiment results "Formatted" cell format shows compact JSON text, not trace-style Formatted view | bug, 🐞❔ unconfirmed bug, stale, feat-experiments | 1 | 2026-11-22 |
-| ★★☆☆☆ | [#18379](https://github.com/langfuse/langfuse/issues/18379) bug(sdk-python): adding tags downstream replaces tags inherited via baggage | bug, sdk-python, feat-tracing, feat-otel, stale | 1 | 2026-11-22 |
-| ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting, stale | 3 | 2026-11-22 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -256,13 +256,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
-| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 10 | 2026-11-22 |
 | ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 4 | 2026-11-21 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 4 | 2026-11-20 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
+| ★★★☆☆ | [#8787](https://github.com/prometheus/prometheus/issues/8787) RW2 reliable stateless exemplars (M2): group together samples and exemplars in a single TimeSeries proto | help wanted, component/remote storage | 9 | 2026-11-04 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-22 16:38 UTC, took **79.8s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-22 21:59 UTC, took **90.9s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
