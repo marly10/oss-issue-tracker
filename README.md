@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-22 08:44 UTC_
+_Last updated: 2026-11-22 16:40 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -136,14 +136,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug | 1 | 2026-11-21 |
 | ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
-| ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | bug, has_pr, P3 | 3 | 2026-11-20 |
-| ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 4 | 2026-11-20 |
+| ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, needs_triage, feature | 1 | 2026-11-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -207,13 +207,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20647](https://github.com/langfuse/langfuse/issues/20647) bug: Vercel AI SDK v5 + Anthropic prompt caching: cache tokens subtracted twice, input usage reads 0 and cost is understated | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-21 |
-| ★★★☆☆ | [#20642](https://github.com/langfuse/langfuse/issues/20642) bug: timeToFirstToken always null in v2 Observations API on events_only deployments, although completion_start_time is stored | bug, feat-api | 0 | 2026-11-21 |
-| ★★☆☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 1 | 2026-11-22 |
+| ★★★☆☆ | [#20657](https://github.com/langfuse/langfuse/issues/20657) bug: a pending clustered ClickHouse migration with one replica down leaves the version dirty and the web container crashlooping | bug, self-hosting | 0 | 2026-11-22 |
+| ★★★☆☆ | [#20659](https://github.com/langfuse/langfuse/issues/20659) bug: with LANGFUSE_SKIP_S3_LIST_FOR_OBSERVATIONS_PROJECT_IDS, an observation update merged against a lagging ClickHouse replica permanently drops the create's fields | bug, feat-ingestion | 0 | 2026-11-22 |
+| ★★☆☆☆ | [#20658](https://github.com/langfuse/langfuse/issues/20658) CI does not run against a clustered ClickHouse, although cluster mode is the default | self-hosting, improvement, [Core] ClickHouse database | 0 | 2026-11-22 |
+| ★★☆☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#18210](https://github.com/langfuse/langfuse/issues/18210) bug: User consumption “Total cost” only sums the top 20 users | bug, feat-dashboard, feat-llm-cost-tracking, stale | 2 | 2026-11-22 |
 | ★★☆☆☆ | [#18291](https://github.com/langfuse/langfuse/issues/18291) bug: Experiment results "Formatted" cell format shows compact JSON text, not trace-style Formatted view | bug, 🐞❔ unconfirmed bug, stale, feat-experiments | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#18379](https://github.com/langfuse/langfuse/issues/18379) bug(sdk-python): adding tags downstream replaces tags inherited via baggage | bug, sdk-python, feat-tracing, feat-otel, stale | 1 | 2026-11-22 |
-| ★★☆☆☆ | [#20645](https://github.com/langfuse/langfuse/issues/20645) Restore glanceable observation level counts on the v4 trace view | single-trace-ui, feature | 0 | 2026-11-21 |
 | ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting, stale | 3 | 2026-11-22 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -256,9 +256,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 10 | 2026-11-22 |
 | ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 4 | 2026-11-21 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 4 | 2026-11-20 |
-| ★★★☆☆ | [#7784](https://github.com/prometheus/prometheus/issues/7784) Add consul exposed sidecar ports | help wanted, component/service discovery, priority/P3, kind/feature | 8 | 2026-11-19 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-22 08:43 UTC, took **79.0s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-22 16:38 UTC, took **79.8s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
