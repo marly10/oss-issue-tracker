@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-21 21:40 UTC_
+_Last updated: 2026-11-22 01:34 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -123,14 +123,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, plugins | 3 | 2026-11-21 |
+| ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
+| ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 7 | 2026-11-21 |
+| ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
-| ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 6 | 2026-11-17 |
 | ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
+| ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
 | ★☆☆☆☆ | [#13307](https://github.com/ansible-collections/community.general/issues/13307) flatpak: add bundle support | feature, module, plugins | 2 | 2026-11-18 |
-| ★☆☆☆☆ | [#8217](https://github.com/ansible-collections/community.general/issues/8217) Unable to to specify a specific package version in Ansible for apt_rpm module | feature, module, has_pr, plugins | 20 | 2026-11-16 |
-| ★☆☆☆☆ | [#7582](https://github.com/ansible-collections/community.general/issues/7582) [Feature Request] ipa_user: add passkey parameter | feature, module, plugins | 2 | 2026-11-16 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-21 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-22 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -209,12 +209,12 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#20647](https://github.com/langfuse/langfuse/issues/20647) bug: Vercel AI SDK v5 + Anthropic prompt caching: cache tokens subtracted twice, input usage reads 0 and cost is understated | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-21 |
 | ★★★☆☆ | [#20642](https://github.com/langfuse/langfuse/issues/20642) bug: timeToFirstToken always null in v2 Observations API on events_only deployments, although completion_start_time is stored | bug, feat-api | 0 | 2026-11-21 |
+| ★★☆☆☆ | [#18210](https://github.com/langfuse/langfuse/issues/18210) bug: User consumption “Total cost” only sums the top 20 users | bug, feat-dashboard, feat-llm-cost-tracking, stale | 2 | 2026-11-22 |
+| ★★☆☆☆ | [#18291](https://github.com/langfuse/langfuse/issues/18291) bug: Experiment results "Formatted" cell format shows compact JSON text, not trace-style Formatted view | bug, 🐞❔ unconfirmed bug, stale, feat-experiments | 1 | 2026-11-22 |
+| ★★☆☆☆ | [#18379](https://github.com/langfuse/langfuse/issues/18379) bug(sdk-python): adding tags downstream replaces tags inherited via baggage | bug, sdk-python, feat-tracing, feat-otel, stale | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#20645](https://github.com/langfuse/langfuse/issues/20645) Restore glanceable observation level counts on the v4 trace view | single-trace-ui, feature | 0 | 2026-11-21 |
 | ★★☆☆☆ | [#20081](https://github.com/langfuse/langfuse/issues/20081) bug: OTel ingestion ignores gen_ai.response.time_to_first_chunk (and Strands' gen_ai.server.time_to_first_token), so completionStartTime stays null | bug, integration-otel, feat-otel | 1 | 2026-11-21 |
-| ★★☆☆☆ | [#17522](https://github.com/langfuse/langfuse/issues/17522) Batch action job ID can silently deduplicate a distinct later operation with a different query or target | bug, stale | 4 | 2026-11-21 |
-| ★★☆☆☆ | [#20371](https://github.com/langfuse/langfuse/issues/20371) bug: CLICKHOUSE_MIGRATION_SSL always sets skip_verify=true, migrations never verify the ClickHouse certificate | bug, self-hosting, [Core] ClickHouse database | 2 | 2026-11-21 |
-| ★★☆☆☆ | [#20634](https://github.com/langfuse/langfuse/issues/20634) Complement Langfuse observability with Screwtape spend-books + trust-score | feat-agents, feature | 0 | 2026-11-21 |
-| ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 23 | 2026-11-21 |
+| ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting, stale | 3 | 2026-11-22 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-21 21:39 UTC, took **81.3s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-22 01:33 UTC, took **81.7s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
