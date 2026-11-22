@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-22 01:34 UTC_
+_Last updated: 2026-11-22 08:44 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-21 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-22 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -123,8 +123,8 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
-| ★★☆☆☆ | [#715](https://github.com/ansible-collections/community.general/issues/715) redhat_subscription fails when Satellite uses Simple Content Access | bug, module, has_pr, needs_triage, plugins, python3, os, packaging, redhat_subscription | 7 | 2026-11-21 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
 | ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
@@ -136,14 +136,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
+| ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 4 | 2026-11-22 |
+| ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
+| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug | 1 | 2026-11-21 |
-| ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
 | ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
 | ★★☆☆☆ | [#87930](https://github.com/ansible/ansible/issues/87930) Plugin loader finds (some?) plugins under incorrect names as well | bug, has_pr, P3 | 3 | 2026-11-20 |
 | ★★☆☆☆ | [#87288](https://github.com/ansible/ansible/issues/87288) ansible-core 2.21 python interpreter discovery does not work as expected | bug, needs_verified | 4 | 2026-11-20 |
-| ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, affects_2.20 | 3 | 2026-11-20 |
-| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 2 | 2026-11-20 |
-| ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 2 | 2026-11-20 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -209,11 +209,11 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#20647](https://github.com/langfuse/langfuse/issues/20647) bug: Vercel AI SDK v5 + Anthropic prompt caching: cache tokens subtracted twice, input usage reads 0 and cost is understated | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-21 |
 | ★★★☆☆ | [#20642](https://github.com/langfuse/langfuse/issues/20642) bug: timeToFirstToken always null in v2 Observations API on events_only deployments, although completion_start_time is stored | bug, feat-api | 0 | 2026-11-21 |
+| ★★☆☆☆ | [#20340](https://github.com/langfuse/langfuse/issues/20340) bug(sdk-python): get_prompt(max_retries=0) still retries: the HTTP client keeps its default 2 retries and sleeps Retry-After | bug, sdk-python, feat-prompt-management | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#18210](https://github.com/langfuse/langfuse/issues/18210) bug: User consumption “Total cost” only sums the top 20 users | bug, feat-dashboard, feat-llm-cost-tracking, stale | 2 | 2026-11-22 |
 | ★★☆☆☆ | [#18291](https://github.com/langfuse/langfuse/issues/18291) bug: Experiment results "Formatted" cell format shows compact JSON text, not trace-style Formatted view | bug, 🐞❔ unconfirmed bug, stale, feat-experiments | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#18379](https://github.com/langfuse/langfuse/issues/18379) bug(sdk-python): adding tags downstream replaces tags inherited via baggage | bug, sdk-python, feat-tracing, feat-otel, stale | 1 | 2026-11-22 |
 | ★★☆☆☆ | [#20645](https://github.com/langfuse/langfuse/issues/20645) Restore glanceable observation level counts on the v4 trace view | single-trace-ui, feature | 0 | 2026-11-21 |
-| ★★☆☆☆ | [#20081](https://github.com/langfuse/langfuse/issues/20081) bug: OTel ingestion ignores gen_ai.response.time_to_first_chunk (and Strands' gen_ai.server.time_to_first_token), so completionStartTime stays null | bug, integration-otel, feat-otel | 1 | 2026-11-21 |
 | ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting, stale | 3 | 2026-11-22 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-22 01:33 UTC, took **81.7s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-22 08:43 UTC, took **79.0s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
