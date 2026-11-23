@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-22 22:01 UTC_
+_Last updated: 2026-11-23 02:24 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20669](https://github.com/langfuse/langfuse/issues/20669) The dataset media completion check can overwrite a completed upload with a concurrent failure report | bug, feat-datasets, feat-multimodal-media | 0 | 2026-11-23 |
 | ★★★☆☆ | [#20666](https://github.com/langfuse/langfuse/issues/20666) bug: latencyFormatter shows "60s", "60m", "24h" and "1Kms" for values just below a unit boundary | bug, feat-tracing, feat-experiments | 0 | 2026-11-22 |
-| ★★★☆☆ | [#20582](https://github.com/langfuse/langfuse/issues/20582) bug: Codex tracing plugin duplicates base instructions in reconstructed LLM input | bug, feat-tracing, [Langfuse] | 0 | 2026-11-22 |
-| ★★★☆☆ | [#20657](https://github.com/langfuse/langfuse/issues/20657) bug: a pending clustered ClickHouse migration with one replica down leaves the version dirty and the web container crashlooping | bug, self-hosting | 0 | 2026-11-22 |
-| ★★★☆☆ | [#20659](https://github.com/langfuse/langfuse/issues/20659) bug: with LANGFUSE_SKIP_S3_LIST_FOR_OBSERVATIONS_PROJECT_IDS, an observation update merged against a lagging ClickHouse replica permanently drops the create's fields | bug, feat-ingestion | 0 | 2026-11-22 |
-| ★★☆☆☆ | [#20658](https://github.com/langfuse/langfuse/issues/20658) CI does not run against a clustered ClickHouse, although cluster mode is the default | self-hosting, improvement, [Core] ClickHouse database | 0 | 2026-11-22 |
-| ★★☆☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 1 | 2026-11-22 |
-| ★★☆☆☆ | [#18210](https://github.com/langfuse/langfuse/issues/18210) bug: User consumption “Total cost” only sums the top 20 users | bug, feat-dashboard, feat-llm-cost-tracking, stale | 2 | 2026-11-22 |
-| ★★☆☆☆ | [#18291](https://github.com/langfuse/langfuse/issues/18291) bug: Experiment results "Formatted" cell format shows compact JSON text, not trace-style Formatted view | bug, 🐞❔ unconfirmed bug, stale, feat-experiments | 1 | 2026-11-22 |
+| ★★☆☆☆ | [#18027](https://github.com/langfuse/langfuse/issues/18027) bug(sdk-js): getLangchainPrompt drops the closing brace of nested JSON | bug, sdk-js, feat-prompt-management, integration-langchain, stale | 1 | 2026-11-23 |
+| ★★☆☆☆ | [#18050](https://github.com/langfuse/langfuse/issues/18050) bug: media download URLs can be signed for a different bucket | bug, feat-multimodal-media, stale | 3 | 2026-11-23 |
+| ★★☆☆☆ | [#18057](https://github.com/langfuse/langfuse/issues/18057) bug: pydantic-ai cache tokens still dropped (and input double-counted) in extractUsageDetails — follow-up to #12245 | bug, feat-llm-cost-tracking, integration-otel, feat-otel, integration-pydantic-ai, stale, AI commented | 5 | 2026-11-23 |
+| ★★☆☆☆ | [#18108](https://github.com/langfuse/langfuse/issues/18108) bug: In-app agent: answer collapses into "Worked for" drawer when the model reasons on the step after langfuse_proposeRedirect | bug, 🐞❔ unconfirmed bug, feat-in-app-agent, feat-halo | 2 | 2026-11-23 |
+| ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management, stale | 2 | 2026-11-23 |
+| ★☆☆☆☆ | [#18043](https://github.com/langfuse/langfuse/issues/18043) (feat) dashboard: cost breakdown and filters by ingestion API key | stale, feature | 2 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-22 21:59 UTC, took **90.9s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-23 02:23 UTC, took **80.6s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
