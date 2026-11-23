@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-23 02:24 UTC_
+_Last updated: 2026-11-23 10:58 UTC_
 
 _Tracking **18** upstream repos, **377** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-22 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
-| ★★☆☆☆ | [#10056](https://github.com/ansible-collections/community.general/issues/10056) [lvol] Module hangs after resizing metadata volume despite success | bug, module, needs_info, plugins | 3 | 2026-11-17 |
+| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 3 | 2026-11-23 |
 | ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
 | ★☆☆☆☆ | [#13307](https://github.com/ansible-collections/community.general/issues/13307) flatpak: add bundle support | feature, module, plugins | 2 | 2026-11-18 |
@@ -136,13 +136,13 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 2 | 2026-11-23 |
+| ★★☆☆☆ | [#85156](https://github.com/ansible/ansible/issues/85156) FreeBSD service arguments are passed in the wrong order | module, bug, affects_2.18 | 5 | 2026-11-23 |
+| ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug, has_pr | 1 | 2026-11-23 |
 | ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
-| ★★☆☆☆ | [#85147](https://github.com/ansible/ansible/issues/85147) apt will fail when package pinned with high pin priority | module, bug, has_pr, verified, affects_2.19 | 3 | 2026-11-22 |
-| ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug | 1 | 2026-11-21 |
-| ★★☆☆☆ | [#87934](https://github.com/ansible/ansible/issues/87934) local connection reports a wrong become password as "Duplicate become password prompt encountered" | waiting_on_contributor, bug, has_pr, affects_2.20 | 3 | 2026-11-21 |
 | ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, needs_triage, feature | 1 | 2026-11-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-22 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -207,20 +207,20 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20669](https://github.com/langfuse/langfuse/issues/20669) The dataset media completion check can overwrite a completed upload with a concurrent failure report | bug, feat-datasets, feat-multimodal-media | 0 | 2026-11-23 |
-| ★★★☆☆ | [#20666](https://github.com/langfuse/langfuse/issues/20666) bug: latencyFormatter shows "60s", "60m", "24h" and "1Kms" for values just below a unit boundary | bug, feat-tracing, feat-experiments | 0 | 2026-11-22 |
+| ★★★☆☆ | [#20693](https://github.com/langfuse/langfuse/issues/20693) bug(self-hosting): entrypoint passes database passwords on the command line (prisma --url, golang-migrate -database) | bug, self-hosting | 0 | 2026-11-23 |
+| ★★★☆☆ | [#20688](https://github.com/langfuse/langfuse/issues/20688) OpenAI/generic ChatML renderer drops OTel GenAI parts[].content in assistant output (pydantic-ai NativeOutput) — same as #15790 | bug, single-trace-ui, integration-otel, feat-otel | 0 | 2026-11-23 |
+| ★★★☆☆ | [#20677](https://github.com/langfuse/langfuse/issues/20677) [aw] Weekly CI runtime analyst: engine driver crashed | bug, CI, agentic-workflows | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#18027](https://github.com/langfuse/langfuse/issues/18027) bug(sdk-js): getLangchainPrompt drops the closing brace of nested JSON | bug, sdk-js, feat-prompt-management, integration-langchain, stale | 1 | 2026-11-23 |
 | ★★☆☆☆ | [#18050](https://github.com/langfuse/langfuse/issues/18050) bug: media download URLs can be signed for a different bucket | bug, feat-multimodal-media, stale | 3 | 2026-11-23 |
-| ★★☆☆☆ | [#18057](https://github.com/langfuse/langfuse/issues/18057) bug: pydantic-ai cache tokens still dropped (and input double-counted) in extractUsageDetails — follow-up to #12245 | bug, feat-llm-cost-tracking, integration-otel, feat-otel, integration-pydantic-ai, stale, AI commented | 5 | 2026-11-23 |
-| ★★☆☆☆ | [#18108](https://github.com/langfuse/langfuse/issues/18108) bug: In-app agent: answer collapses into "Worked for" drawer when the model reasons on the step after langfuse_proposeRedirect | bug, 🐞❔ unconfirmed bug, feat-in-app-agent, feat-halo | 2 | 2026-11-23 |
-| ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management, stale | 2 | 2026-11-23 |
+| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 49 | 2026-11-23 |
 | ★☆☆☆☆ | [#18043](https://github.com/langfuse/langfuse/issues/18043) (feat) dashboard: cost breakdown and filters by ingestion API key | stale, feature | 2 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★★☆ | [#6676](https://github.com/nightscout/cgm-remote-monitor/issues/6676) Horizontal Scrolling with mouse wheel (holding Shift key) | good-first-issue | 1 | 2026-10-05 |
+| ★★★★☆ | [#6676](https://github.com/nightscout/cgm-remote-monitor/issues/6676) Horizontal Scrolling with mouse wheel (holding Shift key) | good-first-issue | 2 | 2026-11-23 |
 | ★★★★☆ | [#7540](https://github.com/nightscout/cgm-remote-monitor/issues/7540) BASE_URL and sub-directories. | good-first-issue | 6 | 2025-07-22 |
 | ★★★☆☆ | [#5742](https://github.com/nightscout/cgm-remote-monitor/issues/5742) Custom WebHook Support | help wanted, feature request | 2 | 2026-06-15 |
 | ★★★☆☆ | [#6028](https://github.com/nightscout/cgm-remote-monitor/issues/6028) Loopalyzer report has missing Active insulin rendering for some days | help wanted | 4 | 2020-10-14 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-23 02:23 UTC, took **80.6s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-23 10:56 UTC, took **95.6s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
