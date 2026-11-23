@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-23 10:58 UTC_
+_Last updated: 2026-11-23 22:26 UTC_
 
-_Tracking **18** upstream repos, **377** relevant open issues._
+_Tracking **18** upstream repos, **379** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -127,22 +127,22 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
+| ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 11 | 2026-11-23 |
 | ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 3 | 2026-11-23 |
 | ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
-| ★☆☆☆☆ | [#13307](https://github.com/ansible-collections/community.general/issues/13307) flatpak: add bundle support | feature, module, plugins | 2 | 2026-11-18 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 2 | 2026-11-23 |
+| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
+| ★★☆☆☆ | [#76221](https://github.com/ansible/ansible/issues/76221) git module changes .git/config despite check_mode when combined with --diff | module, bug, P3, affects_2.11, affects_2.13 | 2 | 2026-11-23 |
+| ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 4 | 2026-11-23 |
+| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#85156](https://github.com/ansible/ansible/issues/85156) FreeBSD service arguments are passed in the wrong order | module, bug, affects_2.18 | 5 | 2026-11-23 |
 | ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug, has_pr | 1 | 2026-11-23 |
-| ★★☆☆☆ | [#87941](https://github.com/ansible/ansible/issues/87941) ansible-connection: persistent connection daemon closes its listening socket with a client request already queued, causing intermittent ECONNRESET | networking, needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-22 |
-| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
-| ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | needs_triage, bug, has_pr, affects_2.20 | 4 | 2026-11-22 |
-| ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 3 | 2026-11-22 |
+| ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | needs_triage, feature | 1 | 2026-11-23 |
 | ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, needs_triage, feature | 1 | 2026-11-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -195,26 +195,26 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 6 | 2026-11-22 |
+| ★★★☆☆ | [#144431](https://github.com/kubernetes/kubernetes/issues/144431) DRA Node Allocatable Resources: hugepages e2e cases never run in CI | area/test, sig/node, help wanted, priority/important-longterm, kind/failing-test, triage/accepted, wg/device-management | 5 | 2026-11-23 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 9 | 2026-11-21 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
 | ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
-| ★★★☆☆ | [#133877](https://github.com/kubernetes/kubernetes/issues/133877) Prevent duplicate initializations of cache and etcd store | kind/bug, sig/api-machinery, help wanted, triage/accepted | 5 | 2026-10-24 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20720](https://github.com/langfuse/langfuse/issues/20720) bug: web startup continues after Prisma cleanup fails | bug, self-hosting | 0 | 2026-11-23 |
 | ★★★☆☆ | [#20693](https://github.com/langfuse/langfuse/issues/20693) bug(self-hosting): entrypoint passes database passwords on the command line (prisma --url, golang-migrate -database) | bug, self-hosting | 0 | 2026-11-23 |
-| ★★★☆☆ | [#20688](https://github.com/langfuse/langfuse/issues/20688) OpenAI/generic ChatML renderer drops OTel GenAI parts[].content in assistant output (pydantic-ai NativeOutput) — same as #15790 | bug, single-trace-ui, integration-otel, feat-otel | 0 | 2026-11-23 |
-| ★★★☆☆ | [#20677](https://github.com/langfuse/langfuse/issues/20677) [aw] Weekly CI runtime analyst: engine driver crashed | bug, CI, agentic-workflows | 0 | 2026-11-23 |
-| ★★☆☆☆ | [#20462](https://github.com/langfuse/langfuse/issues/20462) Python SDK skips media uploads and reference resolution when media is inside tuples | bug, sdk-python, 🐞❔ unconfirmed bug, feat-multimodal-media | 3 | 2026-11-23 |
-| ★★☆☆☆ | [#18027](https://github.com/langfuse/langfuse/issues/18027) bug(sdk-js): getLangchainPrompt drops the closing brace of nested JSON | bug, sdk-js, feat-prompt-management, integration-langchain, stale | 1 | 2026-11-23 |
-| ★★☆☆☆ | [#18050](https://github.com/langfuse/langfuse/issues/18050) bug: media download URLs can be signed for a different bucket | bug, feat-multimodal-media, stale | 3 | 2026-11-23 |
+| ★★☆☆☆ | [#20099](https://github.com/langfuse/langfuse/issues/20099) bug: Formatted view does not render `reasoning_content` on Chat Completions messages | bug, integration-openai, single-trace-ui | 3 | 2026-11-23 |
+| ★★☆☆☆ | [#20736](https://github.com/langfuse/langfuse/issues/20736) CI Runtime Report: 2026-11-17..2026-11-23 (W48) — gate +9.0%, failure rate 15.6% (worst on record), no actionable diff | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#16630](https://github.com/langfuse/langfuse/issues/16630) Alert/Monitor filters (Type, Observation Name, Model) are ignored by the actual evaluation — only Environment works | bug, feat-table-filters, feat-alerting, needs-grilling | 2 | 2026-11-23 |
+| ★★☆☆☆ | [#20591](https://github.com/langfuse/langfuse/issues/20591) Security: v3 images ship vulnerable next, @sentry/nextjs and proxy-addr (3.227.1) | bug, security, infra | 1 | 2026-11-23 |
+| ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting | 3 | 2026-11-23 |
 | ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 49 | 2026-11-23 |
-| ★☆☆☆☆ | [#18043](https://github.com/langfuse/langfuse/issues/18043) (feat) dashboard: cost breakdown and filters by ingestion API key | stale, feature | 2 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -229,14 +229,14 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3822](https://github.com/observIQ/bindplane-otel-collector/issues/3822) Mirror from DBDOT: chore(tests): Add load tests (#150) | dbdot-mirror-issue | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#3821](https://github.com/observIQ/bindplane-otel-collector/issues/3821) Mirror from DBDOT: deps: update ubuntu:26.04 docker digest to d66b366 (#152) | dbdot-mirror-issue | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#3820](https://github.com/observIQ/bindplane-otel-collector/issues/3820) Mirror from DBDOT: deps: update github-actions deps (#153) | dbdot-mirror-issue | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#3817](https://github.com/observIQ/bindplane-otel-collector/issues/3817) Mirror from DBDOT: feat: Add Exabeam exporter (BP-1307) (#149) | dbdot-mirror-issue | 0 | 2026-11-20 |
 | ★★☆☆☆ | [#3814](https://github.com/observIQ/bindplane-otel-collector/issues/3814) Mirror from DBDOT: chore: v1.4.0 release prep (#148) | dbdot-mirror-issue | 0 | 2026-11-19 |
 | ★★☆☆☆ | [#3812](https://github.com/observIQ/bindplane-otel-collector/issues/3812) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser to v2.20.2 (#141) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3811](https://github.com/observIQ/bindplane-otel-collector/issues/3811) Mirror from DBDOT: chore(release): publish full build images from the release pipeline (#136) | dbdot-mirror-issue | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#3804](https://github.com/observIQ/bindplane-otel-collector/issues/3804) Mirror from DBDOT: deps: update go non-major deps (#143) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#3803](https://github.com/observIQ/bindplane-otel-collector/issues/3803) Mirror from DBDOT: deps: update alpine:3.24 docker digest to f59abe6 (#140) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#3802](https://github.com/observIQ/bindplane-otel-collector/issues/3802) Mirror from DBDOT: deps: pin dependencies (#139) | dbdot-mirror-issue | 0 | 2026-11-17 |
-| ★★☆☆☆ | [#3799](https://github.com/observIQ/bindplane-otel-collector/issues/3799) Mirror from DBDOT: chore(ci): gate changes to the collector's Go runtime fingerprint (BP-363) (#130) | dbdot-mirror-issue | 0 | 2026-11-17 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
@@ -256,13 +256,13 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#1220](https://github.com/prometheus/prometheus/issues/1220) Preview alerts in expression browser | help wanted, kind/enhancement, component/ui, priority/P3 | 0 | 2024-02-13 |
+| ★★★☆☆ | [#8798](https://github.com/prometheus/prometheus/issues/8798) Add exemplar support to rules (recording, alerts) | help wanted, component/rules, kind/feature | 7 | 2026-11-23 |
 | ★★★☆☆ | [#14349](https://github.com/prometheus/prometheus/issues/14349) [agent] metrics reported by prometheus in agent mode break meta monitoring | help wanted, kind/bug, component/agent | 4 | 2026-11-21 |
 | ★★★☆☆ | [#11852](https://github.com/prometheus/prometheus/issues/11852) Prometheus agent mode hashmod sharding issue | help wanted, kind/bug, priority/Pmaybe, component/agent | 4 | 2026-11-20 |
 | ★★★☆☆ | [#14342](https://github.com/prometheus/prometheus/issues/14342) [Remote Write 2.x] Arrow Proto Message Experiment & Benchmark | help wanted, priority/Pmaybe, component/remote storage, not-as-easy-as-it-looks, kind/optimization | 2 | 2026-11-18 |
 | ★★★☆☆ | [#14926](https://github.com/prometheus/prometheus/issues/14926) feat: Avoid decay of our micro-benchmarks; test them on CI | help wanted, priority/P2, component/tests, area/ci-cd | 7 | 2026-11-17 |
 | ★★★☆☆ | [#12896](https://github.com/prometheus/prometheus/issues/12896) Turn one source label into multiple target labels | help wanted, kind/enhancement, component/service discovery, priority/P3 | 5 | 2026-11-11 |
 | ★★★☆☆ | [#14823](https://github.com/prometheus/prometheus/issues/14823) ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features) | help wanted, component/scraping | 6 | 2026-11-06 |
-| ★★★☆☆ | [#8787](https://github.com/prometheus/prometheus/issues/8787) RW2 reliable stateless exemplars (M2): group together samples and exemplars in a single TimeSeries proto | help wanted, component/remote storage | 9 | 2026-11-04 |
 
 ### [splunk/ansible-role-for-splunk](https://github.com/splunk/ansible-role-for-splunk)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **377** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-23 10:56 UTC, took **95.6s**, **124** GitHub API calls, **4876/5000** rate limit remaining._
+_Last run: 2026-11-23 22:24 UTC, took **106.2s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
