@@ -81,9 +81,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-24 06:12 UTC_
+_Last updated: 2026-11-24 17:38 UTC_
 
-_Tracking **18** upstream repos, **379** relevant open issues._
+_Tracking **18** upstream repos, **378** relevant open issues._
 
 ![Open issues by repo and score](assets/issues_by_repo.png)
 
@@ -127,7 +127,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
-| ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 11 | 2026-11-23 |
+| ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
 | ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 3 | 2026-11-23 |
 | ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
@@ -136,14 +136,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | bug, has_pr, affects_2.20 | 3 | 2026-11-24 |
+| ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | bug, has_pr, affects_2.20 | 4 | 2026-11-24 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#76221](https://github.com/ansible/ansible/issues/76221) git module changes .git/config despite check_mode when combined with --diff | module, bug, P3, affects_2.11, affects_2.13 | 2 | 2026-11-23 |
-| ★★☆☆☆ | [#87950](https://github.com/ansible/ansible/issues/87950) no_log: true tasks still print uncensored failure messages and invalid header values via CallbackTaskResult.exception | needs_triage, bug, affects_2.20 | 4 | 2026-11-23 |
-| ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#85156](https://github.com/ansible/ansible/issues/85156) FreeBSD service arguments are passed in the wrong order | module, bug, affects_2.18 | 5 | 2026-11-23 |
-| ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug, has_pr | 1 | 2026-11-23 |
-| ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | needs_info, module, feature | 3 | 2026-11-24 |
-| ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | needs_triage, feature | 1 | 2026-11-23 |
+| ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 17 | 2026-11-24 |
+| ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 1 | 2026-11-24 |
+| ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, feature | 1 | 2026-11-24 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -195,8 +195,8 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 6 | 2026-11-22 |
+| ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 10 | 2026-11-24 |
 | ★★★☆☆ | [#144431](https://github.com/kubernetes/kubernetes/issues/144431) DRA Node Allocatable Resources: hugepages e2e cases never run in CI | area/test, sig/node, help wanted, priority/important-longterm, kind/failing-test, triage/accepted, wg/device-management | 5 | 2026-11-23 |
-| ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 9 | 2026-11-21 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20720](https://github.com/langfuse/langfuse/issues/20720) bug: web startup continues after Prisma cleanup fails | bug, self-hosting | 0 | 2026-11-23 |
+| ★★★☆☆ | [#20807](https://github.com/langfuse/langfuse/issues/20807) bug(sdk-python): pending media jobs retain duplicate attachment bytes | bug, sdk-python, feat-multimodal-media | 0 | 2026-11-24 |
+| ★★★☆☆ | [#20770](https://github.com/langfuse/langfuse/issues/20770) bug: [codex-observability-plugin] MCP "isError": true and non-zero exit_code tool calls are recorded with level DEFAULT instead of ERROR | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-24 |
+| ★★☆☆☆ | [#19006](https://github.com/langfuse/langfuse/issues/19006) fix(worker): prevent OTel data loss, early backfill cursor updates, and stuck batch actions | bug, feat-datasets, feat-otel, feat-experiments, feat-ingestion | 2 | 2026-11-24 |
+| ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, infra | 5 | 2026-11-24 |
 | ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management | 2 | 2026-11-24 |
-| ★★☆☆☆ | [#19006](https://github.com/langfuse/langfuse/issues/19006) fix(worker): prevent OTel data loss, early backfill cursor updates, and stuck batch actions | bug, feat-datasets, feat-otel, stale, feat-experiments, feat-ingestion | 2 | 2026-11-24 |
 | ★★☆☆☆ | [#19326](https://github.com/langfuse/langfuse/issues/19326) bug: Cmd+K evaluator search disappears after 500ms when typing "evaluator" or "eval" | bug, 🐞❔ unconfirmed bug, feat-evals, stale, unconfirmed-bug | 1 | 2026-11-24 |
 | ★★☆☆☆ | [#20099](https://github.com/langfuse/langfuse/issues/20099) bug: Formatted view does not render `reasoning_content` on Chat Completions messages | bug, integration-openai, single-trace-ui | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#20736](https://github.com/langfuse/langfuse/issues/20736) CI Runtime Report: 2026-11-17..2026-11-23 (W48) — gate +9.0%, failure rate 15.6% (worst on record), no actionable diff | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-23 |
-| ★★☆☆☆ | [#16630](https://github.com/langfuse/langfuse/issues/16630) Alert/Monitor filters (Type, Observation Name, Model) are ignored by the actual evaluation — only Environment works | bug, feat-table-filters, feat-alerting, needs-grilling | 2 | 2026-11-23 |
-| ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting | 3 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -229,14 +229,14 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#3823](https://github.com/observIQ/bindplane-otel-collector/issues/3823) Mirror from DBDOT: deps: update ghcr.io/open-telemetry/opentelemetry-collector-contrib/telemetrygen docker tag to v0.165.1 (#142) | dbdot-mirror-issue | 0 | 2026-11-24 |
 | ★★☆☆☆ | [#3822](https://github.com/observIQ/bindplane-otel-collector/issues/3822) Mirror from DBDOT: chore(tests): Add load tests (#150) | dbdot-mirror-issue | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#3821](https://github.com/observIQ/bindplane-otel-collector/issues/3821) Mirror from DBDOT: deps: update ubuntu:26.04 docker digest to d66b366 (#152) | dbdot-mirror-issue | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#3820](https://github.com/observIQ/bindplane-otel-collector/issues/3820) Mirror from DBDOT: deps: update github-actions deps (#153) | dbdot-mirror-issue | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#3817](https://github.com/observIQ/bindplane-otel-collector/issues/3817) Mirror from DBDOT: feat: Add Exabeam exporter (BP-1307) (#149) | dbdot-mirror-issue | 0 | 2026-11-20 |
 | ★★☆☆☆ | [#3814](https://github.com/observIQ/bindplane-otel-collector/issues/3814) Mirror from DBDOT: chore: v1.4.0 release prep (#148) | dbdot-mirror-issue | 0 | 2026-11-19 |
-| ★★☆☆☆ | [#3812](https://github.com/observIQ/bindplane-otel-collector/issues/3812) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser to v2.20.2 (#141) | dbdot-mirror-issue | 0 | 2026-11-18 |
-| ★★☆☆☆ | [#3811](https://github.com/observIQ/bindplane-otel-collector/issues/3811) Mirror from DBDOT: chore(release): publish full build images from the release pipeline (#136) | dbdot-mirror-issue | 0 | 2026-11-18 |
-| ★★☆☆☆ | [#3804](https://github.com/observIQ/bindplane-otel-collector/issues/3804) Mirror from DBDOT: deps: update go non-major deps (#143) | dbdot-mirror-issue | 0 | 2026-11-17 |
+| ★☆☆☆☆ | [#3825](https://github.com/observIQ/bindplane-otel-collector/issues/3825) Mirror from DBDOT: deps: update dependency goreleaser/goreleaser-pro to v2.20.3 (#156) | dbdot-mirror-issue | 1 | 2026-11-24 |
+| ★☆☆☆☆ | [#3824](https://github.com/observIQ/bindplane-otel-collector/issues/3824) Mirror from DBDOT: chore: track all tool versions in GHA with renovate (#155) | dbdot-mirror-issue | 2 | 2026-11-24 |
 
 ### [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-24 06:10 UTC, took **102.6s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-24 17:36 UTC, took **134.8s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
