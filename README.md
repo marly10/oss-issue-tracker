@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-23 22:26 UTC_
+_Last updated: 2026-11-24 06:12 UTC_
 
 _Tracking **18** upstream repos, **379** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-24 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -142,8 +142,8 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | needs_triage, bug, has_pr, affects_2.20 | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#85156](https://github.com/ansible/ansible/issues/85156) FreeBSD service arguments are passed in the wrong order | module, bug, affects_2.18 | 5 | 2026-11-23 |
 | ★★☆☆☆ | [#87957](https://github.com/ansible/ansible/issues/87957) VaultCLI.run leaves the umask at 0o077 on its raising paths | needs_triage, bug, has_pr | 1 | 2026-11-23 |
+| ★☆☆☆☆ | [#87843](https://github.com/ansible/ansible/issues/87843) Expose CPU x86-64 microarchitecture level (v2/v3/v4) or CPU flags as a Linux fact | needs_info, module, feature | 3 | 2026-11-24 |
 | ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | needs_triage, feature | 1 | 2026-11-23 |
-| ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, needs_triage, feature | 1 | 2026-11-22 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
 
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-24 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -208,13 +208,13 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#20720](https://github.com/langfuse/langfuse/issues/20720) bug: web startup continues after Prisma cleanup fails | bug, self-hosting | 0 | 2026-11-23 |
-| ★★★☆☆ | [#20693](https://github.com/langfuse/langfuse/issues/20693) bug(self-hosting): entrypoint passes database passwords on the command line (prisma --url, golang-migrate -database) | bug, self-hosting | 0 | 2026-11-23 |
+| ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management | 2 | 2026-11-24 |
+| ★★☆☆☆ | [#19006](https://github.com/langfuse/langfuse/issues/19006) fix(worker): prevent OTel data loss, early backfill cursor updates, and stuck batch actions | bug, feat-datasets, feat-otel, stale, feat-experiments, feat-ingestion | 2 | 2026-11-24 |
+| ★★☆☆☆ | [#19326](https://github.com/langfuse/langfuse/issues/19326) bug: Cmd+K evaluator search disappears after 500ms when typing "evaluator" or "eval" | bug, 🐞❔ unconfirmed bug, feat-evals, stale, unconfirmed-bug | 1 | 2026-11-24 |
 | ★★☆☆☆ | [#20099](https://github.com/langfuse/langfuse/issues/20099) bug: Formatted view does not render `reasoning_content` on Chat Completions messages | bug, integration-openai, single-trace-ui | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#20736](https://github.com/langfuse/langfuse/issues/20736) CI Runtime Report: 2026-11-17..2026-11-23 (W48) — gate +9.0%, failure rate 15.6% (worst on record), no actionable diff | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-23 |
 | ★★☆☆☆ | [#16630](https://github.com/langfuse/langfuse/issues/16630) Alert/Monitor filters (Type, Observation Name, Model) are ignored by the actual evaluation — only Environment works | bug, feat-table-filters, feat-alerting, needs-grilling | 2 | 2026-11-23 |
-| ★★☆☆☆ | [#20591](https://github.com/langfuse/langfuse/issues/20591) Security: v3 images ship vulnerable next, @sentry/nextjs and proxy-addr (3.227.1) | bug, security, infra | 1 | 2026-11-23 |
 | ★☆☆☆☆ | [#18332](https://github.com/langfuse/langfuse/issues/18332) bug: NO_PROXY wildcard is ignored when combined with other entries | 🐞❔ unconfirmed bug, self-hosting | 3 | 2026-11-23 |
-| ★☆☆☆☆ | [#12738](https://github.com/langfuse/langfuse/issues/12738) MCP Server: Support SSO/OIDC authentication as alternative to static API keys | feat-auth, integration-mcp-server, feature | 49 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -243,13 +243,13 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 6 | 2026-11-19 |
+| ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 19 | 2026-11-23 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 7 | 2026-11-20 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 10 | 2026-11-20 |
 | ★★★★☆ | [#53398](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53398) [receiver/solace] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53397](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53397) [receiver/namedpipe] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53396](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53396) [exporter/logzio] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 4 | 2026-11-19 |
-| ★★★★☆ | [#52962](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52962) [CI CD] consider running AIX build and tests with a label | help wanted, good first issue, ci-cd | 3 | 2026-11-16 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **379** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-23 22:24 UTC, took **106.2s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-24 06:10 UTC, took **102.6s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
