@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-25 10:24 UTC_
+_Last updated: 2026-11-25 20:01 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -123,6 +123,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13360](https://github.com/ansible-collections/community.general/issues/13360) svc module always reports `changed=true` when service no longer exists | bug, module, plugins | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
@@ -130,7 +131,6 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 4 | 2026-11-24 |
 | ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
 | ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
-| ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -140,8 +140,8 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | bug, has_pr, affects_2.20 | 4 | 2026-11-24 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#76221](https://github.com/ansible/ansible/issues/76221) git module changes .git/config despite check_mode when combined with --diff | module, bug, P3, affects_2.11, affects_2.13 | 2 | 2026-11-23 |
-| ★★☆☆☆ | [#85156](https://github.com/ansible/ansible/issues/85156) FreeBSD service arguments are passed in the wrong order | module, bug, affects_2.18 | 5 | 2026-11-23 |
-| ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 17 | 2026-11-24 |
+| ★☆☆☆☆ | [#87978](https://github.com/ansible/ansible/issues/87978) Set SYSLOG_IDENTIFIER when logging to journal | needs_triage, feature | 1 | 2026-11-25 |
+| ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 18 | 2026-11-25 |
 | ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 1 | 2026-11-24 |
 | ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, feature | 1 | 2026-11-24 |
 
@@ -207,11 +207,11 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20871](https://github.com/langfuse/langfuse/issues/20871) bug: [codex-observability-plugin] GENERATION observations omit completionStartTime (null timeToFirstToken) and record 0ms latency when reasoning is encrypted or followed by tool calls | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20846](https://github.com/langfuse/langfuse/issues/20846) bug: web container exits within half a second of SIGTERM, so its 110 s graceful shutdown never runs | bug, self-hosting, infra | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20841](https://github.com/langfuse/langfuse/issues/20841) bug: Python SDK _parse_retry_after ignores Retry-After-Ms due to str > int TypeError | bug, sdk-python | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20836](https://github.com/langfuse/langfuse/issues/20836) [Bug][SDK Python] _extract_model_with_regex() matches field names as substrings (e.g. embedding_model before model) | bug, sdk-python, integration-langchain | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20822](https://github.com/langfuse/langfuse/issues/20822) bug(sdk-js): getLangchainPrompt() leaves non-ASCII variable names unconverted, so LangChain never fills them | bug, feat-prompt-management, integration-langchain | 0 | 2026-11-25 |
-| ★★☆☆☆ | [#20837](https://github.com/langfuse/langfuse/issues/20837) bug(web): MultiSelect lists a selected custom value twice and Select All handles it inconsistently | bug, feat-table-filters | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#19347](https://github.com/langfuse/langfuse/issues/19347) bug: experiment setup failures ignore the selected dataset version | bug, 🐞❔ unconfirmed bug, feat-datasets, feat-prompt-experiments, stale | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#19350](https://github.com/langfuse/langfuse/issues/19350) bug: <short description> | bug, 🐞❔ unconfirmed bug, self-hosting, stale | 1 | 2026-11-25 |
 | ★☆☆☆☆ | [#15732](https://github.com/langfuse/langfuse/issues/15732) perf(worker): N+1 query fetching notification preferences per mentioned user | feat-comments, performance-improvements | 6 | 2026-11-25 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-25 10:22 UTC, took **107.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-25 19:59 UTC, took **111.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
