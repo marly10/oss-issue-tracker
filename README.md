@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-24 17:38 UTC_
+_Last updated: 2026-11-25 01:35 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -126,9 +126,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
 | ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
-| ★★☆☆☆ | [#3782](https://github.com/ansible-collections/community.general/issues/3782) Scaleway organization list is broken in scaleway_organization_info | bug, module, has_pr, plugins, cloud | 7 | 2026-11-18 |
+| ★☆☆☆☆ | [#13350](https://github.com/ansible-collections/community.general/issues/13350) osx_defaults: nested dict values are written as strings; arrays of dicts fail | feature, module, plugins | 2 | 2026-11-24 |
+| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 4 | 2026-11-24 |
 | ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
-| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 3 | 2026-11-23 |
 | ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 | ★☆☆☆☆ | [#13313](https://github.com/ansible-collections/community.general/issues/13313) community.general.incus file name requirements documentation | connection, plugins, docs | 2 | 2026-11-18 |
 
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-24 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-25 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20820](https://github.com/langfuse/langfuse/issues/20820) bug(ai-gateway): Show traces misses generations that ran under a caller trace | bug, feat-metadata, feat-tracing | 0 | 2026-11-25 |
+| ★★★☆☆ | [#20816](https://github.com/langfuse/langfuse/issues/20816) bug: Extra Headers field not shown for Vertex AI LLM connections | bug, feat-llm-connections | 0 | 2026-11-24 |
 | ★★★☆☆ | [#20807](https://github.com/langfuse/langfuse/issues/20807) bug(sdk-python): pending media jobs retain duplicate attachment bytes | bug, sdk-python, feat-multimodal-media | 0 | 2026-11-24 |
-| ★★★☆☆ | [#20770](https://github.com/langfuse/langfuse/issues/20770) bug: [codex-observability-plugin] MCP "isError": true and non-zero exit_code tool calls are recorded with level DEFAULT instead of ERROR | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-24 |
+| ★★☆☆☆ | [#19347](https://github.com/langfuse/langfuse/issues/19347) bug: experiment setup failures ignore the selected dataset version | bug, 🐞❔ unconfirmed bug, feat-datasets, feat-prompt-experiments, stale | 2 | 2026-11-25 |
+| ★★☆☆☆ | [#19350](https://github.com/langfuse/langfuse/issues/19350) bug: <short description> | bug, 🐞❔ unconfirmed bug, self-hosting, stale | 1 | 2026-11-25 |
+| ★★☆☆☆ | [#19357](https://github.com/langfuse/langfuse/issues/19357) bug: ClickhouseWriter loses requeued rows on worker shutdown | bug, 🐞❔ unconfirmed bug, stale, feat-ingestion, [Core] ClickHouse database | 1 | 2026-11-25 |
 | ★★☆☆☆ | [#19006](https://github.com/langfuse/langfuse/issues/19006) fix(worker): prevent OTel data loss, early backfill cursor updates, and stuck batch actions | bug, feat-datasets, feat-otel, feat-experiments, feat-ingestion | 2 | 2026-11-24 |
 | ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, infra | 5 | 2026-11-24 |
-| ★★☆☆☆ | [#18999](https://github.com/langfuse/langfuse/issues/18999) bug: prompt variables with surrounding whitespace are omitted by extractVariables and flagged in editor | bug, feat-prompt-management | 2 | 2026-11-24 |
-| ★★☆☆☆ | [#19326](https://github.com/langfuse/langfuse/issues/19326) bug: Cmd+K evaluator search disappears after 500ms when typing "evaluator" or "eval" | bug, 🐞❔ unconfirmed bug, feat-evals, stale, unconfirmed-bug | 1 | 2026-11-24 |
-| ★★☆☆☆ | [#20099](https://github.com/langfuse/langfuse/issues/20099) bug: Formatted view does not render `reasoning_content` on Chat Completions messages | bug, integration-openai, single-trace-ui | 3 | 2026-11-23 |
-| ★★☆☆☆ | [#20736](https://github.com/langfuse/langfuse/issues/20736) CI Runtime Report: 2026-11-17..2026-11-23 (W48) — gate +9.0%, failure rate 15.6% (worst on record), no actionable diff | improvement, CI, ci-performance, feat-evals-ci-cd | 0 | 2026-11-23 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-24 17:36 UTC, took **134.8s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-25 01:33 UTC, took **95.0s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
