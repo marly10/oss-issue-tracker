@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-25 01:35 UTC_
+_Last updated: 2026-11-25 10:24 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-24 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-25 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20820](https://github.com/langfuse/langfuse/issues/20820) bug(ai-gateway): Show traces misses generations that ran under a caller trace | bug, feat-metadata, feat-tracing | 0 | 2026-11-25 |
-| ★★★☆☆ | [#20816](https://github.com/langfuse/langfuse/issues/20816) bug: Extra Headers field not shown for Vertex AI LLM connections | bug, feat-llm-connections | 0 | 2026-11-24 |
-| ★★★☆☆ | [#20807](https://github.com/langfuse/langfuse/issues/20807) bug(sdk-python): pending media jobs retain duplicate attachment bytes | bug, sdk-python, feat-multimodal-media | 0 | 2026-11-24 |
+| ★★★☆☆ | [#20846](https://github.com/langfuse/langfuse/issues/20846) bug: web container exits within half a second of SIGTERM, so its 110 s graceful shutdown never runs | bug, self-hosting, infra | 0 | 2026-11-25 |
+| ★★★☆☆ | [#20841](https://github.com/langfuse/langfuse/issues/20841) bug: Python SDK _parse_retry_after ignores Retry-After-Ms due to str > int TypeError | bug, sdk-python | 0 | 2026-11-25 |
+| ★★★☆☆ | [#20836](https://github.com/langfuse/langfuse/issues/20836) [Bug][SDK Python] _extract_model_with_regex() matches field names as substrings (e.g. embedding_model before model) | bug, sdk-python, integration-langchain | 0 | 2026-11-25 |
+| ★★★☆☆ | [#20822](https://github.com/langfuse/langfuse/issues/20822) bug(sdk-js): getLangchainPrompt() leaves non-ASCII variable names unconverted, so LangChain never fills them | bug, feat-prompt-management, integration-langchain | 0 | 2026-11-25 |
+| ★★☆☆☆ | [#20837](https://github.com/langfuse/langfuse/issues/20837) bug(web): MultiSelect lists a selected custom value twice and Select All handles it inconsistently | bug, feat-table-filters | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#19347](https://github.com/langfuse/langfuse/issues/19347) bug: experiment setup failures ignore the selected dataset version | bug, 🐞❔ unconfirmed bug, feat-datasets, feat-prompt-experiments, stale | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#19350](https://github.com/langfuse/langfuse/issues/19350) bug: <short description> | bug, 🐞❔ unconfirmed bug, self-hosting, stale | 1 | 2026-11-25 |
-| ★★☆☆☆ | [#19357](https://github.com/langfuse/langfuse/issues/19357) bug: ClickhouseWriter loses requeued rows on worker shutdown | bug, 🐞❔ unconfirmed bug, stale, feat-ingestion, [Core] ClickHouse database | 1 | 2026-11-25 |
-| ★★☆☆☆ | [#19006](https://github.com/langfuse/langfuse/issues/19006) fix(worker): prevent OTel data loss, early backfill cursor updates, and stuck batch actions | bug, feat-datasets, feat-otel, feat-experiments, feat-ingestion | 2 | 2026-11-24 |
-| ★★☆☆☆ | [#18572](https://github.com/langfuse/langfuse/issues/18572) bug: recurring Worker Redis socket timeouts; upstream ioredis reconnect fix not included | bug, self-hosting, infra | 5 | 2026-11-24 |
+| ★☆☆☆☆ | [#15732](https://github.com/langfuse/langfuse/issues/15732) perf(worker): N+1 query fetching notification preferences per mentioned user | feat-comments, performance-improvements | 6 | 2026-11-25 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -243,13 +243,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★★ | [#52946](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52946) [pkg/ottl] Comparing two values of the same uncomparable type panics and crashes the collector | bug, good first issue, priority:p0, pkg/ottl | 6 | 2026-11-19 |
+| ★★★★☆ | [#48079](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/48079) [pkg/pdatatest] New MTS-focused metric assertion framework | enhancement, help wanted, never stale, pkg/pdatatest | 2 | 2026-11-25 |
 | ★★★★☆ | [#39333](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) Add system.cpu.socket.id and system.cpu.core.id attributes | enhancement, good first issue, receiver/hostmetrics, never stale | 19 | 2026-11-23 |
 | ★★★★☆ | [#51982](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51982) [receiver/k8sevents] watch stalls forever without logging: RetryWatcher retries every second and the observer never re-lists | bug, help wanted, receiver/k8sevents, internal/k8sinventory | 7 | 2026-11-20 |
 | ★★★★☆ | [#52039](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52039) [internal/kafka] Deprecate `AWS_MSK_IAM_OAUTHBEARER` | good first issue, extension/sigv4auth, internal/kafka | 10 | 2026-11-20 |
 | ★★★★☆ | [#53398](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53398) [receiver/solace] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53397](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53397) [receiver/namedpipe] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
 | ★★★★☆ | [#53396](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/53396) [exporter/logzio] Unmaintained component | help wanted, unmaintained | 0 | 2026-11-20 |
-| ★★★★☆ | [#52964](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/52964) [receiver/sqlquery] README examples use `user` instead of `username` | documentation, good first issue, receiver/sqlquery, Contribfest | 4 | 2026-11-19 |
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-25 01:33 UTC, took **95.0s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-25 10:22 UTC, took **107.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
