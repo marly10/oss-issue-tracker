@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-26 11:31 UTC_
+_Last updated: 2026-11-26 20:27 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
+| ★★★☆☆ | [#21013](https://github.com/langfuse/langfuse/issues/21013) ClickHouse migration 0050 fails on ClickHouse 26.6: "Cannot materialize column `session_id` because it doesn't have default expression" | bug, feat-scores, self-hosting | 0 | 2026-11-26 |
+| ★★★☆☆ | [#21005](https://github.com/langfuse/langfuse/issues/21005) bug: ingestion drops metadata values false, 0, and empty string | bug, feat-metadata, feat-ingestion | 0 | 2026-11-26 |
 | ★★★☆☆ | [#20947](https://github.com/langfuse/langfuse/issues/20947) bug(sdk-js): ChatPromptClient.compile() renders placeholder messages as mustache, deleting {{...}} text or throwing | bug, feat-prompt-management | 0 | 2026-11-26 |
 | ★★★☆☆ | [#20923](https://github.com/langfuse/langfuse/issues/20923) bug: Genkit Gemini spans lose visible output tokens because thoughtsTokens is subtracted from outputTokens | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-26 |
-| ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
-| ★★★☆☆ | [#20871](https://github.com/langfuse/langfuse/issues/20871) bug: [codex-observability-plugin] GENERATION observations omit completionStartTime (null timeToFirstToken) and record 0ms latency when reasoning is encrypted or followed by tool calls | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-25 |
-| ★★★☆☆ | [#20841](https://github.com/langfuse/langfuse/issues/20841) bug: Python SDK _parse_retry_after ignores Retry-After-Ms due to str > int TypeError | bug, sdk-python | 0 | 2026-11-25 |
 | ★★☆☆☆ | [#19365](https://github.com/langfuse/langfuse/issues/19365) Dataset duplication name counter fails to increment properly for dataset names with underscores | bug, feat-datasets, stale | 1 | 2026-11-26 |
 | ★★☆☆☆ | [#19369](https://github.com/langfuse/langfuse/issues/19369) bug: Graph view freezes the browser for seconds on traces with nested spans (quadratic step adjustment in buildStepData) | bug, single-trace-ui, stale, front-end-performance, graph | 1 | 2026-11-26 |
-| ★☆☆☆☆ | [#15732](https://github.com/langfuse/langfuse/issues/15732) perf(worker): N+1 query fetching notification preferences per mentioned user | feat-comments, performance-improvements | 6 | 2026-11-25 |
+| ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 25 | 2026-11-26 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-26 11:29 UTC, took **107.5s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-26 20:25 UTC, took **114.1s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
