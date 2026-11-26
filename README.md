@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-26 02:43 UTC_
+_Last updated: 2026-11-26 11:31 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -123,10 +123,10 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#13367](https://github.com/ansible-collections/community.general/issues/13367) ipa_user: krbpasswordexpiration reports a change on every run | bug, module, plugins | 2 | 2026-11-26 |
 | ★★☆☆☆ | [#13360](https://github.com/ansible-collections/community.general/issues/13360) svc module always reports `changed=true` when service no longer exists | bug, module, plugins | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
-| ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 4 | 2026-11-21 |
 | ★☆☆☆☆ | [#13350](https://github.com/ansible-collections/community.general/issues/13350) osx_defaults: nested dict values are written as strings; arrays of dicts fail | feature, module, plugins | 2 | 2026-11-24 |
 | ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 4 | 2026-11-24 |
 | ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
@@ -140,9 +140,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | bug, has_pr, affects_2.20 | 4 | 2026-11-24 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
 | ★★☆☆☆ | [#76221](https://github.com/ansible/ansible/issues/76221) git module changes .git/config despite check_mode when combined with --diff | module, bug, P3, affects_2.11, affects_2.13 | 2 | 2026-11-23 |
+| ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 3 | 2026-11-26 |
 | ★☆☆☆☆ | [#87978](https://github.com/ansible/ansible/issues/87978) Set SYSLOG_IDENTIFIER when logging to journal | needs_triage, feature | 1 | 2026-11-25 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 18 | 2026-11-25 |
-| ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 1 | 2026-11-24 |
 | ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, feature | 1 | 2026-11-24 |
 
 ### [aws-observability/aws-otel-collector](https://github.com/aws-observability/aws-otel-collector)
@@ -207,11 +207,11 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20947](https://github.com/langfuse/langfuse/issues/20947) bug(sdk-js): ChatPromptClient.compile() renders placeholder messages as mustache, deleting {{...}} text or throwing | bug, feat-prompt-management | 0 | 2026-11-26 |
+| ★★★☆☆ | [#20923](https://github.com/langfuse/langfuse/issues/20923) bug: Genkit Gemini spans lose visible output tokens because thoughtsTokens is subtracted from outputTokens | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-26 |
 | ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
 | ★★★☆☆ | [#20871](https://github.com/langfuse/langfuse/issues/20871) bug: [codex-observability-plugin] GENERATION observations omit completionStartTime (null timeToFirstToken) and record 0ms latency when reasoning is encrypted or followed by tool calls | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-25 |
-| ★★★☆☆ | [#20846](https://github.com/langfuse/langfuse/issues/20846) bug: web container exits within half a second of SIGTERM, so its 110 s graceful shutdown never runs | bug, self-hosting, infra | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20841](https://github.com/langfuse/langfuse/issues/20841) bug: Python SDK _parse_retry_after ignores Retry-After-Ms due to str > int TypeError | bug, sdk-python | 0 | 2026-11-25 |
-| ★★★☆☆ | [#20836](https://github.com/langfuse/langfuse/issues/20836) [Bug][SDK Python] _extract_model_with_regex() matches field names as substrings (e.g. embedding_model before model) | bug, sdk-python, integration-langchain | 0 | 2026-11-25 |
 | ★★☆☆☆ | [#19365](https://github.com/langfuse/langfuse/issues/19365) Dataset duplication name counter fails to increment properly for dataset names with underscores | bug, feat-datasets, stale | 1 | 2026-11-26 |
 | ★★☆☆☆ | [#19369](https://github.com/langfuse/langfuse/issues/19369) bug: Graph view freezes the browser for seconds on traces with nested spans (quadratic step adjustment in buildStepData) | bug, single-trace-ui, stale, front-end-performance, graph | 1 | 2026-11-26 |
 | ★☆☆☆☆ | [#15732](https://github.com/langfuse/langfuse/issues/15732) perf(worker): N+1 query fetching notification preferences per mentioned user | feat-comments, performance-improvements | 6 | 2026-11-25 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-26 02:41 UTC, took **97.9s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-26 11:29 UTC, took **107.5s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
