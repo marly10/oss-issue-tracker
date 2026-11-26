@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-25 20:01 UTC_
+_Last updated: 2026-11-26 02:43 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-25 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-26 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -207,13 +207,13 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
 | ★★★☆☆ | [#20871](https://github.com/langfuse/langfuse/issues/20871) bug: [codex-observability-plugin] GENERATION observations omit completionStartTime (null timeToFirstToken) and record 0ms latency when reasoning is encrypted or followed by tool calls | bug, 🐞❔ unconfirmed bug, feat-tracing | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20846](https://github.com/langfuse/langfuse/issues/20846) bug: web container exits within half a second of SIGTERM, so its 110 s graceful shutdown never runs | bug, self-hosting, infra | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20841](https://github.com/langfuse/langfuse/issues/20841) bug: Python SDK _parse_retry_after ignores Retry-After-Ms due to str > int TypeError | bug, sdk-python | 0 | 2026-11-25 |
 | ★★★☆☆ | [#20836](https://github.com/langfuse/langfuse/issues/20836) [Bug][SDK Python] _extract_model_with_regex() matches field names as substrings (e.g. embedding_model before model) | bug, sdk-python, integration-langchain | 0 | 2026-11-25 |
-| ★★★☆☆ | [#20822](https://github.com/langfuse/langfuse/issues/20822) bug(sdk-js): getLangchainPrompt() leaves non-ASCII variable names unconverted, so LangChain never fills them | bug, feat-prompt-management, integration-langchain | 0 | 2026-11-25 |
-| ★★☆☆☆ | [#19347](https://github.com/langfuse/langfuse/issues/19347) bug: experiment setup failures ignore the selected dataset version | bug, 🐞❔ unconfirmed bug, feat-datasets, feat-prompt-experiments, stale | 2 | 2026-11-25 |
-| ★★☆☆☆ | [#19350](https://github.com/langfuse/langfuse/issues/19350) bug: <short description> | bug, 🐞❔ unconfirmed bug, self-hosting, stale | 1 | 2026-11-25 |
+| ★★☆☆☆ | [#19365](https://github.com/langfuse/langfuse/issues/19365) Dataset duplication name counter fails to increment properly for dataset names with underscores | bug, feat-datasets, stale | 1 | 2026-11-26 |
+| ★★☆☆☆ | [#19369](https://github.com/langfuse/langfuse/issues/19369) bug: Graph view freezes the browser for seconds on traces with nested spans (quadratic step adjustment in buildStepData) | bug, single-trace-ui, stale, front-end-performance, graph | 1 | 2026-11-26 |
 | ★☆☆☆☆ | [#15732](https://github.com/langfuse/langfuse/issues/15732) perf(worker): N+1 query fetching notification preferences per mentioned user | feat-comments, performance-improvements | 6 | 2026-11-25 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-25 19:59 UTC, took **111.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-26 02:41 UTC, took **97.9s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
