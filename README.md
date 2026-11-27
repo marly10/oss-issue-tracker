@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-27 03:01 UTC_
+_Last updated: 2026-11-27 11:56 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -127,19 +127,19 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#13360](https://github.com/ansible-collections/community.general/issues/13360) svc module always reports `changed=true` when service no longer exists | bug, module, plugins | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
+| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 6 | 2026-11-27 |
 | ★☆☆☆☆ | [#757](https://github.com/ansible-collections/community.general/issues/757) filter plugin for converting PrettyTable output. | feature, waiting_on_contributor, needs_triage | 2 | 2026-11-27 |
 | ★☆☆☆☆ | [#13350](https://github.com/ansible-collections/community.general/issues/13350) osx_defaults: nested dict values are written as strings; arrays of dicts fail | feature, module, plugins | 2 | 2026-11-24 |
-| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 4 | 2026-11-24 |
 | ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
+| ★★☆☆☆ | [#87981](https://github.com/ansible/ansible/issues/87981) update_task, redo crash debugger for a task with register: in 2.22 (also tested with 2.22.1rc1) | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | bug, has_pr, affects_2.20 | 3 | 2026-11-24 |
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | bug, has_pr, affects_2.20 | 4 | 2026-11-24 |
 | ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
-| ★★☆☆☆ | [#76221](https://github.com/ansible/ansible/issues/76221) git module changes .git/config despite check_mode when combined with --diff | module, bug, P3, affects_2.11, affects_2.13 | 2 | 2026-11-23 |
 | ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 3 | 2026-11-26 |
 | ★☆☆☆☆ | [#87978](https://github.com/ansible/ansible/issues/87978) Set SYSLOG_IDENTIFIER when logging to journal | needs_triage, feature | 1 | 2026-11-25 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 18 | 2026-11-25 |
@@ -175,7 +175,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-26 |
+| ★★☆☆☆ | [#414](https://github.com/grafana/google-bigquery-datasource/issues/414) Dependency Dashboard | — | 0 | 2026-11-27 |
 | ★★☆☆☆ | [#575](https://github.com/grafana/google-bigquery-datasource/issues/575) [bigquery] Re-enable e2e health check test on cloud | — | 0 | 2026-10-02 |
 | ★★☆☆☆ | [#552](https://github.com/grafana/google-bigquery-datasource/issues/552) Incorrect interpolation of single quote for multi-value variable | — | 0 | 2026-08-04 |
 | ★★☆☆☆ | [#548](https://github.com/grafana/google-bigquery-datasource/issues/548) Ensure BigQuery is React 19 compatible | — | 0 | 2026-07-24 |
@@ -195,26 +195,26 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★★☆ | [#144333](https://github.com/kubernetes/kubernetes/issues/144333) retry.OnErrorWithContext / retry.RetryOnConflictWithContext | sig/api-machinery, help wanted, good first issue, needs-triage | 6 | 2026-11-22 |
+| ★★★☆☆ | [#114369](https://github.com/kubernetes/kubernetes/issues/114369) NetworkPolicy tests for blocking north/south traffic | priority/backlog, sig/network, help wanted, good first issue, triage/accepted, area/network-policy | 38 | 2026-11-27 |
 | ★★★☆☆ | [#141200](https://github.com/kubernetes/kubernetes/issues/141200) [Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial] | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 10 | 2026-11-24 |
 | ★★★☆☆ | [#144431](https://github.com/kubernetes/kubernetes/issues/144431) DRA Node Allocatable Resources: hugepages e2e cases never run in CI | area/test, sig/node, help wanted, priority/important-longterm, kind/failing-test, triage/accepted, wg/device-management | 5 | 2026-11-23 |
 | ★★★☆☆ | [#138149](https://github.com/kubernetes/kubernetes/issues/138149) Migrate DRA components to support granular authorization on status updates | sig/network, sig/node, sig/auth, help wanted, good first issue, triage/accepted, wg/device-management | 99 | 2026-11-18 |
 | ★★★☆☆ | [#144300](https://github.com/kubernetes/kubernetes/issues/144300) [Flaking Test] LocalStorageCapacityIsolationEviction: clean-exit emptyDir container exits 137, expected 0 | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#144302](https://github.com/kubernetes/kubernetes/issues/144302) [Flaking Test] PodResources metrics: List() gets connection refused on the kubelet socket | sig/node, kind/flake, help wanted, priority/important-longterm, triage/accepted | 5 | 2026-11-18 |
 | ★★★☆☆ | [#118172](https://github.com/kubernetes/kubernetes/issues/118172) kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment. | kind/bug, priority/backlog, kind/documentation, sig/node, help wanted, priority/important-longterm, good first issue, triage/accepted | 48 | 2026-11-10 |
-| ★★★☆☆ | [#120677](https://github.com/kubernetes/kubernetes/issues/120677) Test Audit policy using original (non-impersonated) user for filtering | sig/auth, help wanted, triage/accepted | 8 | 2026-11-01 |
 
 ### [langfuse/langfuse](https://github.com/langfuse/langfuse)
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
 | ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
-| ★★★☆☆ | [#21013](https://github.com/langfuse/langfuse/issues/21013) ClickHouse migration 0050 fails on ClickHouse 26.6: "Cannot materialize column `session_id` because it doesn't have default expression" | bug, feat-scores, self-hosting | 0 | 2026-11-26 |
+| ★★☆☆☆ | [#21023](https://github.com/langfuse/langfuse/issues/21023) RFC: Semantic trace diff with first-divergence diagnosis | feat-api, feat-tracing, feature | 0 | 2026-11-27 |
+| ★★☆☆☆ | [#13751](https://github.com/langfuse/langfuse/issues/13751) UI bug: Truncated span names when the trace in depth | bug, single-trace-ui | 5 | 2026-11-27 |
 | ★★☆☆☆ | [#19324](https://github.com/langfuse/langfuse/issues/19324) bug(playground, prompts): "Save as prompt" in Playground and "Create prompt" on /prompts/new do not check prompts:CUD RBAC permission | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#19361](https://github.com/langfuse/langfuse/issues/19361) bug: bulk prompt import fails when a composed prompt appears before its dependency | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#19388](https://github.com/langfuse/langfuse/issues/19388) Inline external S3 media previews fall back to raw s3:// URI after signed URL expires | bug, feat-multimodal, feat-multimodal-media, stale, integration-s3 | 2 | 2026-11-27 |
 | ★★☆☆☆ | [#21020](https://github.com/langfuse/langfuse/issues/21020) bug: session idle gap displays "60 min" just below one hour | bug, feat-sessions | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#21018](https://github.com/langfuse/langfuse/issues/21018) bug: JSON table cell preview splits surrogate pairs at the truncation boundary | bug, tables | 1 | 2026-11-27 |
-| ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 25 | 2026-11-26 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -274,7 +274,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#860](https://github.com/splunk/splunk-sdk-python/issues/860) Documentation suggestion: make TLS verification explicit in SDK connection examples | — | 0 | 2026-11-18 |
+| ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-09-04 |
 | ★★☆☆☆ | [#840](https://github.com/splunk/splunk-sdk-python/issues/840) mcp 2.x compatibility for splunklib.ai | — | 0 | 2026-09-03 |
 | ★★☆☆☆ | [#828](https://github.com/splunk/splunk-sdk-python/issues/828) Search Result Export with SSL off doesn't work | — | 0 | 2026-08-18 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-27 03:00 UTC, took **96.9s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-27 11:54 UTC, took **105.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
