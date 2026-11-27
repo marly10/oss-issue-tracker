@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-27 11:56 UTC_
+_Last updated: 2026-11-27 20:29 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -139,9 +139,9 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#87981](https://github.com/ansible/ansible/issues/87981) update_task, redo crash debugger for a task with register: in 2.22 (also tested with 2.22.1rc1) | needs_triage, bug, has_pr, affects_2.22 | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#87952](https://github.com/ansible/ansible/issues/87952) ansible-playbook -M / --module-path succeeds at runtime but fails under --syntax-check | bug, has_pr, affects_2.20 | 3 | 2026-11-24 |
 | ★★☆☆☆ | [#87951](https://github.com/ansible/ansible/issues/87951) ansible-playbook --start-at-task prints [ERROR]: No matching task found but exits 0 | bug, has_pr, affects_2.20 | 4 | 2026-11-24 |
-| ★★☆☆☆ | [#87894](https://github.com/ansible/ansible/issues/87894) `environment` values end up in the target's sudo log with `become` | bug | 3 | 2026-11-23 |
+| ★☆☆☆☆ | [#87987](https://github.com/ansible/ansible/issues/87987) deb822_repository: add snapshot option | module, needs_triage, has_pr, feature | 1 | 2026-11-27 |
+| ★☆☆☆☆ | [#87978](https://github.com/ansible/ansible/issues/87978) Set SYSLOG_IDENTIFIER when logging to journal | needs_triage, feature | 2 | 2026-11-27 |
 | ★☆☆☆☆ | [#87973](https://github.com/ansible/ansible/issues/87973) Provide ability to disable secrets redaction globally, per-task, or for a single ansible run [feature] | feature | 3 | 2026-11-26 |
-| ★☆☆☆☆ | [#87978](https://github.com/ansible/ansible/issues/87978) Set SYSLOG_IDENTIFIER when logging to journal | needs_triage, feature | 1 | 2026-11-25 |
 | ★☆☆☆☆ | [#86881](https://github.com/ansible/ansible/issues/86881) 2.19 variable performance regression | bug, affects_2.18, affects_2.19 | 18 | 2026-11-25 |
 | ★☆☆☆☆ | [#87961](https://github.com/ansible/ansible/issues/87961) get_url does not support ca_path | module, feature | 1 | 2026-11-24 |
 
@@ -207,8 +207,8 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
 | ★★☆☆☆ | [#21023](https://github.com/langfuse/langfuse/issues/21023) RFC: Semantic trace diff with first-divergence diagnosis | feat-api, feat-tracing, feature | 0 | 2026-11-27 |
+| ★★☆☆☆ | [#18925](https://github.com/langfuse/langfuse/issues/18925) In-app-agent MCP tool-allowlist upgrade via client-controlled header | bug, security, feat-mcp, feat-in-app-agent, feat-halo | 2 | 2026-11-27 |
 | ★★☆☆☆ | [#13751](https://github.com/langfuse/langfuse/issues/13751) UI bug: Truncated span names when the trace in depth | bug, single-trace-ui | 5 | 2026-11-27 |
 | ★★☆☆☆ | [#19324](https://github.com/langfuse/langfuse/issues/19324) bug(playground, prompts): "Save as prompt" in Playground and "Create prompt" on /prompts/new do not check prompts:CUD RBAC permission | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#19361](https://github.com/langfuse/langfuse/issues/19361) bug: bulk prompt import fails when a composed prompt appears before its dependency | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
@@ -274,7 +274,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★★☆☆ | [#677](https://github.com/splunk/splunk-sdk-python/issues/677) Empty accelerated fields leads to TypeError | bug, KV Store | 0 | 2025-11-13 |
+| ★★☆☆☆ | [#860](https://github.com/splunk/splunk-sdk-python/issues/860) Documentation suggestion: make TLS verification explicit in SDK connection examples | — | 0 | 2026-11-18 |
 | ★★☆☆☆ | [#704](https://github.com/splunk/splunk-sdk-python/issues/704) Unverified SSL context | — | 0 | 2026-09-04 |
 | ★★☆☆☆ | [#840](https://github.com/splunk/splunk-sdk-python/issues/840) mcp 2.x compatibility for splunklib.ai | — | 0 | 2026-09-03 |
 | ★★☆☆☆ | [#828](https://github.com/splunk/splunk-sdk-python/issues/828) Search Result Export with SSL off doesn't work | — | 0 | 2026-08-18 |
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-27 11:54 UTC, took **105.7s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-27 20:27 UTC, took **92.6s**, **125** GitHub API calls, **4873/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
