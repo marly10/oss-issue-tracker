@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-26 20:27 UTC_
+_Last updated: 2026-11-27 03:01 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -127,10 +127,10 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 | ★★☆☆☆ | [#13360](https://github.com/ansible-collections/community.general/issues/13360) svc module always reports `changed=true` when service no longer exists | bug, module, plugins | 2 | 2026-11-25 |
 | ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
 | ★★☆☆☆ | [#13315](https://github.com/ansible-collections/community.general/issues/13315) Module java_cert does not behave correctly when removing a key from a keystore | bug, module, needs_info, plugins | 4 | 2026-11-22 |
+| ★☆☆☆☆ | [#757](https://github.com/ansible-collections/community.general/issues/757) filter plugin for converting PrettyTable output. | feature, waiting_on_contributor, needs_triage | 2 | 2026-11-27 |
 | ★☆☆☆☆ | [#13350](https://github.com/ansible-collections/community.general/issues/13350) osx_defaults: nested dict values are written as strings; arrays of dicts fail | feature, module, plugins | 2 | 2026-11-24 |
 | ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 4 | 2026-11-24 |
 | ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
-| ★☆☆☆☆ | [#12180](https://github.com/ansible-collections/community.general/issues/12180) bitwarden-lookup : speed up thing by using `bw serve` | feature, lookup, plugins | 7 | 2026-11-22 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -209,11 +209,11 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 |---|---|---|---|---|
 | ★★★☆☆ | [#20921](https://github.com/langfuse/langfuse/issues/20921) bug: chart category labels split surrogate pairs when truncated | bug, feat-dashboard | 0 | 2026-11-26 |
 | ★★★☆☆ | [#21013](https://github.com/langfuse/langfuse/issues/21013) ClickHouse migration 0050 fails on ClickHouse 26.6: "Cannot materialize column `session_id` because it doesn't have default expression" | bug, feat-scores, self-hosting | 0 | 2026-11-26 |
-| ★★★☆☆ | [#21005](https://github.com/langfuse/langfuse/issues/21005) bug: ingestion drops metadata values false, 0, and empty string | bug, feat-metadata, feat-ingestion | 0 | 2026-11-26 |
-| ★★★☆☆ | [#20947](https://github.com/langfuse/langfuse/issues/20947) bug(sdk-js): ChatPromptClient.compile() renders placeholder messages as mustache, deleting {{...}} text or throwing | bug, feat-prompt-management | 0 | 2026-11-26 |
-| ★★★☆☆ | [#20923](https://github.com/langfuse/langfuse/issues/20923) bug: Genkit Gemini spans lose visible output tokens because thoughtsTokens is subtracted from outputTokens | bug, feat-llm-cost-tracking, integration-otel, feat-otel | 0 | 2026-11-26 |
-| ★★☆☆☆ | [#19365](https://github.com/langfuse/langfuse/issues/19365) Dataset duplication name counter fails to increment properly for dataset names with underscores | bug, feat-datasets, stale | 1 | 2026-11-26 |
-| ★★☆☆☆ | [#19369](https://github.com/langfuse/langfuse/issues/19369) bug: Graph view freezes the browser for seconds on traces with nested spans (quadratic step adjustment in buildStepData) | bug, single-trace-ui, stale, front-end-performance, graph | 1 | 2026-11-26 |
+| ★★☆☆☆ | [#19324](https://github.com/langfuse/langfuse/issues/19324) bug(playground, prompts): "Save as prompt" in Playground and "Create prompt" on /prompts/new do not check prompts:CUD RBAC permission | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
+| ★★☆☆☆ | [#19361](https://github.com/langfuse/langfuse/issues/19361) bug: bulk prompt import fails when a composed prompt appears before its dependency | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
+| ★★☆☆☆ | [#19388](https://github.com/langfuse/langfuse/issues/19388) Inline external S3 media previews fall back to raw s3:// URI after signed URL expires | bug, feat-multimodal, feat-multimodal-media, stale, integration-s3 | 2 | 2026-11-27 |
+| ★★☆☆☆ | [#21020](https://github.com/langfuse/langfuse/issues/21020) bug: session idle gap displays "60 min" just below one hour | bug, feat-sessions | 1 | 2026-11-27 |
+| ★★☆☆☆ | [#21018](https://github.com/langfuse/langfuse/issues/21018) bug: JSON table cell preview splits surrogate pairs at the truncation boundary | bug, tables | 1 | 2026-11-27 |
 | ★☆☆☆☆ | [#16077](https://github.com/langfuse/langfuse/issues/16077) bug: v4 unified Tracing table cannot display trace total cost — root SPAN rows show $0.00 | bug, tables, feat-llm-cost-tracking, feat-tracing | 25 | 2026-11-26 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-26 20:25 UTC, took **114.1s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-27 03:00 UTC, took **96.9s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
