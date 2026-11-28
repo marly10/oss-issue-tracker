@@ -81,7 +81,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contributor workflow — inc
 
 <!-- TRACKER:START -->
 
-_Last updated: 2026-11-28 02:53 UTC_
+_Last updated: 2026-11-28 10:58 UTC_
 
 _Tracking **18** upstream repos, **378** relevant open issues._
 
@@ -104,7 +104,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-25 |
+| ★★☆☆☆ | [#912](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/912) Dependency Dashboard | priority: p3, dependencies | 0 | 2026-11-28 |
 | ★★☆☆☆ | [#1038](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1038) Disabling the normalizer breaks unknown metrics | bug, priority: p2 | 1 | 2026-11-03 |
 | ★★☆☆☆ | [#1039](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/1039) Cloud Trace does not display error span status description | bug, priority: p3, Blocked | 4 | 2025-06-02 |
 | ★★☆☆☆ | [#733](https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/733) Remove HTTP method from span name | enhancement, priority: p2 | 5 | 2024-01-31 |
@@ -123,14 +123,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#10544](https://github.com/ansible-collections/community.general/issues/10544) diy callback uses deprecated Templar.template() argument convert_data | bug, callback, plugins | 5 | 2026-11-27 |
-| ★★☆☆☆ | [#13367](https://github.com/ansible-collections/community.general/issues/13367) ipa_user: krbpasswordexpiration reports a change on every run | bug, module, plugins | 2 | 2026-11-26 |
-| ★★☆☆☆ | [#13360](https://github.com/ansible-collections/community.general/issues/13360) svc module always reports `changed=true` when service no longer exists | bug, module, plugins | 2 | 2026-11-25 |
-| ★★☆☆☆ | [#3826](https://github.com/ansible-collections/community.general/issues/3826) idrac_redfish_command HTTP Error 400 submitting configuration job | bug, module, has_pr, needs_info, plugins, remote_management | 8 | 2026-11-22 |
-| ★☆☆☆☆ | [#13347](https://github.com/ansible-collections/community.general/issues/13347) Set a User-Agent for XenAPI requests from xenserver modules | feature, needs_info, needs_template | 7 | 2026-11-27 |
-| ★☆☆☆☆ | [#757](https://github.com/ansible-collections/community.general/issues/757) filter plugin for converting PrettyTable output. | feature, waiting_on_contributor, needs_triage | 2 | 2026-11-27 |
-| ★☆☆☆☆ | [#13350](https://github.com/ansible-collections/community.general/issues/13350) osx_defaults: nested dict values are written as strings; arrays of dicts fail | feature, module, plugins | 2 | 2026-11-24 |
-| ★☆☆☆☆ | [#2601](https://github.com/ansible-collections/community.general/issues/2601) Add systemd_escape algorithm as Jinja2 filter | feature, waiting_on_contributor, needs_triage | 12 | 2026-11-24 |
+| ★★☆☆☆ | [#5809](https://github.com/ansible-collections/community.general/issues/5809) [nmcli] Trying to create a separated sub-interface is not working | bug, module, needs_info, plugins, net_tools | 6 | 2026-11-28 |
+| ★★☆☆☆ | [#1815](https://github.com/ansible-collections/community.general/issues/1815) redhat_subscription module unregisters system if wrong credentials are used and force_register=true | bug, module, needs_info, needs_triage, plugins, python3, os, packaging, redhat_subscription | 8 | 2026-11-28 |
+| ★★☆☆☆ | [#4102](https://github.com/ansible-collections/community.general/issues/4102) ldap_search reports 'SASL(-4): no mechanism available: ' if bind_dn is missing | bug, module, needs_info, plugins, net_tools | 6 | 2026-11-28 |
+| ★★☆☆☆ | [#3320](https://github.com/ansible-collections/community.general/issues/3320) lvol: Error: "Command does not accept argument /dev/sdb1" when doing lvreduce | bug, module, has_pr, needs_triage, plugins, python3, system | 6 | 2026-11-28 |
+| ★☆☆☆☆ | [#3773](https://github.com/ansible-collections/community.general/issues/3773) Add `--allow-untrusted` to `apk add` so that local apks can be installed | feature, module, plugins, os, packaging | 8 | 2026-11-28 |
+| ★☆☆☆☆ | [#1806](https://github.com/ansible-collections/community.general/issues/1806) redhat_subscription module isn't idempotent? | bug, module, needs_info, needs_triage, plugins, python3, os, packaging, redhat_subscription | 24 | 2026-11-28 |
+| ★☆☆☆☆ | [#4032](https://github.com/ansible-collections/community.general/issues/4032) Module read_csv and filter from_csv don't allow usage of escape characters. | feature, module, filter, plugins, files | 10 | 2026-11-28 |
+| ★☆☆☆☆ | [#3630](https://github.com/ansible-collections/community.general/issues/3630) Cannot add multiple SRV records with nsupdate and subsequent invocations | feature, module, plugins, net_tools | 9 | 2026-11-28 |
 
 ### [ansible/ansible](https://github.com/ansible/ansible)
 
@@ -207,14 +207,14 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 | Score | Issue | Labels | Comments | Updated |
 |---|---|---|---|---|
-| ★★☆☆☆ | [#21023](https://github.com/langfuse/langfuse/issues/21023) RFC: Semantic trace diff with first-divergence diagnosis | feat-api, feat-tracing, feature | 0 | 2026-11-27 |
+| ★★☆☆☆ | [#21108](https://github.com/langfuse/langfuse/issues/21108) Proposal: agent-security eval preset backed by an independently replayable verifier-divergence benchmark | feat-evals, feature | 0 | 2026-11-28 |
 | ★★☆☆☆ | [#18925](https://github.com/langfuse/langfuse/issues/18925) In-app-agent MCP tool-allowlist upgrade via client-controlled header | bug, security, feat-mcp, feat-in-app-agent, feat-halo | 2 | 2026-11-27 |
 | ★★☆☆☆ | [#13751](https://github.com/langfuse/langfuse/issues/13751) UI bug: Truncated span names when the trace in depth | bug, single-trace-ui | 5 | 2026-11-27 |
 | ★★☆☆☆ | [#19324](https://github.com/langfuse/langfuse/issues/19324) bug(playground, prompts): "Save as prompt" in Playground and "Create prompt" on /prompts/new do not check prompts:CUD RBAC permission | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#19361](https://github.com/langfuse/langfuse/issues/19361) bug: bulk prompt import fails when a composed prompt appears before its dependency | bug, 🐞❔ unconfirmed bug, feat-prompt-management, stale | 1 | 2026-11-27 |
 | ★★☆☆☆ | [#19388](https://github.com/langfuse/langfuse/issues/19388) Inline external S3 media previews fall back to raw s3:// URI after signed URL expires | bug, feat-multimodal, feat-multimodal-media, stale, integration-s3 | 2 | 2026-11-27 |
 | ★★☆☆☆ | [#21020](https://github.com/langfuse/langfuse/issues/21020) bug: session idle gap displays "60 min" just below one hour | bug, feat-sessions | 1 | 2026-11-27 |
-| ★★☆☆☆ | [#21018](https://github.com/langfuse/langfuse/issues/21018) bug: JSON table cell preview splits surrogate pairs at the truncation boundary | bug, tables | 1 | 2026-11-27 |
+| ★☆☆☆☆ | [#21023](https://github.com/langfuse/langfuse/issues/21023) RFC: Semantic trace diff with first-divergence diagnosis | feat-api, feat-tracing, feature | 1 | 2026-11-28 |
 
 ### [nightscout/cgm-remote-monitor](https://github.com/nightscout/cgm-remote-monitor)
 
@@ -303,7 +303,7 @@ _Tracking **18** upstream repos, **378** relevant open issues._
 
 <!-- METRICS:START -->
 
-_Last run: 2026-11-28 02:52 UTC, took **86.9s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
+_Last run: 2026-11-28 10:56 UTC, took **94.6s**, **125** GitHub API calls, **4875/5000** rate limit remaining._
 
 ![Scrape metrics trend](assets/metrics_trend.png)
 
